@@ -1,0 +1,96 @@
+{%- liquid
+  assign article_item_title_t = 'sections.featured_blog.item_title' | t
+  assign article_date_t = 'sections.featured_blog.date' | t
+  assign article_excerpt_t = 'sections.featured_blog.excerpt' | t
+  assign article_continue_reading_t = 'sections.featured_blog.continue_reading' | t
+  assign written_by_t = 'blog.article.written_by' | t
+-%}
+
+<div class="article--item">
+  {% case type %}
+    {% when 'full_article' %}
+
+      {% if featured_article.image %}
+        <a href="{{ featured_article.url }}">
+          <div class="article--item--image">
+            {%
+              render "image",
+              image: featured_article.image,
+              full_width: true
+            %}
+          </div>
+        </a>
+      {% endif %}
+
+      <h3 class="article--item--heading" data-item="block-heading">
+        <a href="{{ featured_article.url }}">
+          {{ featured_article.title }}
+        </a>
+      </h3>
+
+      {% if show_date or show_author %}
+        <div class="article--item-info">
+          {% if show_date %}
+            <div class="article--item--date" data-item="light-accent-text">
+              {% comment %} 'timesince' requires passing 'created_at' {% endcomment %}
+              {%
+                render "utils",
+                utility: "timesince",
+                created_at: featured_article.published_at
+              %}
+            </div>
+          {% endif %}
+
+          {% if show_date and show_author %}
+            <span class="article--item-dot" data-mq="medium-large">&CenterDot;</span>
+          {% endif %}
+
+          {% if show_author %}
+            <div class="article--item-author" data-item="caption">
+              {{ written_by_t }} {{ featured_article.author }}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if show_excerpt %}
+        <div class="article--item--excerpt" data-item="paragraph">
+          {% if featured_article.excerpt == blank %}
+            {{ featured_article.content | strip_html | truncate: 100 }}
+          {% else %}
+            {{ featured_article.excerpt }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      <div class="article--item--read-more" data-item="block-link">
+        <a href="{{ featured_article.url }}">{{ article_continue_reading_t }}</a>
+      </div>
+
+    {% when 'placeholder' %}
+
+      <div class="article--item--image">
+        {% render "placeholder", type: "image" %}
+      </div>
+
+      <h3 class="article--item--heading" data-item="block-heading">
+        {{ article_item_title_t }}
+      </h3>
+
+      {% if show_date %}
+        <div class="article--item--date" data-item="light-accent-text">
+          {{ article_date_t }}
+        </div>
+      {% endif %}
+
+      {% if show_excerpt %}
+        <div class="article--item--excerpt" data-item="paragraph">
+          {{ article_excerpt_t }}
+        </div>
+      {% endif %}
+
+      <div class="article--item--read-more" data-item="block-link">
+        <a>{{ article_continue_reading_t }}</a>
+      </div>
+  {% endcase %}
+</div>

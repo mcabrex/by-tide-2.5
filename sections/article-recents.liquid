@@ -1,0 +1,136 @@
+{%- liquid
+  assign continue_reading_t = 'blog.article.continue_reading' | t
+
+  assign enable = section.settings.enable
+
+  comment
+    "gets a recent article that is not the next, previous, or current article"
+  endcomment
+
+  capture get_other_article
+    assign other_article = ''
+    for a in blog.articles
+
+      if a.id == blog.previous_article.id
+        continue
+      elsif a.id == blog.next_article.id
+        continue
+      elsif a.id == article.id
+        continue
+      else
+        assign other_article = a
+        break
+      endif
+
+    endfor
+  endcapture
+
+  assign columns = 3
+  unless blog.next_article and blog.previous_article
+    assign columns = 2
+  endunless
+-%}
+
+{% if enable %}
+  <div
+    class="article--recents-root"
+    data-section-id="{{ section.id }}"
+    data-spacing-above="false"
+  >
+    <div class="article--recents-wrapper" data-container="section">
+      <div class="article--recents--header" data-container="block">
+        <h2 class="article--recents--title" data-item='section-heading'>
+          {{ continue_reading_t }}
+        </h2>
+      </div>
+
+      <div
+        class="article--recents--grid"
+        data-container="panel"
+        data-columns="{{ columns }}"
+        data-mobile-columns="1"
+      >
+        {% if blog.previous_article %}
+          <div class="article--recents-item" data-container="block">
+            <a href="{{ blog.previous_article.url }}">
+
+              {% if blog.previous_article.image %}
+                <div class="article--recents-image" data-item="image">
+                  {%
+                    render "image",
+                    image: blog.previous_article.image,
+                    full_width: true
+                  %}
+                </div>
+              {% endif %}
+
+              <h3 class="article--recents-heading" data-item="block-heading">
+                {{ blog.previous_article.title }}
+              </h3>
+
+            </a>
+          </div>
+        {% endif %}
+
+        <div class="article--recents-item" data-container="block">
+          {{ get_other_article }}
+
+          <a href="{{ other_article.url }}">
+
+            {% if other_article.image %}
+              <div class="article--recents-image" data-item="image">
+                {%
+                  render "image",
+                  image: other_article.image,
+                  full_width: true
+                %}
+              </div>
+            {% endif %}
+
+            <h3 class="article--recents-heading" data-item="block-heading">
+              {{ other_article.title }}
+            </h3>
+
+          </a>
+        </div>
+
+        {% if blog.next_article %}
+          <div class="article--recents-item" data-container="block">
+            <a href="{{ blog.next_article.url }}">
+
+              {% if blog.next_article.image %}
+                <div class="article--recents-image" data-item="image">
+                  {%
+                    render "image",
+                    image: blog.next_article.image,
+                    full_width: true
+                  %}
+                </div>
+              {% endif %}
+
+              <h3 class="article--recents-heading" data-item="block-heading">
+                {{ blog.next_article.title }}
+              </h3>
+
+            </a>
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Recent articles",
+  "settings": [
+    {
+      "id": "enable",
+      "label": "Enable",
+      "type": "checkbox",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,26 @@
+<style>
+  :root {
+    --color--accent: {{ settings.color--accent }};
+    --bg-color--light: {{ settings.bg-color--light }};
+    --bg-color--dark: {{ settings.bg-color--dark }};
+    --bdr-color--badge: {{ settings.color--body | color_modify: 'alpha', 0.07 }};
+    --bg-color--body: {{ settings.bg-color--body }};
+    --bdr-color--general: #eaeaea;
+    --bg-color--textbox: #fff;
+    --color--body: {{ settings.color--body }};
+    --color--body--light: {{ settings.color--body | color_lighten: 19 }};
+    --color--alternative: {{ settings.color--alternative }};
+    --color--button: {{ settings.color--button }};
+    --bdr-color--button: {{ settings.color--button }};
+    --bg-color--button: {{ settings.bg-color--button }};
+    --bg-color--button--hover: {{ settings.bg-color--button }};
+    --color--header: {{ settings.color--header }};
+    --bg-color--header: {{ settings.bg-color--header }};
+    --bdr-color--header: {{ settings.color--header | color_modify: 'alpha', 0.07 }};
+    --color--footer: {{ settings.color--footer }};
+    --bg-color--footer: {{ settings.bg-color--footer }};
+
+    /* shop pay */
+    --payment-terms-background-color: {{ settings.bg-color--body }};
+  }
+</style>

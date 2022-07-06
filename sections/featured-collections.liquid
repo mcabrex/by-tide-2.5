@@ -1,0 +1,202 @@
+{%- liquid
+  assign bg_color = section.settings.background-color
+  assign collection_title_t = 'sections.onboarding.collection_title' | t
+
+  assign collection_list = section.settings.collection-list
+  assign columns = section.settings.width
+  assign heading = section.settings.heading | escape
+  assign image_type = section.settings.image-type
+  assign light_text = section.settings.light-text
+  assign mobile_columns = section.settings.mobile-width
+  assign spacing_above = section.settings.spacing-above
+  assign spacing_below = section.settings.spacing-below
+-%}
+
+{% comment %} View {% endcomment %}
+<featured-collections-root
+  class="featured-collections--root"
+  data-section-id="{{ section.id }}"
+  data-background-color="{{ bg_color }}"
+  data-mobile-width="{{ mobile_columns }}"
+  data-light-text="{{ light_text }}"
+  data-spacing-above="{{ spacing_above }}"
+  data-spacing-below="{{ spacing_below }}"
+  style="display:block;"
+>
+  <div class="featured-collections--wrapper" data-container="section">
+    {% if heading != blank %}
+      <div data-container="block">
+        <h2 class="featured-collections--heading" data-item="section-heading">
+          {{ heading }}
+        </h2>
+      </div>
+    {% endif %}
+
+    <div
+      class="featured-collections--body"
+      data-container="panel"
+      data-columns="{{ columns }}"
+      data-mobile-columns="{{ mobile_columns }}"
+    >
+      {% unless collection_list == blank %}
+        {% for collection in collection_list %}
+          {%- liquid
+            assign no_product_images = true
+            assign placeholder_index = forloop.index
+            if forloop.index > 6
+              assign placeholder_index = forloop.index | minus: 6
+            endif
+
+            capture image
+              if collection.image and image_type == 'collection'
+                render "image", image: collection.image, full_width: true
+
+              elsif collection.products.length > 0
+                for product in collection.products
+                  if product.featured_media.preview_image
+                    render "image", image: product.featured_media.preview_image, full_width: true
+                    assign no_product_images = false
+                    break
+                  endif
+                endfor
+
+                if no_product_images
+                  render "placeholder", type: "collection", aspect_ratio: 1, placeholder_index: placeholder_index
+                endif
+
+              else
+                render "placeholder", type: "collection", aspect_ratio: 1, placeholder_index: placeholder_index
+              endif
+            endcapture
+          -%}
+
+          <a href="{{ collection.url }}">
+            <div class="featured-collections--item" data-container="block">
+              <div class="featured-collections--image" data-item="image">
+                {{- image -}}
+              </div>
+              <h3 class="featured-collections--title" data-item="block-heading">
+                {{- collection.title -}}
+              </h3>
+            </div>
+          </a>
+        {% endfor %}
+
+      {% else %}
+        {% for i in (1..columns) %}
+          <div class="featured-collections--item" data-container="block">
+            <div class="featured-collections--image" data-item="image">
+              {%-
+                render "placeholder",
+                type: "collection",
+                aspect_ratio: 1,
+                placeholder_index: forloop.index
+              -%}
+            </div>
+            <h3 class="featured-collections--title" data-item="block-heading">
+              {{- collection_title_t -}}
+            </h3>
+          </div>
+        {% endfor %}
+
+      {% endunless %}
+    </div>
+  </div>
+</featured-collections-root>
+
+<script type="module">
+  import "{{ 'featured-collections.js' | asset_url }}";
+</script>
+
+{% schema %}
+{
+  "name": "Collections list",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Collections list"
+    },
+    {
+      "type": "collection_list",
+      "id": "collection-list",
+      "label": "Collections",
+      "limit": 12
+    },
+    {
+      "label": "Thumbnail",
+      "id": "image-type",
+      "type": "radio",
+      "options": [
+        { "value": "collection", "label": "Collection image" },
+        { "value": "product", "label": "Product image" }
+      ],
+      "default": "product",
+      "info": "Product image chooses first available product image in collection"
+    },
+    {
+      "type": "header",
+      "content": "Layout and color"
+    },
+    {
+      "id": "background-color",
+      "label": "Background color",
+      "type": "select",
+      "options": [
+        { "label": "None", "value": "none" },
+        { "label": "Light", "value": "light" },
+        { "label": "Dark", "value": "dark" },
+        { "label": "Accent", "value": "accent" }
+      ],
+      "default": "none"
+    },
+    {
+      "id": "light-text",
+      "label": "Use light text color",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "id": "spacing-above",
+      "label": "Spacing above",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "spacing-below",
+      "label": "Spacing below",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "width",
+      "label": "Blocks per row",
+      "type": "range",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "id": "mobile-width",
+      "label": "Blocks per row for small devices",
+      "type": "radio",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collections list"
+    }
+  ]
+}
+{% endschema %}

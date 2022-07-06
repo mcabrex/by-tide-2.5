@@ -1,0 +1,119 @@
+{%- liquid
+  comment
+    Variables
+  endcomment
+
+  assign bg_color = section.settings.background-color
+  assign container_width = section.settings.container-width
+  assign heading = section.settings.heading | escape
+  assign light_text = section.settings.light-text
+  assign overline = section.settings.overline | escape
+  assign spacing_above = section.settings.spacing-above
+  assign spacing_below = section.settings.spacing-below
+  assign text = section.settings.text
+-%}
+
+{% comment %} View {% endcomment %}
+<div
+  class="featured-text--root"
+  data-section-id="{{ section.id }}"
+  data-background-color="{{ bg_color }}"
+  data-container-width="{{ container_width }}"
+  data-light-text="{{ light_text }}"
+  data-spacing-above="{{ spacing_above }}"
+  data-spacing-below="{{ spacing_below }}"
+>
+  <div class="featured-text--wrapper">
+
+    {% if overline != blank %}
+      <h3 class="featured-text--overline" data-item="overline">
+        {{ overline | escape }}
+      </h3>
+    {% endif %}
+
+    {% if heading != blank %}
+      <h2 class="featured-text--heading" data-item="section-heading">
+        {{ heading }}
+      </h2>
+    {% endif %}
+
+    <div class="featured-text--body" data-item="rte-content">
+      {{ text }}
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Rich text",
+    "settings": [
+      {
+        "id": "background-color",
+        "label": "Background color",
+        "type": "select",
+        "options": [
+          { "label": "None", "value": "none" },
+          { "label": "Light", "value": "light" },
+          { "label": "Dark", "value": "dark" },
+          { "label": "Accent", "value": "accent" }
+        ],
+        "default": "none"
+      },
+      {
+        "id": "light-text",
+        "label": "Use light text color",
+        "type": "checkbox",
+        "default": false
+      },
+      {
+        "id": "container-width",
+        "label": "Width of container",
+        "type": "range",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "default": 4
+      },
+      {
+        "id": "spacing-above",
+        "label": "Spacing above",
+        "type": "checkbox",
+        "default": true
+      },
+      {
+        "id": "spacing-below",
+        "label": "Spacing below",
+        "type": "checkbox",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "id": "overline",
+        "label": "Overline",
+        "type": "text",
+        "default": "Overline text"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Introduce your brand"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Introduce your brand, products and vision statement and welcome customers to your store.</p>"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Rich text"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,453 @@
+{%- liquid
+  assign continue_shopping_t = 'collections.continue_shopping' | t
+  assign no_products_t = 'collections.no_products_feedback' | t
+  assign filter_feedback_t = 'collections.filter_feedback' | t
+  assign skip_link_t = 'general.a11y.skip_pagination' | t
+
+  assign products_per_row_desktop = section.settings.products-per-row--desktop
+  assign products_per_row_mobile = section.settings.products-per-row--mobile
+  assign promo_grid_duplicates = 0
+
+  comment
+    "only 50 products can be grabbed at a time, so best to not make
+    (number_of_rows * products_per_row_desktop) > 50"
+  endcomment
+  assign number_of_rows = section.settings.number-of-rows
+
+  comment
+    "Count number of promotion blocks so we can paginate accordingly"
+  endcomment
+  assign promo_grid_blocks = 0
+
+  for block in section.blocks
+    assign column_number = block.settings.column-number
+    assign description = block.settings.description
+    assign image = block.settings.image
+    assign image_size = block.settings.image-size
+    assign link_text = block.settings.link-text
+    assign link_url = block.settings.link-url
+    assign overline = block.settings.overline
+    assign promo_width = block.settings.promo-width
+    assign promo_grid_blocks = promo_grid_blocks | plus: promo_width
+    assign row = block.settings.row-number
+    assign title = block.settings.title
+
+    assign disable_placeholder = false
+    unless image
+      assign disable_placeholder = true
+    endunless
+
+    comment
+      "don't allow overflow outside of main grid"
+    endcomment
+
+    if column_number > products_per_row_desktop
+      assign column_number = products_per_row_desktop
+    endif
+
+    assign alotted_width = products_per_row_desktop | plus: 1 | minus: column_number
+    if alotted_width == 0
+      assign alotted_width = 1
+    endif
+    if promo_width > alotted_width
+      assign promo_width = alotted_width
+    endif
+
+    if promo_width == products_per_row_desktop
+      assign banner_promo = true
+      assign text_width = 'large'
+    else
+      assign banner_promo = false
+      assign text_width = 'medium'
+    endif
+
+    if image_size == 'aspect-ratio' and image
+      assign cover_image = false
+    else
+      assign cover_image = true
+    endif
+
+    comment
+      "`unless promo_grid_coords contains coords` checks for multiple
+      promos trying to be placed in the same place on the grid"
+    endcomment
+
+    capture promo_grid_coords
+      unless promo_grid_coords == blank
+        echo promo_grid_coords | append: '|'
+      endunless
+      assign coords = row | append: ',' | append: column_number
+      comment
+        "check for duplicate coordinates and don't render them"
+      endcomment
+      unless promo_grid_coords contains coords
+        echo coords
+      else
+        assign promo_grid_duplicates = promo_grid_duplicates | plus: 1
+        continue
+      endunless
+    endcapture
+
+    capture promo_widths
+      unless promo_widths == blank
+        echo promo_widths | append: '|'
+      endunless
+      echo promo_width
+    endcapture
+
+    capture promo_html
+      unless promo_html == blank
+        echo promo_html | append: '|'
+      endunless
+
+      render 'featured-content', text_color: block.settings.text-color, attributes: block.shopify_attributes, banner_promo: banner_promo, bg_color: block.settings.background-color, box_around_text: false, container_width: '6', cover_image: cover_image, cover_image_mobile: cover_image, darken_image: block.settings.darken-image, description: description, disable_placeholder: disable_placeholder, image: image, link_text: link_text, link_url: link_url, mobile_overlay: true, overlap: section.settings.overlap, overline: overline, promo_width: promo_width, spacing_above: false, spacing_below: false, text_position: 'center', text_width: text_width, title: title
+    endcapture
+  endfor
+
+  assign blocks_per_page = products_per_row_desktop | times: number_of_rows
+  assign products_per_page = blocks_per_page | minus: promo_grid_blocks | plus: promo_grid_duplicates
+
+  assign promo_grid_coords_arr = promo_grid_coords | split: '|'
+  assign promo_widths_arr = promo_widths | split: '|'
+  assign promo_html_arr = promo_html | split: '|'
+-%}
+
+<collection-root
+  class="collection--body--root"
+  id="collection-root"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection"
+  data-container="section"
+  data-max-columns="{{ products_per_row_desktop }}"
+  data-body-root
+>
+  <div
+    class="collection--body--spinner"
+    style="display:none;"
+    data-container="block"
+    data-body-spinner
+  >
+    <div class="collection--body--spinner-wrapper" data-item="spinner">
+      {% render 'loading-spinner' %}
+    </div>
+  </div>
+
+  {% paginate collection.products by products_per_page %}
+    {% if paginate.pages > 1 %}
+      <a data-item="a11y-button" href='#collection-pagination' data-body-pagination-link>
+        {{ skip_link_t }}
+      </a>
+    {% endif %}
+
+    <div
+      class="collection--body--grid"
+      data-body-grid
+      data-container="panel"
+      data-columns="{{ products_per_row_desktop }}"
+      data-mobile-columns="{{ products_per_row_mobile }}"
+    >
+      {% if collection.products_count > 0 %}
+        {%- liquid
+          assign current_block_num = 1
+
+          for product in collection.products
+            assign current_row = current_block_num | divided_by: products_per_row_desktop
+            assign current_column = current_block_num | modulo: products_per_row_desktop
+
+            comment
+              "last column condition"
+            endcomment
+
+            if current_column == 0
+              assign current_column = products_per_row_desktop
+            else
+              assign current_row = current_row | plus: 1
+            endif
+
+            assign current_coords = current_row | append: ',' | append: current_column
+
+            if promo_grid_coords_arr contains current_coords
+              for promo_grid_coords in promo_grid_coords_arr
+                if promo_grid_coords == current_coords
+                  assign promo_arr_index = forloop.index0
+                  break
+                endif
+              endfor
+
+              echo promo_html_arr[promo_arr_index]
+
+              comment
+                "track what we've rendered for end of the grid condition"
+              endcomment
+
+              capture indexes_accessed
+                unless indexes_accessed == blank
+                  echo indexes_accessed | append: ','
+                endunless
+                echo promo_arr_index
+              endcapture
+
+              comment
+                "need to keep track of promos width, and how that will change where we are on the grid"
+              endcomment
+
+              assign current_promo_width = promo_widths_arr[promo_arr_index] | plus: 0
+              assign current_block_num = current_block_num | plus: current_promo_width
+
+              comment
+                "check if next block is a promo"
+              endcomment
+
+              assign next_row = current_block_num | divided_by: products_per_row_desktop
+              assign next_column = current_block_num | modulo: products_per_row_desktop
+              if next_column == 0
+                assign next_column = products_per_row_desktop
+              else
+                assign next_row = next_row | plus: 1
+              endif
+
+              assign next_coords = next_row | append: ',' | append: next_column
+
+              comment
+                "if we need to render the product html later, due to consecutive promos"
+              endcomment
+
+              if promo_grid_coords_arr contains next_coords
+                capture pending_products_to_render
+                  unless pending_products_to_render == blank
+                    echo pending_products_to_render | append: '|'
+                  endunless
+
+                  render 'product--item', product: product, unique_handle: 'filter', section_id: section.id
+                endcapture
+
+                continue
+              endif
+
+            endif
+
+            comment
+              "render stored products if they've been previously skipped"
+            endcomment
+
+            unless pending_products_to_render == blank
+              assign pending_products_to_render_arr = pending_products_to_render | split: '|'
+              for pending_product in pending_products_to_render_arr
+                echo pending_product
+                assign current_block_num = current_block_num | plus: 1
+              endfor
+              assign pending_products_to_render = blank
+            endunless
+
+            render 'product--item', product: product, unique_handle: 'filter', section_id: section.id
+
+            assign current_block_num = current_block_num | plus: 1
+            assign indexes_accessed_arr = indexes_accessed | split: ","
+
+            comment
+              "condition where promo is placed at the end of the grid"
+            endcomment
+
+            if products_per_page == forloop.index and promo_html_arr.size > indexes_accessed_arr.size
+              assign indexes = promo_html_arr.size | minus: 1
+              for i in (0..indexes)
+                if indexes_accessed_arr contains i
+                  continue
+                elsif promo_grid_coords_arr[i] contains number_of_rows
+                  echo promo_html_arr[i]
+                endif
+              endfor
+            endif
+
+          endfor
+        -%}
+
+      {% elsif current_tags == blank %}
+        <div class="collection--body--empty" data-container="block">
+          <p data-item="paragraph">
+            {{ no_products_t }}
+          </p>
+          <a href="{{ routes.root_url }}" data-item="block-link">
+            <div>{{ continue_shopping_t }}</div>
+          </a>
+        </div>
+
+      {% else %}
+        <div class="collection--body--empty" data-container="block">
+          <p data-item="paragraph">
+            {{ filter_feedback_t }}
+          </p>
+        </div>
+
+      {% endif %}
+    </div>
+
+    <div
+      class="collection--body--pagination"
+      id="collection-pagination"
+      data-container="block"
+      data-body-pagination
+    >
+      {%- liquid
+        if paginate.pages > 1
+          render 'pagination', paginate: paginate, view: 'collection'
+        endif
+      -%}
+    </div>
+  {% endpaginate %}
+</collection-root>
+
+<script type="module">
+  import "{{ 'collection.js' | asset_url }}";
+</script>
+
+{% schema %}
+{
+  "name": "Collection grid",
+  "settings": [
+    {
+      "label": "Products per row (desktop)",
+      "id": "products-per-row--desktop",
+      "type": "range",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "label": "Product per row (mobile)",
+      "id": "products-per-row--mobile",
+      "type": "radio",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ]
+    },
+    {
+      "label": "Maximum amount of rows per page",
+      "id": "number-of-rows",
+      "type": "range",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "default": 4
+    }
+  ],
+  "blocks": [
+    {
+      "type": "promotion",
+      "name": "Promotion",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Layout and Color"
+        },
+        {
+          "label": "Row",
+          "id": "row-number",
+          "type": "range",
+          "min": 1,
+          "max": 12,
+          "step": 1,
+          "default": 2
+        },
+        {
+          "label": "Column",
+          "id": "column-number",
+          "type": "range",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 1
+        },
+        {
+          "label": "Width",
+          "id": "promo-width",
+          "type": "range",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 2
+        },
+        {
+          "id": "background-color",
+          "label": "Background color",
+          "type": "select",
+          "options": [
+            { "label": "None", "value": "none" },
+            { "label": "Light", "value": "light" },
+            { "label": "Dark", "value": "dark" },
+            { "label": "Accent", "value": "accent" }
+          ],
+          "default": "light"
+        },
+        {
+          "id": "text-color",
+          "label": "Text color",
+          "type": "select",
+          "options": [
+            { "label": "Dark", "value": "dark" },
+            { "label": "Light", "value": "light" }
+          ],
+          "default": "dark"
+        },
+        {
+          "id": "darken-image",
+          "label": "Darken image",
+          "type": "checkbox",
+          "default": true,
+          "info": "Can enhance text visibility"
+        },
+        {
+          "type": "header",
+          "content": "Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "id": "image-size",
+          "label": "Image size",
+          "type": "select",
+          "options": [
+            { "label": "Fit to container", "value": "fit-to-container" },
+            { "label": "Preserve aspect ratio", "value": "aspect-ratio" }
+          ],
+          "default": "fit-to-container"
+        },
+        {
+          "id": "overline",
+          "label": "Overline",
+          "type": "text",
+          "default": "Overline text"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Grid promotion"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Text",
+          "default": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.</p>"
+        },
+        {
+          "type": "url",
+          "id": "link-url",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "link-text",
+          "label": "Link text",
+          "default": "Optional link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,106 @@
+{%- liquid
+  assign bg_color = section.settings.background-color
+  assign heading = section.settings.heading
+  assign light_text = section.settings.light-text
+  assign spacing_above = section.settings.spacing-above
+  assign spacing_below = section.settings.spacing-below
+  assign title_alignment = section.settings.title-alignment
+-%}
+
+{% unless request.page_type == "password" %}
+  <recent-products-root
+    class="recent-products--root"
+    data-section-id="{{ section.id }}"
+    data-background-color="{{ bg_color }}"
+    data-light-text="{{ light_text }}"
+    data-spacing-above="{{ spacing_above }}"
+    data-spacing-below="{{ spacing_below }}"
+    data-title-alignment="{{ title_alignment }}"
+    style="display:block;"
+  >
+    <div class="recent-products--wrapper" data-container="section">
+      {% if heading != blank %}
+        <div class="recent-products--title" data-container="block">
+          <h2 data-item="section-heading">
+            {{ heading | escape }}
+          </h2>
+        </div>
+      {% endif %}
+
+      <div
+        class="recent-products--grid"
+        data-container="panel"
+        data-columns="4"
+        data-mobile-columns="2"
+        style="display:none;"
+      ></div>
+
+      <div class="recent-products--spinner">
+        {% render 'loading-spinner' %}
+      </div>
+    </div>
+  </recent-products-root>
+
+  <script type="module">
+    import "{{ 'recent-products.js' | asset_url }}";
+  </script>
+{% endunless %}
+
+{% schema %}
+{
+  "name": "Recent products",
+  "settings": [
+    {
+      "id": "background-color",
+      "label": "Background color",
+      "type": "select",
+      "options": [
+        { "label": "None", "value": "none" },
+        { "label": "Light", "value": "light" },
+        { "label": "Dark", "value": "dark" },
+        { "label": "Accent", "value": "accent" }
+      ],
+      "default": "none"
+    },
+    {
+      "id": "light-text",
+      "label": "Use light text color",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "label": "Heading",
+      "id": "heading",
+      "type": "text",
+      "default": "Recently viewed"
+    },
+    {
+      "label": "Position title",
+      "id": "title-alignment",
+      "type": "radio",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" }
+      ],
+      "default": "left"
+    },
+    {
+      "id": "spacing-above",
+      "label": "Spacing above",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "spacing-below",
+      "label": "Spacing below",
+      "type": "checkbox",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Recent products"
+    }
+  ]
+}
+{% endschema %}

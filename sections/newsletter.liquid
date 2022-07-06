@@ -1,0 +1,140 @@
+{%- liquid
+  assign email_placeholder_t = 'sections.newsletter.email_placeholder' | t
+  assign button_t = 'sections.newsletter.button' | t
+
+  assign bg_color = section.settings.background-color
+  assign form_id = 'newsletter--' | append: section.id
+  assign heading = section.settings.heading | escape
+  assign light_text = section.settings.light-text
+  assign spacing_above = section.settings.spacing-above
+  assign spacing_below = section.settings.spacing-below
+  assign subheading = section.settings.newsletter--subheading
+
+  assign button_type = 'button'
+  if light_text
+    assign button_type = 'inverted-button'
+  endif
+-%}
+
+{% comment %} View {% endcomment %}
+<div
+  class="newsletter--root"
+  data-section-id="{{ section.id }}"
+  data-background-color="{{ bg_color }}"
+  data-light-text="{{ light_text }}"
+  data-spacing-above="{{ spacing_above }}"
+  data-spacing-below="{{ spacing_below }}"
+>
+  <div class="newsletter--wrapper" data-container="block">
+    {% if heading != blank %}
+      <h2 class="newsletter--heading" data-item="section-heading">{{ heading }}</h2>
+    {% endif %}
+
+    {% if subheading != blank %}
+      <div class="newsletter--subheading" data-item="rte-content">
+        {{ subheading }}
+      </div>
+    {% endif %}
+
+    <div class="newsletter--body">
+      {% form 'customer', id: form_id, class: 'newsletter--form' %}
+        <div class="newsletter--inputs">
+          <input type="hidden" name="contact[tags]" value="newsletter"/>
+          <label for="newsletter-email" data-item="hidden-text">
+            {{ email_placeholder_t }}
+          </label>
+          <input
+            class="newsletter--email"
+            id="newsletter-email"
+            name="contact[email]"
+            type="email"
+            autocomplete="email"
+            placeholder="{{ email_placeholder_t }}"
+            required
+          />
+          <div data-item="{{ button_type }}">
+            <button type="submit" value="{{ button_t }}">
+              {{ button_t }}
+            </button>
+          </div>
+        </div>
+
+        {% if form.errors %}
+          <p class="newsletter--failure">
+          {% for field in form.errors %}
+            {{ field }} {{ form.errors.messages[field] }}
+          {% endfor %}
+          </p>
+        {% endif %}
+
+        {% if form.posted_successfully? %}
+          <script>window.location.hash = '#feedback-bar--newsletter';</script>
+        {% endif %}
+
+        <div data-item="hidden-text">
+          {% comment %} remove the below line to display reCAPTCHA badge {% endcomment %}
+          {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+        </div>
+      {% endform %}
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Newsletter",
+    "settings": [
+      {
+        "id": "background-color",
+        "label": "Background color",
+        "type": "select",
+        "options": [
+          { "label": "None", "value": "none" },
+          { "label": "Light", "value": "light" },
+          { "label": "Dark", "value": "dark" },
+          { "label": "Accent", "value": "accent" }
+        ],
+        "default": "none"
+      },
+      {
+        "id": "light-text",
+        "label": "Use light text color",
+        "type": "checkbox",
+        "default": false
+      },
+      {
+        "id": "spacing-above",
+        "label": "Spacing above",
+        "type": "checkbox",
+        "default": true
+      },
+      {
+        "id": "spacing-below",
+        "label": "Spacing below",
+        "type": "checkbox",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Subscribe to our newsletter"
+      },
+      {
+        "type": "richtext",
+        "id": "newsletter--subheading",
+        "label": "Subheading",
+        "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+      },
+      {
+        "type": "paragraph",
+        "content": "Customers who subscribe will have their email address added to the “accepts marketing” [customer list](/admin/customers?query=&accepts_marketing=1)"
+      }
+    ],
+    "presets": [{
+      "name": "Newsletter"
+    }],
+    "blocks" : []
+  }
+{% endschema %}

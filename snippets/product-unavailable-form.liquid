@@ -1,0 +1,75 @@
+{%- liquid
+  assign form_id = id | append: '--unavailable'
+  assign signed_up_t = 'products.sold_out.signed_up' | t
+  assign sold_out_button_t = 'products.sold_out.button' | t
+  assign sold_out_email_ph_t = 'products.sold_out.email_placeholder' | t
+  assign sold_out_email_t = 'products.sold_out.email_description' | t
+  assign unavailable_t = 'products.unavailable_notice' | t
+
+  assign current_variant = product.selected_or_first_available_variant
+-%}
+
+<product-unavailable-root
+  class="product-unavailable--root"
+  {% if current_variant.available %}
+    style="display:none;"
+  {% else %}
+    style="display:block;"
+  {% endif %}
+  data-id="{{ id }}"
+>
+  {% form 'contact', id: form_id %}
+
+    {% if form.posted_successfully? or form.errors %}
+      <script>window.location.hash = '#feedback-bar--product-form';</script>
+    {% endif %}
+
+    <div class="product-unavailable--notify">
+      {% unless form.posted_successfully? %}
+        <div class="product-unavailable--notice" data-item="small-text">
+          {{ unavailable_t }}
+        </div>
+
+        <div class="product-unavailable--form">
+          <label for="{{ form_id }}-email" data-item='hidden-text'>
+            {{ sold_out_email_ph_t }}
+          </label>
+          <input
+            class="{% if form.errors contains 'email' %}error{% endif %}"
+            type="email"
+            name="contact[email]"
+            autocomplete="email"
+            placeholder="{{ sold_out_email_ph_t }}"
+            value="{{ customer.email }}"
+            id="{{ form_id }}-email"
+            required
+          >
+          <input
+            class="email-body"
+            type="hidden"
+            name="contact[body]"
+            value="{{ sold_out_email_t }}: {{ product.title | escape }}"
+          >
+          <div data-item="button">
+            <button>{{ sold_out_button_t }}</button>
+          </div>
+        </div>
+
+      {% else %}
+        <p class="product-unavailable--signed-up" data-item="small-text">
+          {{ signed_up_t }}
+        </p>
+
+      {% endunless %}
+    </div>
+
+    <div data-item="hidden-text">
+      {% comment %} remove the below line to display reCAPTCHA badge {% endcomment %}
+      {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+    </div>
+  {% endform %}
+</product-unavailable-root>
+
+<script type="module">
+  import "{{ 'product-unavailable-form.js' | asset_url }}";
+</script>

@@ -1,0 +1,39 @@
+{%- liquid
+  assign n_items_left_t = 'products.n_items_left' | t
+  assign no_items_left_t = 'products.no_items_left' | t
+  assign one_item_left_t = 'products.one_item_left' | t
+  assign product_form_t = 'products.sold_out.form_notification' | t
+  assign success_feedback_t = 'contact_page.success_feedback' | t
+  assign success_t = 'sections.newsletter.success' | t
+-%}
+
+<feedback-bar-root
+  class="feedback-bar--root"
+  data-open="false"
+  data-critical-css="false"
+>
+  <div class="feedback-bar--message">
+    <span data-item="accent-text" data-message="contact-form">
+     {{ success_feedback_t }}
+    </span>
+    <span data-item="accent-text" data-message="newsletter">
+      {{ success_t }}
+    </span>
+    <span data-item="accent-text" data-message="product-form">
+      {{ product_form_t }}
+    </span>
+    <span data-item="accent-text" data-message="product--no-items">
+      {{ no_items_left_t }}
+    </span>
+    <span data-item="accent-text" data-message="product--one-item">
+      {{ one_item_left_t }}
+    </span>
+    <span data-item="accent-text" data-message="product--n-items">
+      {{ n_items_left_t }}
+    </span>
+  </div>
+</feedback-bar-root>
+
+<script type="module">
+  import "{{ 'feedback-bar.js' | asset_url }}";
+</script>

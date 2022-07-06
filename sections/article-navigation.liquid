@@ -1,0 +1,143 @@
+{%- liquid
+  assign facebook_t = 'general.social.facebook.share' | t
+  assign tagged_in_t = 'blog.article.tagged_in' | t
+  assign twitter_t = 'general.social.twitter.share' | t
+  assign pinterest_t = 'general.social.pinterest.share' | t
+
+  assign canonical_url = shop.url | append: article.url
+  assign enable = section.settings.enable
+  assign hidden_tags = settings.hide-tags | split: ','
+  assign number_of_tags = 0
+  assign show_share = section.settings.show-share
+  assign show_tags = section.settings.show-tags
+-%}
+
+{%- capture render_tags -%}
+  {%- for tag in article.tags -%}
+    {%- liquid
+      assign temp_tag = tag | downcase | escape
+      assign skip = false
+
+      for hidden_tag in hidden_tags
+        assign formatted_hidden_tag = hidden_tag | downcase | escape | strip
+        if temp_tag == formatted_hidden_tag
+          assign skip = true
+          break
+        endif
+      endfor
+
+      if skip
+        continue
+      endif
+
+      assign number_of_tags = number_of_tags | plus: 1
+    -%}
+
+    <li class="article--tag">
+      <a href="{{ blog.url }}/tagged/{{ tag | handle }}">
+        {{ tag | capitalize }}
+      </a>
+    </li>
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- liquid
+  if number_of_tags == 0
+    assign show_tags = false
+  endif
+
+  unless show_share or show_tags
+    assign enable = false
+  endunless
+-%}
+
+{% if enable %}
+  <div
+    class="article--navigation-root"
+    data-section-id="{{ section.id }}"
+    data-spacing-above="false"
+  >
+    <div class="article--navigation-wrapper">
+      {%- if show_tags -%}
+        <div class="article--tag-info">
+          <h3 class="article--tagged-in" data-item='block-heading'>
+            {{ tagged_in_t }}
+          </h3>
+
+          <ul class="article--tags" data-item="paragraph">
+            {{ render_tags }}
+          </ul>
+        </div>
+      {%- endif -%}
+
+      {%- if show_share -%}
+        <div class="article--share">
+          <ul class="article--share-container">
+
+            <li class="article--share-icon">
+              <a
+                class="facebook"
+                href="https://www.facebook.com/sharer.php?u={{ canonical_url }}"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="{{ facebook_t }}"
+              >
+                {% render 'icons', icon: 'facebook' %}
+              </a>
+            </li>
+
+            <li class="article--share-icon">
+              <a
+                class="twitter"
+                href="https://twitter.com/intent/tweet?text=Currently reading from {{ shop.name }}: '{{ article.title }}'&url={{ canonical_url }}"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="{{ twitter_t }}"
+              >
+                {% render 'icons', icon: 'twitter' %}
+              </a>
+            </li>
+
+            <li class="article--share-icon">
+              <a
+                class="pinterest"
+                href="https://pinterest.com/pin/create/button/?url={{ canonical_url }}"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="{{ pinterest_t }}"
+              >
+                {% render 'icons', icon: 'pinterest' %}
+              </a>
+            </li>
+          </ul>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Navigation",
+  "settings": [
+    {
+      "id": "enable",
+      "label": "Enable",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "show-share",
+      "label": "Show share",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "show-tags",
+      "label": "Show article tags",
+      "type": "checkbox",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

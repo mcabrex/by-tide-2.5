@@ -1,0 +1,83 @@
+{%- liquid
+  assign color_t = 'products.color' | t
+  assign out_of_stock_t = 'products.out_of_stock' | t
+
+  assign current_variant = product.selected_or_first_available_variant
+
+  if block_settings
+    assign variant_style = block_settings.variant-style
+    assign size_chart_content = block_settings.size-chart-content
+    assign size_chart_enabled = block_settings.size-chart-enabled
+    assign size_chart_option = block_settings.size-chart-option | strip | downcase
+    assign swatches_enabled = block_settings.swatches-enabled
+  endif
+
+  unless unique_handle
+    assign unique_id = id
+  else
+    assign unique_id = unique_handle | append: '-' | append: id
+  endunless
+-%}
+
+{%- unless product.has_only_default_variant -%}
+  <product-options-root
+    class="product-options--root"
+    data-handle="{{ product.handle }}"
+    data-first-variant-available="{{ current_variant.available }}"
+    data-id="{{ id }}"
+    style="display:block;"
+  >
+    <div class="product-options--container">
+      {%- for option in product.options_with_values -%}
+        <div class="product-options--option" data-index="{{ forloop.index0 }}">
+          {%- liquid
+            assign option_name = option.name | strip | downcase
+
+            if swatches_enabled and option_name == color_t
+              render 'radios', option: option, id: unique_id, is_swatches: true
+            elsif variant_style == 'dropdowns'
+              render 'disclosure', display_label: true, label_name: option_name, option_names: option.values, current_value: option.selected_value, id: unique_id, type: 'option-picker'
+            else
+              render 'radios', option: option, id: unique_id
+            endif
+
+            comment
+              "The size chart link gets moved with JS"
+            endcomment
+
+            if size_chart_enabled and size_chart_option == option_name
+              render 'product-size-chart', size_chart_content: size_chart_content
+            endif
+          -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    <noscript>
+      <select class="product-options--select-noscript" name="id">
+        {% for variant in product.variants %}
+          <option
+            value="{{ variant.id }}"
+            data-sku="{{ variant.sku }}"
+            form="{{ id }}"
+            {% if variant == current_variant %}
+              selected
+            {% elsif variant.available == false %}
+              disabled
+            {% endif %}
+          >
+            {{ variant.title }}{% if variant.available == false %} ({{ out_of_stock_t }}){% endif %}
+          </option>
+        {% endfor %}
+      </select>
+    </noscript>
+
+    <script type="application/json" id="product-options--json">
+      {{- product.variants | json -}}
+    </script>
+  </product-options-root>
+
+  <script type="module">
+    import "{{ 'product-options.js' | asset_url }}";
+  </script>
+{%- endunless -%}

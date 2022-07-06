@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js flexbox-gap" lang="{{ request.locale.iso_code }}" dir="ltr">
+  <head>
+    <!-- Beyond Theme - Version 2.5.0 by Troop Themes - https://troopthemes.com/ -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
+
+    <link rel="preconnect" href="https://cdn.shopify.com">
+    <link rel="preconnect" href="https://fonts.shopifycdn.com">
+    <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
+
+    <link rel="preload" href="{{ 'theme--critical.css' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'theme--async.css' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'theme--fonts.css' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'lazysizes.min.js' | asset_url }}" as="script">
+    <link rel="preload" href="{{ 'utilities.js' | asset_url }}" as="script">
+
+    {%- if canonical_url != blank -%}
+      <link rel="canonical" href="{{ canonical_url }}">
+    {%- endif -%}
+
+    {% if settings.favicon != blank %}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32 }}" type="image/png">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {% endif %}
+
+    {% if request.page_type == 'index' %}
+      <title>{{ page_title }}</title>
+    {% else %}
+      <title>{{ page_title }} | {{ shop.name }}</title>
+    {% endif %}
+
+    {%- liquid
+      render 'social-meta-tags'
+      render 'css-typography'
+      render 'css-colors'
+      render 'js-variables'
+      render 'swatch-colors'
+    -%}
+
+    <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
+    <script src="{{ 'utilities.js' | asset_url }}"></script>
+
+    {% render 'js-modules' %}
+
+    {% if request.page_type contains 'customers' %}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+      <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer="defer"></script>
+    {% endif %}
+
+    <noscript>
+      <style>
+        .layout--main-content > *, .footer--root, .popup-modal-close, .modal--root, .modal--window {
+          opacity: 1;
+        }
+      </style>
+      <link href="{{ 'theme--async.css' | asset_url }}" rel="stylesheet">
+    </noscript>
+
+    <link href="{{ 'theme--critical.css' | asset_url }}" rel="stylesheet" media="all"/>
+    <link href="{{ 'theme--fonts.css' | asset_url }}" rel="stylesheet" media="all"/>
+    <link
+      href="{{ 'theme--async.css' | asset_url }}"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    >
+
+    <style>
+      {% render 'custom-styles' %}
+    </style>
+
+    {{ content_for_header }}
+  </head>
+
+  <body
+    class="template--{{ template | split: '.' | first | remove: '_' | replace: '/', '--' }} page--{{ page_title | handle }}"
+    data-theme-id="939"
+    data-theme-name="Beyond"
+    data-theme-version="2.5.0"
+  >
+    <!--[if IE]>
+      <div style="text-align:center;padding:72px 16px;">
+        {{ 'general.browser_unsupported' | t }}
+      </div>
+      <style>
+        .off-canvas--viewport { display: none; }
+      </style>
+    <![endif]-->
+
+    <a data-item="a11y-button" href='#main-content'>
+      {{ 'general.a11y.skip_main' | t }}
+    </a>
+
+    <off-canvas-root
+      class="off-canvas--viewport"
+      data-off-canvas--state="closed"
+    >
+      <transition-root class="off-canvas--overlay"></transition-root>
+      <transition-root aria-label="{{ 'general.a11y.close' | t }}" data-off-canvas--close>
+        {% render 'icons', icon: 'cross' %}
+      </transition-root>
+
+      <div class="off-canvas--main-content">
+        {% section 'announcement' %}
+        {% section 'header' %}
+
+        <main class="layout--main-content" id="main-content">
+          {{ content_for_layout }}
+        </main>
+
+        {% section 'footer' %}
+      </div>
+
+      <transition-root class="off-canvas--right-sidebar" data-active="cart">
+        <div class="off-canvas--focus-trigger" tabindex="0"></div>
+
+        {%- liquid
+          if request.page_type == 'product'
+            echo '<div class="off-canvas--container" data-view="pickup"></div>'
+          endif
+
+          if request.page_type == 'collection' or request.page_type == 'search'
+            echo '<div class="off-canvas--container" data-view="filter"></div>'
+          endif
+
+          if settings.product--quick-add-enabled
+            echo '<div class="off-canvas--container" data-view="product-form"></div>'
+          endif
+
+          if settings.cart--type == 'drawer' or settings.product--quick-add-enabled
+            echo '<div class="off-canvas--container" data-view="cart">'
+              render 'cart', view: 'drawer'
+            echo '</div>'
+          endif
+        -%}
+
+        <div class="off-canvas--focus-trigger" tabindex="0"></div>
+      </transition-root>
+
+      <transition-root class="off-canvas--left-sidebar" data-active="menu">
+        <div class="off-canvas--focus-trigger" tabindex="0"></div>
+
+        <div class="off-canvas--container" data-view="menu">
+          {% render 'mobile-nav' %}
+        </div>
+
+        <div class="off-canvas--focus-trigger" tabindex="0"></div>
+      </transition-root>
+    </off-canvas-root>
+
+    {%- liquid
+      if settings.popup--enabled
+        render 'popup'
+      endif
+
+      render 'main-search'
+      render 'modal'
+      render 'feedback-bar'
+    -%}
+  </body>
+</html>

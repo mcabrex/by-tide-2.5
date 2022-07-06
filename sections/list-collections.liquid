@@ -1,0 +1,301 @@
+{%- liquid
+  assign view_more_t = 'collections.view_more' | t
+
+  assign alt_color = false
+  assign apply_overlay = false
+  assign block_heading_font = 'block-heading'
+  assign container_width = section.settings.container-width
+  assign heading = section.settings.heading
+  assign hover_enabled = false
+  assign image_type = section.settings.image-type
+  assign mobile_overlay = section.settings.mobile-overlay
+  assign mobile_width = section.settings.mobile-width
+  assign spacing = section.settings.spacing
+  assign spacing_above = section.settings.spacing-above
+  assign spacing_below = section.settings.spacing-below
+  assign text_style = section.settings.text-style
+  assign view = section.settings.view
+  assign width = section.settings.width
+
+  assign collection_list = section.settings.collection-list
+  if collection_list == blank
+    assign collection_list = collections
+  endif
+
+  case text_style
+    when 'light'
+      assign alt_color = true
+    when 'light-with-overlay'
+      assign alt_color = true
+      assign apply_overlay = true
+    when 'box'
+      assign show_text_background = true
+      assign block_heading_font = 'paragraph'
+    when 'hover'
+      assign hover_enabled = true
+      assign mobile_overlay = false
+  endcase
+-%}
+
+{%- if view == 'collection-thumbnails' -%}
+  <featured-grid-root
+    class="featured-grid--root"
+    data-section-id="{{ section.id }}"
+    data-spacing-above="{{ spacing_above }}"
+    data-spacing-below="{{ spacing_below }}"
+    data-alt-color="{{ alt_color }}"
+    data-apply-overlay="{{ apply_overlay }}"
+    data-container="section"
+    data-container-width="{{ container_width }}"
+    data-hover-enabled="{{ hover_enabled }}"
+    data-mobile-overlay="{{ mobile_overlay }}"
+    data-show-text-background="{{ show_text_background }}"
+    data-spacing="{{ spacing }}"
+    data-text-position="center"
+    data-text-style="{{ text_style }}"
+    style="display:grid;"
+  >
+{%- else -%}
+  <list-collections-root
+    class="list-collections--root"
+    data-section-id="{{ section.id }}"
+    data-spacing-above="{{ spacing_above }}"
+    data-spacing-below="{{ spacing_below }}"
+    style="display:block;"
+  >
+{%- endif -%}
+  {% paginate collections by 48 %}
+    {%- case view -%}
+      {%- when 'collection-thumbnails' -%}
+        {%- if heading != blank -%}
+          <div class="featured-grid--header" data-container="block">
+            <h2 class="featured-grid--heading" data-item="section-heading">
+              {{ heading }}
+            </h2>
+          </div>
+        {%- endif -%}
+
+        <div class="featured-grid--body">
+          <div
+            class="featured-grid--body--container"
+            data-container="panel"
+            data-columns="{{ width }}"
+            data-mobile-columns="{{ mobile_width }}"
+            data-block-spacing="{{ spacing }}"
+          >
+            {%- for collection in collection_list -%}
+              <div
+                class="featured-grid--item"
+                data-container="block"
+                data-shape="square"
+                data-retain-ratio="false"
+              >
+                <a class="featured-grid--item--link-wrapper" href="{{ collection.url }}">
+                  <div class="featured-grid--item--container">
+                    <div class="featured-grid--item--image" data-item="image">
+                      {%- liquid
+                        assign no_product_images = true
+
+                        if collection.image and image_type == 'collection'
+                          render "image", image: collection.image, full_width: true, cover: true, cover_mobile: true
+                        elsif collection.products.length > 0
+                          for product in collection.products
+                            if product.featured_media.preview_image
+                              render "image", image: product.featured_media.preview_image, full_width: true, cover: true, cover_mobile: true
+                              assign no_product_images = false
+                              break
+                            endif
+                          endfor
+
+                          if no_product_images
+                            render "placeholder", type: "collection", aspect_ratio: 1, placeholder_index: 1
+                          endif
+                        else
+                          render "placeholder", type: "collection", aspect_ratio: 1, placeholder_index: 1
+                        endif
+                      -%}
+                    </div>
+
+                    <div class="featured-grid--item--overlay-background"></div>
+
+                    <div class="featured-grid--item--text-container">
+                      <div class="featured-grid--item--text-background" data-container="block-container">
+                        <h3 class="featured-grid--item--title" data-item="{{ block_heading_font }}">
+                          {{ collection.title }}
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- when 'expanded-product-list' -%}
+        {%- for collection in collection_list -%}
+          <div class="list-collections--item" data-container="section">
+            <div class="list-collections--heading" data-container="block">
+              <a class="list-collections--link" href="{{ collection.url }}">
+                <h2 data-item="section-heading">
+                  {{ collection.title }}
+                </h2>
+              </a>
+            </div>
+
+            <div
+              class="list-collections--grid"
+              data-container="panel"
+              data-columns="4"
+              data-mobile-columns="2"
+            >
+              {%- liquid
+                for product in collection.products limit: 8
+                  assign handle = collection.title | append: '-' | append: product.title
+                  render 'product--item', product: product, unique_handle: handle
+                endfor
+              -%}
+            </div>
+
+            {% if collection.products.size > 8 %}
+              <div data-container="block">
+                <div class="list-collections--view-more" data-item="block-link">
+                  <a href="{{ collection.url }}">
+                    {{ view_more_t }}
+                  </a>
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        {%- endfor -%}
+    {%- endcase -%}
+
+    {% if paginate.pages > 1 %}
+      <div data-container="block">
+        {% render 'pagination', paginate: paginate %}
+      </div>
+    {% endif %}
+  {% endpaginate %}
+
+{%- if view == 'collection-thumbnails' -%}
+  </featured-grid-root>
+
+  <script type="module">
+    import "{{ 'featured-grid.js' | asset_url }}";
+  </script>
+{%- else -%}
+  </list-collections-root>
+
+  <script type="module">
+    import "{{ 'list-collections.js' | asset_url }}";
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Collections list",
+  "settings": [
+    {
+      "type": "collection_list",
+      "id": "collection-list",
+      "label": "Collections"
+    },
+    {
+      "label": "View",
+      "id": "view",
+      "type": "radio",
+      "options": [
+        { "value": "collection-thumbnails", "label": "Collection thumbnails" },
+        { "value": "expanded-product-list", "label": "Expanded product list" }
+      ],
+      "default": "collection-thumbnails"
+    },
+    {
+      "id": "spacing-above",
+      "label": "Spacing above",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "spacing-below",
+      "label": "Spacing below",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Collection thumbnail view"
+    },
+    {
+      "id": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Collections"
+    },
+    {
+      "label": "Thumbnail",
+      "id": "image-type",
+      "type": "radio",
+      "options": [
+        { "value": "collection", "label": "Collection image" },
+        { "value": "product", "label": "Product image" }
+      ],
+      "default": "product",
+      "info": "Product image chooses first available product image in collection."
+    },
+    {
+      "label": "Text style",
+      "id": "text-style",
+      "type": "select",
+      "options": [
+        { "label": "Light", "value": "light" },
+        { "label": "Light, darken image", "value": "light-with-overlay" },
+        { "label": "Box around text", "value": "box" },
+        { "label": "Show on hover", "value": "hover" }
+      ],
+      "default": "light-with-overlay",
+      "info": "Darkening the image can enhance text visibility"
+    },
+    {
+      "id": "spacing",
+      "label": "Show spacing between blocks",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "mobile-overlay",
+      "label": "Overlay text on small devices",
+      "type": "checkbox",
+      "default": true,
+      "info": "Not applicable for Show on hover text style."
+    },
+    {
+      "id": "container-width",
+      "label": "Width of container",
+      "type": "range",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "id": "width",
+      "label": "Blocks per row",
+      "type": "range",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "id": "mobile-width",
+      "label": "Blocks per row for small devices",
+      "type": "radio",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "2"
+    }
+  ]
+}
+{% endschema %}

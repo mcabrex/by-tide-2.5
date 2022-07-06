@@ -1,0 +1,30 @@
+{%- liquid
+  assign size_chart_t = 'products.size_chart' | t
+
+  if size_chart_content == blank
+    capture size_chart_path
+      assign size_chart_path_t = 'products.size_chart_path' | t
+      echo '<code>' | append: size_chart_path_t | append: '</code>'
+    endcapture
+
+    assign page_content = 'products.empty_page_content_html' | t: size_chart_path: size_chart_path
+  else
+    assign page_content = pages[size_chart_content].content
+  endif
+-%}
+
+<div class="product-size-chart--root">
+  <modal-root class="modal--root" data-modal-view="product-size-chart">
+    <div class='product-size-chart--link' data-item='block-link'>
+      <a class='modal--link' href='#'>
+        {{ size_chart_t }}
+      </a>
+    </div>
+
+    <div class="modal--content">
+      <div class="product-size-chart--modal" data-item="rte-content">
+        {{ page_content }}
+      </div>
+    </div>
+  </modal-root>
+</div>

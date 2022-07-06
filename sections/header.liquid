@@ -1,0 +1,342 @@
+{%- liquid
+  assign search_t = 'layout.header.search' | t
+
+  assign account_icon = section.settings.account-icon
+  assign search_icon = section.settings.search-icon
+  assign cart_icon = section.settings.cart-icon
+  assign logo_image = section.settings.logo
+  assign logo_height = section.settings.logo-height
+  assign fix_enabled = section.settings.fix-enabled
+  assign fixed_logo_height = section.settings.fixed-logo-height
+  assign logo_position = section.settings.logo-position
+  assign menu = section.settings.menu
+  assign show_account = section.settings.header-account-show
+  assign locale_enabled = false
+  assign region_enabled = false
+
+  if section.settings.show-region-selector and localization.available_countries.size > 1
+    assign region_enabled = true
+  endif
+  if section.settings.show-locale-selector and localization.available_languages.size > 1
+    assign locale_enabled = true
+  endif
+
+  capture logo_html
+    render 'logo', logo: logo_image, height: logo_height, mobile_height: fixed_logo_height
+  endcapture
+
+  capture search_html
+    if search_icon == 'icon'
+      render 'icons', icon: 'search'
+    elsif search_icon == 'text'
+      echo search_t
+    endif
+  endcapture
+
+  capture cart_html
+    render 'header-cart', cart_icon: cart_icon
+  endcapture
+-%}
+
+{% capture menu_icon_html %}
+  <div class="x-menu--overlap-icon">
+    <div
+      tabindex="0"
+      data-off-canvas--open="left-sidebar"
+      data-off-canvas--view="menu"
+      aria-haspopup="menu"
+    >
+      {% render 'icons', icon: 'menu' %}
+    </div>
+  </div>
+{% endcapture %}
+
+{% capture x_menu_html %}
+  {%
+    render 'x-menu',
+    overlap_parent: 2,
+    handle: menu,
+    use_external_icon: true
+  %}
+{% endcapture %}
+
+{% if logo_image %}
+  {% capture fixed_logo_dimensions = fixed_logo_height %}
+    max-height: {{ fixed_logo_height }}px;
+    max-width: {{ fixed_logo_height | times: logo_image.aspect_ratio }}px;
+  {% endcapture %}
+
+  <style>
+    .header--root[data-fixed="true"] .header--logo img {
+      {{ fixed_logo_dimensions }}
+    }
+  </style>
+{% endif %}
+
+{% if fix_enabled %}
+  <div class="header--fill-for-fixing"></div>
+{% endif %}
+
+<header-root
+  class="header--root"
+  data-section-id="{{ section.id }}"
+  data-logo-position="{{ logo_position }}"
+  data-fixed="false"
+  data-fixed-enabled="{{ fix_enabled }}"
+  style="display:block;"
+>
+  {% if locale_enabled or region_enabled %}
+    <div class="header--localization-for-off-canvas" style="display:none;">
+      {% render
+        'localization',
+        locale_enabled: locale_enabled,
+        region_enabled: region_enabled,
+        id: 'off-canvas'
+      %}
+    </div>
+  {% endif %}
+
+  <div class="header--y-menu-for-off-canvas" style="display:none;">
+    {% render 'y-menu', handle: menu %}
+  </div>
+
+  <div class="header--top-row">
+    <div class="header--left-column">
+      <div class="header--menu-icon">
+        {{ menu_icon_html }}
+      </div>
+
+      {% if logo_position == 'left' %}
+        <div class="header--logo" data-position="left">
+          {{ logo_html }}
+        </div>
+      {% endif %}
+
+      <div class="header--x-menu" data-position="left">
+        {% if logo_position != 'above' %}
+          {{ x_menu_html }}
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="header--middle-column">
+      <div class="header--logo" data-position="center">
+        {{ logo_html }}
+      </div>
+    </div>
+
+    <div class="header--right-column" data-item="nav-text">
+      <div class="header--localization">
+        {% render
+          'localization',
+          locale_enabled: locale_enabled,
+          region_enabled: region_enabled,
+          id: 'header'
+        %}
+      </div>
+
+      {% if shop.customer_accounts_enabled and show_account %}
+        <div class="header--account">
+          {% render 'login', account_icon: account_icon %}
+        </div>
+
+        <div class="mobile-nav--login--for-off-canvas" style="display:none;">
+          {% render 'login', account_icon: account_icon, is_off_canvas: true %}
+        </div>
+      {% endif %}
+
+      {% if settings.search--show-in-header %}
+        <div class="header--search">
+          <a
+            href="{{ routes.search_url }}"
+            aria-label="{{ search_t }}"
+          >
+            {{ search_html }}
+          </a>
+        </div>
+        <div class="mobile-nav--search--for-off-canvas" style="display:none;">
+          <a
+            href="{{ routes.search_url }}"
+            aria-label="{{ search_t }}"
+            data-mq="small"
+          >
+            {{ search_html }}
+          </a>
+        </div>
+      {% endif %}
+
+      <div class="header--cart">
+        <div class="header--cart-button">
+          {{ cart_html }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if logo_position == 'above' %}
+    <div class="header--bottom-row" data-view="with-js">
+      <div class="header--bottom-row--container">
+        <div class="header--x-menu" data-position="below">
+          {{ x_menu_html }}
+        </div>
+      </div>
+      <div class="header--bottom-row--edge-detector"></div>
+    </div>
+  {% endif %}
+
+  <noscript>
+    <div class="header--bottom-row" data-view="no-js">
+      <div class="header--bottom-row--container">
+        <div class="header--x-menu" data-position="below">
+          {%
+            render 'x-menu',
+            overlap_parent: 2,
+            handle: 'noscript',
+            use_external_icon: true,
+            noscript: true
+          %}
+        </div>
+      </div>
+      <div class="header--bottom-row--edge-detector"></div>
+    </div>
+  </noscript>
+</header-root>
+
+<script type="module">
+  import "{{ 'header.js' | asset_url }}";
+</script>
+
+{% schema %}
+{
+  "name": "Header",
+  "class": "section--header",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Image",
+      "info": "1600 x 200px max"
+    },
+    {
+      "label": "Position",
+      "id": "logo-position",
+      "type": "select",
+      "options": [
+        { "label": "Above menu", "value": "above" },
+        { "label": "Left", "value": "left" },
+        { "label": "Center", "value": "center" }
+      ],
+      "default":   "left",
+      "info": "Position may change on smaller screens or when menu is overlapping"
+    },
+    {
+      "label": "Image height",
+      "id": "logo-height",
+      "type": "range",
+      "min": 15,
+      "max": 100,
+      "step": 5,
+      "default": 50,
+      "info": "This is referring to the natural height and should be half the height of the image you uploaded to ensure it stays sharp on retina screens."
+    },
+    {
+      "type": "header",
+      "content": "Sticky and mobile header"
+    },
+    {
+      "label": "Stick to top of screen when scrolling",
+      "id": "fix-enabled",
+      "type": "checkbox",
+      "default": true,
+      "info": "Disabled in theme editor when inspector enabled."
+    },
+    {
+      "label": "Image height",
+      "id": "fixed-logo-height",
+      "type": "range",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Menu"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "default": "main-menu"
+    },
+    {
+      "type": "header",
+      "content": "Links"
+    },
+    {
+      "type": "checkbox",
+      "id": "header-account-show",
+      "label": "Enable customer account links",
+      "default": true,
+      "info": "[You will also need to enable customer accounts in your store settings](https:\/\/docs.shopify.com\/manual\/your-store\/customers\/customer-accounts)"
+    },
+    {
+      "type": "select",
+      "id": "account-icon",
+      "label": "Account button",
+      "options": [
+        { "label": "Icon", "value": "icon" },
+        { "label": "Text", "value": "text" }
+      ],
+      "default": "text"
+    },
+    {
+      "type": "select",
+      "id": "search-icon",
+      "label": "Search button",
+      "options": [
+        { "label": "Icon", "value": "icon" },
+        { "label": "Text", "value": "text" }
+      ],
+      "default": "text"
+    },
+    {
+      "type": "select",
+      "id": "cart-icon",
+      "label": "Cart button",
+      "options": [
+        { "label": "Text", "value": "text" },
+        { "label": "Bag", "value": "bag" },
+        { "label": "Cart", "value": "cart" }
+      ],
+      "default": "text"
+    },
+    {
+      "type": "header",
+      "content": "Country/region Selector",
+      "info": "To add a country/region, go to your [payment settings](/admin/settings/payments)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show-region-selector",
+      "label": "Show country/region selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Language Selector",
+      "info": "To add a language, go to your [language settings](/admin/settings/languages)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show-locale-selector",
+      "label": "Show language selector",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

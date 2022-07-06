@@ -1,0 +1,28 @@
+{%- unless product.has_only_default_variant -%}
+  <script>
+    (function() {
+      const product_root = document.querySelector('[data-product-id="{{ id }}"]');
+      if (product_root)
+        product_root.on('variantUpdated', event => {
+          const variant = event.detail;
+          // add your callback code here...
+        });
+    })();
+  </script>
+{%- endunless -%}
+
+{%- if load_video -%}
+  <script type="module">
+    import "{{ 'product-video.js' | asset_url }}";
+  </script>
+{%- endif -%}
+
+{%- if load_model -%}
+  <script type="application/json" id="product-model--json">
+    {%- assign product_models = product.media | where: 'media_type', 'model' -%}
+    {{- product_models | json -}}
+  </script>
+  <script type="module">
+    import "{{ 'product-model.js' | asset_url }}";
+  </script>
+{%- endif -%}

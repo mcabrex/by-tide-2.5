@@ -1,0 +1,119 @@
+{%- liquid
+  comment
+    Here you can change the max number of results per resource.
+    Can go as high as 12 before you need to edit `predictive-search.js`.
+    By capping the JS at 12 we can perform faster searches.
+  endcomment
+
+  assign blog_limit = 8
+  assign collections_limit = 8
+  assign pages_limit = 8
+
+  comment
+    Translations
+  endcomment
+
+  assign blog_t = 'general.search.blog' | t
+  assign collections_t = 'general.search.collections' | t
+  assign pages_t = 'general.search.pages' | t
+  assign no_results_t = 'general.search.no_results' | t
+  assign refine_t = 'navigation.refine' | t
+  assign products_t = 'general.search.products' | t
+  assign view_all_t = 'general.search.view_all' | t
+
+  comment
+    Variables
+  endcomment
+
+  assign articles = predictive_search.resources.articles
+  assign collections = predictive_search.resources.collections
+  assign pages = predictive_search.resources.pages
+  assign products = predictive_search.resources.products
+
+  assign show_articles = settings.search--show-articles
+  if articles.size == 0
+    assign show_articles = false
+  endif
+
+  assign show_collections = settings.search--show-collections
+  if collections.size == 0
+    assign show_collections = false
+  endif
+
+  assign show_pages = settings.search--show-pages
+  if pages.size == 0
+    assign show_pages = false
+  endif
+
+  assign grid_columns = 3
+  unless show_articles or show_collections or show_pages
+    assign grid_columns = 4
+  endunless
+-%}
+
+<div class="predictive-search--left">
+  <div class="predictive-search--heading" data-item="block-heading">
+    <div class="predictive-search--title">
+      {{ products_t }} ({{ products.size }})
+    </div>
+
+    {% if products.size > 0 %}
+      <div class="predictive-search--filter" data-item="block-link">
+        <a
+          class="predictive-search--refine"
+          tabindex="0"
+          data-url="{{ routes.search_url }}?type=product&q={{ predictive_search.terms }}"
+        >
+          {{ refine_t }}
+        </a>
+      </div>
+
+      <div class="predictive-search--view-all" data-item="block-link">
+        <a href="{{ routes.search_url }}?type=product&q={{ predictive_search.terms }}">
+          {{ view_all_t }}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if products.size > 0 %}
+    <div
+      class="predictive-search--products"
+      data-container="panel"
+      data-columns="{{ grid_columns }}"
+      data-mobile-columns="2"
+    >
+      {%- liquid
+        for product in products
+          echo '<div class="predictive-search--product">'
+            render 'product--item', product: product, unique_handle: 'search-ajax', section_id: section.id
+          echo '</div>'
+        endfor
+      -%}
+    </div>
+
+  {% else %}
+    <div class="predictive-search--feedback" data-item="paragraph">
+      {{ no_results_t }}
+    </div>
+
+  {% endif %}
+</div>
+
+{%- liquid
+  if show_articles or show_collections or show_pages
+    echo '<div class="predictive-search--right">'
+      if show_articles
+        render 'predictive-search--item', type: 'article', results: articles, title: blog_t, limit: blog_limit
+      endif
+
+      if show_collections
+        render 'predictive-search--item', type: 'collection', results: collections, title: collections_t, limit: collections_limit
+      endif
+
+      if show_pages
+        render 'predictive-search--item', type: 'page', results: pages, title: pages_t, limit: pages_limit
+      endif
+    echo '</div>'
+  endif
+-%}

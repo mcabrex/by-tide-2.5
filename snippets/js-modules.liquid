@@ -1,0 +1,301 @@
+<script type="module">
+  import "{{ 'a11y.js' | asset_url }}";
+  import "{{ 'media-queries.js' | asset_url }}";
+  import "{{ 'radios.js' | asset_url }}";
+  import "{{ 'transition.js' | asset_url }}";
+
+  import "{{ 'general.js' | asset_url }}";
+  import "{{ 'off-canvas.js' | asset_url }}";
+  import "{{ 'cart.js' | asset_url }}";
+
+  {% if request.design_mode %}
+    import "{{ 'editor-events.js' | asset_url }}";
+  {% endif %}
+
+  import XMenu from "{{ 'x-menu.js' | asset_url }}";
+  customElements.define('x-menu-root', XMenu);
+
+  {% if settings.product--quick-add-enabled %}
+    import "{{ 'quick-add.js' | asset_url }}";
+  {% endif %}
+
+  {% if settings.product--quick-add-enabled or request.page_type == 'product' %}
+    import ProductMedia from "{{ 'product-featured-media.js' | asset_url }}";
+  {% endif %}
+
+  {% if request.page_type == 'product' %}
+    customElements.define(
+      'product-root',
+      class Product extends ProductMedia {
+        constructor() {
+          super();
+        }
+
+        connectedCallback() {
+          const media_classes = '.product-model--root, .product-video--root, .image--root';
+          this.carousel = this.querySelector('.carousel--root');
+          this.carousel_container = this.carousel.querySelector('.carousel--x-container');
+          this.carousel_media = this.carousel_container.querySelectorAll(media_classes);
+          this.enable_masonry = this.getAttribute('data-media-spacing') === 'close-together';
+          this.first_media_id = this.querySelector(
+            '.product-media--featured[data-active="true"]'
+          ).getAttribute('data-id');
+          this.grid = this.querySelector('.product-page--grid');
+          this.grid_media = this.grid.querySelectorAll(media_classes);
+          this.handle = this.getAttribute('data-handle');
+          this.header = document.querySelector('.header--root');
+          this.header_fixed = this.header.getAttribute('data-fixed-enabled') === 'true';
+          this.image_containers = this.grid.querySelectorAll(
+            '.product-media--wrapper[data-media-type="image"]'
+          );
+          this.left_column = this.querySelector('.product-page--left-column');
+          this.media_containers = this.grid.querySelectorAll('.product-media--wrapper');
+          this.right_column = this.querySelector('.product-page--right-column');
+          this.section_id = this.getAttribute('data-section-id');
+          this.variant_scroll_enabled = this.getAttribute('data-variant-scroll-enabled') === 'true';
+
+          super.connectedCallback();
+          this.load();
+        }
+
+        load() {
+          this.pauseOtherGridMedia();
+          this.onSlideListener();
+          this.goToSlideOnCarouselLoad();
+          theme.utils.updateRecentProducts(this.handle);
+
+          if (this.enable_masonry && this.main_media.length > 1) this.loadMasonryScript();
+
+          if (this.header_fixed) {
+            this.getFixedHeaderHeight();
+            this.resizeListener();
+            this.headerStateListener();
+          }
+
+          if (this.zoom_enabled) {
+            this.onLoadZoomListener();
+            this.scrollListener();
+          }
+        }
+
+        getFixedHeaderHeight() {
+          const header_fixed_clone = this.header.cloneNode(true);
+          header_fixed_clone.setAttribute('data-fixed', true);
+
+          this.fixed_header_height = theme.utils.getHiddenElHeight(header_fixed_clone, false);
+        }
+
+        resizeListener() {
+          window.on(
+            'resize.Product',
+            theme.utils.debounce(100, () => {
+              if (theme.mqs.current_window !== 'small') this.getFixedHeaderHeight();
+            })
+          );
+        }
+
+        headerStateListener() {
+          this.header.on('fixed', () => {
+            if (this.left_column.offsetHeight > this.right_column.offsetHeight) {
+              this.right_column.style.top = `${this.fixed_header_height}px`;
+            } else {
+              this.left_column.style.top = `${this.fixed_header_height}px`;
+            }
+
+            if (this.zoom_enabled) this.imageZoom();
+          });
+
+          this.header.on('unfixed', () => {
+            this.right_column.removeAttribute('style');
+            this.left_column.removeAttribute('style');
+
+            if (this.zoom_enabled) this.imageZoom();
+          });
+        }
+
+        pauseOtherGridMedia() {
+          this.grid_media.on('click', event => {
+            const clicked_media =
+              event.target.closest('.product-media--featured').querySelector(':scope > *');
+
+            this.grid_media.forEach(media => {
+              if (media !== clicked_media) media.trigger('pauseMedia');
+            });
+          });
+        }
+
+        onSlideListener() {
+          this.carousel_container.on('transition:at_end', event => {
+            const active_block_index = this.carousel.active_slide - 1;
+            const active_container = this.carousel_media[active_block_index];
+
+            this.carousel_media.forEach(media_container => {
+              if (media_container !== active_container) media_container.trigger('pauseMedia');
+            });
+          });
+        }
+
+        goToSlideOnCarouselLoad() {
+          this.carousel.on('loaded', () => this.goToSlide(this.first_media_id));
+        }
+
+        updateVariantMedia(variant_media_id) {
+          this.goToSlide(variant_media_id);
+
+          if (this.variant_scroll_enabled) this.scrollToFeaturedMedia(variant_media_id);
+        }
+
+        scrollToFeaturedMedia(variant_media_id) {
+          let active_media = null;
+
+          this.media_containers.forEach(media_container => {
+            const media_id = parseInt(media_container.getAttribute('data-id'));
+
+            if (media_id === variant_media_id) {
+              active_media = media_container;
+              active_media.setAttribute('data-active', true);
+            } else {
+              media_container.setAttribute('data-active', false);
+            }
+          });
+
+          if (active_media && this.left_column.offsetHeight > this.right_column.offsetHeight) {
+            const scroll_position = active_media.offset().top;
+
+            let header_offset = 0;
+            if (this.header_fixed) header_offset += this.fixed_header_height;
+
+            window.scrollTo({
+              top: (scroll_position - header_offset),
+              left: 0,
+              behavior: 'smooth'
+            });
+          }
+        }
+
+        goToSlide(variant_media_id) {
+          if (variant_media_id === 0) return;
+
+          const new_media = this.carousel.querySelector(
+            `.product-media--featured[data-id='${variant_media_id}']`
+          );
+          if (!new_media) return;
+
+          const new_slide = new_media.closest('.carousel--block').index() + 1;
+          this.carousel.updateThenGoToActiveSlide(new_slide);
+        }
+
+        loadMasonryScript() {
+          theme.utils.libraryLoader('masonry', theme.assets.masonry, () => {
+            if (theme.mqs.current_window !== 'small') this.initMasonry();
+            this.layoutListener();
+          });
+        }
+
+        initMasonry() {
+          this.grid.setAttribute('data-masonry-loaded', true);
+
+          this.masonry = new Masonry(this.grid, {
+            itemSelector: '.product-media--wrapper',
+            percentPosition: true,
+            horizontalOrder: true,
+            columnWidth: '.product-media--wrapper'
+          });
+        }
+
+        layoutListener() {
+          window.on('theme:mqs:updated', () => {
+            const masonry_loaded = this.grid.getAttribute('data-masonry-loaded') == 'true';
+
+            if (theme.mqs.current_window !== 'small' && masonry_loaded === false) {
+              this.initMasonry();
+            } else if (theme.mqs.current_window === 'small' && masonry_loaded) {
+              this.grid.setAttribute('data-masonry-loaded', false);
+              this.masonry.destroy();
+            }
+          });
+        }
+
+        scrollListener() {
+          window.on(
+            'scroll.Product',
+            () => {
+              // we only have to reset zoom geometry if image container gets `position: fixed`
+              const right_column_scrolls_first =
+                this.right_column.offsetHeight > this.left_column.offsetHeight;
+
+              if (theme.mqs.current_window !== 'small' && right_column_scrolls_first) {
+                if (this.pending_callback) window.cancelAnimationFrame(this.pending_callback);
+
+                this.pending_callback = window.requestAnimationFrame(() => this.getZoomGeometry());
+              }
+            },
+            true
+          );
+        }
+
+        onLoadZoomListener() {
+          window.on('load', () => {
+            this.imageZoom();
+            this.zoomEventListeners();
+          });
+        }
+
+        imageZoom() {
+          if (theme.mqs.current_window !== 'small') this.getZoomGeometry();
+        }
+
+        getZoomGeometry() {
+          this.x_ratios = [];
+          this.y_ratios = [];
+          this.top_positions = [];
+          this.left_positions = [];
+
+          this.image_containers.forEach((container, index) => {
+            const zoom_image = this.zoom_images[index];
+
+            const wrapper_width = container.offsetWidth;
+            const wrapper_height = container.offsetHeight;
+            const magnified_width = wrapper_width * this.magnify;
+            const magnified_height = wrapper_height * this.magnify;
+
+            this.x_ratios.push((magnified_width - wrapper_width) / wrapper_width);
+            this.y_ratios.push((magnified_height - wrapper_height) / wrapper_height);
+
+            const container_rect = container.offset();
+            this.top_positions.push(container_rect.top);
+            this.left_positions.push(container_rect.left);
+
+            zoom_image.style.width = `${magnified_width}px`;
+            zoom_image.querySelector('.image--root').style.width = `${magnified_width}px`;
+            zoom_image.querySelector('img').classList.add('lazypreload');
+          });
+        }
+
+        zoomEventListeners() {
+          this.image_containers.on('mouseenter.Product', event => {
+            const zoom_image = event.target.querySelector('.product-media--zoom-image');
+            zoom_image.style.display = 'block';
+          });
+
+          this.image_containers.on('mouseleave.Product', event => {
+            const zoom_image = event.target.querySelector('.product-media--zoom-image');
+            zoom_image.style.display = 'none';
+          });
+
+          this.image_containers.forEach((container, index) => {
+            const zoom_image = this.zoom_images[index];
+
+            container.on('mousemove', event => {
+              const relative_left = event.pageX - this.left_positions[index];
+              const relative_top = event.pageY - this.top_positions[index];
+
+              zoom_image.style.left = `${relative_left * -this.x_ratios[index]}px`;
+              zoom_image.style.top = `${relative_top * -this.y_ratios[index]}px`;
+            });
+          });
+        }
+      }
+    );
+  {% endif %}
+</script>

@@ -1,0 +1,52 @@
+{%- liquid
+  assign heading = block.settings.heading
+  assign page_content = block.settings.page-content
+  assign description = block.settings.description
+-%}
+
+{% if heading != blank %}
+  <collapsible-tab-root class="collapsible-tab--root" style="display:block;">
+    <div class="collapsible-tab--wrapper">
+      <div
+        class="collapsible-tab--toggle"
+        aria-expanded="false"
+        tabindex="0"
+      >
+        <label
+          class="collapsible-tab--heading"
+          data-item="accent-text"
+          for="collapsible-tab-content"
+        >
+          {{ heading }}
+        </label>
+
+        {% render 'icons', icon: 'chevron-up' %}
+        {% render 'icons', icon: 'chevron-down' %}
+      </div>
+
+      {% if page_content != blank or description != blank %}
+        <transition-root class="collapsible-tab--content-wrapper">
+          <div
+            id="collapsible-tab-content"
+            class="collapsible-tab--content"
+            data-item="rte-content"
+            data-transition="fade-out"
+          >
+            {% if page_content != blank %}
+              {{ pages[page_content].content }}
+
+            {% elsif description != blank %}
+              {{ description }}
+
+            {% endif %}
+          </div>
+        </transition-root>
+      {% endif %}
+
+    </div>
+  </collapsible-tab-root>
+{% endif %}
+
+<script type="module">
+  import "{{ 'collapsible-tab.js' | asset_url }}";
+</script>

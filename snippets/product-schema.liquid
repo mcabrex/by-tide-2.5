@@ -1,0 +1,34 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+
+<div class="product-schema--root" style="display:none;">
+  <span itemprop="name" content="{{ product.title }}"></span>
+  <span
+    itemprop="description"
+    content="{{ product.description | strip_html | truncate: 100 }}"
+  ></span>
+  <span
+    itemprop="image"
+    content="{{ product.media | first | img_url }}"
+  ></span>
+  <div
+    class="product-schema--offers"
+    itemprop="offers"
+    itemscope
+    itemtype="https://schema.org/Offer"
+  >
+    <span
+      itemprop="availability"
+      {% if product.available %}
+        content="https://schema.org/InStock"
+      {% else %}
+        content="https://schema.org/SoldOut"
+      {% endif %}
+    ></span>
+    <span itemprop="url" content="{{ product.url }}"></span>
+    <span itemprop="priceCurrency" content="{{ cart.currency.iso_code }}"></span>
+    <span
+      itemprop="price"
+      content="{{ current_variant.price | money_without_currency }}"
+    ></span>
+  </div>
+</div>

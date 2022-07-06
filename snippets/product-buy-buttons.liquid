@@ -1,0 +1,80 @@
+{%- liquid
+  assign add_to_cart_t = 'products.add_to_cart' | t
+  assign out_of_stock_t = 'products.out_of_stock' | t
+
+  assign current_variant = product.selected_or_first_available_variant
+%}
+
+<product-buy-buttons-root
+  class="product-buy-buttons--root"
+  data-id="{{ id }}"
+  style="display:block;"
+>
+  {% form 'product', product, class: 'product-buy-buttons--form', id: id %}
+    {{- form | payment_terms -}}
+
+    {% if request.page_type != "password" %}
+      <div class="product-buy-buttons--primary"
+        data-enabled="true"
+        {% if smart_payment_enabled and product.selling_plan_groups == empty %}
+          data-item='secondary-button'
+        {% else %}
+          data-item='button'
+        {% endif %}
+      >
+        <button
+          class="product-buy-buttons--cta"
+          {%- unless current_variant.available -%}
+            disabled
+          {%- endunless -%}
+        >
+          <span class="product-buy-buttons--cta-text">
+            {%- liquid
+              if current_variant.available
+                echo add_to_cart_t
+              else
+                echo out_of_stock_t
+              endif
+            -%}
+          </span>
+          <span class="product-buy-buttons--spinner">
+            {% render 'loading-spinner', size: '41px' %}
+          </span>
+        </button>
+      </div>
+
+      {% if smart_payment_enabled and product.available and product.selling_plan_groups == empty %}
+        <div
+          class="product-buy-buttons--smart"
+          {%- unless current_variant.available -%}
+            style="display:none;"
+          {%- endunless -%}
+        >
+          {{- form | payment_button -}}
+        </div>
+      {% endif %}
+    {% endif %}
+
+    <select class="product-buy-buttons--select" name="id" data-mq="none">
+      {%- for variant in product.variants -%}
+        <option
+          value="{{ variant.id }}"
+          data-sku="{{ variant.sku }}"
+          data-inventory-management="{{ variant.inventory_management }}"
+          data-inventory-policy="{{ variant.inventory_policy }}"
+          data-available="{{ variant.available }}"
+          data-inventory-quantity="{{ variant.inventory_quantity | default: 0 }}"
+          {% if variant == current_variant %}
+            selected
+          {% endif %}
+        >
+          {{- variant.title -}}
+        </option>
+      {%- endfor -%}
+    </select>
+  {% endform %}
+</product-buy-buttons-root>
+
+<script type="module">
+  import "{{ 'product-buy-buttons.js' | asset_url }}";
+</script>

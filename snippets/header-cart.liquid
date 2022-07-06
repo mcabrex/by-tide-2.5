@@ -1,0 +1,53 @@
+{%- liquid
+  assign cart_t = 'layout.header.cart' | t
+
+  capture cart_icon
+    if cart_icon == "bag"
+      render 'icons', icon: 'bag'
+    elsif cart_icon == "cart"
+      render 'icons', icon: 'cart'
+    elsif cart_icon == "text"
+      echo 'cart.title' | t
+    endif
+  endcapture
+-%}
+
+<div class="cart--external--icon" data-item-count="{{ cart.item_count }}">
+  <a
+    class="header--cart-toggle"
+    aria-label="{{ cart_t }}"
+    {% if settings.cart--type == 'drawer' %}
+      data-off-canvas--open="right-sidebar"
+      data-off-canvas--view="cart"
+      aria-haspopup="menu"
+      href="#"
+    {% else %}
+      href="{{ routes.cart_url }}"
+    {% endif %}
+  >
+    {{ cart_icon }}
+    <span class="cart--external--total-price">
+      {%- if cart.item_count > 0 -%}{{ cart.total_price | money }}{%- endif -%}
+    </span>
+    <span class="cart--external--total-items">
+      {%- if cart.item_count > 0 -%}{{ cart.item_count }}{%- endif -%}
+    </span>
+  </a>
+
+  <noscript>
+    <a
+      class="header--cart-toggle--noscript"
+      aria-label="{{ cart_t }}"
+      href="{{ routes.cart_url }}"
+    >
+      {{ cart_icon }}
+      <span class="cart--external--total-price">
+        {%- if cart.item_count > 0 -%}{{ cart.total_price | money }}{%- endif -%}
+      </span>
+      <span class="cart--external--total-items">
+        {%- if cart.item_count > 0 -%}{{ cart.item_count }}{%- endif -%}
+      </span>
+    </a>
+  </noscript>
+
+</div>

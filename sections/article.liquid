@@ -1,0 +1,152 @@
+{%- liquid
+  comment
+    Translations
+  endcomment
+
+  assign written_by_t = 'blog.article.written_by' | t
+
+  comment
+    Variables
+  endcomment
+
+  assign show_date = section.settings.show-date
+  assign show_author = section.settings.show-author
+  assign show_featured = section.settings.show-featured
+  assign title_position = section.settings.title-position
+-%}
+
+{% comment %} View {% endcomment %}
+<div
+  class="article--root"
+  data-section-id="{{ section.id }}"
+  data-title-position="{{ title_position }}"
+  data-show-author="{{ show_author }}"
+  data-show-date="{{ show_date }}"
+  data-show-featured="{{ show_featured }}"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <div class="article--wrapper">
+    <div class="article--heading">
+      <div class="article--header--info">
+        <h1 class="article--title" data-item="section-heading">
+          {{ article.title }}
+        </h1>
+
+        {% if show_date or show_author %}
+          <div class="article--info" data-position="grouped-with-title">
+
+            {% if show_date %}
+              <div class="article--timesince" data-item="light-accent-text">
+                {%
+                  render "utils",
+                  utility: "timesince",
+                  created_at: article.published_at
+                %}
+              </div>
+            {% endif %}
+
+            {% if show_date and show_author %}
+              <span class="article--dot" data-mq="medium-large">&CenterDot;</span>
+            {% endif %}
+
+            {% if show_author %}
+              <div class="article--author" data-item="caption">
+                {{ written_by_t }} {{ article.author }}
+              </div>
+            {% endif %}
+
+          </div>
+        {% endif %}
+      </div>
+
+      {% if show_featured and article.image %}
+        <div class="article--image">
+          {%
+            render "image",
+            image: article.image,
+            full_width: true,
+            max_height: 600
+          %}
+        </div>
+      {% endif %}
+
+      {% if show_date or show_author %}
+        <div class="article--info" data-position="by-self">
+
+          {% if show_date %}
+            <div class="article--timesince" data-item='light-accent-text'>
+              {%
+                render "utils",
+                utility: "timesince",
+                created_at: article.published_at
+              %}
+            </div>
+          {% endif %}
+
+          {% if show_date and show_author %}
+            <span class="article--dot" data-mq="medium-large">&CenterDot;</span>
+          {% endif %}
+
+          {% if show_author %}
+            <div class="article--author" data-item="caption">
+              {{ written_by_t }} {{ article.author }}
+            </div>
+          {% endif %}
+
+        </div>
+      {% endif %}
+    </div>
+
+    {% if article.content.size > 0 %}
+      <div class="article--content" data-item="rte-content">
+        {{ article.content }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Article",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Featured image"
+    },
+    {
+      "id": "show-featured",
+      "label": "Show",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "title-position",
+      "label": "Position title",
+      "type": "select",
+      "options": [
+        { "value": "above", "label": "Above" },
+        { "value": "left", "label": "Left" },
+        { "value": "below", "label": "Below" }
+      ],
+      "default": "below"
+    },
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "id": "show-date",
+      "label": "Show article date",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "id": "show-author",
+      "label": "Show author",
+      "type": "checkbox",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

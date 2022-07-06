@@ -1,0 +1,38 @@
+{%- liquid
+  assign view_all_t = 'general.search.view_all' | t
+
+  if type == 'article'
+    assign url = routes.search_url | append: '?type=article&q=' | append: predictive_search.terms
+  elsif type == 'collection'
+    assign url = routes.collections_url
+  endif
+
+  assign results_size = results.size
+  if results.size > limit
+    assign results_size = limit
+  endif
+-%}
+
+<div class="predictive-search--heading" data-item="block-heading">
+  <div class="predictive-search--title">
+    {{ title }} ({{ results_size }})
+  </div>
+
+  {% unless type == 'page' %}
+    <div class="predictive-search--view-all" data-item="block-link">
+      <a href="{{ url }}">
+        {{ view_all_t }}
+      </a>
+    </div>
+  {% endunless %}
+</div>
+
+<div class="predictive-search--container" data-item="paragraph">
+  {% for result in results limit: limit %}
+    <div class="predictive-search--item">
+      <a href="{{ result.url }}">
+        {{ result.title }}
+      </a>
+    </div>
+  {% endfor %}
+</div>

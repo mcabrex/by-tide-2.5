@@ -1,0 +1,16 @@
+{%- assign quantity_t = 'products.quantity' | t -%}
+
+<div class="product-quantity--root">
+  <label for="{{ id }}--quantity">
+    {{ quantity_t }}
+  </label>
+  <input
+    class="product-quantity--input"
+    id="{{ id }}--quantity"
+    type="number"
+    form="{{ id }}"
+    name="quantity"
+    min="1"
+    value="1"
+  />
+</div>

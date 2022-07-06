@@ -1,0 +1,61 @@
+{%- liquid
+  assign placeholder_t = 'general.search.placeholder' | t
+
+  assign show_articles = settings.search--show-articles
+  assign show_collections = settings.search--show-collections
+  assign show_pages = settings.search--show-pages
+-%}
+
+<modal-root
+  class="modal--root"
+  data-modal-fullscreen="true"
+  data-modal-view="search"
+>
+  {% comment %} Any {{ routes.search_url }} link will trigger this {% endcomment %}
+  <div class="modal--link" data-trigger="search-modal"></div>
+  <div class="modal--content">
+    <predictive-search-root
+      class="search--root"
+      data-show-articles="{{ show_articles }}"
+      data-show-collections="{{ show_collections }}"
+      data-show-pages="{{ show_pages }}"
+    >
+      <form action="{{ routes.search_url }}" method="get" role="search">
+        <div class="search--bar">
+          <div class="search--loading">
+            {% render 'loading-spinner', size: '35px' %}
+          </div>
+          <label for="search-input" data-item="hidden-text">
+            {{ placeholder_t }}
+          </label>
+          <input
+            id="search-input"
+            class="search--textbox"
+            type="search"
+            name="q"
+            value=""
+            placeholder="{{ placeholder_t }}"
+            data-item="lowercase-accent-text"
+            role="combobox"
+            aria-owns="predictive-search-results-list"
+            aria-controls="predictive-search-results-list"
+            aria-autocomplete="list"
+            autocorrect="off"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
+          >
+        </div>
+        <div class="search--results" id="predictive-search-results-list">
+          {%- comment -%}
+            `sections/predictive-search.liquid` renders here
+          {%- endcomment -%}
+        </div>
+      </form>
+    </predictive-search-root>
+  </div>
+</modal-root>
+
+<script type="module">
+  import "{{ 'predictive-search.js' | asset_url }}";
+</script>

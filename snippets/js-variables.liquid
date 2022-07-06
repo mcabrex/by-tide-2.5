@@ -1,0 +1,53 @@
+<script>
+  var theme = theme || {};
+  theme.assets = theme.assets || {};
+  theme.libraries = theme.libraries || {};
+  theme.local_storage = theme.local_storage || {};
+  theme.settings = theme.settings || {};
+  theme.styles = theme.styles || {};
+  theme.translations = theme.translations || {};
+  theme.urls = theme.urls || {};
+
+  theme.assets.masonry = '{{ "masonry.min.js" | asset_url }}';
+  theme.assets.swipe = '{{ "swipe-listener.min.js" | asset_url }}';
+  theme.assets.stylesheet = '{{ 'theme--async.css' | asset_url }}';
+
+  theme.local_storage.cart_items = 'beyond_cart_items';
+  theme.local_storage.collection_layout = 'beyond_collection_layout';
+  theme.local_storage.popup = 'beyond_popup'
+  theme.local_storage.recent_products = 'beyond_recently_viewed';
+  theme.local_storage.search_layout = 'beyond_search_layout';
+
+  theme.settings.cart_type = '{{ settings.cart--type }}';
+  theme.settings.hover_image_enabled = '{{ settings.product--hover-image-enabled }}' == 'true';
+  theme.settings.quick_add = '{{ settings.product--quick-add-enabled }}' == 'true';
+  theme.settings.money_format = {{ shop.money_format | json }};
+
+  theme.translations.mailing_list_success_message = '{{ "general.mailing_list.success_message" | t }}';
+  theme.translations.add_to_cart = '{{ "products.add_to_cart" | t }}';
+  theme.translations.out_of_stock = '{{ "products.out_of_stock" | t }}';
+  theme.translations.unavailable = '{{ "products.unavailable" | t }}'
+  theme.translations.low_in_stock = {
+    one: '{{ "products.low_in_stock" | t: count: 1 }}',
+    other: '{{ "products.low_in_stock" | t: count: 2 }}'
+  };
+
+  theme.urls.all_products_collection = '{{ routes.all_products_collection_url }}';
+  theme.urls.cart = '{{ routes.cart_url }}';
+  theme.urls.cart_add = '{{ routes.cart_add_url }}';
+  theme.urls.cart_change = '{{ routes.cart_change_url }}';
+  theme.urls.product_recommendations = '{{ routes.product_recommendations_url }}';
+  theme.urls.search = '{{ routes.search_url }}';
+
+  {% if routes.root_url == '/' %}
+    theme.urls.root = '';
+  {% else %}
+    theme.urls.root = '{{ routes.root_url }}';
+  {% endif %}
+
+  // LazySizes
+  window.lazySizesConfig = window.lazySizesConfig || {};
+  window.lazySizesConfig.expand = 1200;
+  window.lazySizesConfig.loadMode = 3;
+  window.lazySizesConfig.ricTimeout = 50;
+</script>
