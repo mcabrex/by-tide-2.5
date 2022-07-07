@@ -59,7 +59,7 @@
     "shipping_taxes_included": "Tax included and shipping calculated at checkout",
     "continue": "Continue Shopping",
     "checkout": "Checkout",
-    "empty_html": "<span data-item='rte-content'>Your cart is currently empty.<br/> <a href='{{ collections_url }}'>Click here to continue shopping</a>.</span>"
+    "empty_html": "<span data-item='rte-content'>Your cart is currently empty.<br\/> <a href='{{ collections_url }}'>Click here to continue shopping<\/a>.<\/span>"
   },
   "collections": {
     "collection": "browse collections",
@@ -112,7 +112,7 @@
       "city": "City",
       "country": "Country",
       "province": "Province",
-      "zip": "Postal/Zip Code",
+      "zip": "Postal\/Zip Code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -321,9 +321,9 @@
       "other_pickup_locations": "View pickup locations",
       "map": "map",
       "pick_up_available": "Pickup available",
-      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}</strong>",
+      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}<\/strong>",
       "pick_up_unavailable": "Pickup currently unavailable",
-      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}</strong>",
+      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}<\/strong>",
       "return": "Return to product",
       "view_store_info": "View store information"
     },
@@ -375,6 +375,11 @@
       "email_placeholder": "Your email",
       "success": "Thanks for subscribing",
       "button": "Subscribe"
+    }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }
