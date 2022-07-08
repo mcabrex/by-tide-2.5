@@ -6,6 +6,8 @@
       render 'icons', icon: 'bag'
     elsif cart_icon == "cart"
       render 'icons', icon: 'cart'
+    elsif cart_icon == "custom"
+      render 'icons', icon: 'custom-cart'
     elsif cart_icon == "text"
       echo 'cart.title' | t
     endif
