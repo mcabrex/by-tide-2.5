@@ -44,7 +44,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/9ED787CA-8F04-4CD1-934C-8DF94F7F533F.png",
           "logo-position": "center",
-          "logo-height": 85,
+          "logo-height": 55,
           "fix-enabled": true,
           "fixed-logo-height": 50,
           "menu": "main-menu",
