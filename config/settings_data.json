@@ -20,6 +20,13 @@
     "typography--paragraph--custom": "HVConstantineRegular",
     "typography--paragraph": "amiri_n4",
     "typography--paragraph--size": "medium",
+    "checkout_logo_image": "shopify:\/\/shop_images\/9ED787CA-8F04-4CD1-934C-8DF94F7F533F.png",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#6a95a6",
+    "checkout_sidebar_background_color": "#f6f2e2",
+    "checkout_accent_color": "#f6f2e2",
+    "checkout_button_color": "#f6f2e2",
+    "checkout_error_color": "#591111",
     "sections": {
       "announcement": {
         "type": "announcement",
