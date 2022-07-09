@@ -71,7 +71,7 @@ class Header extends HTMLElement {
         this.fixed_state = e, this.setAttribute("data-fixed", e)
         if(e){
             this.trigger("fixed")
-            this.style.backgroundColor = 'transparent'
+            this.root.style.backgroundColor = 'transparent'
         } else {
             
             this.trigger("unfixed")
