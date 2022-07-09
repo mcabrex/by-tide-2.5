@@ -55,7 +55,7 @@ class Header extends HTMLElement {
     }
     setHeaderFill() {
         if(window.location.pathname === '/'){
-        console.log('header emptied', this.current_page, this.current_page === '/')
+        console.log('header emptied', window.location.pathname)
             this.header_fill.style.height = 0 + "px"
         } else {
             this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
