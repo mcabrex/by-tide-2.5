@@ -51,7 +51,7 @@ class Header extends HTMLElement {
     }
     setHeaderFill() {
         //TRACK THE PIXEL THRESHOLD
-        // this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
+        this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
         // this.header_fill.style.height = 0 + "px", this.style.top = this.header_fill.offset().top + "px"
     }
     setThresholdValues() {
