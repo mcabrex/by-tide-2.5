@@ -372,7 +372,7 @@
       "open_in_maps": "Open in maps"
     },
     "newsletter": {
-      "email_placeholder": "Your email",
+      "email_placeholder": "EMAIL",
       "success": "Thanks for subscribing",
       "button": "Subscribe"
     }
