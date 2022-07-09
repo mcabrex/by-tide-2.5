@@ -68,15 +68,7 @@ class Header extends HTMLElement {
         }
     }
     fixHeader(e) {
-        this.fixed_state = e, this.setAttribute("data-fixed", e)
-        if(e){
-            this.trigger("fixed")
-            this.root.style.backgroundColor = 'transparent'
-        } else {
-            
-            this.trigger("unfixed")
-            // this.root.css('background-color', 'var(--bg-color--header)')
-        }
+        this.fixed_state = e, this.setAttribute("data-fixed", e), e ? this.trigger("fixed") : this.trigger("unfixed")
     }
 }
 customElements.define("header-root", Header);
