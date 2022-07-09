@@ -26,8 +26,8 @@ class Header extends HTMLElement {
         }], this.load()
     }
     load() {
-        this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed())), this.current_page = window.location.pathname
-        if(this.current_page === '/') this.style.backgroundColor = 'transparent'
+        this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed()))
+        if(window.location.pathname === '/') this.style.backgroundColor = 'transparent'
     }
     moveElement(e, t) {
         e && (e.innerHTML = ""), e && t && e.appendChild(t)
@@ -51,7 +51,7 @@ class Header extends HTMLElement {
         t.setAttribute("data-fixed", !1), this.fixed_height = theme.utils.getHiddenElHeight(e, !1), this.unfixed_height = theme.utils.getHiddenElHeight(t, !1)
     }
     setHeaderFill() {
-        if(this.current_page === '/'){
+        if(window.location.pathname === '/'){
         console.log('header emptied', this.current_page, this.current_page === '/')
             this.header_fill.style.height = 0 + "px"
         } else {
@@ -76,10 +76,10 @@ class Header extends HTMLElement {
         this.fixed_state = e, this.setAttribute("data-fixed", e)
         if(e){
             this.trigger("fixed")
-            if(this.current_page === '/') this.style.backgroundColor = 'var(--bg-color--header)'
+            if(window.location.pathname === '/') this.style.backgroundColor = 'var(--bg-color--header)'
         } else {
             this.trigger("unfixed")
-            if(this.current_page === '/') this.style.backgroundColor = 'transparent'
+            if(window.location.pathname === '/') this.style.backgroundColor = 'transparent'
         }
     }
 }
