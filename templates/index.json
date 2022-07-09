@@ -27,7 +27,6 @@
     },
     "featured-text": {
       "type": "featured-text",
-      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -58,7 +57,7 @@
         "image": "shopify:\/\/shop_images\/Untitled_design_3ac481cf-af76-47e1-893e-0cd1704af774.png",
         "overline": "BODY OIL FOR BLISS",
         "title": "Renaissance Body Oil",
-        "description": "<p>A delicate, dry body oil for the warmer seasons of life.  Featuring over 10 nourishing oils and botanical extracts with an elevated beach scent of Coconut, Neroli, and Hinoki.<\/p>",
+        "description": "",
         "link-url": "shopify:\/\/products\/renaissance-body-oil",
         "link-text": "SHOP NOW"
       }
