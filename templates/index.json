@@ -2,7 +2,6 @@
   "sections": {
     "165740204626929f41": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -17,7 +16,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/98221f249769dd029f5c557a20622621.jpg",
+        "image": "shopify:\/\/shop_images\/livecostabrazil-com-139-g-4-9-oz-resina-de-breu-29585089757273_3000x_5c614c02-03f6-4def-9f20-3ab543ee2c1c.webp",
         "overline": "",
         "title": "",
         "description": "",
@@ -38,12 +37,27 @@
         "text": ""
       }
     },
+    "1657407738a17eba48": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "the-tea-house",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1"
+      }
+    },
     "16401848243576879d": {
       "type": "image-with-text",
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "container-width": 4,
+        "container-width": 3,
         "spacing-above": true,
         "spacing-below": false,
         "image-height": 0,
@@ -77,6 +91,7 @@
   "order": [
     "165740204626929f41",
     "featured-text",
+    "1657407738a17eba48",
     "16401848243576879d",
     "newsletter"
   ]
