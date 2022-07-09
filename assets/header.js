@@ -72,6 +72,7 @@ class Header extends HTMLElement {
         if(e){
             this.trigger("fixed")
             console.log('header',this)
+            this.style.backgroundColor = 'var(--bg-color--header)'
         } else {
             this.trigger("unfixed")
             console.log('header',this)
