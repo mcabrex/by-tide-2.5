@@ -1,5 +1,29 @@
 {
   "sections": {
+    "165740204626929f41": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/98221f249769dd029f5c557a20622621.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "featured-text": {
       "type": "featured-text",
       "settings": {
@@ -50,6 +74,7 @@
     }
   },
   "order": [
+    "165740204626929f41",
     "featured-text",
     "16401848243576879d",
     "newsletter"
