@@ -64,9 +64,9 @@ class Header extends HTMLElement {
     }
     detectAndFixHeader() {
         if (!Shopify.inspectMode) {
-            console.log('pixel threshold e',e)
             let e;
             e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
+            console.log('pixel threshold e',e)
         }
     }
     fixHeader(e) {
