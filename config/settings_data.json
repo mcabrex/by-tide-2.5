@@ -23,12 +23,12 @@
     "social--instagram--url": "https:\/\/instagram.com\/by.tide",
     "social--pinterest--url": "https:\/\/www.pinterest.com\/by.tide",
     "social--tiktok--url": "https:\/\/tiktok.com\/@by.tide",
-    "checkout_logo_image": "shopify:\/\/shop_images\/9ED787CA-8F04-4CD1-934C-8DF94F7F533F.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Artboard_2_9a5b18c2-5f7f-46d1-a860-2139946cd275.png",
     "checkout_logo_size": "large",
-    "checkout_body_background_color": "#6a95a6",
+    "checkout_body_background_color": "#fefcf7",
     "checkout_sidebar_background_color": "#f6f2e2",
-    "checkout_accent_color": "#f6f2e2",
-    "checkout_button_color": "#f6f2e2",
+    "checkout_accent_color": "#8c703b",
+    "checkout_button_color": "#8c703b",
     "checkout_error_color": "#591111",
     "sections": {
       "announcement": {
