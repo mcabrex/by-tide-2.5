@@ -27,6 +27,7 @@ class Header extends HTMLElement {
     }
     load() {
         this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed())), this.current_page = window.location.pathname
+        console.log('currentPage', this.current_page, this.current_page === '/')
         if(this.current_page === '/') this.style.backgroundColor = 'transparent'
     }
     moveElement(e, t) {
