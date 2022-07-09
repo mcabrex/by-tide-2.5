@@ -55,6 +55,7 @@ class Header extends HTMLElement {
     }
     setHeaderFill() {
         if(window.location.pathname === '/'){
+        console.log('header emptied', this.current_page, this.current_page === '/')
             this.header_fill.style.height = 0 + "px"
         } else {
             this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
@@ -76,16 +77,15 @@ class Header extends HTMLElement {
     }
     fixHeader(e) {
         this.fixed_state = e, this.setAttribute("data-fixed", e)
-        const isHomePage = window.location.pathname === '/' ? true : false
         if(e){
             this.trigger("fixed")
-            if(isHomePage){
+            if(window.location.pathname === '/'){
                 this.style.backgroundColor = 'var(--bg-color--header)'
                 this.style.borderBottom = '1px solid var(--bdr-color--header)'
             } 
         } else {
             this.trigger("unfixed")
-            if(isHomePage){
+            if(window.location.pathname === '/'){
                 this.style.backgroundColor = 'transparent'
                 this.style.borderBottom = 'none'
             }
