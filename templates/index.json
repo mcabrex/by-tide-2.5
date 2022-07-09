@@ -2,6 +2,7 @@
   "sections": {
     "165740204626929f41": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -16,7 +17,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/hp_1440x720_crop_center_2x.progressive_36624e9b-f629-4341-916f-a3c84dbc2b3c.webp",
+        "image": "shopify:\/\/shop_images\/98221f249769dd029f5c557a20622621.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -26,6 +27,7 @@
     },
     "featured-text": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -43,7 +45,7 @@
         "text-color": "auto",
         "background-color": "none",
         "container-width": 4,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": false,
         "image-height": 0,
         "darken-image": false,
@@ -53,7 +55,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/plants-take-in-the-sunlight-in-an-open-field_copy.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design_3ac481cf-af76-47e1-893e-0cd1704af774.png",
         "overline": "BODY OIL FOR BLISS",
         "title": "Renaissance Body Oil",
         "description": "<p>A delicate, dry body oil for the warmer seasons of life.  Featuring over 10 nourishing oils and botanical extracts with an elevated beach scent of Coconut, Neroli, and Hinoki.<\/p>",
