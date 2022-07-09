@@ -44,12 +44,12 @@
         "background-color": "none",
         "light-text": false,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "featured-collection--image--show": false,
         "featured-collection--description--show": false,
-        "display-type": "slider",
+        "display-type": "grid",
         "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1"
+        "products-per-row--mobile": "2"
       }
     },
     "16401848243576879d": {
