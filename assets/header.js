@@ -27,7 +27,10 @@ class Header extends HTMLElement {
     }
     load() {
         this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed()))
-        if(window.location.pathname === '/') this.style.backgroundColor = 'transparent'
+        if(window.location.pathname === '/'){
+            this.style.backgroundColor = 'transparent'
+            this.style.borderBottom = 'none'
+        }
     }
     moveElement(e, t) {
         e && (e.innerHTML = ""), e && t && e.appendChild(t)
@@ -79,7 +82,10 @@ class Header extends HTMLElement {
             if(window.location.pathname === '/') this.style.backgroundColor = 'var(--bg-color--header)'
         } else {
             this.trigger("unfixed")
-            if(window.location.pathname === '/') this.style.backgroundColor = 'transparent'
+            if(window.location.pathname === '/'){
+                this.style.backgroundColor = 'transparent'
+                this.style.borderBottom = 'none'
+            }
         }
     }
 }
