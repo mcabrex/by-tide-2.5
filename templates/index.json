@@ -1,29 +1,5 @@
 {
   "sections": {
-    "16572433743b4ee018": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 3,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/IMG_5573.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "featured-text": {
       "type": "featured-text",
       "settings": {
@@ -45,7 +21,7 @@
         "container-width": 5,
         "spacing-above": true,
         "spacing-below": true,
-        "image-height": 0,
+        "image-height": 3,
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "left",
@@ -74,7 +50,6 @@
     }
   },
   "order": [
-    "16572433743b4ee018",
     "featured-text",
     "16401848243576879d",
     "newsletter"
