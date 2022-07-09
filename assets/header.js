@@ -26,7 +26,7 @@ class Header extends HTMLElement {
         }], this.load()
     }
     load() {
-        this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed()))
+        this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed())), this.style.backgroundColor = 'transparent'
     }
     moveElement(e, t) {
         e && (e.innerHTML = ""), e && t && e.appendChild(t)
