@@ -79,7 +79,10 @@ class Header extends HTMLElement {
         this.fixed_state = e, this.setAttribute("data-fixed", e)
         if(e){
             this.trigger("fixed")
-            if(window.location.pathname === '/') this.style.backgroundColor = 'var(--bg-color--header)'
+            if(window.location.pathname === '/'){
+                this.style.backgroundColor = 'var(--bg-color--header)'
+                this.style.borderBottom = '1px solid var(--bdr-color--header)'
+            } 
         } else {
             this.trigger("unfixed")
             if(window.location.pathname === '/'){
