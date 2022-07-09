@@ -16,7 +16,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/50FBABF6-9C58-48A7-A55C-0A808AB67A73.jpg",
+        "image": "shopify:\/\/shop_images\/298F0239-78B0-4297-84C0-1ECB8105ACA2_3.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -48,7 +48,7 @@
         "featured-collection--image--show": false,
         "featured-collection--description--show": false,
         "display-type": "grid",
-        "products-per-row--desktop": "3",
+        "products-per-row--desktop": "4",
         "products-per-row--mobile": "2"
       }
     },
