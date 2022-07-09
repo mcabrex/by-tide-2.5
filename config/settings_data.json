@@ -65,10 +65,19 @@
               "menu-title": "",
               "menu": "support-footer"
             }
+          },
+          "2d779f27-1124-4559-934c-c089176f2ff2": {
+            "type": "about",
+            "settings": {
+              "about-title": "",
+              "text": "<p>Copyright [current_year] © BY TIDE <\/p>",
+              "subscribe--show-social-icons": true
+            }
           }
         },
         "block_order": [
-          "71875b6d-1dad-4541-9984-699f9700b197"
+          "71875b6d-1dad-4541-9984-699f9700b197",
+          "2d779f27-1124-4559-934c-c089176f2ff2"
         ],
         "settings": {
           "show-region-selector": false,
