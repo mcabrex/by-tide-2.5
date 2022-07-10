@@ -43,6 +43,7 @@ class Header extends HTMLElement {
         }))
     }
     initFixed() {
+        //these functions are called from left to right
         this.getHeaderHeights(), this.setHeaderFill(), this.setThresholdValues(), this.createObserver()
     }
     getHeaderHeights() {
@@ -52,7 +53,11 @@ class Header extends HTMLElement {
     }
     setHeaderFill() {
         //TRACK THE PIXEL THRESHOLD
-        this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
+        if(this.isHomePage){
+            this.header_fill.style.height = 0
+        } else {
+            this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
+        }
         // this.header_fill.style.height = 0 + "px", this.style.top = this.header_fill.offset().top + "px"
     }
     setThresholdValues() {
@@ -66,14 +71,20 @@ class Header extends HTMLElement {
     detectAndFixHeader() {
         if (!Shopify.inspectMode) {
             let e;
-            e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
+            e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold 
+            
+            if(this.isHomePage){
+                window.pageYOffset >= e - this.unfixed_height && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
+            } else {
+                window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
+            }
             console.log('pixel threshold e',{
                 e,
                 pixelThresh: this.pixel_threshold,
                 anouncedOffset: this.announcement.offsetHeight,
                 pageyoffy: window.pageYOffset,
                 fixed: this.fixed_state,
-                webber: this.webPage
+                webber: this.isHomePage
             })
         }
     }
