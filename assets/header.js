@@ -65,11 +65,7 @@ class Header extends HTMLElement {
         // this.header_fill.style.height = 0 + "px", this.style.top = this.header_fill.offset().top + "px"
     }
     setThresholdValues() {
-        if(this.isHomePage){
-            this.pixel_threshold = 0, this.observer_threshold = +(1 - this.pixel_threshold / this.unfixed_height).toFixed(4), 1 < this.observer_threshold && (this.observer_threshold = 1)
-        } else {
             this.pixel_threshold = this.unfixed_height - this.fixed_height, this.observer_threshold = +(1 - this.pixel_threshold / this.unfixed_height).toFixed(4), 1 < this.observer_threshold && (this.observer_threshold = 1)
-        }
     }
     createObserver() {
         this.observer && this.observer.unobserve(this.header_fill), this.observer = new IntersectionObserver(() => this.detectAndFixHeader(), {
@@ -93,6 +89,7 @@ class Header extends HTMLElement {
             } 
         } else {
             console.log('unfixed')
+            //NEVER REACHING UNFIXED CAUSE PAGEYOFFSET WILL NEVER BE < E AS WE HAVE SET IT TO 0
             this.trigger("unfixed")
             if(this.isHomePage){
                 this.style.backgroundColor = 'transparent'
