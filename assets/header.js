@@ -66,6 +66,7 @@ class Header extends HTMLElement {
     }
     setThresholdValues() {
             this.pixel_threshold = this.unfixed_height - this.fixed_height, this.observer_threshold = +(1 - this.pixel_threshold / this.unfixed_height).toFixed(4), 1 < this.observer_threshold && (this.observer_threshold = 1)
+            console.log('observe',this.observer_threshold)
     }
     createObserver() {
         this.observer && this.observer.unobserve(this.header_fill), this.observer = new IntersectionObserver(() => this.detectAndFixHeader(), {
