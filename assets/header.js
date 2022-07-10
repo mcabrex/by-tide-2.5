@@ -1,7 +1,7 @@
 class Header extends HTMLElement {
     constructor() {
         super()
-        this.webPage = window.location.pathname
+        this.isHomePage = window.location.pathname === '/' ? true : false
     }
     connectedCallback() {
         this.announcement = document.querySelector(".announcement--root"), this.container = this.querySelector(".header--container"), this.current_width = window.innerWidth, this.fixed_enabled = "true" === this.getAttribute("data-fixed-enabled"), this.fixed_state = !1;
@@ -81,13 +81,13 @@ class Header extends HTMLElement {
         this.fixed_state = e, this.setAttribute("data-fixed", e) 
         if(e){
             this.trigger("fixed")
-            if(window.location.pathname === '/'){
+            if(this.isHomePage){
                 this.style.backgroundColor = 'var(--bg-color--header)'
                 this.style.borderBottom = '1px solid var(--bdr-color--header)'
             } 
         } else {
             this.trigger("unfixed")
-            if(window.location.pathname === '/'){
+            if(this.isHomePage){
                 this.style.backgroundColor = 'transparent'
                 this.style.borderBottom = 'none'
             }
