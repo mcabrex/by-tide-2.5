@@ -1,6 +1,7 @@
 class Header extends HTMLElement {
     constructor() {
         super()
+        this.webPage = window.location.pathname
     }
     connectedCallback() {
         this.announcement = document.querySelector(".announcement--root"), this.container = this.querySelector(".header--container"), this.current_width = window.innerWidth, this.fixed_enabled = "true" === this.getAttribute("data-fixed-enabled"), this.fixed_state = !1;
@@ -71,7 +72,8 @@ class Header extends HTMLElement {
                 pixelThresh: this.pixel_threshold,
                 anouncedOffset: this.announcement.offsetHeight,
                 pageyoffy: window.pageYOffset,
-                fixed: this.fixed_state
+                fixed: this.fixed_state,
+                webber: this.webPage
             })
         }
     }
