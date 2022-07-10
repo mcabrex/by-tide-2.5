@@ -29,7 +29,6 @@ class Header extends HTMLElement {
     load() {
         this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed()));
         if(this.isHomePage){
-            console.log('loadcheck')
             this.style.backgroundColor = 'transparent'
             this.style.borderBottom = 'none'
         }
@@ -86,12 +85,14 @@ class Header extends HTMLElement {
     fixHeader(e) {
         this.fixed_state = e, this.setAttribute("data-fixed", e) 
         if(e){
+            console.log('fixed')
             this.trigger("fixed")
             if(this.isHomePage){
                 this.style.backgroundColor = 'var(--bg-color--header)'
                 this.style.borderBottom = '1px solid var(--bdr-color--header)'
             } 
         } else {
+            console.log('unfixed')
             this.trigger("unfixed")
             if(this.isHomePage){
                 this.style.backgroundColor = 'transparent'
