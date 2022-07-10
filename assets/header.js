@@ -58,7 +58,7 @@ class Header extends HTMLElement {
     setHeaderFill() {
         //TRACK THE PIXEL THRESHOLD
         if(this.isHomePage){
-            this.header_fill.style.height = 0 + "px"
+            this.header_fill.style.height = 0 + "px",this.style.top = this.unfixed_height + "px"
         } else {
             this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
         }
