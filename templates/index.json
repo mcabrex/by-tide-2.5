@@ -1,5 +1,29 @@
 {
   "sections": {
+    "1657430849f583b6c4": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "1657407738a17eba48": {
       "type": "featured-collection",
       "disabled": true,
@@ -67,6 +91,7 @@
     }
   },
   "order": [
+    "1657430849f583b6c4",
     "1657407738a17eba48",
     "featured-text",
     "16401848243576879d",
