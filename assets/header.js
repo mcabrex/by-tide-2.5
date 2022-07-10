@@ -74,7 +74,7 @@ class Header extends HTMLElement {
             e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold 
             
             if(this.isHomePage){
-                window.pageYOffset >= e - this.unfixed_height && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
+                window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
             } else {
                 window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
             }
