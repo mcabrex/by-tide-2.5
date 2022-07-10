@@ -29,6 +29,7 @@ class Header extends HTMLElement {
     load() {
         this.element_pairs.forEach(e => this.moveElement(e.parent, e.child)), Shopify.designMode && (this.sectionListeners(), this.inspectListeners()), this.fixed_enabled && (this.header_fill = this.previousElementSibling, this.initFixed(), window.on("theme:XMenu:loaded", () => this.initFixed()));
         if(this.isHomePage){
+            console.log('loadcheck')
             this.style.backgroundColor = 'transparent'
             this.style.borderBottom = 'none'
         }
@@ -80,13 +81,6 @@ class Header extends HTMLElement {
         if (!Shopify.inspectMode) {
             let e;
             e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold,             window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
-            console.log('pixel threshold e',{
-                e,
-                pixelThresh: this.pixel_threshold,
-                pageyoffy: window.pageYOffset,
-                fixed: this.fixed_state,
-                webber: this.isHomePage
-            })
         }
     }
     fixHeader(e) {
