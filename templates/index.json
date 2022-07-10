@@ -16,7 +16,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/377E97DC-66E7-4C81-B691-96A21B445E51.jpg",
+        "image": "shopify:\/\/shop_images\/tall-grass-near-sandy-beach.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -30,34 +30,18 @@
         "background-color": "none",
         "light-text": false,
         "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
+        "spacing-above": false,
+        "spacing-below": false,
         "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
         "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
         "text": ""
       }
     },
-    "1657407738a17eba48": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "the-tea-house",
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "display-type": "grid",
-        "products-per-row--desktop": "4",
-        "products-per-row--mobile": "2"
-      }
-    },
     "16401848243576879d": {
       "type": "image-with-text",
       "settings": {
-        "text-color": "light",
-        "background-color": "accent",
+        "text-color": "dark",
+        "background-color": "none",
         "container-width": 3,
         "spacing-above": false,
         "spacing-below": true,
@@ -77,6 +61,22 @@
         "link-text": "SHOP NOW"
       }
     },
+    "1657407738a17eba48": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "the-tea-house",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2"
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -92,8 +92,8 @@
   "order": [
     "1657434481294ffeb4",
     "featured-text",
-    "1657407738a17eba48",
     "16401848243576879d",
+    "1657407738a17eba48",
     "newsletter"
   ]
 }
