@@ -70,15 +70,18 @@
     .header--root[data-fixed="true"] .header--logo img {
       {{ fixed_logo_dimensions }}
     }
-    .header--root a {
-      font-size: 11px !important;
-    }
   </style>
 {% endif %}
 
 {% if fix_enabled %}
   <div class="header--fill-for-fixing"></div>
 {% endif %}
+
+<style>
+  .header--root a {
+    font-size: 11px !important;
+  }
+</style>
 
 <header-root
   class="header--root"
