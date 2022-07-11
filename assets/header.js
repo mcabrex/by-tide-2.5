@@ -32,6 +32,7 @@ class Header extends HTMLElement {
             this.style.backgroundColor = 'transparent'
             this.style.borderBottom = 'none'
         }
+        console.log('is it home?', this.isHomePage,window.location.pathname)
     }
     moveElement(e, t) {
         e && (e.innerHTML = ""), e && t && e.appendChild(t)
