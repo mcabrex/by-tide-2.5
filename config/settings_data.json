@@ -1,5 +1,17 @@
 {
   "current": {
+    "color--accent": "#8c873a",
+    "bg-color--light": "#6a95a6",
+    "bg-color--dark": "#591111",
+    "bg-color--body": "#fefcf7",
+    "color--body": "#591111",
+    "color--alternative": "#fefcf7",
+    "color--button": "#fefcf7",
+    "bg-color--button": "#8c703b",
+    "bg-color--header": "#fefcf7",
+    "color--header": "#591111",
+    "bg-color--footer": "#fefcf7",
+    "color--footer": "#591111",
     "typography--heading": "arimo_n4",
     "typography--heading--custom": "HVConstantineRegular",
     "typography--accent": "arimo_n4",
