@@ -62,25 +62,17 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "71875b6d-1dad-4541-9984-699f9700b197": {
-            "type": "menu",
+          "a9781003-45dd-4bf7-955f-8fe563334f2a": {
+            "type": "custom",
             "settings": {
-              "menu-title": "",
-              "menu": "support-footer"
-            }
-          },
-          "2d779f27-1124-4559-934c-c089176f2ff2": {
-            "type": "about",
-            "settings": {
-              "about-title": "",
-              "text": "<p>COPYRIGHT [current_year] © BY TIDE <\/p>",
-              "subscribe--show-social-icons": true
+              "links": "footer",
+              "custom_html": "<p style=\"font-size:12px;\">Copyright [current_year] © BY TIDE<\/p>",
+              "custom--show-social-icons": true
             }
           }
         },
         "block_order": [
-          "71875b6d-1dad-4541-9984-699f9700b197",
-          "2d779f27-1124-4559-934c-c089176f2ff2"
+          "a9781003-45dd-4bf7-955f-8fe563334f2a"
         ],
         "settings": {
           "show-region-selector": false,
