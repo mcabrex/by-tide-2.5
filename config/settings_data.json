@@ -15,7 +15,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo-position": "left",
+          "logo-position": "center",
           "logo-height": 50,
           "fix-enabled": true,
           "fixed-logo-height": 20,
