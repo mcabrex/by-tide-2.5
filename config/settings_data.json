@@ -73,7 +73,7 @@
             "type": "about",
             "settings": {
               "about-title": "",
-              "text": "<p>Copyright [current_year] © BY TIDE <\/p>",
+              "text": "<p>COPYRIGHT [current_year] © BY TIDE <\/p>",
               "subscribe--show-social-icons": true
             }
           }
