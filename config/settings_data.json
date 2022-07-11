@@ -1,5 +1,6 @@
 {
   "current": {
+    "typography--heading": "arimo_n4",
     "typography--heading--custom": "HVConstantineRegular",
     "typography--accent": "arimo_n4",
     "typography--paragraph--custom": "HVConstantineRegular",
