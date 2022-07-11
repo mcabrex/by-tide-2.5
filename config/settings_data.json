@@ -23,13 +23,26 @@
           "header-account-show": true,
           "account-icon": "text",
           "search-icon": "text",
-          "cart-icon": "text",
-          "show-region-selector": true,
-          "show-locale-selector": true
+          "cart-icon": "custom",
+          "show-region-selector": false,
+          "show-locale-selector": false
         }
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "285996a7-0eab-4fec-9a59-d2b9f51f7181": {
+            "type": "about",
+            "settings": {
+              "about-title": "About the store",
+              "text": "<p>[current_year] © Your brand name here.<br\/><br\/>A brief store summary, tagline, or vision statement.<\/p><p><\/p>",
+              "subscribe--show-social-icons": true
+            }
+          }
+        },
+        "block_order": [
+          "285996a7-0eab-4fec-9a59-d2b9f51f7181"
+        ],
         "settings": {
           "show-region-selector": false,
           "show-locale-selector": false,
