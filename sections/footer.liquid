@@ -30,43 +30,6 @@
   endif
 -%}
 
-{% style %}
-  @media screen and (max-width: 1023px) {
-    .footer--blocks {
-      margin: 0 auto;
-      flex-direction: column;
-      text-align: center;
-    }
-    .footer--blocks > :not(:last-child) {
-      padding-bottom: 0 !important;
-    }
-    .footer--custom--links {
-      display:block !important;
-      margin-bottom: 10px;
-    }
-    .footer--social-icons {
-      margin: 0 auto;
-      padding: 0;
-    }
-  }
-
-  .footer--root {
-    padding: 10px 25px;
-  }
-  .footer--blocks {
-    font-size: 15px;
-    padding: 0 !important;
-  }
-  .footer--custom--menu {
-
-  }
-  .footer--custom--links {
-    display:inline-block;
-    margin-right:10px;
-  }
-{% endstyle %}
-
-
 <style>
   .footer--root a, .footer--root p {
     font-size: 12px !important;
@@ -239,45 +202,6 @@
               </div>
             </div>
           </div>
-
-          {% when 'custom' %}
-          {%- liquid
-            assign custom_show_social = false
-
-            if settings.social--facebook--url.size > 0 or settings.social--twitter--url.size > 0  or settings.social--tiktok--url.size > 0  or settings.social--instagram--url.size > 0 or settings.social--pinterest--url.size > 0 or settings.social--vimeo--url.size > 0 or settings.social--youtube--url.size > 0
-              assign custom_show_social = true
-            endif
-
-            if block.settings.custom--show-social-icons == false
-              assign custom_show_social = false
-            endif
-          -%}
-
-          {% if linklists[block.settings.links].links.size > 0 %}
-            {% assign footer_nav = block.settings.links %}
-              <ul
-                aria-label="{{ navigation_t }}"
-                data-block-type="custom"
-              >
-                {% for link in linklists[footer_nav].links %}
-                  <li class="footer--custom--links" style="">
-                    <a href="{{ link.url }}" title="{{ link.title }}">
-                      {{ link.title }}
-                    </a>
-                  </li>
-                {% endfor %}
-                {% if custom_show_social %}
-                  <div class="footer--social-icons">
-                    {% render 'social-follow' %}
-                  </div>
-                {% endif %}
-              </ul>
-          {% endif %}
-
-          {% if block.settings.custom_html != blank %}
-              {% assign current_year = 'now' | date: '%Y' %}
-              {{ block.settings.custom_html | replace: '[current_year]', current_year }}
-          {% endif %}
       {% endcase %}
     {% endfor %}
 
@@ -425,32 +349,6 @@
           "type": "checkbox",
           "id": "subscribe--show-newsletter",
           "label": "Show newsletter",
-          "default": true
-        }
-      ]
-    },
-    {
-      "type": "custom",
-      "name": "Custom Menu",
-      "settings": [
-        {
-          "type": "link_list",
-          "id": "links",
-          "label": "Links",
-          "default": "footer",
-          "info": "This menu won't show submenu items."
-        },
-        {
-          "id": "custom_html",
-          "label": "Copyright",
-          "type": "html",
-          "default": "<p style=\"font-size:12px;\">Copyright [current_year] © BY TIDE</p>",
-          "info": "Inserting the text '[current_year]' will automatically insert the current year."
-        },
-        {
-          "type": "checkbox",
-          "id": "custom--show-social-icons",
-          "label": "Show social icons",
           "default": true
         }
       ]
