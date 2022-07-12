@@ -47,6 +47,19 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "1c84f359-5f92-41e5-961e-5f0a49120e31": {
+            "type": "custom",
+            "settings": {
+              "links": "footer",
+              "custom_html": "<p style=\"font-size:12px;\">Copyright [current_year] © BY TIDE<\/p>",
+              "custom--show-social-icons": true
+            }
+          }
+        },
+        "block_order": [
+          "1c84f359-5f92-41e5-961e-5f0a49120e31"
+        ],
         "settings": {
           "show-region-selector": false,
           "show-locale-selector": false,
