@@ -1,13 +1,26 @@
 {
   "sections": {
+    "featured-text": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
+        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
+        "text": "<p><a href=\"\/pages\/about\" title=\"Our Story\"><span style=\"text-decoration:underline\">Learn More<\/span><\/a><\/p>"
+      }
+    },
     "16401848243576879d": {
       "type": "image-with-text",
       "settings": {
         "text-color": "dark",
         "background-color": "none",
         "container-width": 3,
-        "spacing-above": true,
-        "spacing-below": true,
+        "spacing-above": false,
+        "spacing-below": false,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
@@ -22,20 +35,6 @@
         "description": "",
         "link-url": "shopify:\/\/products\/renaissance-body-oil",
         "link-text": "SHOP NOW"
-      }
-    },
-    "featured-text": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
-        "text": "<p><a href=\"\/pages\/about\" title=\"Our Story\"><span style=\"text-decoration:underline\">Learn More<\/span><\/a><\/p>"
       }
     },
     "1657407738a17eba48": {
@@ -116,8 +115,8 @@
     }
   },
   "order": [
-    "16401848243576879d",
     "featured-text",
+    "16401848243576879d",
     "1657407738a17eba48",
     "1657434481294ffeb4",
     "newsletter",
