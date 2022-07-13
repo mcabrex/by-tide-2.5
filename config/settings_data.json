@@ -16,6 +16,9 @@
     "typography--heading--custom": "HVConstantineRegular",
     "typography--accent": "arimo_n4",
     "typography--paragraph--custom": "HVConstantineRegular",
+    "social--instagram--url": "https:\/\/instagram.com\/by.tide",
+    "social--pinterest--url": "https:\/\/www.pinterest.com\/by.tide",
+    "social--tiktok--url": "https:\/\/tiktok.com\/by.tide",
     "sections": {
       "announcement": {
         "type": "announcement",
