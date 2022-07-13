@@ -33,7 +33,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/Artboard_2_285cd6c7-721d-4547-bea3-ea6aa4ff4008.png",
           "logo-position": "center",
-          "logo-height": 50,
+          "logo-height": 25,
           "fix-enabled": true,
           "fixed-logo-height": 20,
           "menu": "main-menu",
