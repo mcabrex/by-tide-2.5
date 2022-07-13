@@ -55,7 +55,7 @@
             "type": "custom",
             "settings": {
               "links": "footer",
-              "custom_html": "<p style=\"font-size:12px;\">Copyright [current_year] © BY TIDE<\/p>",
+              "custom_html": "<p style=\"font-size:12px;\">COPYRIGHT [current_year] © BY TIDE<\/p>",
               "custom--show-social-icons": true
             }
           }
