@@ -1,16 +1,28 @@
 {
   "sections": {
-    "featured-text": {
-      "type": "featured-text",
+    "1657434481294ffeb4": {
+      "type": "image-with-text",
+      "disabled": true,
       "settings": {
+        "text-color": "dark",
         "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
+        "container-width": 6,
+        "spacing-above": false,
         "spacing-below": false,
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
-        "text": "<p><a href=\"\/pages\/about\" title=\"Our Story\"><span style=\"text-decoration:underline\">Learn More<\/span><\/a><\/p>"
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/3ED6C916-8DEA-4A32-B378-469D4B5F8B4B.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
       }
     },
     "16401848243576879d": {
@@ -29,12 +41,26 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/F17E33FB-92C6-4706-81E7-D51926C739CF.png",
+        "image": "shopify:\/\/shop_images\/EA97E96E-66D6-48AB-9754-A53E6D571F89.jpg",
         "overline": "BODY OIL FOR BLISS",
         "title": "Renaissance Body Oil",
         "description": "",
         "link-url": "shopify:\/\/products\/renaissance-body-oil",
         "link-text": "SHOP NOW"
+      }
+    },
+    "featured-text": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
+        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
+        "text": "<p><a href=\"\/pages\/about\" title=\"Our Story\"><span style=\"text-decoration:underline\">Learn More<\/span><\/a><\/p>"
       }
     },
     "1657407738a17eba48": {
@@ -51,31 +77,6 @@
         "display-type": "grid",
         "products-per-row--desktop": "4",
         "products-per-row--mobile": "2"
-      }
-    },
-    "1657434481294ffeb4": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "dark",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/season_a71ab049-955b-4833-80fd-e33a9b2ab6c0.png",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
       }
     },
     "newsletter": {
@@ -115,10 +116,10 @@
     }
   },
   "order": [
-    "featured-text",
-    "16401848243576879d",
-    "1657407738a17eba48",
     "1657434481294ffeb4",
+    "16401848243576879d",
+    "featured-text",
+    "1657407738a17eba48",
     "newsletter",
     "1657435304db58f064"
   ]
