@@ -1,0 +1,48 @@
+{%- liquid
+    assign link = section.settings.link
+    assign text = section.settings.button-text
+  -%}
+  
+  <div
+    class="custom-content--button"
+    data-item="rte-content"
+    data-section-id="{{ section.id }}"
+    style="display:flex;padding:35px;"
+  >
+    <a 
+      href="{{ link }}" 
+      style="
+        background-color: #362C1C; 
+        padding: 10px 30px; 
+        color: #fefcf7; 
+        margin: 0 auto; 
+        text-decoration:none; 
+        font-family: 'Arimo';
+        font-size: 12px;
+      "
+      >{{ text }}</a>
+  </div>
+  
+  {% schema %}
+    {
+      "name": "Custom Button",
+      "settings": [
+          {
+              "type": "text",
+              "id": "button-text",
+              "label": "Button Text",
+              "default": "Your button text here"
+          },
+          {
+              "type": "url",
+              "id": "link",
+              "label": "Link"
+          }
+      ],
+      "presets": [
+        {
+          "name": "Custom Button"
+        }
+      ]
+    }
+  {% endschema %}
