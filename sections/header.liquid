@@ -92,6 +92,7 @@
   data-logo-position="{{ logo_position }}"
   data-fixed="false"
   data-fixed-enabled="{{ fix_enabled }}"
+  style="padding: 10px 48px;"
 >
   {% if locale_enabled or region_enabled %}
     <div class="header--localization-for-off-canvas" style="display:none;">
@@ -158,6 +159,7 @@
           <a
             href="{{ routes.search_url }}"
             aria-label="{{ search_t }}"
+            style="font-size: 12px !important;"
           >
             {{ search_html }}
           </a>
@@ -167,6 +169,7 @@
             href="{{ routes.search_url }}"
             aria-label="{{ search_t }}"
             data-mq="small"
+            style="font-size: 12px !important;"
           >
             {{ search_html }}
           </a>

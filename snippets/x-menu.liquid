@@ -60,6 +60,7 @@
             aria-haspopup="true"
             aria-expanded="false"
             aria-controls="x-menu--sub-{{ link.handle }}"
+            style="font-size: 12px !important;"
           >
             <span>
               {{ link.title }}
@@ -68,7 +69,7 @@
             {% render 'icons', icon: 'chevron-up' %}
           </a>
         {% else %}
-          <a href="{{ link.url }}"><span>{{ link.title }}</span></a>
+          <a href="{{ link.url }}" style="font-size: 12px !important;"><span>{{ link.title }}</span></a>
         {% endif %}
 
           {% comment %} Level 2 {% endcomment %}
