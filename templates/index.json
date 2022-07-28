@@ -1,80 +1,5 @@
 {
   "sections": {
-    "1658989737686c68c3": {
-      "type": "slideshow",
-      "blocks": {
-        "165898973655e3c4a8-0": {
-          "type": "image",
-          "settings": {
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "Overline text",
-            "title": "Slide heading",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-            "link-url": "\/",
-            "link-text": "View more"
-          }
-        },
-        "165898973655e3c4a8-1": {
-          "type": "image",
-          "settings": {
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "Overline text",
-            "title": "Slide heading",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-            "link-url": "\/",
-            "link-text": "View more"
-          }
-        },
-        "165898973655e3c4a8-2": {
-          "type": "image",
-          "settings": {
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "Overline text",
-            "title": "Slide heading",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-            "link-url": "\/",
-            "link-text": "View more"
-          }
-        },
-        "165898973655e3c4a8-3": {
-          "type": "image",
-          "settings": {
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "Overline text",
-            "title": "Slide heading",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-            "link-url": "\/",
-            "link-text": "View more"
-          }
-        }
-      },
-      "block_order": [
-        "165898973655e3c4a8-0",
-        "165898973655e3c4a8-1",
-        "165898973655e3c4a8-2",
-        "165898973655e3c4a8-3"
-      ],
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "spacing-above": false,
-        "spacing-below": false,
-        "spacing-around-blocks": false,
-        "image-height": 3,
-        "darken-image": true,
-        "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "1",
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "auto-rotate": false,
-        "rotate-frequency": 7,
-        "transition_type": "slide"
-      }
-    },
     "1657434481294ffeb4": {
       "type": "image-with-text",
       "disabled": true,
@@ -190,7 +115,6 @@
     }
   },
   "order": [
-    "1658989737686c68c3",
     "1657434481294ffeb4",
     "featured-text",
     "16401848243576879d",
