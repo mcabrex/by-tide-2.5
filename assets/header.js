@@ -53,7 +53,8 @@ class Header extends HTMLElement {
         this.header_fill.style.height = 0 + "px", this.style.top = this.header_fill.offset().top + "px"
     }
     setThresholdValues() {
-        this.pixel_threshold = 0 + this.fixed_height, this.observer_threshold = +(1 - this.pixel_threshold / this.unfixed_height).toFixed(4), 1 < this.observer_threshold && (this.observer_threshold = 1)
+        this.pixel_threshold = this.unfixed_height - this.fixed_height, this.observer_threshold = +(1 - this.pixel_threshold / this.unfixed_height).toFixed(4), 1 < this.observer_threshold && (this.observer_threshold = 1)
+        console.log(this.pixel_threshold,'pixel_threshold')
     }
     createObserver() {
         this.observer && this.observer.unobserve(this.header_fill), this.observer = new IntersectionObserver(() => this.detectAndFixHeader(), {
@@ -64,6 +65,10 @@ class Header extends HTMLElement {
         if (!Shopify.inspectMode) {
             let e;
             e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold
+            console.log({
+                pixelThreshold: this.pixel_threshold,
+                offsetY: window.pageYOffset
+            })
             if(window.pageYOffset >= e && !this.fixed_state){
                 this.fixHeader(!0)
             } else {
