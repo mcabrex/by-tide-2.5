@@ -69,10 +69,10 @@ class Header extends HTMLElement {
                 pixelThreshold: this.pixel_threshold,
                 offsetY: window.pageYOffset
             })
-            if(window.pageYOffset >= e && !this.fixed_state){
+            if(window.pageYOffset >= 0 && !this.fixed_state){
                 this.fixHeader(!0)
             } else {
-                window.pageYOffset < e && this.fixed_state && this.fixHeader(!1) 
+                window.pageYOffset === 0 && this.fixed_state && this.fixHeader(!1) 
                 this.style.backgroundColor = "transparent"
             }
         }
