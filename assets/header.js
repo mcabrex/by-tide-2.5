@@ -70,12 +70,12 @@ class Header extends HTMLElement {
             let e;
             e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold
             if(window.location.pathname == "/"){
+                if(!this.fixed_state) this.style.backgroundColor = "transparent";
                 if(window.pageYOffset >= 0 && !this.fixed_state){
                     this.fixHeader(!0)
                     this.style.backgroundColor = "var(--bg-color--header)"
                 } else {
                     window.pageYOffset === 0 && this.fixed_state && this.fixHeader(!1) 
-                    this.style.backgroundColor = "transparent"
                 }
             } else {
                 window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
