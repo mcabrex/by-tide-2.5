@@ -70,7 +70,7 @@ class Header extends HTMLElement {
         if (!Shopify.inspectMode) {
             let e;
             if(window.location.pathname == "/"){
-                e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset > 0 + this.announcement.offsetHeight && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset === 0 + this.announcement.offsetHeight && this.fixed_state && this.fixHeader(!1)
+                e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset > 0 + this.announcement.offsetHeight && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset === 0 && this.fixed_state && this.fixHeader(!1)
                 if(window.pageYOffset > 0){
                     this.style.backgroundColor = "var(--bg-color--header)"
                 } else {
