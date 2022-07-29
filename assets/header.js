@@ -75,6 +75,7 @@ class Header extends HTMLElement {
                     this.style.backgroundColor = "var(--bg-color--header)"
                 } else {
                     this.style.backgroundColor = "transparent"
+                    this.style.borderBottom = "none"
                 }
             } else {
                 e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
