@@ -69,12 +69,11 @@ class Header extends HTMLElement {
         //STARTING FIXED FOR SOME REASON
         if (!Shopify.inspectMode) {
             let e;
-            e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
+            e = this.announcement ? 0 + this.announcement.offsetHeight : 0, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
             if(window.location.pathname == "/"){
-                if(window.pageYOffset >= 0){
+                if(window.pageYOffset >= e){
                     this.style.backgroundColor = "var(--bg-color--header)"
                 } else {
-                    window.pageYOffset === 0 
                     this.style.backgroundColor = "transparent"
                 }
             } 
