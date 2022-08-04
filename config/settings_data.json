@@ -25,7 +25,7 @@
         "settings": {
           "enabled": true,
           "home-page-only": false,
-          "background-color": "light",
+          "background-color": "accent",
           "light-text": false,
           "text": "SHOP RENAISSANCE BODY OIL NOW",
           "link": ""

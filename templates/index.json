@@ -1,5 +1,30 @@
 {
   "sections": {
+    "16401848243576879d": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "dark",
+        "background-color": "none",
+        "container-width": 3,
+        "spacing-above": true,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "small",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC06263.png",
+        "overline": "BODY OIL FOR BLISS",
+        "title": "Renaissance Body Oil",
+        "description": "",
+        "link-url": "shopify:\/\/products\/renaissance-body-oil",
+        "link-text": "SHOP NOW"
+      }
+    },
     "16591120730778e203": {
       "type": "slideshow",
       "blocks": {
@@ -79,6 +104,19 @@
         "transition_type": "slide"
       }
     },
+    "featured-text": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
+        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
+        "text": ""
+      }
+    },
     "1657434481294ffeb4": {
       "type": "image-with-text",
       "disabled": true,
@@ -102,43 +140,6 @@
         "description": "",
         "link-url": "",
         "link-text": ""
-      }
-    },
-    "featured-text": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
-        "text": ""
-      }
-    },
-    "16401848243576879d": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "dark",
-        "background-color": "none",
-        "container-width": 3,
-        "spacing-above": true,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "small",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/DSC06263.png",
-        "overline": "BODY OIL FOR BLISS",
-        "title": "Renaissance Body Oil",
-        "description": "",
-        "link-url": "shopify:\/\/products\/renaissance-body-oil",
-        "link-text": "SHOP NOW"
       }
     },
     "1657407738a17eba48": {
@@ -194,10 +195,10 @@
     }
   },
   "order": [
-    "16591120730778e203",
-    "1657434481294ffeb4",
-    "featured-text",
     "16401848243576879d",
+    "16591120730778e203",
+    "featured-text",
+    "1657434481294ffeb4",
     "1657407738a17eba48",
     "newsletter",
     "1657435304db58f064"
