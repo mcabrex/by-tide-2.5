@@ -28,10 +28,10 @@
     "16591120730778e203": {
       "type": "slideshow",
       "blocks": {
-        "165911207386f7aaae-0": {
+        "165911207386f7aaae-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-olena-bohovyk-3541388.jpg",
+            "image": "shopify:\/\/shop_images\/Sveta_Potomski_Poses_in_Statement_Styles_for_Based_Istanbul.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -41,10 +41,10 @@
             "link-text": ""
           }
         },
-        "165911207386f7aaae-1": {
+        "165911207386f7aaae-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-cottonbro-10678367.jpg",
+            "image": "shopify:\/\/shop_images\/Nachhaltiger_Schmuck_aus_Austerschalen__Mia_Larsson_designt_fur_Other_Stories.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -82,8 +82,8 @@
         }
       },
       "block_order": [
-        "165911207386f7aaae-0",
         "165911207386f7aaae-1",
+        "165911207386f7aaae-0",
         "165911207386f7aaae-2",
         "165911207386f7aaae-3"
       ],
