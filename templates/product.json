@@ -3,6 +3,12 @@
     "main": {
       "type": "product",
       "blocks": {
+        "feab65cc-a8aa-4d1a-8581-651aabcfbece": {
+          "type": "overline",
+          "settings": {
+            "text": "BODY OIL FOR BLISS"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -10,21 +16,6 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
-        },
-        "options": {
-          "type": "options",
-          "settings": {
-            "variant-style": "buttons",
-            "swatches-enabled": true,
-            "size-chart-enabled": true,
-            "size-chart-option": "size",
-            "size-chart-content": ""
-          }
-        },
-        "pickup": {
-          "type": "pickup",
           "settings": {
           }
         },
@@ -49,10 +40,9 @@
         }
       },
       "block_order": [
+        "feab65cc-a8aa-4d1a-8581-651aabcfbece",
         "heading",
         "price",
-        "options",
-        "pickup",
         "description",
         "buy-buttons",
         "social-sharing"
@@ -67,6 +57,7 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show": true,
         "title": "You may also like",
