@@ -2,13 +2,14 @@
   "sections": {
     "1657434481294ffeb4": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "dark",
         "background-color": "none",
         "container-width": 6,
         "spacing-above": false,
         "spacing-below": false,
-        "image-height": 3,
+        "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "center",
@@ -26,7 +27,6 @@
     },
     "16591120730778e203": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "165911207386f7aaae-1": {
           "type": "image",
@@ -96,7 +96,7 @@
         "image-height": 3,
         "darken-image": false,
         "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "1",
+        "blocks_per_slide_mobile": "2",
         "box-around-text": false,
         "mobile-overlay": true,
         "auto-rotate": false,
@@ -111,7 +111,7 @@
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
         "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
         "text": ""

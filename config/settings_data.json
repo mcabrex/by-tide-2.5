@@ -16,9 +16,18 @@
     "typography--heading--custom": "HVConstantineRegular",
     "typography--accent": "arimo_n4",
     "typography--paragraph--custom": "HVConstantineRegular",
+    "search--show-in-header": true,
     "social--instagram--url": "https:\/\/instagram.com\/by.tide",
     "social--pinterest--url": "https:\/\/www.pinterest.com\/by.tide",
     "social--tiktok--url": "https:\/\/tiktok.com\/by.tide",
+    "popup--enabled": false,
+    "popup--mode": "test",
+    "popup--background-color": "none",
+    "popup--light-text": false,
+    "popup--show-image": false,
+    "popup--newsletter-title--rt": "<p>EBB AND FLOW WITH US<\/p><p><\/p><p>Sign up to receive our Seasonal Journal<\/p>",
+    "popup--social-title": "",
+    "popup--social-enabled": false,
     "sections": {
       "announcement": {
         "type": "announcement",
