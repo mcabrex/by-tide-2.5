@@ -119,6 +119,7 @@
     },
     "1659657481a89e0b31": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "1659657481406e2bd9-0": {
           "type": "overline",
@@ -179,7 +180,6 @@
     },
     "16401848243576879d": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
         "text-color": "dark",
         "background-color": "none",
@@ -194,7 +194,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/DSC06263.png",
+        "image": "shopify:\/\/shop_images\/59B9AE76-20AE-4173-BBB0-8533858B5CB1.jpg",
         "overline": "BODY OIL FOR BLISS",
         "title": "Renaissance Body Oil",
         "description": "",
