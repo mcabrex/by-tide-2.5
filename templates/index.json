@@ -40,10 +40,10 @@
     "16591120730778e203": {
       "type": "slideshow",
       "blocks": {
-        "165911207386f7aaae-0": {
+        "165911207386f7aaae-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1ACA2AE1-65C1-421D-927D-0B1C2B18C2DF.jpg",
+            "image": "shopify:\/\/shop_images\/8A48FE6E-EA01-41E1-B463-6D0CA6F1B88F.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -53,10 +53,10 @@
             "link-text": ""
           }
         },
-        "165911207386f7aaae-1": {
+        "165911207386f7aaae-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8A48FE6E-EA01-41E1-B463-6D0CA6F1B88F.jpg",
+            "image": "shopify:\/\/shop_images\/1ACA2AE1-65C1-421D-927D-0B1C2B18C2DF.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -94,8 +94,8 @@
         }
       },
       "block_order": [
-        "165911207386f7aaae-0",
         "165911207386f7aaae-1",
+        "165911207386f7aaae-0",
         "165911207386f7aaae-2",
         "165911207386f7aaae-3"
       ],
@@ -104,8 +104,8 @@
         "background-color": "none",
         "spacing-above": true,
         "spacing-below": true,
-        "spacing-around-blocks": true,
-        "image-height": 3,
+        "spacing-around-blocks": false,
+        "image-height": 4,
         "darken-image": false,
         "blocks_per_slide": 2,
         "blocks_per_slide_mobile": "1",
