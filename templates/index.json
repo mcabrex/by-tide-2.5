@@ -1,12 +1,49 @@
 {
   "sections": {
+    "1657434481294ffeb4": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "dark",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/59B9AE76-20AE-4173-BBB0-8533858B5CB1.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "featured-text": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
+        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
+        "text": ""
+      }
+    },
     "16591120730778e203": {
       "type": "slideshow",
       "blocks": {
         "165911207386f7aaae-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8A48FE6E-EA01-41E1-B463-6D0CA6F1B88F.jpg",
+            "image": "shopify:\/\/shop_images\/4D979816-95F6-43F4-BCC0-6C5C83EE87C2.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -65,10 +102,10 @@
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "spacing-above": false,
-        "spacing-below": false,
-        "spacing-around-blocks": false,
-        "image-height": 5,
+        "spacing-above": true,
+        "spacing-below": true,
+        "spacing-around-blocks": true,
+        "image-height": 3,
         "darken-image": false,
         "blocks_per_slide": 2,
         "blocks_per_slide_mobile": "1",
@@ -79,46 +116,9 @@
         "transition_type": "slide"
       }
     },
-    "featured-text": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
-        "text": ""
-      }
-    },
-    "1657434481294ffeb4": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "dark",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "16401848243576879d": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "dark",
         "background-color": "none",
@@ -223,9 +223,9 @@
       "settings": {
         "background-color": "none",
         "light-text": false,
-        "spacing-above": true,
+        "spacing-above": false,
         "spacing-below": true,
-        "heading": "Ebb and Flow With Us",
+        "heading": "",
         "newsletter--subheading": ""
       }
     },
@@ -255,9 +255,9 @@
     }
   },
   "order": [
-    "16591120730778e203",
-    "featured-text",
     "1657434481294ffeb4",
+    "featured-text",
+    "16591120730778e203",
     "16401848243576879d",
     "1659657481a89e0b31",
     "1657407738a17eba48",
