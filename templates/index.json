@@ -79,30 +79,6 @@
         "transition_type": "slide"
       }
     },
-    "1657434481294ffeb4": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "dark",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/00DF2AEE-01C1-4F60-BE85-937D636FF5FB.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "featured-text": {
       "type": "featured-text",
       "settings": {
@@ -114,6 +90,105 @@
         "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
         "heading": "Conscious Body Care and Provisions for the Ebb and Flow of Life",
         "text": ""
+      }
+    },
+    "16602792093a07e57e": {
+      "type": "grid-with-overlay",
+      "blocks": {
+        "166027920955448f4f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2F5BF0DF-909F-4A46-B30C-D96F0F7086D3.jpg",
+            "wide": true,
+            "tall": true,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "166027920955448f4f-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1BFDECB-32E1-4E17-A216-10D0B64088DA.jpg",
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "166027920955448f4f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8A48FE6E-EA01-41E1-B463-6D0CA6F1B88F.jpg",
+            "wide": true,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "166027920955448f4f-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/48719E25-5E56-4CCE-BD2F-5D46AF40A18B.jpg",
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "166027920955448f4f-0",
+        "166027920955448f4f-3",
+        "166027920955448f4f-1",
+        "166027920955448f4f-2"
+      ],
+      "settings": {
+        "text-style": "light-with-overlay",
+        "background-color": "none",
+        "light-text": false,
+        "mobile-overlay": false,
+        "container-width": 4,
+        "spacing": true,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "mobile-width": "2",
+        "heading": "",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "1657434481294ffeb4": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "dark",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/00DF2AEE-01C1-4F60-BE85-937D636FF5FB.jpg",
+        "overline": "",
+        "title": "Ebb and Flow With Us",
+        "description": "<p><\/p><p><\/p>",
+        "link-url": "",
+        "link-text": ""
       }
     },
     "16401848243576879d": {
@@ -252,92 +327,17 @@
         "spacing-above": true,
         "spacing-below": true
       }
-    },
-    "16602792093a07e57e": {
-      "type": "grid-with-overlay",
-      "blocks": {
-        "166027920955448f4f-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2F5BF0DF-909F-4A46-B30C-D96F0F7086D3.jpg",
-            "wide": true,
-            "tall": true,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "166027920955448f4f-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CA218161-ED59-47C7-A6BE-D26DA2FF19A8.jpg",
-            "wide": true,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "166027920955448f4f-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/48719E25-5E56-4CCE-BD2F-5D46AF40A18B.jpg",
-            "wide": false,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "166027920955448f4f-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/C1BFDECB-32E1-4E17-A216-10D0B64088DA.jpg",
-            "wide": false,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        }
-      },
-      "block_order": [
-        "166027920955448f4f-0",
-        "166027920955448f4f-1",
-        "166027920955448f4f-2",
-        "166027920955448f4f-3"
-      ],
-      "settings": {
-        "text-style": "light-with-overlay",
-        "background-color": "none",
-        "light-text": false,
-        "mobile-overlay": false,
-        "container-width": 4,
-        "spacing": true,
-        "spacing-above": true,
-        "spacing-below": true,
-        "width": 4,
-        "mobile-width": "2",
-        "heading": "",
-        "subtitle": "",
-        "link-url": "",
-        "link-text": ""
-      }
     }
   },
   "order": [
     "16591120730778e203",
-    "1657434481294ffeb4",
     "featured-text",
+    "16602792093a07e57e",
+    "1657434481294ffeb4",
     "16401848243576879d",
     "1659657481a89e0b31",
     "1657407738a17eba48",
     "newsletter",
-    "1657435304db58f064",
-    "16602792093a07e57e"
+    "1657435304db58f064"
   ]
 }
