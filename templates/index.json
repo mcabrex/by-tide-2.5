@@ -252,6 +252,81 @@
         "spacing-above": true,
         "spacing-below": true
       }
+    },
+    "16602792093a07e57e": {
+      "type": "grid-with-overlay",
+      "blocks": {
+        "166027920955448f4f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2F5BF0DF-909F-4A46-B30C-D96F0F7086D3.jpg",
+            "wide": true,
+            "tall": true,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "166027920955448f4f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CA218161-ED59-47C7-A6BE-D26DA2FF19A8.jpg",
+            "wide": true,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "166027920955448f4f-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/48719E25-5E56-4CCE-BD2F-5D46AF40A18B.jpg",
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "166027920955448f4f-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1BFDECB-32E1-4E17-A216-10D0B64088DA.jpg",
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "166027920955448f4f-0",
+        "166027920955448f4f-1",
+        "166027920955448f4f-2",
+        "166027920955448f4f-3"
+      ],
+      "settings": {
+        "text-style": "light-with-overlay",
+        "background-color": "none",
+        "light-text": false,
+        "mobile-overlay": false,
+        "container-width": 4,
+        "spacing": true,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "mobile-width": "2",
+        "heading": "",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
@@ -262,6 +337,7 @@
     "1659657481a89e0b31",
     "1657407738a17eba48",
     "newsletter",
-    "1657435304db58f064"
+    "1657435304db58f064",
+    "16602792093a07e57e"
   ]
 }
