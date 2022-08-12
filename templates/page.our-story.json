@@ -33,7 +33,7 @@
         "container-width": 5,
         "spacing-above": true,
         "spacing-below": true,
-        "image-height": 0,
+        "image-height": 3,
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "right",
@@ -41,10 +41,82 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/LEAHFINALFINAL.png",
+        "image": "shopify:\/\/shop_images\/9290E9D9-B6FC-42CD-A171-4A5E0B6C6466.jpg",
         "overline": "EAST MEETS WEST",
         "title": "About Our Founder",
         "description": "<p>A creative at heart, Leah spent years working in corporate beauty while simultaneously exploring all that Nature had to offer and making lifestyle changes to align with it - from crafting her own skincare to cooking with local seasonal produce to creating a more sustainable, non-toxic home.<\/p><p>Eventually, she discovered the art of soapmaking and its benefits for the skin and environment. This sparked a deeper dive into the world of Herbalism, Cosmetic Chemistry, Aromatherapy, and Natural Perfumery. Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives.<\/p><p>Originally from Brooklyn, New York, Leah and her partner, Michael, currently reside in the coastal village of Carmel-by-the-Sea with their rescue dog Zoe. <\/p><p><\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "166027996404200d4e": {
+      "type": "grid-with-overlay",
+      "disabled": true,
+      "blocks": {
+        "1660279964377bd8bd-0": {
+          "type": "image",
+          "settings": {
+            "wide": true,
+            "tall": true,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1660279964377bd8bd-1": {
+          "type": "image",
+          "settings": {
+            "wide": true,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1660279964377bd8bd-2": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1660279964377bd8bd-3": {
+          "type": "image",
+          "settings": {
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "1660279964377bd8bd-0",
+        "1660279964377bd8bd-1",
+        "1660279964377bd8bd-2",
+        "1660279964377bd8bd-3"
+      ],
+      "settings": {
+        "text-style": "light-with-overlay",
+        "background-color": "none",
+        "light-text": false,
+        "mobile-overlay": true,
+        "container-width": 4,
+        "spacing": true,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "mobile-width": "2",
+        "heading": "Grid with overlay",
+        "subtitle": "",
         "link-url": "",
         "link-text": ""
       }
@@ -53,6 +125,7 @@
   "order": [
     "main",
     "165593161012c81bd7",
-    "16559313655184b031"
+    "16559313655184b031",
+    "166027996404200d4e"
   ]
 }
