@@ -95,10 +95,34 @@
     "16602792093a07e57e": {
       "type": "grid-with-overlay",
       "blocks": {
+        "166027920955448f4f-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6E6C3460-9FFB-4B0F-8B18-F4E6ED686F91.jpg",
+            "wide": false,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "166027920955448f4f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EF957240-B775-4668-AAA1-6C4FF6129CBE.jpg",
+            "wide": true,
+            "tall": false,
+            "retain-ratio": false,
+            "title": "Grid image",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
         "166027920955448f4f-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2F5BF0DF-909F-4A46-B30C-D96F0F7086D3.jpg",
+            "image": "shopify:\/\/shop_images\/29C27576-2492-4923-9330-1B3598DB2596.jpg",
             "wide": true,
             "tall": true,
             "retain-ratio": false,
@@ -118,37 +142,13 @@
             "link-url": "",
             "link-text": "View more"
           }
-        },
-        "166027920955448f4f-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8A48FE6E-EA01-41E1-B463-6D0CA6F1B88F.jpg",
-            "wide": true,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "166027920955448f4f-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/48719E25-5E56-4CCE-BD2F-5D46AF40A18B.jpg",
-            "wide": false,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
         }
       },
       "block_order": [
-        "166027920955448f4f-0",
-        "166027920955448f4f-3",
+        "166027920955448f4f-2",
         "166027920955448f4f-1",
-        "166027920955448f4f-2"
+        "166027920955448f4f-0",
+        "166027920955448f4f-3"
       ],
       "settings": {
         "text-style": "light-with-overlay",
