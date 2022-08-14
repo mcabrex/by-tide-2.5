@@ -70,11 +70,12 @@ class Header extends HTMLElement {
         if (!Shopify.inspectMode) {
             let e;
             if(window.location.pathname == "/"){
-                console.log('ishome')
                 e = this.announcement ? 0 + this.announcement.offsetHeight : 0, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
                 if(window.pageYOffset >= e){
+                console.log(e,'e >=')
                     this.style.backgroundColor = "var(--bg-color--header)"
                 } else {
+                    console.log(e,'e else')
                     this.style.backgroundColor = "transparent"
                     this.style.borderBottom = "none"
                 }
