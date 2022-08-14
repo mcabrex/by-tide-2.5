@@ -304,30 +304,6 @@
         "heading": "Ebb and Flow with Us",
         "newsletter--subheading": "<p><\/p><p>            <\/p>"
       }
-    },
-    "1657435304db58f064": {
-      "type": "apps",
-      "disabled": true,
-      "blocks": {
-        "016923da-fc50-428d-bbe4-d4b7dff47bba": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "016923da-fc50-428d-bbe4-d4b7dff47bba"
-      ],
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true
-      }
     }
   },
   "order": [
@@ -338,7 +314,6 @@
     "16401848243576879d",
     "1659657481a89e0b31",
     "1657407738a17eba48",
-    "newsletter",
-    "1657435304db58f064"
+    "newsletter"
   ]
 }
