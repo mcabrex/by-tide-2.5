@@ -32,7 +32,7 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enabled": false,
+          "enabled": true,
           "home-page-only": false,
           "background-color": "accent",
           "light-text": true,
