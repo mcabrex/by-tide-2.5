@@ -168,58 +168,8 @@
         "link-text": ""
       }
     },
-    "1657434481294ffeb4": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "dark",
-        "background-color": "none",
-        "container-width": 4,
-        "spacing-above": false,
-        "spacing-below": true,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/00DF2AEE-01C1-4F60-BE85-937D636FF5FB.jpg",
-        "overline": "East Meets West",
-        "title": "About our Founder",
-        "description": "<p><\/p><p><\/p>",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "16401848243576879d": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "dark",
-        "background-color": "none",
-        "container-width": 5,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/78DBEB44-277D-4651-AF2D-B95D76B8A293.jpg",
-        "overline": "BODY OIL FOR BLISS",
-        "title": "Renaissance Body Oil",
-        "description": "",
-        "link-url": "shopify:\/\/products\/renaissance-body-oil",
-        "link-text": "SHOP NOW"
-      }
-    },
     "1659657481a89e0b31": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "1659657481406e2bd9-0": {
           "type": "overline",
@@ -278,6 +228,55 @@
         "loop-enabled": false
       }
     },
+    "1657434481294ffeb4": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "dark",
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/00DF2AEE-01C1-4F60-BE85-937D636FF5FB.jpg",
+        "overline": "East Meets West",
+        "title": "About our Founder",
+        "description": "<p><\/p><p><\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "16401848243576879d": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "dark",
+        "background-color": "none",
+        "container-width": 5,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/78DBEB44-277D-4651-AF2D-B95D76B8A293.jpg",
+        "overline": "BODY OIL FOR BLISS",
+        "title": "Renaissance Body Oil",
+        "description": "",
+        "link-url": "shopify:\/\/products\/renaissance-body-oil",
+        "link-text": "SHOP NOW"
+      }
+    },
     "1657407738a17eba48": {
       "type": "featured-collection",
       "disabled": true,
@@ -310,9 +309,9 @@
     "16591120730778e203",
     "featured-text",
     "16602792093a07e57e",
+    "1659657481a89e0b31",
     "1657434481294ffeb4",
     "16401848243576879d",
-    "1659657481a89e0b31",
     "1657407738a17eba48",
     "newsletter"
   ]
