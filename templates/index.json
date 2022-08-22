@@ -79,6 +79,79 @@
         "transition_type": "slide"
       }
     },
+    "featured-text": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
+        "heading": "Conscious, Elevated Body Care and Provisions for your Ebb and Flow",
+        "text": ""
+      }
+    },
+    "1659657481a89e0b31": {
+      "type": "featured-product",
+      "blocks": {
+        "1659657481406e2bd9-0": {
+          "type": "overline",
+          "settings": {
+            "text": "BODY OIL FOR BLISS"
+          }
+        },
+        "1659657481406e2bd9-1": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "1659657481406e2bd9-2": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1659657481406e2bd9-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1659657481406e2bd9-4": {
+          "type": "options",
+          "disabled": true,
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "1659657481406e2bd9-5": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "1659657481406e2bd9-0",
+        "1659657481406e2bd9-1",
+        "1659657481406e2bd9-2",
+        "1659657481406e2bd9-3",
+        "1659657481406e2bd9-4",
+        "1659657481406e2bd9-5"
+      ],
+      "settings": {
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured_product": "renaissance-body-oil",
+        "loop-enabled": false
+      }
+    },
     "16401848243576879d": {
       "type": "image-with-text",
       "settings": {
@@ -101,19 +174,6 @@
         "description": "",
         "link-url": "shopify:\/\/products\/renaissance-body-oil",
         "link-text": "SHOP NOW"
-      }
-    },
-    "featured-text": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "heading": "Conscious, Elevated Body Care and Provisions for the Ebb and Flow of Life",
-        "text": ""
       }
     },
     "16602792093a07e57e": {
@@ -192,66 +252,6 @@
         "link-text": ""
       }
     },
-    "1659657481a89e0b31": {
-      "type": "featured-product",
-      "blocks": {
-        "1659657481406e2bd9-0": {
-          "type": "overline",
-          "settings": {
-            "text": "BODY OIL FOR BLISS"
-          }
-        },
-        "1659657481406e2bd9-1": {
-          "type": "heading",
-          "settings": {
-          }
-        },
-        "1659657481406e2bd9-2": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "1659657481406e2bd9-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1659657481406e2bd9-4": {
-          "type": "options",
-          "disabled": true,
-          "settings": {
-            "variant-style": "buttons",
-            "swatches-enabled": true,
-            "size-chart-enabled": true,
-            "size-chart-option": "size",
-            "size-chart-content": ""
-          }
-        },
-        "1659657481406e2bd9-5": {
-          "type": "buy-buttons",
-          "settings": {
-            "smart-payment-enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "1659657481406e2bd9-0",
-        "1659657481406e2bd9-1",
-        "1659657481406e2bd9-2",
-        "1659657481406e2bd9-3",
-        "1659657481406e2bd9-4",
-        "1659657481406e2bd9-5"
-      ],
-      "settings": {
-        "background-color": "none",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured_product": "renaissance-body-oil",
-        "loop-enabled": false
-      }
-    },
     "1657434481294ffeb4": {
       "type": "image-with-text",
       "settings": {
@@ -306,10 +306,10 @@
   },
   "order": [
     "16591120730778e203",
-    "16401848243576879d",
     "featured-text",
-    "16602792093a07e57e",
     "1659657481a89e0b31",
+    "16401848243576879d",
+    "16602792093a07e57e",
     "1657434481294ffeb4",
     "1657407738a17eba48",
     "newsletter"
