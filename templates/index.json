@@ -1,5 +1,18 @@
 {
   "sections": {
+    "1661229728fe777163": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "",
+        "text": ""
+      }
+    },
     "16591120730778e203": {
       "type": "slideshow",
       "blocks": {
@@ -306,6 +319,7 @@
     }
   },
   "order": [
+    "1661229728fe777163",
     "16591120730778e203",
     "featured-text",
     "16401848243576879d",
