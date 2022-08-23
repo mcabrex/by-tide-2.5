@@ -21,7 +21,7 @@
         "spacing-above": false,
         "spacing-below": false,
         "image-height": 0,
-        "darken-image": true,
+        "darken-image": false,
         "parallax-enabled": false,
         "text-position": "center",
         "text-width": "medium",
