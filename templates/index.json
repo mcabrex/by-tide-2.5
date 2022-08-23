@@ -154,6 +154,7 @@
     },
     "16401848243576879d": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "dark",
         "background-color": "none",
