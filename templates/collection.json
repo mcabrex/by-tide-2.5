@@ -2,6 +2,7 @@
   "sections": {
     "collection-header": {
       "type": "collection--header",
+      "disabled": true,
       "settings": {
         "enable-header": true,
         "show-title": true,
@@ -16,6 +17,7 @@
     },
     "navigation": {
       "type": "collection--navigation",
+      "disabled": true,
       "settings": {
         "show-browse-button": true,
         "show-sort-button": true,
@@ -61,6 +63,7 @@
     },
     "recent-products": {
       "type": "recent-products",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
