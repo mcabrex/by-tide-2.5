@@ -268,6 +268,7 @@
     },
     "1657434481294ffeb4": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "dark",
         "background-color": "none",
@@ -281,10 +282,10 @@
         "text-width": "small",
         "overlap": false,
         "box-around-text": false,
-        "mobile-overlay": false,
+        "mobile-overlay": true,
         "image": "shopify:\/\/shop_images\/00DF2AEE-01C1-4F60-BE85-937D636FF5FB.jpg",
-        "overline": "East Meets West",
-        "title": "About our Founder",
+        "overline": "",
+        "title": "",
         "description": "<p><\/p><p><\/p>",
         "link-url": "",
         "link-text": ""
