@@ -57,7 +57,7 @@
       ],
       "settings": {
         "products-per-row--desktop": 4,
-        "products-per-row--mobile": "2",
+        "products-per-row--mobile": "1",
         "number-of-rows": 4
       }
     },
