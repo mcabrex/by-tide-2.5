@@ -18,6 +18,7 @@
     "typography--paragraph--custom": "HVConstantineRegular",
     "product--text-alignment": "center",
     "product--label-shape": "square",
+    "product--label-color": "dark",
     "search--show-in-header": true,
     "social--instagram--url": "https:\/\/instagram.com\/by.tide",
     "social--pinterest--url": "https:\/\/www.pinterest.com\/by.tide",
