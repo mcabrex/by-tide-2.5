@@ -131,7 +131,6 @@
     },
     "1659657481a89e0b31": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "1659657481406e2bd9-0": {
           "type": "overline",
@@ -183,7 +182,7 @@
       ],
       "settings": {
         "background-color": "none",
-        "container-width": 4,
+        "container-width": 5,
         "spacing-above": true,
         "spacing-below": true,
         "featured_product": "renaissance-body-oil",
@@ -302,6 +301,25 @@
         "newsletter--subheading": "<p><\/p><p>            <\/p>"
       }
     },
+    "16612309749f89520d": {
+      "type": "featured-products",
+      "disabled": true,
+      "settings": {
+        "product-list": [
+          "renaissance-body-oil"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1",
+        "heading": "Shop Now",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "1657407738a17eba48": {
       "type": "featured-collection",
       "disabled": true,
@@ -328,6 +346,7 @@
     "16602792093a07e57e",
     "1657434481294ffeb4",
     "newsletter",
+    "16612309749f89520d",
     "1657407738a17eba48"
   ]
 }
