@@ -30,6 +30,14 @@
             "smart-payment-enabled": true
           }
         },
+        "f59dcaa3-894f-4010-954f-7693b3979b8e": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Olea Europaea (Olive) Fruit Oil, Vitis Vinifera (Grape) Seed Oil, Hydrogenated Ethylhexyl Olivate, Hydrogenated Olive Oil Unsaponifiables, Caprylic\/CapricTriglyceride (FRACTIONATED COCONUT) OIL, Olive Squalane, Limnanthes Alba (Meadowfoam) Seed Oil, Rubus Idaeus (Raspberry) Seed Oil, Rosa Mosqueta (Rose) Hip Seed Oil, Cannabis Sativa (Hemp) Seed Oil, Calendula Officinalis Flower (CALENDULA) Extract, Juniperus virginiana (CEDARWOOD) Oil, Chamaecyparis obtusa (HINOKI WOOD) Oil, Citrus aurantium (NEROLI) Oil, Cocos Nucifera (Coconut) Fruit Extract, Tocopherol <\/p>",
+            "page-content": ""
+          }
+        },
         "social-sharing": {
           "type": "social-sharing",
           "settings": {
@@ -45,6 +53,7 @@
         "price",
         "description",
         "buy-buttons",
+        "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "social-sharing"
       ],
       "settings": {
