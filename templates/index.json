@@ -164,7 +164,7 @@
       "settings": {
         "background-color": "none",
         "light-text": false,
-        "spacing-above": true,
+        "spacing-above": false,
         "spacing-below": true,
         "heading": "Ebb and Flow with Us",
         "newsletter--subheading": "<p><\/p><p>            <\/p>"
