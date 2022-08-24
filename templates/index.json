@@ -1,5 +1,109 @@
 {
   "sections": {
+    "16613114289df24ecc": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DEAFE5C0-65D3-49F4-BA5F-F16781016AE3.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "featured-text": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": false,
+        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
+        "heading": "Conscious Body Care and Provisions for your Ebb and Flow",
+        "text": ""
+      }
+    },
+    "1661306944d2c5734b": {
+      "type": "custom-button",
+      "settings": {
+        "button-text": "OUR STORY",
+        "link": "shopify:\/\/pages\/about"
+      }
+    },
+    "1659657481a89e0b31": {
+      "type": "featured-product",
+      "blocks": {
+        "1659657481406e2bd9-0": {
+          "type": "overline",
+          "settings": {
+            "text": "BODY OIL FOR BLISS"
+          }
+        },
+        "1659657481406e2bd9-1": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "1659657481406e2bd9-2": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1659657481406e2bd9-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1659657481406e2bd9-4": {
+          "type": "options",
+          "disabled": true,
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "1659657481406e2bd9-5": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "1659657481406e2bd9-0",
+        "1659657481406e2bd9-1",
+        "1659657481406e2bd9-2",
+        "1659657481406e2bd9-3",
+        "1659657481406e2bd9-4",
+        "1659657481406e2bd9-5"
+      ],
+      "settings": {
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured_product": "renaissance-body-oil",
+        "loop-enabled": false
+      }
+    },
     "16591120730778e203": {
       "type": "slideshow",
       "blocks": {
@@ -79,28 +183,9 @@
         "transition_type": "slide"
       }
     },
-    "featured-text": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": false,
-        "spacing-below": false,
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "heading": "Conscious Body Care and Provisions for your Ebb and Flow",
-        "text": ""
-      }
-    },
-    "1661306944d2c5734b": {
-      "type": "custom-button",
-      "settings": {
-        "button-text": "OUR STORY",
-        "link": "shopify:\/\/pages\/about"
-      }
-    },
     "1661311716835b13a4": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "1661311715cf3cffbd-1": {
           "type": "image",
@@ -150,90 +235,6 @@
         "transition_type": "fade"
       }
     },
-    "1659657481a89e0b31": {
-      "type": "featured-product",
-      "blocks": {
-        "1659657481406e2bd9-0": {
-          "type": "overline",
-          "settings": {
-            "text": "BODY OIL FOR BLISS"
-          }
-        },
-        "1659657481406e2bd9-1": {
-          "type": "heading",
-          "settings": {
-          }
-        },
-        "1659657481406e2bd9-2": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "1659657481406e2bd9-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1659657481406e2bd9-4": {
-          "type": "options",
-          "disabled": true,
-          "settings": {
-            "variant-style": "buttons",
-            "swatches-enabled": true,
-            "size-chart-enabled": true,
-            "size-chart-option": "size",
-            "size-chart-content": ""
-          }
-        },
-        "1659657481406e2bd9-5": {
-          "type": "buy-buttons",
-          "settings": {
-            "smart-payment-enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "1659657481406e2bd9-0",
-        "1659657481406e2bd9-1",
-        "1659657481406e2bd9-2",
-        "1659657481406e2bd9-3",
-        "1659657481406e2bd9-4",
-        "1659657481406e2bd9-5"
-      ],
-      "settings": {
-        "background-color": "none",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured_product": "renaissance-body-oil",
-        "loop-enabled": false
-      }
-    },
-    "16613114289df24ecc": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": true,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DEAFE5C0-65D3-49F4-BA5F-F16781016AE3.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -247,12 +248,12 @@
     }
   },
   "order": [
-    "16591120730778e203",
+    "16613114289df24ecc",
     "featured-text",
     "1661306944d2c5734b",
-    "1661311716835b13a4",
     "1659657481a89e0b31",
-    "16613114289df24ecc",
+    "16591120730778e203",
+    "1661311716835b13a4",
     "newsletter"
   ]
 }
