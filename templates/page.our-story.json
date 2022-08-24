@@ -49,6 +49,77 @@
         "text": ""
       }
     },
+    "1661305987717d0b38": {
+      "type": "text-columns",
+      "blocks": {
+        "1661305987554dbb6f-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/ritual_c685f1cd-ab81-4dcb-b7a4-075b007ad1a7.png",
+            "title": "Ritual",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1661305987554dbb6f-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/seasonality.png",
+            "title": "Seasonality",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1661305987554dbb6f-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/nostalgia_e485c27c-67e4-4e7e-9bd0-7a7eb6b3b359.png",
+            "title": "Nostalgia",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1661305987554dbb6f-3": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/play_da759516-e691-4da0-a4f1-878b850d1810.png",
+            "title": "Play",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "1661305987554dbb6f-1",
+        "1661305987554dbb6f-0",
+        "1661305987554dbb6f-2",
+        "1661305987554dbb6f-3"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "16559313655184b031": {
       "type": "image-with-text",
       "settings": {
@@ -72,86 +143,13 @@
         "link-url": "",
         "link-text": ""
       }
-    },
-    "166027996404200d4e": {
-      "type": "grid-with-overlay",
-      "disabled": true,
-      "blocks": {
-        "1660279964377bd8bd-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/F109CD29-273F-493A-9E26-54AE3B0CCC49.jpg",
-            "wide": true,
-            "tall": true,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "1660279964377bd8bd-1": {
-          "type": "image",
-          "settings": {
-            "wide": true,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "1660279964377bd8bd-2": {
-          "type": "image",
-          "settings": {
-            "wide": false,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "1660279964377bd8bd-3": {
-          "type": "image",
-          "settings": {
-            "wide": false,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        }
-      },
-      "block_order": [
-        "1660279964377bd8bd-0",
-        "1660279964377bd8bd-1",
-        "1660279964377bd8bd-2",
-        "1660279964377bd8bd-3"
-      ],
-      "settings": {
-        "text-style": "light-with-overlay",
-        "background-color": "none",
-        "light-text": false,
-        "mobile-overlay": true,
-        "container-width": 4,
-        "spacing": true,
-        "spacing-above": true,
-        "spacing-below": true,
-        "width": 4,
-        "mobile-width": "2",
-        "heading": "Grid with overlay",
-        "subtitle": "",
-        "link-url": "",
-        "link-text": ""
-      }
     }
   },
   "order": [
     "main",
     "1660458429e574277e",
     "165593161012c81bd7",
-    "16559313655184b031",
-    "166027996404200d4e"
+    "1661305987717d0b38",
+    "16559313655184b031"
   ]
 }
