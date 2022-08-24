@@ -33,28 +33,6 @@
     },
     "main": {
       "type": "collection--body",
-      "blocks": {
-        "grid-promo-1": {
-          "type": "promotion",
-          "settings": {
-            "row-number": 2,
-            "column-number": 2,
-            "promo-width": 2,
-            "background-color": "light",
-            "text-color": "dark",
-            "darken-image": true,
-            "image-size": "fit-to-container",
-            "overline": "Overline text",
-            "title": "Grid promotion",
-            "description": "<p>Create eye-catching promos within collection grids to increase discoverability and accelerate conversions.<\/p>",
-            "link-url": "",
-            "link-text": "Optional link"
-          }
-        }
-      },
-      "block_order": [
-        "grid-promo-1"
-      ],
       "settings": {
         "products-per-row--desktop": 4,
         "products-per-row--mobile": "1",
