@@ -86,10 +86,17 @@
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
         "heading": "Conscious Body Care and Provisions for your Ebb and Flow",
         "text": ""
+      }
+    },
+    "1661306944d2c5734b": {
+      "type": "custom-button",
+      "settings": {
+        "button-text": "OUR STORY",
+        "link": ""
       }
     },
     "1659657481a89e0b31": {
@@ -152,107 +159,6 @@
         "loop-enabled": false
       }
     },
-    "16602792093a07e57e": {
-      "type": "grid-with-overlay",
-      "disabled": true,
-      "blocks": {
-        "166027920955448f4f-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/6E6C3460-9FFB-4B0F-8B18-F4E6ED686F91.jpg",
-            "wide": false,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "166027920955448f4f-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EF957240-B775-4668-AAA1-6C4FF6129CBE.jpg",
-            "wide": true,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "166027920955448f4f-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/00A6AB2A-B1B3-4A3A-A346-1846BFC67596.jpg",
-            "wide": true,
-            "tall": true,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        },
-        "166027920955448f4f-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/C1BFDECB-32E1-4E17-A216-10D0B64088DA.jpg",
-            "wide": false,
-            "tall": false,
-            "retain-ratio": false,
-            "title": "Grid image",
-            "link-url": "",
-            "link-text": "View more"
-          }
-        }
-      },
-      "block_order": [
-        "166027920955448f4f-2",
-        "166027920955448f4f-1",
-        "166027920955448f4f-0",
-        "166027920955448f4f-3"
-      ],
-      "settings": {
-        "text-style": "light-with-overlay",
-        "background-color": "none",
-        "light-text": false,
-        "mobile-overlay": false,
-        "container-width": 6,
-        "spacing": true,
-        "spacing-above": true,
-        "spacing-below": true,
-        "width": 5,
-        "mobile-width": "2",
-        "heading": "",
-        "subtitle": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "1657434481294ffeb4": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "light",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": true,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "large",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/websiteheaderphoto.png",
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "title": "Conscious Body Care and Provisions to support your Ebb and Flow",
-        "description": "<p><\/p><p><\/p>",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -263,51 +169,13 @@
         "heading": "Ebb and Flow with Us",
         "newsletter--subheading": "<p><\/p><p>            <\/p>"
       }
-    },
-    "16612309749f89520d": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "product-list": [
-          "renaissance-body-oil"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1",
-        "heading": "Shop Now",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "1657407738a17eba48": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "the-tea-house",
-        "background-color": "accent",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured-collection--image--show": false,
-        "featured-collection--description--show": false,
-        "display-type": "grid",
-        "products-per-row--desktop": "4",
-        "products-per-row--mobile": "2"
-      }
     }
   },
   "order": [
     "16591120730778e203",
     "featured-text",
+    "1661306944d2c5734b",
     "1659657481a89e0b31",
-    "16602792093a07e57e",
-    "1657434481294ffeb4",
-    "newsletter",
-    "16612309749f89520d",
-    "1657407738a17eba48"
+    "newsletter"
   ]
 }
