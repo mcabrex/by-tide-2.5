@@ -99,6 +99,57 @@
         "link": "shopify:\/\/pages\/about"
       }
     },
+    "1661311716835b13a4": {
+      "type": "slideshow",
+      "blocks": {
+        "1661311715cf3cffbd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06590.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        },
+        "1661311715cf3cffbd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC06582.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661311715cf3cffbd-1",
+        "1661311715cf3cffbd-0"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": true,
+        "spacing-around-blocks": false,
+        "image-height": 2,
+        "darken-image": true,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "2",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 5,
+        "transition_type": "fade"
+      }
+    },
     "1659657481a89e0b31": {
       "type": "featured-product",
       "blocks": {
@@ -159,67 +210,15 @@
         "loop-enabled": false
       }
     },
-    "1661311716835b13a4": {
-      "type": "slideshow",
-      "blocks": {
-        "1661311715cf3cffbd-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC06590.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "",
-            "description": "",
-            "link-url": "\/",
-            "link-text": ""
-          }
-        },
-        "1661311715cf3cffbd-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC06582.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "",
-            "description": "",
-            "link-url": "\/",
-            "link-text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1661311715cf3cffbd-1",
-        "1661311715cf3cffbd-0"
-      ],
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "spacing-above": false,
-        "spacing-below": true,
-        "spacing-around-blocks": false,
-        "image-height": 2,
-        "darken-image": true,
-        "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "2",
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "auto-rotate": false,
-        "rotate-frequency": 5,
-        "transition_type": "fade"
-      }
-    },
     "16613114289df24ecc": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
         "container-width": 6,
         "spacing-above": false,
         "spacing-below": true,
-        "image-height": 3,
+        "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "center",
@@ -227,7 +226,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
+        "image": "shopify:\/\/shop_images\/DEAFE5C0-65D3-49F4-BA5F-F16781016AE3.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -251,8 +250,8 @@
     "16591120730778e203",
     "featured-text",
     "1661306944d2c5734b",
-    "1659657481a89e0b31",
     "1661311716835b13a4",
+    "1659657481a89e0b31",
     "16613114289df24ecc",
     "newsletter"
   ]
