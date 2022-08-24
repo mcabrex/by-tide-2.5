@@ -12,6 +12,30 @@
         "spacing-below": true
       }
     },
+    "1661381038ecba5633": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 4,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DEAFE5C0-65D3-49F4-BA5F-F16781016AE3.jpg",
+        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
+        "title": "Supporting your seasonal ups and downs with rituals, recipes, and goods",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "1661306455c7b6d917": {
       "type": "slideshow",
       "blocks": {
@@ -174,6 +198,7 @@
   },
   "order": [
     "main",
+    "1661381038ecba5633",
     "1661306455c7b6d917",
     "165593161012c81bd7",
     "1661305987717d0b38",
