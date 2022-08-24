@@ -34,6 +34,7 @@
     "popup--newsletter-title--rt": "<p>Ebb and Flow with Us<\/p>",
     "popup--social-title": "",
     "popup--social-enabled": true,
+    "favicon": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/primarylogo_black.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
