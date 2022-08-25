@@ -68,7 +68,7 @@
           "header-account-show": false,
           "account-icon": "text",
           "search-icon": "text",
-          "cart-icon": "custom",
+          "cart-icon": "bag",
           "show-region-selector": false,
           "show-locale-selector": false
         }
