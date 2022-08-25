@@ -50,15 +50,10 @@ class Header extends HTMLElement {
         t.setAttribute("data-fixed", !1), this.fixed_height = theme.utils.getHiddenElHeight(e, !1), this.unfixed_height = theme.utils.getHiddenElHeight(t, !1)
     }
     setHeaderFill() {
-        if(window.location.pathname == "/"){
-            this.header_fill.style.height = 0 + "px", this.style.top = this.header_fill.offset().top + "px"
-        } else {
-            this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
-        }
+        this.header_fill.style.height = this.unfixed_height + "px", this.style.top = this.header_fill.offset().top + "px"
     }
     setThresholdValues() {
         this.pixel_threshold = this.unfixed_height - this.fixed_height, this.observer_threshold = +(1 - this.pixel_threshold / this.unfixed_height).toFixed(4), 1 < this.observer_threshold && (this.observer_threshold = 1)
-        console.log(this.pixel_threshold,'pixel_threshold')
     }
     createObserver() {
         this.observer && this.observer.unobserve(this.header_fill), this.observer = new IntersectionObserver(() => this.detectAndFixHeader(), {
@@ -66,22 +61,9 @@ class Header extends HTMLElement {
         }), this.observer.observe(this.header_fill)
     }
     detectAndFixHeader() {
-        //STARTING FIXED FOR SOME REASON
         if (!Shopify.inspectMode) {
             let e;
-            if(window.location.pathname == "/"){
-                e = this.announcement ? 0 + this.announcement.offsetHeight : 0, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
-                if(window.pageYOffset > e){
-                console.log(e,window.pageYOffset,'e >=')
-                    this.style.backgroundColor = "var(--bg-color--header)"
-                } else {
-                    console.log(e,'e else')
-                    this.style.backgroundColor = "transparent"
-                    this.style.borderBottom = "none"
-                }
-            } else {
-                e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
-            }
+            e = this.announcement ? this.pixel_threshold + this.announcement.offsetHeight : this.pixel_threshold, window.pageYOffset >= e && !this.fixed_state ? this.fixHeader(!0) : window.pageYOffset < e && this.fixed_state && this.fixHeader(!1)
         }
     }
     fixHeader(e) {
