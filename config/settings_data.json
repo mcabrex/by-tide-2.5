@@ -39,7 +39,7 @@
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#fefcf7",
-    "checkout_sidebar_background_color": "#948260",
+    "checkout_sidebar_background_color": "#fefcf7",
     "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "checkout_body_font": "Helvetica Neue",
     "checkout_accent_color": "#948260",
