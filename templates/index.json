@@ -153,7 +153,7 @@
       "settings": {
         "background-color": "none",
         "container-width": 4,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
         "featured_product": "renaissance-body-oil",
         "loop-enabled": false
@@ -218,7 +218,7 @@
         "background-color": "none",
         "container-width": 6,
         "spacing-above": false,
-        "spacing-below": true,
+        "spacing-below": false,
         "image-height": 3,
         "darken-image": false,
         "parallax-enabled": false,
@@ -240,10 +240,10 @@
       "settings": {
         "background-color": "none",
         "light-text": false,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
         "heading": "Ebb and Flow with Us",
-        "newsletter--subheading": "<p>Sign up to receive our Seasonal Journal flowing with rituals, recipes, and the latest at BY TIDE.<\/p>"
+        "newsletter--subheading": "<p><\/p><p>Sign up to receive our quarterly Seasonal Journal flowing with rituals, recipes, and the latest at BY TIDE.<\/p><p><\/p>"
       }
     }
   },
