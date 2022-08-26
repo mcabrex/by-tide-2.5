@@ -49,6 +49,20 @@
   endfor
 -%}
 
+<style>
+  @media only screen and (max-width: 767px){
+    .featured-product--root {
+      padding-left:0px;
+      padding-right:0px;
+    }
+
+    .featured-product--blocks {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+</style>
+
 {% comment %} View {% endcomment %}
 <product-media-root
   class="featured-product--root"
