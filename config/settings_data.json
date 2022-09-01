@@ -48,9 +48,9 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enabled": false,
+          "enabled": true,
           "home-page-only": false,
-          "background-color": "accent",
+          "background-color": "dark",
           "light-text": true,
           "text": "SHOP RENAISSANCE BODY OIL NOW",
           "link": ""
