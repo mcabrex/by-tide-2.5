@@ -74,10 +74,10 @@
   },
   "contact_page": {
     "success_feedback": "Thanks for contacting us! We'll get back to you shortly.",
-    "name": "Your Name",
-    "email": "Email",
-    "message": "Message",
-    "button": "Send"
+    "name": "YOUR NAME",
+    "email": "EMAIL",
+    "message": "PLEASE INCLUDE ORDER NUMBER",
+    "button": "SUBMIT"
   },
   "customer": {
     "account": {
