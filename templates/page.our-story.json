@@ -52,7 +52,7 @@
         "spacing-above": false,
         "spacing-below": false,
         "spacing-around-blocks": false,
-        "image-height": 4,
+        "image-height": 5,
         "darken-image": false,
         "blocks_per_slide": 2,
         "blocks_per_slide_mobile": "1",
