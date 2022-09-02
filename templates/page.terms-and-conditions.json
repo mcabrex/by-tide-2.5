@@ -1,5 +1,18 @@
 {
   "sections": {
+    "1662092227203de4da": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "",
+        "heading": "Terms & Conditions",
+        "text": ""
+      }
+    },
     "main": {
       "type": "page",
       "settings": {
@@ -13,6 +26,7 @@
     }
   },
   "order": [
+    "1662092227203de4da",
     "main"
   ]
 }
