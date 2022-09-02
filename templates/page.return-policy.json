@@ -23,10 +23,25 @@
         "spacing-above": true,
         "spacing-below": true
       }
+    },
+    "1662138496f1b539a4": {
+      "type": "contact",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 2,
+        "spacing-above": false,
+        "spacing-below": true,
+        "heading": "",
+        "store-address": "",
+        "store-hours": "",
+        "show-social-sharing": true
+      }
     }
   },
   "order": [
     "1662092193478e2d59",
-    "main"
+    "main",
+    "1662138496f1b539a4"
   ]
 }
