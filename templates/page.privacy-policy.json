@@ -1,5 +1,18 @@
 {
   "sections": {
+    "16620922742a70ab67": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "",
+        "heading": "Privacy Policy",
+        "text": ""
+      }
+    },
     "main": {
       "type": "page",
       "settings": {
@@ -13,6 +26,7 @@
     }
   },
   "order": [
+    "16620922742a70ab67",
     "main"
   ]
 }
