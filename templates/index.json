@@ -188,7 +188,7 @@
       "settings": {
         "background-color": "none",
         "container-width": 3,
-        "spacing-above": true,
+        "spacing-above": false,
         "spacing-below": true,
         "featured_product": "renaissance-body-oil",
         "loop-enabled": false
