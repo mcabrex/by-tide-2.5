@@ -9,7 +9,7 @@
         "spacing-above": false,
         "spacing-below": false,
         "image-height": 3,
-        "darken-image": true,
+        "darken-image": false,
         "parallax-enabled": false,
         "text-position": "center",
         "text-width": "medium",
@@ -22,6 +22,33 @@
         "description": "",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "1662138668badfd645": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "Contact Us",
+        "text": "<p><\/p><p>For general inquiries, please contact us at hello@bytide.co. For customer service inquiries, please fill out the form below and include your Order Number.<\/p>"
+      }
+    },
+    "1662138496f1b539a4": {
+      "type": "contact",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 2,
+        "spacing-above": false,
+        "spacing-below": true,
+        "heading": "",
+        "store-address": "",
+        "store-hours": "",
+        "show-social-sharing": false
       }
     },
     "1662092193478e2d59": {
@@ -47,40 +74,13 @@
         "spacing-above": true,
         "spacing-below": true
       }
-    },
-    "1662138668badfd645": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": false,
-        "spacing-below": true,
-        "overline": "",
-        "heading": "Contact Us",
-        "text": "<p><\/p><p>For general inquiries, please contact us at hello@bytide.co. For customer service inquiries, please fill out the form below and include your Order Number.<\/p>"
-      }
-    },
-    "1662138496f1b539a4": {
-      "type": "contact",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 2,
-        "spacing-above": false,
-        "spacing-below": true,
-        "heading": "",
-        "store-address": "",
-        "store-hours": "",
-        "show-social-sharing": true
-      }
     }
   },
   "order": [
     "1662140599b483c255",
-    "1662092193478e2d59",
-    "main",
     "1662138668badfd645",
-    "1662138496f1b539a4"
+    "1662138496f1b539a4",
+    "1662092193478e2d59",
+    "main"
   ]
 }
