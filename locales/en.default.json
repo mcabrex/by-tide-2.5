@@ -210,7 +210,7 @@
     },
     "mailing_list": {
       "link": "Join Our Newsletter",
-      "placeholder": "Email Address",
+      "placeholder": "EMAIL",
       "button": "Enter",
       "success_message": "Thanks for signing up!",
       "email_blank": "Email field is blank",
