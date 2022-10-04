@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "show-featured": true,
+        "title-position": "left",
+        "show-date": false,
+        "show-author": false
+      }
+    },
+    "1664905158a06d3b65": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "16649051589602ce9e-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Ingredients",
+            "description": "",
+            "page-content": ""
+          }
+        },
+        "16649051589602ce9e-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Instructions",
+            "description": "<p>Chop or Blend your ingredients in a dry, clean mason jar, fill with your herbs.<\/p><p>Add apple cider vinegar and honey in a 3:1 ration (you can also choose a ratio of up to 1:1). <\/p><p>Cover with parchment paper and then mason jar lid. The parchment paper will prevent corrosion of your lid.<\/p><p>Store for 4-6 weeks in a cool, dry place like a kitchen cabinet. <\/p><p>Strain and use this immunity building oxymel when feeling under the weather or as a daily shot, as salad dressing, as a marinade! Possibilities are endless.<\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "16649051589602ce9e-0",
+        "16649051589602ce9e-1"
+      ],
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "heading": "Directions",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "navigation": {
+      "type": "article-navigation",
+      "settings": {
+        "enable": true,
+        "show-share": true,
+        "show-tags": false
+      }
+    },
+    "comments": {
+      "type": "article-comments",
+      "settings": {
+        "show-comments": true,
+        "disqus-enabled": false,
+        "disqus-shortname": ""
+      }
+    },
+    "recents": {
+      "type": "article-recents",
+      "settings": {
+        "enable": true
+      }
+    },
+    "1664910535b8c5bd1a": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Overline text",
+        "heading": "Introduce your brand",
+        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1664905158a06d3b65",
+    "navigation",
+    "comments",
+    "recents",
+    "1664910535b8c5bd1a"
+  ]
+}
