@@ -89,22 +89,6 @@
         "apply-overlay": false
       }
     },
-    "1664846173e41424df": {
-      "type": "featured-blog",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 3,
-        "spacing-above": true,
-        "spacing-below": true,
-        "blog-heading": "Autumn\/Winter Recipes",
-        "blog": "recipes",
-        "tag-select": "pinned",
-        "show-date": false,
-        "show-excerpt": false,
-        "view-more-text": ""
-      }
-    },
     "16648487363b45f36a": {
       "type": "image-with-text",
       "disabled": true,
@@ -141,7 +125,7 @@
             "title": "Incense Cones",
             "description": "<p>We taught an Incense Workshop at the latest Space to Dwell Retreat and it was so fun! Incense cones will soon be offered in limited quantities at BY TIDE. Watch out for an announcement this Fall!<\/p>",
             "link-url": "",
-            "link-text": "View more"
+            "link-text": ""
           }
         },
         "1664849965e649a0f4-1": {
@@ -152,7 +136,7 @@
             "title": "Formulating Liquid Soap",
             "description": "<p>We are extremely excited to introduce liquid soap! We are working to formulate one with the highest quality and most efficient plant botanicals we can find. Coming 2023.<\/p>",
             "link-url": "",
-            "link-text": "View more"
+            "link-text": ""
           }
         },
         "1664849965e649a0f4-2": {
@@ -208,7 +192,6 @@
     "1664846167c1082776",
     "16648487398dca1ae7",
     "main",
-    "1664846173e41424df",
     "16648487363b45f36a",
     "166484996575dfb7e1"
   ]
