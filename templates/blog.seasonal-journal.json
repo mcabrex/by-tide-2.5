@@ -9,7 +9,7 @@
         "spacing-above": false,
         "spacing-below": false,
         "image-height": 0,
-        "darken-image": false,
+        "darken-image": true,
         "parallax-enabled": false,
         "text-position": "center",
         "text-width": "medium",
