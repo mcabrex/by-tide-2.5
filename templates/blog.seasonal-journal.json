@@ -9,14 +9,14 @@
         "spacing-above": false,
         "spacing-below": false,
         "image-height": 0,
-        "darken-image": true,
+        "darken-image": false,
         "parallax-enabled": false,
         "text-position": "center",
         "text-width": "medium",
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC07560.jpg",
+        "image": "shopify:\/\/shop_images\/2A534301-2120-49D0-8252-22B2660E3C47_2_df32a379-30e6-404c-ad5c-5e52636938fc.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -44,11 +44,11 @@
     "1664846167c1082776": {
       "type": "featured-text",
       "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 2,
+        "background-color": "accent",
+        "light-text": true,
+        "container-width": 3,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "overline": "Fall \/ Winter '22",
         "heading": "Seasonal Journal Vol. I",
         "text": "<p>We are  in the midst of my favorite time of year, Autumn. We will soon be transitioning into Winter, a time of all sorts of ebb and flow. We feel the rush of holiday activities and gatherings, but many of us also find this time challenging. The Sun is no longer shining well into the evening, the weather is cooling down in many parts of the country,  the bright social life of Summer is no longer, and seasonal depression is hitting many of us.<\/p>"
@@ -56,11 +56,10 @@
     },
     "16648487398dca1ae7": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "background-color": "accent",
-        "light-text": false,
-        "container-width": 1,
+        "light-text": true,
+        "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
         "blog-heading": "",
@@ -73,6 +72,7 @@
     },
     "main": {
       "type": "blog",
+      "disabled": true,
       "settings": {
         "show-title": false,
         "show-date": false,
@@ -170,9 +170,9 @@
       ],
       "settings": {
         "background-color": "accent",
-        "light-text": false,
+        "light-text": true,
         "block-spacing": true,
-        "container-width": 4,
+        "container-width": 1,
         "spacing-above": true,
         "spacing-below": true,
         "width": 2,
