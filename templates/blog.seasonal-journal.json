@@ -54,13 +54,13 @@
         "text": "<p>We are  in the midst of my favorite time of year, Autumn. We will soon be transitioning into Winter, a time of all sorts of ebb and flow. We feel the rush of holiday activities and gatherings, but many of us also find this time challenging. The Sun is no longer shining well into the evening, the weather is cooling down in many parts of the country,  the bright social life of Summer is no longer, and seasonal depression is hitting many of us.<\/p>"
       }
     },
-    "1664846173e41424df": {
+    "16648487398dca1ae7": {
       "type": "featured-blog",
       "settings": {
         "background-color": "accent",
         "light-text": false,
-        "container-width": 4,
-        "spacing-above": false,
+        "container-width": 1,
+        "spacing-above": true,
         "spacing-below": true,
         "blog-heading": "",
         "blog": "seasonal-journal",
@@ -68,6 +68,47 @@
         "show-date": false,
         "show-excerpt": false,
         "view-more-text": ""
+      }
+    },
+    "1664846173e41424df": {
+      "type": "featured-blog",
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 3,
+        "spacing-above": true,
+        "spacing-below": true,
+        "blog-heading": "Autumn\/Winter Recipes",
+        "blog": "recipes",
+        "tag-select": "pinned",
+        "show-date": false,
+        "show-excerpt": false,
+        "view-more-text": ""
+      }
+    },
+    "16648487363b45f36a": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "accent",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 3,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/IMG_8574.jpg",
+        "overline": "COMING SOON",
+        "title": "Incense Cones",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
       }
     },
     "main": {
@@ -88,13 +129,87 @@
         "parallax-enabled": false,
         "apply-overlay": false
       }
+    },
+    "166484996575dfb7e1": {
+      "type": "text-columns",
+      "blocks": {
+        "1664849965e649a0f4-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/4.png",
+            "title": "Incense Cones",
+            "description": "<p>We taught an Incense Workshop at the latest Space to Dwell Retreat and it was so fun! Incense cones will soon be offered in limited quantities at BY TIDE. Watch out for an announcement this Fall!<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1664849965e649a0f4-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/5.png",
+            "title": "Formulating Liquid Soap",
+            "description": "<p>We are extremely excited to introduce liquid soap! We are working to formulate one with the highest quality and most efficient plant botanicals we can find. Coming 2023.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1664849965e649a0f4-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show-image": true,
+            "title": "Add a title or tagline",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1664849965e649a0f4-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show-image": true,
+            "title": "Add a title or tagline",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "1664849965e649a0f4-0",
+        "1664849965e649a0f4-1",
+        "1664849965e649a0f4-2",
+        "1664849965e649a0f4-3"
+      ],
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 2,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "Coming Soon",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
     "1664846605f879f483",
     "16648458757cbc0581",
     "1664846167c1082776",
+    "16648487398dca1ae7",
     "1664846173e41424df",
-    "main"
+    "16648487363b45f36a",
+    "main",
+    "166484996575dfb7e1"
   ]
 }

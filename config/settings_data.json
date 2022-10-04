@@ -29,7 +29,7 @@
     "social--pinterest--url": "https:\/\/www.pinterest.com\/by.tide",
     "social--tiktok--url": "https:\/\/tiktok.com\/by.tide",
     "popup--enabled": true,
-    "popup--mode": "auto",
+    "popup--mode": "test",
     "popup--background-color": "light",
     "popup--light-text": true,
     "popup--show-image": false,
