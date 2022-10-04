@@ -11,13 +11,12 @@
     },
     "1664905158a06d3b65": {
       "type": "collapsible-tabs",
-      "disabled": true,
       "blocks": {
         "16649051589602ce9e-0": {
           "type": "collapsible-tab",
           "settings": {
             "heading": "Ingredients",
-            "description": "<p><em>Apple Cider Vinegar<\/em><\/p><p><em>Honey<\/em><\/p><p><em>Garlic Cloves<\/em><\/p><p><em>Ginger, Turmeric<\/em><\/p><p><em>Pantry Herbs (Rosemary, Thyme, Oregano)<\/em><\/p><p><em>Medicinal Herbs (Astragalus, Ashwaghandha, Reishi, Lion's Mane)<\/em><\/p><p><em>Peppercorn<\/em><\/p><p><em>Jalapeno<\/em><\/p><p><em>Horseradish<\/em><\/p>",
+            "description": "",
             "page-content": ""
           }
         },
@@ -38,49 +37,6 @@
         "background-color": "accent",
         "light-text": true,
         "heading": "Directions",
-        "title-alignment": "left",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true
-      }
-    },
-    "1664907193d18c32f9": {
-      "type": "collapsible-tabs",
-      "blocks": {
-        "16649071933f577068-0": {
-          "type": "collapsible-tab",
-          "settings": {
-            "heading": "Collapsible tab",
-            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
-            "page-content": ""
-          }
-        },
-        "16649071933f577068-1": {
-          "type": "collapsible-tab",
-          "settings": {
-            "heading": "Collapsible tab",
-            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
-            "page-content": ""
-          }
-        },
-        "16649071933f577068-2": {
-          "type": "collapsible-tab",
-          "settings": {
-            "heading": "Collapsible tab",
-            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
-            "page-content": ""
-          }
-        }
-      },
-      "block_order": [
-        "16649071933f577068-0",
-        "16649071933f577068-1",
-        "16649071933f577068-2"
-      ],
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "heading": "Collapsible tabs",
         "title-alignment": "left",
         "container-width": 4,
         "spacing-above": true,
@@ -108,14 +64,27 @@
       "settings": {
         "enable": true
       }
+    },
+    "1664910535b8c5bd1a": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Overline text",
+        "heading": "Introduce your brand",
+        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
+      }
     }
   },
   "order": [
     "main",
     "1664905158a06d3b65",
-    "1664907193d18c32f9",
     "navigation",
     "comments",
-    "recents"
+    "recents",
+    "1664910535b8c5bd1a"
   ]
 }
