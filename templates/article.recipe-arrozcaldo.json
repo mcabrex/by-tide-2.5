@@ -5,23 +5,8 @@
       "settings": {
         "show-featured": true,
         "title-position": "left",
-        "show-date": false,
+        "show-date": true,
         "show-author": false
-      }
-    },
-    "4385b219-3a0c-4951-b9e7-67abeb325884": {
-      "type": "featured-video",
-      "settings": {
-        "video-url": "https:\/\/youtu.be\/gOPmiinWvQY",
-        "full-width": true,
-        "background-color": "none",
-        "section-height": "regular",
-        "light-text": true,
-        "darken-video": false,
-        "heading": "",
-        "sub-heading": "",
-        "button-text": "",
-        "button-url": ""
       }
     },
     "1664905158a06d3b65": {
@@ -83,7 +68,6 @@
   },
   "order": [
     "main",
-    "4385b219-3a0c-4951-b9e7-67abeb325884",
     "1664905158a06d3b65",
     "navigation",
     "comments",
