@@ -44,7 +44,7 @@
     "1664846167c1082776": {
       "type": "featured-text",
       "settings": {
-        "background-color": "accent",
+        "background-color": "none",
         "light-text": false,
         "container-width": 2,
         "spacing-above": true,
@@ -56,6 +56,7 @@
     },
     "16648487398dca1ae7": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "background-color": "accent",
         "light-text": false,
@@ -70,10 +71,28 @@
         "view-more-text": ""
       }
     },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "show-title": false,
+        "show-date": false,
+        "show-tag-filter": false,
+        "show-author": false,
+        "show-excerpt": false,
+        "show-rss": false,
+        "columns": 3,
+        "show-featured": false,
+        "tag": "",
+        "image-height": "large",
+        "alt-color": true,
+        "parallax-enabled": false,
+        "apply-overlay": false
+      }
+    },
     "1664846173e41424df": {
       "type": "featured-blog",
       "settings": {
-        "background-color": "accent",
+        "background-color": "none",
         "light-text": false,
         "container-width": 3,
         "spacing-above": true,
@@ -109,25 +128,6 @@
         "description": "",
         "link-url": "",
         "link-text": ""
-      }
-    },
-    "main": {
-      "type": "blog",
-      "disabled": true,
-      "settings": {
-        "show-title": false,
-        "show-date": false,
-        "show-tag-filter": false,
-        "show-author": false,
-        "show-excerpt": false,
-        "show-rss": false,
-        "columns": 3,
-        "show-featured": false,
-        "tag": "",
-        "image-height": "large",
-        "alt-color": true,
-        "parallax-enabled": false,
-        "apply-overlay": false
       }
     },
     "166484996575dfb7e1": {
@@ -207,9 +207,9 @@
     "16648458757cbc0581",
     "1664846167c1082776",
     "16648487398dca1ae7",
+    "main",
     "1664846173e41424df",
     "16648487363b45f36a",
-    "main",
     "166484996575dfb7e1"
   ]
 }
