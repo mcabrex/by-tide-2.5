@@ -64,19 +64,6 @@
       "settings": {
         "enable": true
       }
-    },
-    "1664910535b8c5bd1a": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "overline": "Overline text",
-        "heading": "Introduce your brand",
-        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
-      }
     }
   },
   "order": [
@@ -84,7 +71,6 @@
     "1664905158a06d3b65",
     "navigation",
     "comments",
-    "recents",
-    "1664910535b8c5bd1a"
+    "recents"
   ]
 }
