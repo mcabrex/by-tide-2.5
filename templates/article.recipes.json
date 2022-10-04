@@ -11,6 +11,7 @@
     },
     "1664905158a06d3b65": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "16649051589602ce9e-0": {
           "type": "collapsible-tab",
@@ -45,7 +46,6 @@
     },
     "1664907193d18c32f9": {
       "type": "collapsible-tabs",
-      "disabled": true,
       "blocks": {
         "16649071933f577068-0": {
           "type": "collapsible-tab",
