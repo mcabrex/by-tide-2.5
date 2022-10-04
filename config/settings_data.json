@@ -51,10 +51,10 @@
         "type": "announcement",
         "settings": {
           "enabled": false,
-          "home-page-only": false,
-          "background-color": "dark",
+          "home-page-only": true,
+          "background-color": "accent",
           "light-text": true,
-          "text": "SHOP RENAISSANCE BODY OIL NOW",
+          "text": "SIGN UP WITH YOUR EMAIL TO RECEIVE OUR SEASONAL JOURNAL VOL I",
           "link": ""
         }
       },

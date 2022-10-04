@@ -5,7 +5,7 @@
       "settings": {
         "show-featured": true,
         "title-position": "left",
-        "show-date": true,
+        "show-date": false,
         "show-author": false
       }
     },
@@ -43,6 +43,50 @@
         "spacing-below": true
       }
     },
+    "1664907193d18c32f9": {
+      "type": "collapsible-tabs",
+      "disabled": true,
+      "blocks": {
+        "16649071933f577068-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "page-content": ""
+          }
+        },
+        "16649071933f577068-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "page-content": ""
+          }
+        },
+        "16649071933f577068-2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "16649071933f577068-0",
+        "16649071933f577068-1",
+        "16649071933f577068-2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "Collapsible tabs",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
     "navigation": {
       "type": "article-navigation",
       "settings": {
@@ -69,6 +113,7 @@
   "order": [
     "main",
     "1664905158a06d3b65",
+    "1664907193d18c32f9",
     "navigation",
     "comments",
     "recents"
