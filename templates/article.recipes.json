@@ -9,18 +9,46 @@
         "show-author": false
       }
     },
+    "1664905158a06d3b65": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "16649051589602ce9e-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Ingredients",
+            "description": "<p><em>10 c Veggie or Bone Broth<\/em><\/p><p><em>1 c short grain riceGinger (1inch piece)<\/em><\/p><p><em>1 stalk lemongrass<\/em><\/p><p><em>5-8 garlic cloves<\/em><\/p><p><em>1\/4 tsp turmeric<\/em><\/p>",
+            "page-content": ""
+          }
+        },
+        "16649051589602ce9e-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Instructions",
+            "description": "<p>In a large pot, sautee onions, ginger, lemongrass until the onions are translucent. <\/p><p>Add garlic.<\/p><p>Add rice and turmeric and sautee for a couple of minutes.<\/p><p>Top with broth, salt to taste, and bring to a boil with lid off.<\/p><p>Once boiling, lower temperature to medium and simmer for 30-40 minutes, occasionally stirring to prevent rice from sticking.<\/p><p>Using a whisk, stir porridge to break up rice and create a rich, starchy mixture.<\/p><p>Serve hot and add toppings like scallions, fried garlic, saffron, soft boiled eggs, shredded chicken.<\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "16649051589602ce9e-0",
+        "16649051589602ce9e-1"
+      ],
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "heading": "Directions",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
     "navigation": {
       "type": "article-navigation",
       "settings": {
         "enable": true,
         "show-share": true,
         "show-tags": false
-      }
-    },
-    "recents": {
-      "type": "article-recents",
-      "settings": {
-        "enable": true
       }
     },
     "comments": {
@@ -30,12 +58,19 @@
         "disqus-enabled": false,
         "disqus-shortname": ""
       }
+    },
+    "recents": {
+      "type": "article-recents",
+      "settings": {
+        "enable": true
+      }
     }
   },
   "order": [
     "main",
+    "1664905158a06d3b65",
     "navigation",
-    "recents",
-    "comments"
+    "comments",
+    "recents"
   ]
 }
