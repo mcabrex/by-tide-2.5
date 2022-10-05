@@ -3,11 +3,11 @@
     "1664846605f879f483": {
       "type": "image-with-text",
       "settings": {
-        "text-color": "auto",
+        "text-color": "light",
         "background-color": "accent",
-        "container-width": 4,
+        "container-width": 5,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
@@ -20,7 +20,7 @@
         "overline": "",
         "title": "",
         "description": "",
-        "link-url": "",
+        "link-url": "https:\/\/pin.it\/3sXM6mn",
         "link-text": ""
       }
     },
@@ -45,7 +45,7 @@
       "type": "featured-text",
       "settings": {
         "background-color": "accent",
-        "light-text": true,
+        "light-text": false,
         "container-width": 3,
         "spacing-above": true,
         "spacing-below": false,
@@ -58,7 +58,7 @@
       "type": "featured-blog",
       "settings": {
         "background-color": "accent",
-        "light-text": true,
+        "light-text": false,
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
@@ -170,7 +170,7 @@
       ],
       "settings": {
         "background-color": "accent",
-        "light-text": true,
+        "light-text": false,
         "block-spacing": true,
         "container-width": 1,
         "spacing-above": false,
@@ -184,6 +184,19 @@
         "link-url": "",
         "link-text": ""
       }
+    },
+    "a59bb33b-6a3e-4f79-af07-84b6d1d603ef": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "",
+        "text": "<p>Moodboard Photo Credit: Carjager, Celine, Anna Pogossova, @inthefrow, Don Snyder Photography, Harper's Bazaar, etc. <em>via <\/em><a href=\"https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/\" target=\"_blank\" title=\"https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/\"><em>Pinterest<\/em><\/a><\/p>"
+      }
     }
   },
   "order": [
@@ -193,6 +206,7 @@
     "16648487398dca1ae7",
     "main",
     "16648487363b45f36a",
-    "166484996575dfb7e1"
+    "166484996575dfb7e1",
+    "a59bb33b-6a3e-4f79-af07-84b6d1d603ef"
   ]
 }
