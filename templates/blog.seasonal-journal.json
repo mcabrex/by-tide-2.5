@@ -54,6 +54,30 @@
         "text": "<p>We are  in the midst of my favorite time of year, Autumn. We will soon be transitioning into Winter, a time of all sorts of ebb and flow. We feel the rush of holiday activities and gatherings, but many of us also find this time challenging. The Sun is no longer shining well into the evening, the weather is cooling down in many parts of the country,  the bright social life of Summer is no longer, and seasonal depression is hitting many of us.<\/p>"
       }
     },
+    "17a029ab-d728-46b3-a9d4-145342c65cc7": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "accent",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 3,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DEAFE5C0-65D3-49F4-BA5F-F16781016AE3.jpg",
+        "overline": "Overline text",
+        "title": "My Fall\/Winter Rituals",
+        "description": "<p><\/p><p>Increased daily herbal tonics, tinctures, supplements<\/p><p>Nourish broths, stews, and soups<\/p><p>Intimate dinners at home<\/p><p>More candlelight, more fires, more incense!<\/p><p>Early to bed<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "16648487398dca1ae7": {
       "type": "featured-blog",
       "settings": {
@@ -123,7 +147,7 @@
             "show-image": true,
             "image": "shopify:\/\/shop_images\/4.png",
             "title": "Incense Cones",
-            "description": "<p>We taught an Incense Workshop at the latest Space to Dwell Retreat and it was so fun! Incense cones will soon be offered in limited quantities at BY TIDE. Watch out for an announcement this Fall!<\/p>",
+            "description": "",
             "link-url": "",
             "link-text": ""
           }
@@ -134,7 +158,7 @@
             "show-image": true,
             "image": "shopify:\/\/shop_images\/Blog_Post_Featured_Image.png",
             "title": "Formulating Liquid Soap",
-            "description": "<p>We are extremely excited to introduce liquid soap! We are working to formulate one with the highest quality and most efficient plant botanicals we can find. Coming 2023.<\/p>",
+            "description": "",
             "link-url": "",
             "link-text": ""
           }
@@ -173,7 +197,7 @@
         "light-text": false,
         "block-spacing": true,
         "container-width": 1,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
         "width": 2,
         "image-width": 0,
@@ -203,6 +227,7 @@
     "1664846605f879f483",
     "16648458757cbc0581",
     "1664846167c1082776",
+    "17a029ab-d728-46b3-a9d4-145342c65cc7",
     "16648487398dca1ae7",
     "main",
     "16648487363b45f36a",
