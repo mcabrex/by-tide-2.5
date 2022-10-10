@@ -22,6 +22,21 @@
         "text": "<p>Fire Cider is a Fall\/Winter staple in our herbal medicine cabinet. We take it at the first signs of a cold or as a daily immune-boosting supplement. <\/p>"
       }
     },
+    "0c254a3b-12dc-4024-b783-b7f7c65057c1": {
+      "type": "featured-video",
+      "settings": {
+        "video-url": "https:\/\/youtu.be\/cJ8KbOHkFYE",
+        "full-width": true,
+        "background-color": "none",
+        "section-height": "regular",
+        "light-text": true,
+        "darken-video": true,
+        "heading": "",
+        "sub-heading": "",
+        "button-text": "",
+        "button-url": ""
+      }
+    },
     "1664905158a06d3b65": {
       "type": "collapsible-tabs",
       "blocks": {
@@ -82,6 +97,7 @@
   "order": [
     "main",
     "6aceb997-b65a-47bb-923b-bd33b41c94d1",
+    "0c254a3b-12dc-4024-b783-b7f7c65057c1",
     "1664905158a06d3b65",
     "navigation",
     "comments",
