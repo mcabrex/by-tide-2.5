@@ -22,6 +22,17 @@
         "text": "<p>Fire Cider is a Fall\/Winter staple in our herbal medicine cabinet. We take it at the first signs of a cold or as a daily immune-boosting supplement.<\/p>"
       }
     },
+    "fcca2626-0fd2-40ba-a01d-e8e5bb9da646": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom-liquid": "<iframe width=\"320\" height=\"522\" src=\"https:\/\/www.youtube.com\/embed\/gyZejX30-5E\" title=\"Fire Cider Oxymel\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
     "1664905158a06d3b65": {
       "type": "collapsible-tabs",
       "blocks": {
@@ -82,6 +93,7 @@
   "order": [
     "main",
     "6aceb997-b65a-47bb-923b-bd33b41c94d1",
+    "fcca2626-0fd2-40ba-a01d-e8e5bb9da646",
     "1664905158a06d3b65",
     "navigation",
     "comments",
