@@ -4,9 +4,22 @@
       "type": "article",
       "settings": {
         "show-featured": true,
-        "title-position": "below",
+        "title-position": "left",
         "show-date": true,
         "show-author": false
+      }
+    },
+    "812bc1a5-2179-43f9-8f36-cf0c96efd8cd": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "LEVEL: EASY",
+        "heading": "A Healing Herbal Broth",
+        "text": "<p>Bone Broth is a weekly recipe in our household. It is the base of many soups and stews and meals in general. It is also a sipping broth at night to help wind down and a freezer staple. This recipe can easily be a vegetarian herbal broth by omitting the meat\/bones and adding alot more veggies\/herbs.<\/p>"
       }
     },
     "aa64463c-2c6b-4448-a589-0ac81cca0a7c": {
@@ -22,6 +35,40 @@
         "sub-heading": "",
         "button-text": "",
         "button-url": ""
+      }
+    },
+    "952282a1-af1a-4033-b855-50a2cb513a62": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--15858411110560__952282a1-af1a-4033-b855-50a2cb513a62-16654323195e8e1aa7-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Ingredients",
+            "description": "<p>Large Stock Pot<\/p><p>8-10 C filtered water<\/p><p>1 whole chicken (or beef bones; omit for vegetarian version)<\/p><p>Fresh Vegetables + Scraps on hand (head of garlic, carrots, celery, onion, lemon, scallions)<\/p><p>Pantry Herbs (parsley, rosemary, thyme, oregano, ginger, turmeric, bay leaf, peppercorn etc.)<\/p><p>Medicinal Herbs (ashwaghanda, goji berry, astragalus, calendula, nettle, etc.)<\/p><p>Seaweed (Kombu, Wake)<\/p><p>Dried Shiitake and other mushrooms (chaga, cordyceps)<\/p>",
+            "page-content": ""
+          }
+        },
+        "template--15858411110560__952282a1-af1a-4033-b855-50a2cb513a62-16654323195e8e1aa7-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Instructions",
+            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15858411110560__952282a1-af1a-4033-b855-50a2cb513a62-16654323195e8e1aa7-0",
+        "template--15858411110560__952282a1-af1a-4033-b855-50a2cb513a62-16654323195e8e1aa7-1"
+      ],
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "heading": "Recipe",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
       }
     },
     "navigation": {
@@ -49,7 +96,9 @@
   },
   "order": [
     "main",
+    "812bc1a5-2179-43f9-8f36-cf0c96efd8cd",
     "aa64463c-2c6b-4448-a589-0ac81cca0a7c",
+    "952282a1-af1a-4033-b855-50a2cb513a62",
     "navigation",
     "recents",
     "comments"
