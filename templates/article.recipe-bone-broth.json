@@ -30,7 +30,7 @@
         "background-color": "none",
         "section-height": "regular",
         "light-text": true,
-        "darken-video": true,
+        "darken-video": false,
         "heading": "",
         "sub-heading": "",
         "button-text": "",
