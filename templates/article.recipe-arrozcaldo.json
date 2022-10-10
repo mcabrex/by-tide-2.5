@@ -14,7 +14,7 @@
       "settings": {
         "background-color": "accent",
         "light-text": true,
-        "container-width": 2,
+        "container-width": 3,
         "spacing-above": true,
         "spacing-below": true,
         "overline": "LEVEL: EASY",
