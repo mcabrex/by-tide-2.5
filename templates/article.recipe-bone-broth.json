@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "show-featured": true,
+        "title-position": "below",
+        "show-date": true,
+        "show-author": false
+      }
+    },
+    "navigation": {
+      "type": "article-navigation",
+      "settings": {
+        "enable": true,
+        "show-share": true,
+        "show-tags": false
+      }
+    },
+    "recents": {
+      "type": "article-recents",
+      "settings": {
+        "enable": true
+      }
+    },
+    "comments": {
+      "type": "article-comments",
+      "settings": {
+        "show-comments": true,
+        "disqus-enabled": false,
+        "disqus-shortname": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "navigation",
+    "recents",
+    "comments"
+  ]
+}
