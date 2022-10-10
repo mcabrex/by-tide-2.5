@@ -9,6 +9,21 @@
         "show-author": false
       }
     },
+    "aa64463c-2c6b-4448-a589-0ac81cca0a7c": {
+      "type": "featured-video",
+      "settings": {
+        "video-url": "https:\/\/youtu.be\/WWpx6T3HIpU",
+        "full-width": true,
+        "background-color": "none",
+        "section-height": "regular",
+        "light-text": true,
+        "darken-video": true,
+        "heading": "",
+        "sub-heading": "",
+        "button-text": "",
+        "button-url": ""
+      }
+    },
     "navigation": {
       "type": "article-navigation",
       "settings": {
@@ -34,6 +49,7 @@
   },
   "order": [
     "main",
+    "aa64463c-2c6b-4448-a589-0ac81cca0a7c",
     "navigation",
     "recents",
     "comments"

@@ -59,7 +59,7 @@
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
-        "container-width": 4,
+        "container-width": 6,
         "spacing-above": true,
         "spacing-below": true,
         "image-height": 3,
@@ -94,6 +94,32 @@
             "link-text": ""
           }
         },
+        "9b9c2361-41bb-4479-86ce-2fc07d567cd8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fallwintermoodboard2.png",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Moodboard",
+            "description": "<p>For this Fall\/Winter '22 Moodboard, I was inspired by vintage Ralph Lauren, tailored clothing, plays on light and shadow, and moody objects found in Nature.<\/p>",
+            "link-url": "https:\/\/www.pinterest.com\/bytide\/fallwinter-22",
+            "link-text": "PINTEREST MOODBOARD"
+          }
+        },
+        "c05766e0-6cfc-47df-9a98-d72cdbd748b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07487.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Skincare",
+            "description": "<p>Indulgent baths, face masks, and alot of moisturizing. Our skin tends to lean dryer during the cold months, so extra attention will keep it feeling nourished. Lots of Renaissance Body Oil for sure!<\/p>",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        },
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-1": {
           "type": "image",
           "settings": {
@@ -120,19 +146,6 @@
             "link-text": ""
           }
         },
-        "c05766e0-6cfc-47df-9a98-d72cdbd748b0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC07487.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Skincare",
-            "description": "<p>Indulgent baths, face masks, and alot of moisturizing. Our skin tends to lean dryer during the cold months, so extra attention will keep it feeling nourished. Lots of Renaissance Body Oil for sure!<\/p>",
-            "link-url": "\/",
-            "link-text": ""
-          }
-        },
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3": {
           "type": "image",
           "settings": {
@@ -145,35 +158,22 @@
             "link-url": "\/",
             "link-text": ""
           }
-        },
-        "9b9c2361-41bb-4479-86ce-2fc07d567cd8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fallwintermoodboard2.png",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Moodboard",
-            "description": "<p>I love Pinterest and I love creating moodboards. For this Fall\/Winter '22 Moodboard, I was inspired by vintage Ralph Lauren, tailored clothing, plays on light and shadow, and moody objects found in Nature.<\/p>",
-            "link-url": "\/https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/",
-            "link-text": "PINTEREST MOODBOARD"
-          }
         }
       },
       "block_order": [
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-0",
+        "9b9c2361-41bb-4479-86ce-2fc07d567cd8",
+        "c05766e0-6cfc-47df-9a98-d72cdbd748b0",
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-1",
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-2",
-        "c05766e0-6cfc-47df-9a98-d72cdbd748b0",
-        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3",
-        "9b9c2361-41bb-4479-86ce-2fc07d567cd8"
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3"
       ],
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
         "spacing-above": false,
         "spacing-below": false,
-        "spacing-around-blocks": true,
+        "spacing-around-blocks": false,
         "image-height": 2,
         "darken-image": true,
         "blocks_per_slide": 2,
