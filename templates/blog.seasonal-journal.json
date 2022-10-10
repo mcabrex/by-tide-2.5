@@ -54,6 +54,21 @@
         "text": "<p>Fall has arrived. The intensity of Summer has come to a close as we look forward to nestling in at home. We are actively preparing for Winter, a time where many of us experience the holiday rush, seasonal depression, and cold\/flu symptoms. It is the perfect time to begin or intensify rituals that will nurture us. Our Seasonal Journal is meant to inspire you as we experience Nature's transitions. It is a guide that will be updated throughout each Season - you are encouraged to reference it often and find inspiration as you see fit! <\/p>"
       }
     },
+    "9630d6cb-858e-494a-b404-34e9d6ec946e": {
+      "type": "featured-video",
+      "settings": {
+        "video-url": "https:\/\/youtu.be\/xi4OMzY4AKk",
+        "full-width": true,
+        "background-color": "none",
+        "section-height": "regular",
+        "light-text": true,
+        "darken-video": true,
+        "heading": "",
+        "sub-heading": "",
+        "button-text": "",
+        "button-url": ""
+      }
+    },
     "9aced8d7-13af-490c-a8ab-0231a2c2b86c": {
       "type": "featured-text",
       "disabled": true,
@@ -73,13 +88,13 @@
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
-        "container-width": 6,
+        "container-width": 4,
         "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 3,
+        "spacing-below": true,
+        "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
-        "text-position": "center",
+        "text-position": "left",
         "text-width": "medium",
         "overlap": false,
         "box-around-text": false,
@@ -128,8 +143,8 @@
             "text-position": "center",
             "text-width": "small",
             "overline": "",
-            "title": "Skincare",
-            "description": "<p>Indulgent baths, face masks, and alot of moisturizing. Our skin tends to lean dryer during the cold months, so extra attention will keep it feeling nourished. Lots of Renaissance Body Oil for sure!<\/p><p><\/p>",
+            "title": "Indulgent Skincare",
+            "description": "<p>An enhanced nightime skincare routine, herbal milk baths, and clay face masks are my priority. Our skin tends to lean dryer\/rougher during the cold months, so extra attention will keep it feeling nourished. I will be using lots of Renaissance Body Oil for sure!<\/p><p><\/p>",
             "link-url": "\/",
             "link-text": ""
           }
@@ -142,7 +157,7 @@
             "text-width": "small",
             "overline": "",
             "title": "Warming Meals",
-            "description": "<p>Warm, nourishing broths, stews, and soups infused with medicinal herbs. Think beef stew, chicken noodle, butternut squash, brothy beans, lentils...<\/p><p><\/p>",
+            "description": "<p>Warm, nourishing broths, stews, and soups infused with medicinal herbs. Think beef stew, chicken noodle, butternut squash, brothy beans, lentils, veggie curries, dark leafy greens...<\/p><p><\/p>",
             "link-url": "\/",
             "link-text": ""
           }
@@ -154,8 +169,8 @@
             "text-position": "center",
             "text-width": "small",
             "overline": "",
-            "title": "Setting the Table",
-            "description": "<p>Tablescapes are my thing all year round, but cheers to more intimate dinners at home! Thrift mismatched plates, glassware, and linens. Dim the lights. Light taper candles. Create playlists curated for coziness :)<\/p><p><\/p>",
+            "title": "Setting the Autumnal Table",
+            "description": "<p>Tablescapes are my thing all year round, but cheers to more intimate dinners at home! Thrift mismatched plates, glassware, and linens. Forage branches and foliage. Dim the lights. Light taper candles. Create playlists curated for coziness :)<\/p><p><\/p>",
             "link-url": "\/",
             "link-text": ""
           }
@@ -168,7 +183,7 @@
             "text-width": "small",
             "overline": "",
             "title": "Comfort Entertainment",
-            "description": "<p>Watching Practical Magic and You've Got Mail on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Reading cookbooks and trying to crack into my huge \"<em>To Read<\/em>\" pile. <\/p>",
+            "description": "<p>Watching Practical Magic and You've Got Mail on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Book recs: the Kosmic Kitchen Cookbook and A Court of Thorns and Roses by Sarah J. Maas (I obsessively tell everyone I know to read this; it's going be a HULU series and I can't wait!).<\/p>",
             "link-url": "\/",
             "link-text": ""
           }
@@ -348,6 +363,7 @@
     "1664846605f879f483",
     "16648458757cbc0581",
     "1664846167c1082776",
+    "9630d6cb-858e-494a-b404-34e9d6ec946e",
     "9aced8d7-13af-490c-a8ab-0231a2c2b86c",
     "ecdacddf-616a-4324-aa4e-c6939db35c7b",
     "b2638809-7264-4c4f-9d73-88842d1a851e",
