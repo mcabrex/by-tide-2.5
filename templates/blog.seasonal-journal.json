@@ -89,7 +89,7 @@
             "text-width": "medium",
             "overline": "",
             "title": "Herbal Allies",
-            "description": "<p>Increased daily teas\/infusions, tinctures, and supplements parcticularly for mood, immunity, and inflammation*<\/p>",
+            "description": "<p>Increased daily teas\/infusions, tinctures, and supplements parcticularly for mood, immunity, and inflammation.* I like to reach for Milky Oats, Turmeric, Ginger, Peppermint, Garlic, and Chaga.<\/p>",
             "link-url": "\/",
             "link-text": ""
           }
@@ -97,7 +97,7 @@
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC07560.jpg",
+            "image": "shopify:\/\/shop_images\/small-down-with-vibrant-green-liquid-sits-on-a-black-tray.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -127,7 +127,7 @@
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
-            "title": "Extra Skincare",
+            "title": "Skincare",
             "description": "<p>Indulgent baths, face masks, and alot of moisturizing. Our skin tends to lean dryer during the cold months, so extra attention will keep it feeling nourished. Lots of Renaissance Body Oil for sure!<\/p>",
             "link-url": "\/",
             "link-text": ""
@@ -136,14 +136,27 @@
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_2251.jpg",
+            "image": "shopify:\/\/shop_images\/person-relaxing-reading-a-large-coffee-table-book.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
             "title": "Comfort Entertainment",
-            "description": "<p>Practical Magic on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Reading anything by Sarah J Maas. Rereading favorites: Rebecca, Anna Karenina, <\/p>",
+            "description": "<p>Watching Practical Magic and You've Got Mail on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Reading cookbooks and trying to crack into my huge \"<em>To Read<\/em>\" pile.<\/p><p><\/p>",
             "link-url": "\/",
             "link-text": ""
+          }
+        },
+        "9b9c2361-41bb-4479-86ce-2fc07d567cd8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fallwintermoodboard2.png",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Moodboard",
+            "description": "<p>I love Pinterest and I love creating moodboards. For this Fall\/Winter '22 Moodboard, I was inspired by vintage Ralph Lauren, tailored clothing, plays on light and shadow, and moody objects found in Nature.<\/p>",
+            "link-url": "\/https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/",
+            "link-text": "PINTEREST MOODBOARD"
           }
         }
       },
@@ -152,14 +165,15 @@
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-1",
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-2",
         "c05766e0-6cfc-47df-9a98-d72cdbd748b0",
-        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3"
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3",
+        "9b9c2361-41bb-4479-86ce-2fc07d567cd8"
       ],
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
         "spacing-above": false,
         "spacing-below": false,
-        "spacing-around-blocks": false,
+        "spacing-around-blocks": true,
         "image-height": 2,
         "darken-image": true,
         "blocks_per_slide": 2,
@@ -167,8 +181,8 @@
         "box-around-text": false,
         "mobile-overlay": false,
         "auto-rotate": false,
-        "rotate-frequency": 5,
-        "transition_type": "slide"
+        "rotate-frequency": 3,
+        "transition_type": "fade"
       }
     },
     "16648487398dca1ae7": {
