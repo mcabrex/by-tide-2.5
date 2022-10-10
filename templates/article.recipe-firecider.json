@@ -9,6 +9,19 @@
         "show-author": false
       }
     },
+    "6aceb997-b65a-47bb-923b-bd33b41c94d1": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "LEVEL: EASY",
+        "heading": "Immunity Building Oxymel",
+        "text": "<p>Fire Cider is a Fall\/Winter staple in our herbal medicine cabinet. We take it at the first signs of a cold or as a daily immune-boosting supplement. <\/p>"
+      }
+    },
     "1664905158a06d3b65": {
       "type": "collapsible-tabs",
       "blocks": {
@@ -68,6 +81,7 @@
   },
   "order": [
     "main",
+    "6aceb997-b65a-47bb-923b-bd33b41c94d1",
     "1664905158a06d3b65",
     "navigation",
     "comments",
