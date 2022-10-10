@@ -48,32 +48,117 @@
         "light-text": false,
         "container-width": 3,
         "spacing-above": true,
-        "spacing-below": false,
+        "spacing-below": true,
         "overline": "Fall \/ Winter '22",
         "heading": "Seasonal Journal Vol. I",
         "text": "<p>Fall has arrived. The intensity of Summer has come to a close as we look forward to nestling in at home. We are actively preparing for Winter, a time where many of us experience the holiday rush, seasonal depression, and cold\/flu symptoms. It is the perfect time to begin or intensify rituals that will nurture us. Our Seasonal Journal is meant to inspire you as we experience Nature's transitions. It is a guide that will be updated throughout each Season - you are encouraged to reference it often and find inspiration as you see fit! <\/p>"
       }
     },
-    "17a029ab-d728-46b3-a9d4-145342c65cc7": {
-      "type": "image-with-text",
+    "9aced8d7-13af-490c-a8ab-0231a2c2b86c": {
+      "type": "featured-text",
       "settings": {
-        "text-color": "auto",
         "background-color": "accent",
-        "container-width": 6,
+        "light-text": false,
+        "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "image-height": 3,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "left",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/DEAFE5C0-65D3-49F4-BA5F-F16781016AE3.jpg",
         "overline": "A NOTE FROM LEAH",
-        "title": "My Fall\/Winter Rituals",
-        "description": "<p>We are in the midst of my favorite time of year, Autumn, the coziest of seasons. There are rituals that I practice almost daily (a morning tonic, meditation) and there are rituals I seek during certain seasons of my life. Below are some of the rituals that give me peace when Fall\/Winter arrives.<\/p><p><\/p>",
+        "heading": "My Fall\/Winter Rituals",
+        "text": "<p>We are in the midst of my favorite time of year: Autumn, the coziest of seasons. There are rituals that I practice almost daily (a morning tonic, meditation) and there are rituals I seek during certain seasons of my life. Below are some of the rituals that give me peace when Fall\/Winter arrives.<\/p><p><\/p>"
+      }
+    },
+    "3c0c5b9c-f977-46a2-b26d-e8ced4096fe7": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/2A534301-2120-49D0-8252-22B2660E3C47_2_df32a379-30e6-404c-ad5c-5e52636938fc.jpg",
+            "title": "Herbal Allies",
+            "description": "<p>Increased daily teas\/infusions, tinctures, and supplements parcticularly for mood, immunity, and inflammation.* I like to reach for Milky Oats, Turmeric, Ginger, Peppermint, Garlic, and Chaga.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/fallwintermoodboard2.png",
+            "title": "Moody Inspiration",
+            "description": "<p>For this Fall\/Winter '22 Moodboard, I was inspired by vintage Ralph Lauren, tailored clothing, plays on light and shadow, and moody objects found in Nature.<\/p>",
+            "link-url": "https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/",
+            "link-text": "MOODBOARD"
+          }
+        },
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/small-down-with-vibrant-green-liquid-sits-on-a-black-tray.jpg",
+            "title": "Warming Meals",
+            "description": "<p>Warm, nourishing broths, stews, and soups infused with medicinal herbs. Think beef stew, chicken noodle, butternut squash, brothy beans, lentils, dark leafy greens...<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-3": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/DSC07487.jpg",
+            "title": "Skincare",
+            "description": "<p>Indulgent baths, face masks, and alot of moisturizing. Our skin tends to lean dryer during the cold months, so extra attention will keep it feeling nourished. Lots of Renaissance Body Oil for sure!<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "b1751f66-17b0-4620-9a89-6a29b380a146": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_9563.jpg",
+            "title": "Setting the Table",
+            "description": "<p>Tablescapes are my thing all year round, but cheers to more intimate dinners at home! Thrift mismatched plates, glassware, and linens. Dim the lights. Light taper candles. Create playlists curated for coziness :)<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "7ffa321f-2dc6-438d-925c-0601c8754a09": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2251.jpg",
+            "title": "Comfort Entertainment",
+            "description": "<p>Watching Practical Magic and You've Got Mail on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Reading cookbooks and trying to crack into my huge \"<em>To Read<\/em>\" pile. <\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-0",
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-1",
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-2",
+        "template--15843468705952__3c0c5b9c-f977-46a2-b26d-e8ced4096fe7-1665441098c993b722-3",
+        "b1751f66-17b0-4620-9a89-6a29b380a146",
+        "7ffa321f-2dc6-438d-925c-0601c8754a09"
+      ],
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 3,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "",
+        "subtitle": "",
         "link-url": "",
         "link-text": ""
       }
@@ -154,7 +239,7 @@
             "text-width": "medium",
             "overline": "",
             "title": "Comfort Entertainment",
-            "description": "<p>Watching Practical Magic and You've Got Mail on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Reading cookbooks and trying to crack into my huge \"<em>To Read<\/em>\" pile. <\/p><p><\/p>",
+            "description": "<p>Watching Practical Magic and You've Got Mail on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Reading cookbooks and trying to crack into my huge \"<em>To Read<\/em>\" pile. <\/p>",
             "link-url": "\/",
             "link-text": ""
           }
@@ -178,7 +263,7 @@
         "darken-image": true,
         "blocks_per_slide": 2,
         "blocks_per_slide_mobile": "1",
-        "box-around-text": false,
+        "box-around-text": true,
         "mobile-overlay": false,
         "auto-rotate": false,
         "rotate-frequency": 3,
@@ -193,7 +278,7 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "blog-heading": "",
+        "blog-heading": "Seasonal Recipes",
         "blog": "seasonal-journal",
         "tag-select": "pinned",
         "show-date": false,
@@ -254,7 +339,7 @@
             "show-image": true,
             "image": "shopify:\/\/shop_images\/4.png",
             "title": "Incense Cones",
-            "description": "",
+            "description": "<p>We had so much fun making incense cones at the last <a href=\"https:\/\/www.instagram.com\/spacetodwell\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/spacetodwell\/\">Space to Dwell Retreat<\/a>! We will be offering limited hand-pressed Incense Cones this Fall\/Winter. <\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -265,7 +350,7 @@
             "show-image": true,
             "image": "shopify:\/\/shop_images\/Blog_Post_Featured_Image.png",
             "title": "Formulating Liquid Soap",
-            "description": "",
+            "description": "<p>We are currently formulating liquid soap for you! Coming 2023, maybe sooner.<\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -334,7 +419,8 @@
     "1664846605f879f483",
     "16648458757cbc0581",
     "1664846167c1082776",
-    "17a029ab-d728-46b3-a9d4-145342c65cc7",
+    "9aced8d7-13af-490c-a8ab-0231a2c2b86c",
+    "3c0c5b9c-f977-46a2-b26d-e8ced4096fe7",
     "b2638809-7264-4c4f-9d73-88842d1a851e",
     "16648487398dca1ae7",
     "main",
