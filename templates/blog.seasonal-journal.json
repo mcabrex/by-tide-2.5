@@ -54,21 +54,6 @@
         "text": "<p>Fall has arrived. The intensity of Summer has come to a close as we look forward to nestling in at home. We are actively preparing for Winter, a time where many of us experience the holiday rush, seasonal depression, and cold\/flu symptoms. It is the perfect time to begin or intensify rituals that will nurture us. Our Seasonal Journal is meant to inspire you as we experience Nature's transitions. It is a guide that will be updated throughout each Season - you are encouraged to reference it often and find inspiration as you see fit! <\/p>"
       }
     },
-    "9630d6cb-858e-494a-b404-34e9d6ec946e": {
-      "type": "featured-video",
-      "settings": {
-        "video-url": "https:\/\/youtu.be\/eswryzOFoaY",
-        "full-width": true,
-        "background-color": "none",
-        "section-height": "regular",
-        "light-text": true,
-        "darken-video": true,
-        "heading": "",
-        "sub-heading": "",
-        "button-text": "",
-        "button-url": ""
-      }
-    },
     "9aced8d7-13af-490c-a8ab-0231a2c2b86c": {
       "type": "featured-text",
       "disabled": true,
@@ -338,7 +323,7 @@
         "width": 2,
         "image-width": 0,
         "mobile-width": "2",
-        "text-alignment": "center",
+        "text-alignment": "left",
         "heading": "Coming Soon",
         "subtitle": "",
         "link-url": "",
@@ -353,9 +338,9 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "overline": "",
+        "overline": "Moodboard Photo Credit: Carjager, Celine, Anna Pogossova, @inthefrow, Don Snyder Photography, Harper's Bazaar, etc. via Pinterest",
         "heading": "",
-        "text": "<p>Moodboard Photo Credit: Carjager, Celine, Anna Pogossova, @inthefrow, Don Snyder Photography, Harper's Bazaar, etc. <em>via <\/em><a href=\"https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/\" target=\"_blank\" title=\"https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/\"><em>Pinterest<\/em><\/a><\/p><p>*A note on herbal supplements - while I do actively take tinctures\/vitamins, the best way to incorporate herbalism into our lives is by adding it to food and drink! You will find in the recipes we share that there are often medicinal herbs included, many you will find in your pantry\/fridge.<\/p>"
+        "text": ""
       }
     }
   },
@@ -363,7 +348,6 @@
     "1664846605f879f483",
     "16648458757cbc0581",
     "1664846167c1082776",
-    "9630d6cb-858e-494a-b404-34e9d6ec946e",
     "9aced8d7-13af-490c-a8ab-0231a2c2b86c",
     "ecdacddf-616a-4324-aa4e-c6939db35c7b",
     "b2638809-7264-4c4f-9d73-88842d1a851e",
