@@ -9,6 +9,34 @@
         "show-author": false
       }
     },
+    "f122c174-f2eb-42ea-a45f-0f0b06d7ee26": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "LEVEL: EASY",
+        "heading": "A Childhood Comfort Meal",
+        "text": "<p>Growing up in a Filipino household means lots of stews and soups for your meals. I am lucky that both my parents are exceptional home cooks - probably where my love of cooking comes from. <\/p><p>Whenever we were sick or when Winter struck, Arroz Caldo was usually simmering away on the stove. <\/p>"
+      }
+    },
+    "8c3f11b7-5a25-4213-a447-66b3304aeed9": {
+      "type": "featured-video",
+      "settings": {
+        "video-url": "https:\/\/youtu.be\/VnwTCmILymw",
+        "full-width": true,
+        "background-color": "none",
+        "section-height": "regular",
+        "light-text": true,
+        "darken-video": true,
+        "heading": "",
+        "sub-heading": "",
+        "button-text": "",
+        "button-url": ""
+      }
+    },
     "1664905158a06d3b65": {
       "type": "collapsible-tabs",
       "blocks": {
@@ -68,6 +96,8 @@
   },
   "order": [
     "main",
+    "f122c174-f2eb-42ea-a45f-0f0b06d7ee26",
+    "8c3f11b7-5a25-4213-a447-66b3304aeed9",
     "1664905158a06d3b65",
     "navigation",
     "comments",
