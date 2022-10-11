@@ -199,6 +199,19 @@
         "transition_type": "slide"
       }
     },
+    "869d2a74-7416-4a27-a74b-d26e2a522c93": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "",
+        "heading": "Seasonal Recipes",
+        "text": "<p>When it comes to vibrant health and beauty, you really are what you eat! Cooking whole, nourishing meals that involve minimally processed ingredients is key to feeling good inside and out. I do not subscribe to certain diets or restrictions; rather I aim for what is in season and focus on eating mostly vegetables, meats, fruits, and grains. I still love dessert and eating out though! <em>The key is finding balance not perfection. <\/em>For this edition, we have highlighted recipes that may help support you during Fall\/Winter.<\/p>"
+      }
+    },
     "16648487398dca1ae7": {
       "type": "featured-blog",
       "settings": {
@@ -207,7 +220,7 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "blog-heading": "Seasonal Recipes",
+        "blog-heading": "",
         "blog": "seasonal-journal",
         "tag-select": "pinned",
         "show-date": false,
@@ -351,6 +364,7 @@
     "9aced8d7-13af-490c-a8ab-0231a2c2b86c",
     "ecdacddf-616a-4324-aa4e-c6939db35c7b",
     "b2638809-7264-4c4f-9d73-88842d1a851e",
+    "869d2a74-7416-4a27-a74b-d26e2a522c93",
     "16648487398dca1ae7",
     "main",
     "16648487363b45f36a",
