@@ -350,7 +350,7 @@
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
-        "spacing-below": false,
+        "spacing-below": true,
         "overline": "Moodboard Photo Credit: Carjager, Celine, Anna Pogossova, @inthefrow, Don Snyder Photography, Harper's Bazaar, etc. via Pinterest",
         "heading": "",
         "text": ""
