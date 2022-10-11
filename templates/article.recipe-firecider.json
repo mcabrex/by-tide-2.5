@@ -14,7 +14,7 @@
       "settings": {
         "background-color": "accent",
         "light-text": true,
-        "container-width": 4,
+        "container-width": 3,
         "spacing-above": true,
         "spacing-below": true,
         "overline": "LEVEL: MEDIUM",
@@ -28,7 +28,7 @@
         "custom-liquid": "<center><iframe width=\"320\" height=\"522\" src=\"https:\/\/www.youtube.com\/embed\/gyZejX30-5E\" title=\"Fire Cider Oxymel\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><\/center>",
         "background-color": "accent",
         "light-text": false,
-        "container-width": 4,
+        "container-width": 3,
         "spacing-above": true,
         "spacing-below": true
       }
