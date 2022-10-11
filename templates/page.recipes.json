@@ -12,6 +12,30 @@
         "spacing-below": true
       }
     },
+    "a1b47fd6-b48b-4dac-b8a3-066ac27146a0": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/antique-scissors-by-bowls.jpg",
+        "overline": "",
+        "title": "Recipes",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "76baa753-aa58-410c-a6c1-7ff5dd03a9db": {
       "type": "featured-blog",
       "settings": {
@@ -20,17 +44,18 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "blog-heading": "Blog posts",
+        "blog-heading": "",
         "blog": "seasonal-journal",
         "tag-select": "recipes",
         "show-date": true,
         "show-excerpt": true,
-        "view-more-text": "View more"
+        "view-more-text": ""
       }
     }
   },
   "order": [
     "main",
+    "a1b47fd6-b48b-4dac-b8a3-066ac27146a0",
     "76baa753-aa58-410c-a6c1-7ff5dd03a9db"
   ]
 }
