@@ -186,7 +186,7 @@
         "text-color": "auto",
         "background-color": "accent",
         "spacing-above": false,
-        "spacing-below": false,
+        "spacing-below": true,
         "spacing-around-blocks": true,
         "image-height": 0,
         "darken-image": false,
