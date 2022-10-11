@@ -185,7 +185,7 @@
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
         "spacing-around-blocks": true,
         "image-height": 0,
