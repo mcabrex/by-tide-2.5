@@ -12,47 +12,25 @@
         "spacing-below": true
       }
     },
-    "165593161012c81bd7": {
-      "type": "featured-text",
+    "76baa753-aa58-410c-a6c1-7ff5dd03a9db": {
+      "type": "featured-blog",
       "settings": {
         "background-color": "none",
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
-        "spacing-below": false,
-        "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
-        "heading": "Supporting your seasonal ups and downs with rituals, recipes, and goods.",
-        "text": ""
-      }
-    },
-    "16559313655184b031": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 5,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/LEAHFINALFINAL.png",
-        "overline": "EAST MEETS WEST",
-        "title": "About Our Founder",
-        "description": "<p>A creative at heart, Leah spent years working in corporate beauty while simultaneously exploring all that Nature had to offer and making lifestyle changes to align with it - from crafting her own skincare to cooking with local seasonal produce to creating a more sustainable, non-toxic home.<\/p><p>Eventually, she discovered the art of soapmaking and its benefits for the skin and environment. This sparked a deeper dive into the world of Herbalism, Cosmetic Chemistry, Aromatherapy, and Natural Perfumery. Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives.<\/p><p>Originally from Brooklyn, New York, Leah and her partner, Michael, currently reside in the coastal village of Carmel-by-the-Sea with their rescue dog Zoe. <\/p><p><\/p>",
-        "link-url": "",
-        "link-text": ""
+        "spacing-below": true,
+        "blog-heading": "Blog posts",
+        "blog": "seasonal-journal",
+        "tag-select": "recipes",
+        "show-date": true,
+        "show-excerpt": true,
+        "view-more-text": "View more"
       }
     }
   },
   "order": [
     "main",
-    "165593161012c81bd7",
-    "16559313655184b031"
+    "76baa753-aa58-410c-a6c1-7ff5dd03a9db"
   ]
 }
