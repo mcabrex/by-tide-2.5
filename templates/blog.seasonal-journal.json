@@ -346,7 +346,7 @@
     "a59bb33b-6a3e-4f79-af07-84b6d1d603ef": {
       "type": "featured-text",
       "settings": {
-        "background-color": "accent",
+        "background-color": "none",
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
