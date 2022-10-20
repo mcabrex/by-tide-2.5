@@ -178,9 +178,9 @@
         "section-height": "regular",
         "light-text": true,
         "darken-video": true,
-        "heading": "",
-        "sub-heading": "",
-        "button-text": "READ OUR SEASONAL JOURNAL",
+        "heading": "Seasonal Journal",
+        "sub-heading": "Fall\/Winter '22",
+        "button-text": "READ VOLUME I",
         "button-url": ""
       }
     },
