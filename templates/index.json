@@ -173,13 +173,13 @@
       "type": "featured-video",
       "settings": {
         "video-url": "https:\/\/youtu.be\/VnwTCmILymw",
-        "full-width": true,
+        "full-width": false,
         "background-color": "none",
         "section-height": "regular",
         "light-text": true,
         "darken-video": true,
         "heading": "Seasonal Journal",
-        "sub-heading": "Fall\/Winter '22",
+        "sub-heading": "",
         "button-text": "READ VOLUME I",
         "button-url": "shopify:\/\/blogs\/seasonal-journal"
       }
@@ -194,7 +194,7 @@
         "spacing-below": false,
         "overline": "JOIN OUR NEWSLETTER",
         "heading": "Ebb and Flow With Us",
-        "text": "<p>Featuring rituals, recipes, member exclusives\/discounts, and the latest news at BY TIDE.<\/p><p><\/p>"
+        "text": "<p>Featuring rituals, recipes, member exclusives & discounts, and the latest news at BY TIDE.<\/p><p><\/p>"
       }
     },
     "newsletter": {
