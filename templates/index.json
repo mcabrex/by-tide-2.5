@@ -66,7 +66,7 @@
         "text-color": "auto",
         "background-color": "none",
         "spacing-above": false,
-        "spacing-below": false,
+        "spacing-below": true,
         "spacing-around-blocks": false,
         "image-height": 0,
         "darken-image": false,
@@ -163,10 +163,10 @@
       "settings": {
         "background-color": "none",
         "container-width": 4,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
         "featured_product": "renaissance-body-oil",
-        "loop-enabled": false
+        "loop-enabled": true
       }
     },
     "c8ff70c4-c6d3-4656-9084-101e6bc1cd8b": {
