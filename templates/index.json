@@ -2,6 +2,7 @@
   "sections": {
     "16591120730778e203": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "165911207386f7aaae-1": {
           "type": "image",
@@ -79,6 +80,30 @@
         "transition_type": "slide"
       }
     },
+    "afb08e24-cf33-42ca-a09f-b51c69f793d6": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DSC07741.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "featured-text": {
       "type": "featured-text",
       "settings": {
@@ -99,8 +124,47 @@
         "link": "shopify:\/\/pages\/about"
       }
     },
+    "83123402-5716-429e-bd34-ceac3a1c4ec8": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "cedar-eucalyptus",
+          "chamomile-coconut"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "Herbal Bar Soap",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "52038a97-7cbc-4338-8730-2467fc64a01b": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "meditation-mist",
+          "s-a-d-spray"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "Aromatherapy",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "1659657481a89e0b31": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "1659657481406e2bd9-0": {
           "type": "overline",
@@ -171,6 +235,7 @@
     },
     "c8ff70c4-c6d3-4656-9084-101e6bc1cd8b": {
       "type": "featured-video",
+      "disabled": true,
       "settings": {
         "video-url": "https:\/\/youtu.be\/VnwTCmILymw",
         "full-width": false,
@@ -211,8 +276,11 @@
   },
   "order": [
     "16591120730778e203",
+    "afb08e24-cf33-42ca-a09f-b51c69f793d6",
     "featured-text",
     "1661306944d2c5734b",
+    "83123402-5716-429e-bd34-ceac3a1c4ec8",
+    "52038a97-7cbc-4338-8730-2467fc64a01b",
     "1659657481a89e0b31",
     "c8ff70c4-c6d3-4656-9084-101e6bc1cd8b",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
