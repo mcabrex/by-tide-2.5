@@ -2,7 +2,6 @@
   "sections": {
     "16591120730778e203": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "165911207386f7aaae-1": {
           "type": "image",
@@ -82,6 +81,7 @@
     },
     "afb08e24-cf33-42ca-a09f-b51c69f793d6": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -126,6 +126,7 @@
     },
     "83123402-5716-429e-bd34-ceac3a1c4ec8": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "cedar-eucalyptus",
@@ -145,6 +146,7 @@
     },
     "52038a97-7cbc-4338-8730-2467fc64a01b": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "meditation-mist",
@@ -164,7 +166,6 @@
     },
     "1659657481a89e0b31": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "1659657481406e2bd9-0": {
           "type": "overline",
