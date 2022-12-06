@@ -19,7 +19,7 @@
         "feab65cc-a8aa-4d1a-8581-651aabcfbece": {
           "type": "overline",
           "settings": {
-            "text": "BODY OIL FOR BLISS"
+            "text": "Aromatherapy"
           }
         },
         "heading": {
@@ -32,18 +32,23 @@
           "settings": {
           }
         },
+        "f694ac78-ca86-4354-a7a9-2631a26433f5": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "5f9a9f2f-e961-46f9-9142-455f4dd74f2b": {
           "type": "collapsible-tab",
           "settings": {
             "heading": "Description",
-            "description": "<p>Aromatherapy is an ancient practice of utilizing plant extracts for their therapeutic benefits. These botanical scents have been used for millenia to aid mood and sleep, temper nausea, help one unwind, and relieve stress\/anxiety.*<\/p><p><em>These statements have not been evaluated by the FDA.<br\/>This product does not intend to treat, diagnose, cure, or prevent any disease.<\/em> <\/p>",
+            "description": "<p>Aromatherapy is an ancient practice of utilizing plant extracts for their therapeutic benefits. The practice of using botanicals for their scent has been around for millenia and has shown to aid mood and sleep, temper nausea, help one unwind, and relieve stress\/anxiety.*<\/p><p><em>*These statements have not been evaluated by the FDA. This product does not intend to treat, diagnose, cure, or prevent any disease.<\/em> <\/p>",
             "page-content": ""
           }
         },
         "fc969148-269a-4958-8301-55eac09f406a": {
           "type": "collapsible-tab",
           "settings": {
-            "heading": "Directions",
+            "heading": "How To Use",
             "description": "<p>Pump spray bottle several times and envelop yourself in the therapeutic scent. Can also be used as an alternative to burning incense, on your linens (please check care instructions on your delicate linens prior to spraying), in your car, and to freshen up your spaces.<\/p>",
             "page-content": ""
           }
@@ -75,6 +80,7 @@
         "feab65cc-a8aa-4d1a-8581-651aabcfbece",
         "heading",
         "price",
+        "f694ac78-ca86-4354-a7a9-2631a26433f5",
         "5f9a9f2f-e961-46f9-9142-455f4dd74f2b",
         "fc969148-269a-4958-8301-55eac09f406a",
         "f59dcaa3-894f-4010-954f-7693b3979b8e",
@@ -87,6 +93,19 @@
         "variant-scroll-enabled": true,
         "image-zoom-enabled": true,
         "loop-enabled": false
+      }
+    },
+    "4523a748-8741-4139-a27c-42cbb2783502": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "",
+        "text": "<p> <em>*These statements have not been evaluated by the FDA. This product does not intend to treat, diagnose, cure, or prevent any disease.<\/em>  <\/p>"
       }
     },
     "recommendations": {
@@ -103,6 +122,7 @@
   "order": [
     "1662146419ae7a75e7",
     "main",
+    "4523a748-8741-4139-a27c-42cbb2783502",
     "recommendations"
   ]
 }

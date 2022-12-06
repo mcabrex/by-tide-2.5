@@ -2,13 +2,12 @@
   "sections": {
     "collection-header": {
       "type": "collection--header",
-      "disabled": true,
       "settings": {
         "enable-header": true,
         "show-title": true,
         "title-alignment": "center",
         "show-description": true,
-        "show-image": true,
+        "show-image": false,
         "use-image-fallback": false,
         "image-height": "medium",
         "alt-color": true,

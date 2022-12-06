@@ -19,7 +19,7 @@
         "feab65cc-a8aa-4d1a-8581-651aabcfbece": {
           "type": "overline",
           "settings": {
-            "text": "BODY OIL FOR BLISS"
+            "text": "HERBAL BAR SOAP"
           }
         },
         "heading": {
@@ -48,7 +48,7 @@
         "f2b72d70-889d-4d4c-ae07-02e7e93422a4": {
           "type": "collapsible-tab",
           "settings": {
-            "heading": "Directions",
+            "heading": "How To Use",
             "description": "<p>For Hands and Body. To ensure longevity of your natural soap bar, place on a draining soap dish in between uses. For freshness, ideal use is within 2 months. <\/p>",
             "page-content": ""
           }
@@ -97,7 +97,6 @@
     },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "show": true,
         "title": "You may also like",

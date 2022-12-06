@@ -1,87 +1,7 @@
 {
   "sections": {
-    "16591120730778e203": {
-      "type": "slideshow",
-      "blocks": {
-        "165911207386f7aaae-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/C6859B28-210C-436D-AFAD-1D90DCEBB94E.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "",
-            "description": "",
-            "link-url": "\/",
-            "link-text": ""
-          }
-        },
-        "165911207386f7aaae-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/0D1B7381-E69D-469F-AD62-FB8D62325C70.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "",
-            "description": "",
-            "link-url": "\/",
-            "link-text": ""
-          }
-        },
-        "165911207386f7aaae-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "Overline text",
-            "title": "Slide heading",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-            "link-url": "\/",
-            "link-text": "View more"
-          }
-        },
-        "165911207386f7aaae-3": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "Overline text",
-            "title": "Slide heading",
-            "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-            "link-url": "\/",
-            "link-text": "View more"
-          }
-        }
-      },
-      "block_order": [
-        "165911207386f7aaae-1",
-        "165911207386f7aaae-0",
-        "165911207386f7aaae-2",
-        "165911207386f7aaae-3"
-      ],
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "spacing-above": false,
-        "spacing-below": true,
-        "spacing-around-blocks": false,
-        "image-height": 0,
-        "darken-image": false,
-        "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "2",
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "auto-rotate": false,
-        "rotate-frequency": 7,
-        "transition_type": "slide"
-      }
-    },
     "afb08e24-cf33-42ca-a09f-b51c69f793d6": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -96,7 +16,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC07741.jpg",
+        "image": "shopify:\/\/shop_images\/DSC07727.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -124,130 +44,105 @@
         "link": "shopify:\/\/pages\/about"
       }
     },
-    "83123402-5716-429e-bd34-ceac3a1c4ec8": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "product-list": [
-          "cedar-eucalyptus",
-          "chamomile-coconut"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2",
-        "heading": "Herbal Bar Soap",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "52038a97-7cbc-4338-8730-2467fc64a01b": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "product-list": [
-          "meditation-mist",
-          "s-a-d-spray"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2",
-        "heading": "Aromatherapy",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "1659657481a89e0b31": {
-      "type": "featured-product",
+    "60333db9-258a-4f7d-a5e5-17b80245b09a": {
+      "type": "slideshow",
       "blocks": {
-        "1659657481406e2bd9-0": {
-          "type": "overline",
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-0": {
+          "type": "image",
           "settings": {
-            "text": "BODY OIL FOR BLISS"
+            "image": "shopify:\/\/shop_images\/DSC07718.jpg",
+            "text-position": "center",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Aromatherapy",
+            "description": "",
+            "link-url": "shopify:\/\/collections\/aromatherapy",
+            "link-text": "SHOP"
           }
         },
-        "1659657481406e2bd9-1": {
-          "type": "heading",
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-1": {
+          "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07761.jpg",
+            "text-position": "center",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Bar Soap",
+            "description": "",
+            "link-url": "shopify:\/\/collections\/herbal-bar-soap",
+            "link-text": "SHOP"
           }
         },
-        "1659657481406e2bd9-2": {
-          "type": "vendor",
-          "disabled": true,
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2": {
+          "type": "image",
           "settings": {
-          }
-        },
-        "1659657481406e2bd9-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1659657481406e2bd9-4": {
-          "type": "options",
-          "disabled": true,
-          "settings": {
-            "variant-style": "buttons",
-            "swatches-enabled": true,
-            "size-chart-enabled": true,
-            "size-chart-option": "size",
-            "size-chart-content": ""
-          }
-        },
-        "cf9f25ff-db15-46c2-8715-fea81dce95dc": {
-          "type": "collapsible-tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Collapsible tab",
-            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
-            "page-content": ""
-          }
-        },
-        "1659657481406e2bd9-5": {
-          "type": "buy-buttons",
-          "settings": {
-            "smart-payment-enabled": true
+            "image": "shopify:\/\/shop_images\/DSC07380_2.jpg",
+            "text-position": "center",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Body Oil",
+            "description": "",
+            "link-url": "shopify:\/\/products\/renaissance-body-oil",
+            "link-text": "SHOP"
           }
         }
       },
       "block_order": [
-        "1659657481406e2bd9-0",
-        "1659657481406e2bd9-1",
-        "1659657481406e2bd9-2",
-        "1659657481406e2bd9-3",
-        "1659657481406e2bd9-4",
-        "cf9f25ff-db15-46c2-8715-fea81dce95dc",
-        "1659657481406e2bd9-5"
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-0",
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-1",
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2"
       ],
       "settings": {
-        "background-color": "none",
-        "container-width": 6,
+        "text-color": "auto",
+        "background-color": "light",
         "spacing-above": true,
         "spacing-below": true,
-        "featured_product": "renaissance-body-oil",
-        "loop-enabled": true
+        "spacing-around-blocks": true,
+        "image-height": 0,
+        "darken-image": true,
+        "blocks_per_slide": 3,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": true,
+        "rotate-frequency": 5,
+        "transition_type": "slide"
       }
     },
-    "c8ff70c4-c6d3-4656-9084-101e6bc1cd8b": {
-      "type": "featured-video",
-      "disabled": true,
+    "197b5ef8-2034-4100-ba32-32089f74c50d": {
+      "type": "featured-text",
       "settings": {
-        "video-url": "https:\/\/youtu.be\/VnwTCmILymw",
-        "full-width": false,
         "background-color": "none",
-        "section-height": "regular",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "SHOP ALL",
+        "heading": "Your Winter Ritual Kit",
+        "text": "<p>New products for your Winter Rituals are now available! During this time, it is especially important to nurture yourself and create moments of self-care. From Bath & Body to Aromatherapy, we have goods to help you slow down and cocoon this Season.<\/p>"
+      }
+    },
+    "ea0e1f5c-98bd-4aea-a0e5-c9e5d7bfb8bd": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "cedar-eucalyptus",
+          "chamomile-coconut",
+          "lemongrass-cedar",
+          "meditation-mist",
+          "s-a-d-spray",
+          "renaissance-body-oil"
+        ],
+        "background-color": "none",
         "light-text": true,
-        "darken-video": true,
-        "heading": "Seasonal Journal",
-        "sub-heading": "",
-        "button-text": "READ VOLUME I",
-        "button-url": "shopify:\/\/blogs\/seasonal-journal"
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "",
+        "link-text": ""
       }
     },
     "d0063154-c9c8-483e-96cd-770cd6b75e8e": {
@@ -276,14 +171,12 @@
     }
   },
   "order": [
-    "16591120730778e203",
     "afb08e24-cf33-42ca-a09f-b51c69f793d6",
     "featured-text",
     "1661306944d2c5734b",
-    "83123402-5716-429e-bd34-ceac3a1c4ec8",
-    "52038a97-7cbc-4338-8730-2467fc64a01b",
-    "1659657481a89e0b31",
-    "c8ff70c4-c6d3-4656-9084-101e6bc1cd8b",
+    "60333db9-258a-4f7d-a5e5-17b80245b09a",
+    "197b5ef8-2034-4100-ba32-32089f74c50d",
+    "ea0e1f5c-98bd-4aea-a0e5-c9e5d7bfb8bd",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"
   ]

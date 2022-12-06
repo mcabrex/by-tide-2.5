@@ -48,7 +48,7 @@
         "f0637e0f-23c8-43bb-8a99-d5729230b463": {
           "type": "collapsible-tab",
           "settings": {
-            "heading": "Directions",
+            "heading": "How To Use",
             "description": "<p>For Hands and Body. To ensure longevity of your natural soap bar, place on a draining soap dish in between uses. For freshness, ideal use is within 2 months. <\/p>",
             "page-content": ""
           }
@@ -97,7 +97,6 @@
     },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "show": true,
         "title": "You may also like",

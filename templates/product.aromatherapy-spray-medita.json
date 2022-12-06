@@ -19,7 +19,7 @@
         "feab65cc-a8aa-4d1a-8581-651aabcfbece": {
           "type": "overline",
           "settings": {
-            "text": "BODY OIL FOR BLISS"
+            "text": "Aromatherapy"
           }
         },
         "heading": {
@@ -41,14 +41,14 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "Description",
-            "description": "<p>Aromatherapy is an ancient practice of utilizing plant extracts for their therapeutic benefits. These botanical scents have been used for millenia to aid mood and sleep, temper nausea, help one unwind, and relieve stress\/anxiety.*<\/p><p><em>These statements have not been evaluated by the FDA. This product does not intend to treat, diagnose, cure, or prevent any disease.<\/em>  <\/p>",
+            "description": "<p>Aromatherapy is an ancient practice of utilizing plant extracts for their therapeutic benefits. These botanical scents have been used for millenia to aid mood and sleep, temper nausea, help one unwind, and relieve stress\/anxiety.*<\/p>",
             "page-content": ""
           }
         },
         "77df9fed-f8c8-4500-ab24-b614950f2283": {
           "type": "collapsible-tab",
           "settings": {
-            "heading": "Directions",
+            "heading": "How To Use",
             "description": "<p>Pump spray bottle several times and envelop yourself in the therapeutic scent. Can also be used as an alternative to burning incense, on your linens (please check care instructions on your delicate linens prior to spraying), in your car, and to freshen up your spaces.<\/p>",
             "page-content": ""
           }
@@ -95,9 +95,21 @@
         "loop-enabled": false
       }
     },
+    "7d8b16db-0e8d-4ef1-b4c6-4012f89aa5d4": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "",
+        "text": "<p><em>*These statements have not been evaluated by the FDA. This product does not intend to treat, diagnose, cure, or prevent any disease.<\/em>  <\/p>"
+      }
+    },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "show": true,
         "title": "You may also like",
@@ -110,6 +122,7 @@
   "order": [
     "1662146419ae7a75e7",
     "main",
+    "7d8b16db-0e8d-4ef1-b4c6-4012f89aa5d4",
     "recommendations"
   ]
 }
