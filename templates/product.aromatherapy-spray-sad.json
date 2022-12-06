@@ -32,11 +32,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "fc969148-269a-4958-8301-55eac09f406a": {
           "type": "collapsible-tab",
           "settings": {
@@ -66,17 +61,25 @@
             "twitter-enabled": true,
             "pinterest-enabled": true
           }
+        },
+        "5f9a9f2f-e961-46f9-9142-455f4dd74f2b": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Description",
+            "description": "<p>Aromatherapy is an ancient practice of utilizing plant extracts for their therapeutic benefits. These botanical scents have been used for millenia to aid mood and sleep, temper nausea, help one unwind, and relieve stress\/anxiety. <\/p>",
+            "page-content": ""
+          }
         }
       },
       "block_order": [
         "feab65cc-a8aa-4d1a-8581-651aabcfbece",
         "heading",
         "price",
-        "description",
         "fc969148-269a-4958-8301-55eac09f406a",
         "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "buy-buttons",
-        "social-sharing"
+        "social-sharing",
+        "5f9a9f2f-e961-46f9-9142-455f4dd74f2b"
       ],
       "settings": {
         "product-media-spacing": "close-together",
