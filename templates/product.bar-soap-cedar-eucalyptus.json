@@ -37,11 +37,19 @@
           "settings": {
           }
         },
+        "f2b72d70-889d-4d4c-ae07-02e7e93422a4": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Directions",
+            "description": "<p>For Hands and Body. To ensure longevity of your natural soap bar, place on a draining soap dish in between uses. For freshness, ideal use is within 2 months. <\/p>",
+            "page-content": ""
+          }
+        },
         "f59dcaa3-894f-4010-954f-7693b3979b8e": {
           "type": "collapsible-tab",
           "settings": {
             "heading": "INGREDIENTS",
-            "description": "<p>Olea Europaea (Olive) Fruit Oil, Vitis Vinifera (Grape) Seed Oil, Hydrogenated Ethylhexyl Olivate*, Hydrogenated Olive Oil Unsaponifiables*, Caprylic\/CapricTriglyceride (Fractionated Coconut) OIL, Olive Squalane, Limnanthes Alba (Meadowfoam) Seed Oil, Rubus Idaeus (Raspberry) Seed Oil, Rosa Mosqueta (Rose) Hip Seed Oil, Cannabis Sativa (Hemp) Seed Oil, Calendula Officinalis Flower (Calendula) Extract, Juniperus virginiana (Cedarwood) Oil, Chamaecyparis obtusa (Hinoki Wood) Oil, Citrus aurantium (Neroli) Oil, Cocos Nucifera (Coconut) Fruit Extract, Tocopherol <\/p><p><em>*olive-derived<\/em><\/p>",
+            "description": "<p>Orbignya Oleifera Seed (Babassu) oil, Cocos Nucifera (Coconut) Oil, calendula flower and marshmallow root-infused Olea Europaea Fruit (Olive) Oil, Prunus armeniaca (Apricot) Kernel Oil, Theobroma cacao (Cocoa) Butter, Ricinus Communis (Castor) Seed Oil,  Juniperus Virginiana Wood (Cedarwood) Oil, Citrus sinensis (Sweet Orange) Oil, Eucalyptus Globulus (Eucalyptus) Leaf Oil, Pinus sylvestris (Pine) Oil, coconut milk, Kaolin (White Clay), Indigo<\/p>",
             "page-content": ""
           }
         },
@@ -65,6 +73,7 @@
         "heading",
         "description",
         "price",
+        "f2b72d70-889d-4d4c-ae07-02e7e93422a4",
         "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "buy-buttons",
         "social-sharing"

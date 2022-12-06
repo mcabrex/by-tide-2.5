@@ -37,11 +37,19 @@
           "settings": {
           }
         },
+        "77df9fed-f8c8-4500-ab24-b614950f2283": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Directions",
+            "description": "<p>Pump spray bottle several times and envelop yourself in the therapeutic scent. Can also be used as an alternative to burning incense, on your linens (please check care instructions on your delicate linens prior to spraying), in your car, and to freshen up your spaces.<\/p>",
+            "page-content": ""
+          }
+        },
         "f59dcaa3-894f-4010-954f-7693b3979b8e": {
           "type": "collapsible-tab",
           "settings": {
             "heading": "INGREDIENTS",
-            "description": "<p>Olea Europaea (Olive) Fruit Oil, Vitis Vinifera (Grape) Seed Oil, Hydrogenated Ethylhexyl Olivate*, Hydrogenated Olive Oil Unsaponifiables*, Caprylic\/CapricTriglyceride (Fractionated Coconut) OIL, Olive Squalane, Limnanthes Alba (Meadowfoam) Seed Oil, Rubus Idaeus (Raspberry) Seed Oil, Rosa Mosqueta (Rose) Hip Seed Oil, Cannabis Sativa (Hemp) Seed Oil, Calendula Officinalis Flower (Calendula) Extract, Juniperus virginiana (Cedarwood) Oil, Chamaecyparis obtusa (Hinoki Wood) Oil, Citrus aurantium (Neroli) Oil, Cocos Nucifera (Coconut) Fruit Extract, Tocopherol <\/p><p><em>*olive-derived<\/em><\/p>",
+            "description": "<p>Aqua (Water), Alcohol Denat., Sunflower Seedate*, Essential Oil Blend<\/p><p><em>*natural solubilizer<\/em><\/p>",
             "page-content": ""
           }
         },
@@ -65,6 +73,7 @@
         "heading",
         "description",
         "price",
+        "77df9fed-f8c8-4500-ab24-b614950f2283",
         "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "buy-buttons",
         "social-sharing"
