@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "1662146419ae7a75e7": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "",
+        "heading": "",
+        "text": ""
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "feab65cc-a8aa-4d1a-8581-651aabcfbece": {
+          "type": "overline",
+          "settings": {
+            "text": "BODY OIL FOR BLISS"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "f59dcaa3-894f-4010-954f-7693b3979b8e": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Olea Europaea (Olive) Fruit Oil, Vitis Vinifera (Grape) Seed Oil, Hydrogenated Ethylhexyl Olivate*, Hydrogenated Olive Oil Unsaponifiables*, Caprylic\/CapricTriglyceride (Fractionated Coconut) OIL, Olive Squalane, Limnanthes Alba (Meadowfoam) Seed Oil, Rubus Idaeus (Raspberry) Seed Oil, Rosa Mosqueta (Rose) Hip Seed Oil, Cannabis Sativa (Hemp) Seed Oil, Calendula Officinalis Flower (Calendula) Extract, Juniperus virginiana (Cedarwood) Oil, Chamaecyparis obtusa (Hinoki Wood) Oil, Citrus aurantium (Neroli) Oil, Cocos Nucifera (Coconut) Fruit Extract, Tocopherol <\/p><p><em>*olive-derived<\/em><\/p>",
+            "page-content": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        },
+        "social-sharing": {
+          "type": "social-sharing",
+          "settings": {
+            "facebook-enabled": true,
+            "twitter-enabled": true,
+            "pinterest-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "feab65cc-a8aa-4d1a-8581-651aabcfbece",
+        "heading",
+        "description",
+        "price",
+        "f59dcaa3-894f-4010-954f-7693b3979b8e",
+        "buy-buttons",
+        "social-sharing"
+      ],
+      "settings": {
+        "product-media-spacing": "close-together",
+        "product-modal-enabled": true,
+        "variant-scroll-enabled": true,
+        "image-zoom-enabled": true,
+        "loop-enabled": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show": true,
+        "title": "You may also like",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    }
+  },
+  "order": [
+    "1662146419ae7a75e7",
+    "main",
+    "recommendations"
+  ]
+}
