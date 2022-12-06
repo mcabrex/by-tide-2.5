@@ -37,6 +37,14 @@
           "settings": {
           }
         },
+        "dcdba08f-efcc-4111-b6bc-6139065887ab": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Description",
+            "description": "<p>Our Natural Soap Bars are infused with soothing and skin-loving herbs, clays, grains, plant milk, and spices meant to nourish your body. Each bar is made using the artisanal cold-process method. Due to the handmade nature, color\/size varies with each bar. Each bar is 100% Vegan and Palm-Oil free.<\/p>",
+            "page-content": ""
+          }
+        },
         "f0637e0f-23c8-43bb-8a99-d5729230b463": {
           "type": "collapsible-tab",
           "settings": {
@@ -73,6 +81,7 @@
         "heading",
         "description",
         "price",
+        "dcdba08f-efcc-4111-b6bc-6139065887ab",
         "f0637e0f-23c8-43bb-8a99-d5729230b463",
         "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "buy-buttons",
