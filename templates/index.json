@@ -134,7 +134,7 @@
           "renaissance-body-oil"
         ],
         "background-color": "none",
-        "light-text": true,
+        "light-text": false,
         "spacing-above": true,
         "spacing-below": true,
         "display-type": "grid",
