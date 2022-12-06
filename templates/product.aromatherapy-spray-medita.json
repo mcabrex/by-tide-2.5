@@ -27,13 +27,13 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -71,8 +71,8 @@
       "block_order": [
         "feab65cc-a8aa-4d1a-8581-651aabcfbece",
         "heading",
-        "description",
         "price",
+        "description",
         "77df9fed-f8c8-4500-ab24-b614950f2283",
         "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "buy-buttons",
