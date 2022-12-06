@@ -41,7 +41,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "Description",
-            "description": "<p>Aromatherapy is an ancient practice of utilizing plant extracts for their therapeutic benefits. These botanical scents have been used for millenia to aid mood and sleep, temper nausea, help one unwind, and relieve stress\/anxiety. <\/p>",
+            "description": "<p>Aromatherapy is an ancient practice of utilizing plant extracts for their therapeutic benefits. These botanical scents have been used for millenia to aid mood and sleep, temper nausea, help one unwind, and relieve stress\/anxiety.*<\/p><p><em>These statements have not been evaluated by the FDA. This product does not intend to treat, diagnose, cure, or prevent any disease.<\/em>  <\/p>",
             "page-content": ""
           }
         },
