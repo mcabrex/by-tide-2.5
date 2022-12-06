@@ -47,6 +47,19 @@
     "60333db9-258a-4f7d-a5e5-17b80245b09a": {
       "type": "slideshow",
       "blocks": {
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07380_2.jpg",
+            "text-position": "center",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Body Oil",
+            "description": "",
+            "link-url": "shopify:\/\/products\/renaissance-body-oil",
+            "link-text": "SHOP"
+          }
+        },
         "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-0": {
           "type": "image",
           "settings": {
@@ -72,25 +85,12 @@
             "link-url": "shopify:\/\/collections\/herbal-bar-soap",
             "link-text": "SHOP"
           }
-        },
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC07380_2.jpg",
-            "text-position": "center",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Body Oil",
-            "description": "",
-            "link-url": "shopify:\/\/products\/renaissance-body-oil",
-            "link-text": "SHOP"
-          }
         }
       },
       "block_order": [
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2",
         "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-0",
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-1",
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2"
+        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-1"
       ],
       "settings": {
         "text-color": "auto",
