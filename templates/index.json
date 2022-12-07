@@ -106,7 +106,7 @@
         "mobile-overlay": true,
         "auto-rotate": true,
         "rotate-frequency": 5,
-        "transition_type": "slide"
+        "transition_type": "fade"
       }
     },
     "197b5ef8-2034-4100-ba32-32089f74c50d": {
