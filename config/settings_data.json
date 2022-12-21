@@ -56,11 +56,11 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enabled": false,
-          "home-page-only": true,
-          "background-color": "accent",
+          "enabled": true,
+          "home-page-only": false,
+          "background-color": "light",
           "light-text": true,
-          "text": "SIGN UP WITH YOUR EMAIL TO RECEIVE OUR SEASONAL JOURNAL VOL I",
+          "text": "SHOP VACATION: 12\/21-1\/7. ORDERS PLACED DURING THIS TIME WILL BE MAILED 1\/9.",
           "link": ""
         }
       },
