@@ -56,7 +56,7 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enabled": true,
+          "enabled": false,
           "home-page-only": false,
           "background-color": "light",
           "light-text": true,
