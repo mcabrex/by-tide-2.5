@@ -34,7 +34,7 @@
     "social--instagram--url": "https:\/\/instagram.com\/by.tide",
     "social--pinterest--url": "https:\/\/www.pinterest.com\/by.tide",
     "social--tiktok--url": "https:\/\/tiktok.com\/by.tide",
-    "popup--enabled": true,
+    "popup--enabled": false,
     "popup--mode": "auto",
     "popup--background-color": "light",
     "popup--light-text": true,
