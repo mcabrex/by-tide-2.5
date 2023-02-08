@@ -96,11 +96,25 @@
         "spacing-above": true,
         "spacing-below": true
       }
+    },
+    "61cc8839-0a91-4733-8eae-ef1086bc820c": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "",
+        "text": "<p><em>*These statements have not been evaluated by the FDA. This product does not intend to treat, diagnose, cure, or prevent any disease.<\/em><\/p>"
+      }
     }
   },
   "order": [
     "1662146419ae7a75e7",
     "main",
-    "recommendations"
+    "recommendations",
+    "61cc8839-0a91-4733-8eae-ef1086bc820c"
   ]
 }
