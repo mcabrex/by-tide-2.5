@@ -114,23 +114,20 @@
       "settings": {
         "background-color": "none",
         "light-text": false,
-        "container-width": 4,
+        "container-width": 2,
         "spacing-above": true,
         "spacing-below": false,
-        "overline": "SHOP ALL",
-        "heading": "Your Winter Ritual Kit",
-        "text": "<p>New products for your Winter Rituals are now available! During this time, it is especially important to nurture yourself and create moments of self-care. From Bath & Body to Aromatherapy, we have goods to help you slow down and cocoon this Season.<\/p>"
+        "overline": "SHOP THE TRIO",
+        "heading": "Winter Bath Ritual Kit",
+        "text": "<p>Nurture yourself and your skin this Winter with our Bath Ritual Trio.  <em>Step 1: <\/em>Cleanse with a gentle soap. <em>Step 2: <\/em>Scrub off dead skin to reveal soft, smoothe skin. <em>Step 3:<\/em> Lock in moisture with body oil. <\/p>"
       }
     },
     "ea0e1f5c-98bd-4aea-a0e5-c9e5d7bfb8bd": {
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "cedar-eucalyptus",
           "chamomile-coconut",
-          "lemongrass-cedar",
-          "meditation-mist",
-          "s-a-d-spray",
+          "neroli-body-scrub",
           "renaissance-body-oil"
         ],
         "background-color": "none",
@@ -138,7 +135,7 @@
         "spacing-above": true,
         "spacing-below": true,
         "display-type": "grid",
-        "products-per-row--desktop": "4",
+        "products-per-row--desktop": "3",
         "products-per-row--mobile": "2",
         "heading": "",
         "link-url": "",
