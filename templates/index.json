@@ -44,6 +44,73 @@
         "link": "shopify:\/\/pages\/about"
       }
     },
+    "d279a6e0-84ad-4f34-bd80-105f086d5d88": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-0": {
+          "type": "overline",
+          "settings": {
+            "text": "BODY OIL FOR BLISS"
+          }
+        },
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-1": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-2": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-4": {
+          "type": "options",
+          "disabled": true,
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "4309836c-e727-4fee-ae51-99479f0e3b9f": {
+          "type": "quantity-input",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-5": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-0",
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-1",
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-2",
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-3",
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-4",
+        "4309836c-e727-4fee-ae51-99479f0e3b9f",
+        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-5"
+      ],
+      "settings": {
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured_product": "renaissance-body-oil",
+        "loop-enabled": false
+      }
+    },
     "60333db9-258a-4f7d-a5e5-17b80245b09a": {
       "type": "slideshow",
       "blocks": {
@@ -75,6 +142,7 @@
         },
         "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC07761.jpg",
             "text-position": "center",
@@ -94,52 +162,19 @@
       ],
       "settings": {
         "text-color": "auto",
-        "background-color": "light",
+        "background-color": "none",
         "spacing-above": true,
         "spacing-below": true,
-        "spacing-around-blocks": true,
+        "spacing-around-blocks": false,
         "image-height": 0,
         "darken-image": true,
-        "blocks_per_slide": 3,
+        "blocks_per_slide": 2,
         "blocks_per_slide_mobile": "1",
         "box-around-text": false,
         "mobile-overlay": true,
         "auto-rotate": true,
         "rotate-frequency": 5,
         "transition_type": "fade"
-      }
-    },
-    "197b5ef8-2034-4100-ba32-32089f74c50d": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 2,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "SHOP THE TRIO",
-        "heading": "Winter Bath Ritual Kit",
-        "text": "<p>Nurture yourself and your skin this Winter with our Bath Ritual Trio.  <em>Step 1: <\/em>Cleanse with a gentle soap. <em>Step 2: <\/em>Scrub off dead skin to reveal soft, smoothe skin. <em>Step 3:<\/em> Lock in moisture with body oil. <\/p>"
-      }
-    },
-    "ea0e1f5c-98bd-4aea-a0e5-c9e5d7bfb8bd": {
-      "type": "featured-products",
-      "settings": {
-        "product-list": [
-          "chamomile-coconut",
-          "neroli-body-scrub",
-          "renaissance-body-oil"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2",
-        "heading": "",
-        "link-url": "",
-        "link-text": ""
       }
     },
     "d0063154-c9c8-483e-96cd-770cd6b75e8e": {
@@ -171,9 +206,8 @@
     "afb08e24-cf33-42ca-a09f-b51c69f793d6",
     "featured-text",
     "1661306944d2c5734b",
+    "d279a6e0-84ad-4f34-bd80-105f086d5d88",
     "60333db9-258a-4f7d-a5e5-17b80245b09a",
-    "197b5ef8-2034-4100-ba32-32089f74c50d",
-    "ea0e1f5c-98bd-4aea-a0e5-c9e5d7bfb8bd",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"
   ]
