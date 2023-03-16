@@ -24,6 +24,58 @@
         "link-text": ""
       }
     },
+    "a99a0c5b-29a4-49af-99d5-76cf5875dd3c": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2464_2.jpg",
+            "text-position": "center",
+            "text-width": "medium",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        },
+        "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC08207.jpg",
+            "text-position": "center",
+            "text-width": "large",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-1",
+        "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-0"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "image-height": 3,
+        "darken-image": false,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "2",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 7,
+        "transition_type": "slide"
+      }
+    },
     "featured-text": {
       "type": "featured-text",
       "settings": {
@@ -204,6 +256,7 @@
   },
   "order": [
     "afb08e24-cf33-42ca-a09f-b51c69f793d6",
+    "a99a0c5b-29a4-49af-99d5-76cf5875dd3c",
     "featured-text",
     "1661306944d2c5734b",
     "d279a6e0-84ad-4f34-bd80-105f086d5d88",
