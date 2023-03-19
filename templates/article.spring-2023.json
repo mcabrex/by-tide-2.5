@@ -90,6 +90,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2740.jpg",
             "title": "Energy",
             "description": "<p>Vibrant. Rejuvenating.<\/p>",
             "link-url": "",
@@ -100,6 +101,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2731.jpg",
             "title": "In Season",
             "description": "<p>Artichoke, asparagus, mint, radish, ramps, rhubarb, spring greens, strawberry, turnips, and more.<\/p>",
             "link-url": "",
@@ -110,6 +112,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2738_c58634af-dd74-4fff-a7f7-b81974a60814.jpg",
             "title": "Activities",
             "description": "<p>Garden, hike, visit botanical gardens, go to farmer's markets, stargaze, long walks with friends.<\/p>",
             "link-url": "",
@@ -160,6 +163,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2736.jpg",
             "title": "Spring Cleaning",
             "description": "<p>Freshen spaces. De-clutter and organize. Let air circulate by opening windows.<\/p>",
             "link-url": "",
@@ -170,6 +174,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2731.jpg",
             "title": "Eat Green",
             "description": "<p>Incorporate more greens! Eat seasonal foods like strawberries, asparagus, peas, and mint.<\/p>",
             "link-url": "",
@@ -190,6 +195,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2728.jpg",
             "title": "Sun Salutations",
             "description": "<p>Ease into your mornings with several Sun Salutations to help loosen and energize the body. Even better if outdoors in Nature.<\/p>",
             "link-url": "",
@@ -238,7 +244,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/DSC08394.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_2739_4f5237e0-9ba9-44b3-8e2c-df4c69c8171d.jpg",
             "title": "Hydration",
             "description": "<p>Look for ingredients like Aloe Vera, Hyaluronic Acid, Jojoba Oil, Squalane.<\/p>",
             "link-url": "",
