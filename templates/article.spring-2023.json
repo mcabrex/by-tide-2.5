@@ -79,7 +79,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/vibrant-green-grassy-plant-with-rolling-hillside-behind.jpg",
+            "image": "shopify:\/\/shop_images\/1_5aea676d-159d-4c9d-a174-1b70d9f45b56.png",
             "title": "Color",
             "description": "<p>Green<\/p>",
             "link-url": "",
@@ -227,7 +227,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/DSC08552.jpg",
+            "image": "shopify:\/\/shop_images\/2_db7ef0ec-aa29-43c3-ba1e-8b291564c3ad.png",
             "title": "Exfoliation",
             "description": "<p>Shed Winter skin dullness and brighten up with scrubs and masks.<\/p>",
             "link-url": "",
@@ -238,6 +238,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/DSC08394.jpg",
             "title": "Hydration",
             "description": "<p>Look for ingredients like Aloe Vera, Hyaluronic Acid, Jojoba Oil, Squalane.<\/p>",
             "link-url": "",
@@ -248,8 +249,9 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/3_b10af17e-acce-4c1f-83a6-88bad5fbfdcf.png",
             "title": "Lighten Up",
-            "description": "<p>Try lighter, breathable skincare like milk cleansers, lightweight face\/body oils, and water-based moisturizers.<\/p>",
+            "description": "<p>Switch to less and lighter, breathable skincare like milk cleansers, lightweight oils, and water-based moisturizers.<\/p>",
             "link-url": "",
             "link-text": "SHOP BODY OIL"
           }
@@ -259,7 +261,7 @@
           "settings": {
             "show-image": true,
             "title": "Embrace Spring",
-            "description": "<p>Have FUN! Try DIYs\/products containing Chamomile, Rose, Green Tea, Strawberry, Neroli, Lavender, and Peony.<\/p>",
+            "description": "<p>Try herbal recipes\/products containing Chamomile, Rose, Green Tea, Strawberry, Neroli, Lavender, Peony.<\/p>",
             "link-url": "",
             "link-text": "DIY Recipes"
           }
