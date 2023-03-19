@@ -1,0 +1,374 @@
+{
+  "sections": {
+    "1664846605f879f483": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "light",
+        "background-color": "accent",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "bottom",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/fallwintermoodboard.png",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "https:\/\/www.pinterest.com\/bytide\/fallwinter-22\/",
+        "link-text": ""
+      }
+    },
+    "16648458757cbc0581": {
+      "type": "featured-video",
+      "disabled": true,
+      "settings": {
+        "video-url": "https:\/\/youtu.be\/MrpHDkURAS8",
+        "image": "shopify:\/\/shop_images\/2A534301-2120-49D0-8252-22B2660E3C47_2_df32a379-30e6-404c-ad5c-5e52636938fc.jpg",
+        "full-width": true,
+        "background-color": "none",
+        "section-height": "regular",
+        "light-text": true,
+        "darken-video": true,
+        "heading": "Seasonal Journal",
+        "sub-heading": "Volume I",
+        "button-text": "",
+        "button-url": ""
+      }
+    },
+    "1664846167c1082776": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 3,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Fall \/ Winter '22",
+        "heading": "Seasonal Journal Vol. I",
+        "text": "<p>Fall has arrived. The intensity of Summer has come to a close as we look forward to nestling in at home. We are actively preparing for Winter, a time where we may experience colder\/dryer weather, the holiday rush, seasonal depression, or even cold\/flu symptoms. Thus, it is an ideal time to begin or intensify rituals that will help nurture and support us. Our Seasonal Journal is meant to inspire you as we experience Nature's transitions. It is a guide that will be updated each Season - you are encouraged to reference it often and find inspiration as you see fit! <\/p>"
+      }
+    },
+    "9aced8d7-13af-490c-a8ab-0231a2c2b86c": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "A NOTE FROM LEAH",
+        "heading": "My Fall\/Winter Rituals",
+        "text": "<p>We are in the midst of my favorite time of year: Autumn, the coziest of seasons. There are rituals that I practice almost daily (a morning tonic, meditation) and there are rituals I seek during certain seasons of my life. Below are some of the rituals that give me peace when Fall\/Winter arrives.<\/p><p><\/p>"
+      }
+    },
+    "ecdacddf-616a-4324-aa4e-c6939db35c7b": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "accent",
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC07698_4.jpg",
+        "overline": "A NOTE FROM LEAH",
+        "title": "My Fall\/Winter Rituals",
+        "description": "<p>We are in the midst of my favorite time of year: Autumn, the coziest of seasons. There are rituals that I practice almost daily (a morning tonic or a quick meditation) and there are rituals I seek during certain seasons of my life. Below are some of the rituals that give me peace when Fall\/Winter arrives.<\/p><p><\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "b2638809-7264-4c4f-9d73-88842d1a851e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.png",
+            "text-position": "center",
+            "text-width": "small",
+            "overline": "",
+            "title": "Herbal Allies",
+            "description": "<p>Increased daily teas\/infusions, tinctures, and supplements parcticularly for mood, immunity, and inflammation. I like to reach for Milky Oats (for nervous system\/adrenals; stress response), Turmeric\/Ginger (inflammation), Peppermint (for digestion, soothing the gut), and Chaga (potent anti-inflammatory).<\/p>",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        },
+        "9b9c2361-41bb-4479-86ce-2fc07d567cd8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_Post_Featured_Image_2.png",
+            "text-position": "center",
+            "text-width": "small",
+            "overline": "",
+            "title": "Moodboard",
+            "description": "<p>Moodboarding to start a Season or year or for a special occasion feels so therapeutic and can provide alot of clarity. For our Fall\/Winter '22 Moodboard, I was inspired by vintage Ralph Lauren, tailored clothing, Yellowstone's Beth Dutton, plays on light and shadow, and moody objects found in Nature.<\/p>",
+            "link-url": "https:\/\/www.pinterest.com\/bytide\/fallwinter-22",
+            "link-text": "PINTEREST MOODBOARD"
+          }
+        },
+        "c05766e0-6cfc-47df-9a98-d72cdbd748b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC07503.jpg",
+            "text-position": "center",
+            "text-width": "small",
+            "overline": "",
+            "title": "Indulgent Skincare",
+            "description": "<p>An enhanced nightime skincare routine, herbal milk baths, and clay face masks are my priority. Our skin tends to lean dryer\/rougher during the cold months, so extra attention will keep it feeling nourished. I will be using lots of Renaissance Body Oil for sure!<\/p><p><\/p>",
+            "link-url": "shopify:\/\/products\/renaissance-body-oil",
+            "link-text": "SHOP THE BODY OIL"
+          }
+        },
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0959.jpg",
+            "text-position": "center",
+            "text-width": "small",
+            "overline": "",
+            "title": "Warming Meals",
+            "description": "<p>Warm, nourishing broths, stews, and soups infused with medicinal herbs. Think beef stew, chicken noodle, butternut squash, brothy beans, lentils, veggie curries, dark leafy greens...<\/p><p><\/p>",
+            "link-url": "shopify:\/\/pages\/recipes",
+            "link-text": "NOURISHING RECIPES"
+          }
+        },
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9567.jpg",
+            "text-position": "center",
+            "text-width": "small",
+            "overline": "",
+            "title": "Setting the Autumnal Table",
+            "description": "<p>Tablescapes are my thing all year round, but cheers to more intimate dinners at home! Thrift mismatched plates, glassware, and linens. Forage branches and foliage. Dim the lights. Light taper candles. Create playlists curated for coziness :)<\/p><p><\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png",
+            "text-position": "center",
+            "text-width": "small",
+            "overline": "",
+            "title": "Comfort Entertainment",
+            "description": "<p>Watching Practical Magic and You've Got Mail on repeat. Playlists featuring Father John Misty, Fleetwod Mac, Khruangbin, Kacey Musgraves, Lee Fields, Charles Bradley, etc. Book recs: the Kosmic Kitchen Cookbook and A Court of Thorns and Roses by Sarah J. Maas (I obsessively tell everyone I know to read this; it's going be a HULU series and I can't wait!).<\/p>",
+            "link-url": "https:\/\/open.spotify.com\/playlist\/6qNhN5DCbbcRVB5PPb7SF7?si=719045bcaf1b40b3",
+            "link-text": "FALL\/WINTER PLAYLIST"
+          }
+        }
+      },
+      "block_order": [
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-0",
+        "9b9c2361-41bb-4479-86ce-2fc07d567cd8",
+        "c05766e0-6cfc-47df-9a98-d72cdbd748b0",
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-1",
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-2",
+        "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "accent",
+        "spacing-above": true,
+        "spacing-below": true,
+        "spacing-around-blocks": true,
+        "image-height": 0,
+        "darken-image": true,
+        "blocks_per_slide": 3,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": true,
+        "mobile-overlay": false,
+        "auto-rotate": false,
+        "rotate-frequency": 3,
+        "transition_type": "slide"
+      }
+    },
+    "869d2a74-7416-4a27-a74b-d26e2a522c93": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "",
+        "heading": "Seasonal Recipes",
+        "text": "<p>When it comes to vibrant health and beauty, you really are what you eat! Cooking whole, nourishing meals that involve minimally processed ingredients is key to feeling good inside and out. I do not subscribe to certain diets or restrictions; rather I aim for what is in season and focus on eating mostly vegetables, meats, fruits, and grains. I still love dessert and eating out though! <em>The key is finding balance not perfection. <\/em>For this edition, we have highlighted recipes that may help support you during Fall\/Winter.<\/p>"
+      }
+    },
+    "16648487398dca1ae7": {
+      "type": "featured-blog",
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "blog-heading": "",
+        "blog": "seasonal-journal",
+        "tag-select": "pinned",
+        "show-date": false,
+        "show-excerpt": false,
+        "view-more-text": ""
+      }
+    },
+    "main": {
+      "type": "blog",
+      "disabled": true,
+      "settings": {
+        "show-title": false,
+        "show-date": false,
+        "show-tag-filter": false,
+        "show-author": false,
+        "show-excerpt": false,
+        "show-rss": false,
+        "columns": 3,
+        "show-featured": false,
+        "tag": "",
+        "image-height": "large",
+        "alt-color": true,
+        "parallax-enabled": false,
+        "apply-overlay": false
+      }
+    },
+    "16648487363b45f36a": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "accent",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 3,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/IMG_8574.jpg",
+        "overline": "COMING SOON",
+        "title": "Incense Cones",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "166484996575dfb7e1": {
+      "type": "text-columns",
+      "blocks": {
+        "1664849965e649a0f4-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/4.png",
+            "title": "Incense Cones",
+            "description": "<p>We had so much fun making incense cones at the last <a href=\"https:\/\/www.instagram.com\/spacetodwell\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/spacetodwell\/\">Space to Dwell Retreat<\/a>! We will be offering limited hand-pressed Incense Cones this Fall\/Winter. <\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "1664849965e649a0f4-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Blog_Post_Featured_Image.png",
+            "title": "Formulating Liquid Soap",
+            "description": "<p>We are currently formulating liquid soap for you! Coming 2023, maybe sooner.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "1664849965e649a0f4-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show-image": true,
+            "title": "Add a title or tagline",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "1664849965e649a0f4-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "show-image": true,
+            "title": "Add a title or tagline",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "1664849965e649a0f4-0",
+        "1664849965e649a0f4-1",
+        "1664849965e649a0f4-2",
+        "1664849965e649a0f4-3"
+      ],
+      "settings": {
+        "background-color": "accent",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 2,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 2,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "left",
+        "heading": "Coming Soon",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "a59bb33b-6a3e-4f79-af07-84b6d1d603ef": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Moodboard Photo Credit: Carjager, Celine, Anna Pogossova, @inthefrow, Don Snyder Photography, Harper's Bazaar, etc.",
+        "heading": "",
+        "text": "<p><a href=\"https:\/\/pin.it\/3XpOhmV\" title=\"https:\/\/pin.it\/3XpOhmV\"><em>via Pinterest<\/em><\/a><\/p>"
+      }
+    }
+  },
+  "order": [
+    "1664846605f879f483",
+    "16648458757cbc0581",
+    "1664846167c1082776",
+    "9aced8d7-13af-490c-a8ab-0231a2c2b86c",
+    "ecdacddf-616a-4324-aa4e-c6939db35c7b",
+    "b2638809-7264-4c4f-9d73-88842d1a851e",
+    "869d2a74-7416-4a27-a74b-d26e2a522c93",
+    "16648487398dca1ae7",
+    "main",
+    "16648487363b45f36a",
+    "166484996575dfb7e1",
+    "a59bb33b-6a3e-4f79-af07-84b6d1d603ef"
+  ]
+}
