@@ -69,7 +69,7 @@
         "spacing-below": true,
         "overline": "SPRING 2023",
         "heading": "The Season of Spring",
-        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>It truly is magical when we align ourselves with Nature. We often do without knowing. To support your transition into this Season of renewal and bloom, we've created a Spring Guide. Happy Spring Equinox! <\/p>"
+        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>It truly is magical when we align ourselves with Nature. We often do without knowing. To support your transition into this Season of renewal and bloom, we've created this Spring Guide. Happy Spring Equinox! <\/p>"
       }
     },
     "66dbe83d-7002-4d7a-97fd-8d15f477d9bd": {
@@ -101,9 +101,9 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/IMG_2731.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_8823.jpg",
             "title": "In Season",
-            "description": "<p>Artichoke, asparagus, mint, radish, ramps, rhubarb, spring greens, strawberry, turnips, and more.<\/p>",
+            "description": "<p>Artichoke, asparagus, mint, radish, ramps, rhubarb, spring greens, strawberry, turnips, and more. Eat lighter meals with greens, sprouts, fish, grains, legumes.<\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -114,7 +114,7 @@
             "show-image": true,
             "image": "shopify:\/\/shop_images\/IMG_2738_c58634af-dd74-4fff-a7f7-b81974a60814.jpg",
             "title": "Activities",
-            "description": "<p>Garden, hike, visit botanical gardens, go to farmer's markets, stargaze, long walks with friends.<\/p>",
+            "description": "<p>Nature is your ally.  Plant a garden, hike\/walk\/sweat outdoors, visit botanical gardens, go to farmer's markets, stargaze.<\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -132,7 +132,7 @@
         "block-spacing": true,
         "container-width": 4,
         "spacing-above": false,
-        "spacing-below": true,
+        "spacing-below": false,
         "width": 4,
         "image-width": 0,
         "mobile-width": "2",
@@ -153,7 +153,7 @@
         "spacing-below": true,
         "overline": "",
         "heading": "Rituals for Vibrancy",
-        "text": "<p>Spring offers us a unique opportunity to revitalize mind, body, and spirit. We've curated targeted rituals that nourish the wellbeing and celebrate the essence of Spring.<\/p>"
+        "text": "<p>Spring offers us a unique opportunity to revitalize mind, body, and spirit. Incorporate some of the recommendations below to nourish the wellbeing and celebrate the essence of Spring.<\/p>"
       }
     },
     "aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d": {
@@ -165,18 +165,7 @@
             "show-image": true,
             "image": "shopify:\/\/shop_images\/IMG_2736.jpg",
             "title": "Spring Cleaning",
-            "description": "<p>Freshen spaces. De-clutter and organize. Let air circulate by opening windows.<\/p>",
-            "link-url": "",
-            "link-text": ""
-          }
-        },
-        "template--15992353030304__aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d-16791985113fcfca75-1": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/IMG_2731.jpg",
-            "title": "Eat Green",
-            "description": "<p>Incorporate more greens! Eat seasonal foods like strawberries, asparagus, peas, and mint.<\/p>",
+            "description": "<p>Freshen spaces and your mind. De-clutter and organize. Let air circulate by opening windows. Meditate. Visualize blossoming and blooming. Tend to projects and ideas.<\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -185,8 +174,20 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/DF6B536C-4919-4DBE-92EA-357018F572DB_a37f445c-4c68-4134-8e64-3d11e2c8be29.jpg",
             "title": "Aromatherapy",
             "description": "<p>Embrace the scents of Chamomile, Lavender, Jasmine, Neroli, Mint, Lilac, Basil, Rosemary, and Lemon.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "template--15992353030304__aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d-16791985113fcfca75-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/DSC07344.jpg",
+            "title": "Herbal Allies",
+            "description": "<p>Get to know Nettle, Dandelion, Chickweed, Yarrow, Mint, Rose, Lilac, Chamomile, Rosehip, Orange Peel, Chrysanthemum.<\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -197,7 +198,7 @@
             "show-image": true,
             "image": "shopify:\/\/shop_images\/IMG_2728.jpg",
             "title": "Sun Salutations",
-            "description": "<p>Ease into your mornings with several Sun Salutations to help loosen and energize the body. Even better if outdoors in Nature.<\/p>",
+            "description": "<p>Ease into your mornings with several Sun Salutations to help loosen and energize the body. Stretch daily. Even better if you are out in Nature.<\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -205,8 +206,8 @@
       },
       "block_order": [
         "template--15992353030304__aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d-16791985113fcfca75-0",
-        "template--15992353030304__aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d-16791985113fcfca75-1",
         "template--15992353030304__aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d-16791985113fcfca75-2",
+        "template--15992353030304__aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d-16791985113fcfca75-1",
         "template--15992353030304__aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d-16791985113fcfca75-3"
       ],
       "settings": {
@@ -229,26 +230,26 @@
     "1d12e589-c00e-428b-aa46-75e1ec323133": {
       "type": "text-columns",
       "blocks": {
-        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-0": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/2_db7ef0ec-aa29-43c3-ba1e-8b291564c3ad.png",
-            "title": "Exfoliation",
-            "description": "<p>Shed Winter skin dullness and brighten up with scrubs and masks.<\/p>",
-            "link-url": "",
-            "link-text": "SHOP BODY SCRUB"
-          }
-        },
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-1": {
           "type": "image",
           "settings": {
             "show-image": true,
             "image": "shopify:\/\/shop_images\/IMG_2739_4f5237e0-9ba9-44b3-8e2c-df4c69c8171d.jpg",
             "title": "Hydration",
-            "description": "<p>Look for ingredients like Aloe Vera, Hyaluronic Acid, Jojoba Oil, Squalane.<\/p>",
+            "description": "<p>Look for ingredients like Aloe Vera, Hyaluronic Acid, Rosehip, Jojoba, Squalane.<\/p>",
             "link-url": "",
             "link-text": "SHOP LIP BALM"
+          }
+        },
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/2_db7ef0ec-aa29-43c3-ba1e-8b291564c3ad.png",
+            "title": "Exfoliation",
+            "description": "<p>Shed Winter skin dullness\/stagnation and brighten up with scrubs, dry brushing, and masks.<\/p>",
+            "link-url": "",
+            "link-text": "SHOP BODY SCRUB"
           }
         },
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2": {
@@ -266,16 +267,17 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/6B250093-4453-4FA1-84F9-C0A52A1EA63F.jpg",
             "title": "Embrace Spring",
             "description": "<p>Try herbal recipes\/products containing Chamomile, Rose, Green Tea, Strawberry, Neroli, Lavender, Peony.<\/p>",
             "link-url": "",
-            "link-text": "DIY Recipes"
+            "link-text": ""
           }
         }
       },
       "block_order": [
-        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-0",
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-1",
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-0",
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2",
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-3"
       ],
