@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "article",
+      "disabled": true,
       "settings": {
         "show-featured": true,
         "title-position": "below",
@@ -11,6 +12,7 @@
     },
     "navigation": {
       "type": "article-navigation",
+      "disabled": true,
       "settings": {
         "enable": true,
         "show-share": true,
@@ -19,16 +21,216 @@
     },
     "recents": {
       "type": "article-recents",
+      "disabled": true,
       "settings": {
         "enable": true
       }
     },
     "comments": {
       "type": "article-comments",
+      "disabled": true,
       "settings": {
         "show-comments": true,
         "disqus-enabled": false,
         "disqus-shortname": ""
+      }
+    },
+    "8ab34c1d-d856-4388-a6a1-314b2d1af39e": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 2,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/AdobeStock_377037715.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "2064996f-484b-4962-bba9-3b34c4b65f6e": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "SPRING 2023",
+        "heading": "The Season of Spring",
+        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>It truly is magical when we align ourselves with Nature. We often do without knowing. To support your transition into this Season of renewal and bloom, we've created a Spring Guide. Happy Spring Equinox! <\/p>"
+      }
+    },
+    "66dbe83d-7002-4d7a-97fd-8d15f477d9bd": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/vibrant-green-grassy-plant-with-rolling-hillside-behind.jpg",
+            "title": "Color",
+            "description": "<p>Green<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Energy",
+            "description": "<p>Vibrant. Rejuvenating.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Add a title or tagline",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-3": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Add a title or tagline",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-0",
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-1",
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-2",
+        "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-3"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "width": 4,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "d43f7eed-2576-46dc-850c-d210ca2aecf8": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "Rituals for Vibrancy",
+        "text": "<p>Spring offers us a unique opportunity to revitalize mind, body, and spirit. We've curated targeted rituals that nourish the wellbeing and celebrate the essence of Spring.<\/p>"
+      }
+    },
+    "1d12e589-c00e-428b-aa46-75e1ec323133": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Exfoliation",
+            "description": "<p>Shed Winter skin dullness. Brighten and revitalize with scrubs and masks.<\/p>",
+            "link-url": "",
+            "link-text": "SHOP BODY SCRUB"
+          }
+        },
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Hydration",
+            "description": "<p>Look for ingredients like Aloe Vera, Hyaluronic Acid, Jojoba Oil, Squalane.<\/p>",
+            "link-url": "",
+            "link-text": "SHOP BODY OIL"
+          }
+        },
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Lighten Up",
+            "description": "<p>Try lighter, breathable skincare like milk cleansers, lightweight face\/body oils, and water-based moisturizers.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-3": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Embrace Spring",
+            "description": "<p>Have FUN! Try DIYs\/products containing Chamomile, Rose, Green Tea, Strawberry, Neroli, Lavender, and Peony.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-0",
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-1",
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2",
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-3"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "Text columns with images",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "22005cfa-f8ad-45e9-ba98-9b1e04a9d543": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "Overline text",
+        "heading": "Introduce your brand",
+        "text": "<p>Introduce your brand, products and vision statement and welcome customers to your store.<\/p>"
       }
     }
   },
@@ -36,6 +238,12 @@
     "main",
     "navigation",
     "recents",
-    "comments"
+    "comments",
+    "8ab34c1d-d856-4388-a6a1-314b2d1af39e",
+    "2064996f-484b-4962-bba9-3b34c4b65f6e",
+    "66dbe83d-7002-4d7a-97fd-8d15f477d9bd",
+    "d43f7eed-2576-46dc-850c-d210ca2aecf8",
+    "1d12e589-c00e-428b-aa46-75e1ec323133",
+    "22005cfa-f8ad-45e9-ba98-9b1e04a9d543"
   ]
 }
