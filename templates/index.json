@@ -27,6 +27,7 @@
     },
     "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -51,7 +52,6 @@
     },
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-1": {
           "type": "image",
@@ -123,6 +123,7 @@
     },
     "d279a6e0-84ad-4f34-bd80-105f086d5d88": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-0": {
           "type": "overline",
@@ -186,6 +187,26 @@
         "spacing-below": true,
         "featured_product": "renaissance-body-oil",
         "loop-enabled": false
+      }
+    },
+    "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "herbal-body-scrub-1",
+          "herbal-lip-balm",
+          "renaissance-body-oil"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "Shop All",
+        "link-url": "",
+        "link-text": ""
       }
     },
     "60333db9-258a-4f7d-a5e5-17b80245b09a": {
@@ -286,6 +307,7 @@
     "featured-text",
     "1661306944d2c5734b",
     "d279a6e0-84ad-4f34-bd80-105f086d5d88",
+    "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "60333db9-258a-4f7d-a5e5-17b80245b09a",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"

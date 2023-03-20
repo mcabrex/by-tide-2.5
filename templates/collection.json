@@ -32,7 +32,7 @@
         "show-title": true,
         "title-alignment": "center",
         "show-description": false,
-        "show-image": true,
+        "show-image": false,
         "use-image-fallback": false,
         "image-height": "medium",
         "alt-color": true,
