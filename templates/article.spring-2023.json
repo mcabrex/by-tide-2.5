@@ -132,12 +132,12 @@
         "block-spacing": true,
         "container-width": 4,
         "spacing-above": false,
-        "spacing-below": false,
+        "spacing-below": true,
         "width": 4,
         "image-width": 0,
         "mobile-width": "2",
         "text-alignment": "center",
-        "heading": "",
+        "heading": "Guide to Spring",
         "subtitle": "",
         "link-url": "",
         "link-text": ""
@@ -146,7 +146,7 @@
     "d43f7eed-2576-46dc-850c-d210ca2aecf8": {
       "type": "featured-text",
       "settings": {
-        "background-color": "none",
+        "background-color": "light",
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
@@ -215,7 +215,7 @@
         "light-text": false,
         "block-spacing": true,
         "container-width": 4,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": false,
         "width": 4,
         "image-width": 0,
@@ -237,7 +237,7 @@
             "image": "shopify:\/\/shop_images\/IMG_2739_4f5237e0-9ba9-44b3-8e2c-df4c69c8171d.jpg",
             "title": "Hydration",
             "description": "<p>Look for ingredients like Aloe Vera, Hyaluronic Acid, Rosehip, Jojoba, Squalane.<\/p>",
-            "link-url": "",
+            "link-url": "shopify:\/\/products\/herbal-lip-balm",
             "link-text": "SHOP LIP BALM"
           }
         },
@@ -248,7 +248,7 @@
             "image": "shopify:\/\/shop_images\/2_db7ef0ec-aa29-43c3-ba1e-8b291564c3ad.png",
             "title": "Exfoliation",
             "description": "<p>Shed Winter skin dullness\/stagnation and brighten up with scrubs, dry brushing, and masks.<\/p>",
-            "link-url": "",
+            "link-url": "shopify:\/\/products\/herbal-body-scrub-1",
             "link-text": "SHOP BODY SCRUB"
           }
         },
@@ -259,7 +259,7 @@
             "image": "shopify:\/\/shop_images\/3_b10af17e-acce-4c1f-83a6-88bad5fbfdcf.png",
             "title": "Lighten Up",
             "description": "<p>Switch to less and lighter, breathable skincare like milk cleansers, lightweight oils, and water-based moisturizers.<\/p>",
-            "link-url": "",
+            "link-url": "shopify:\/\/products\/renaissance-body-oil",
             "link-text": "SHOP BODY OIL"
           }
         },
@@ -297,6 +297,30 @@
         "link-url": "",
         "link-text": ""
       }
+    },
+    "61396e4a-38de-4721-9404-1941883a8603": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 2,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/single-white-tulip.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
@@ -309,6 +333,7 @@
     "66dbe83d-7002-4d7a-97fd-8d15f477d9bd",
     "d43f7eed-2576-46dc-850c-d210ca2aecf8",
     "aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d",
-    "1d12e589-c00e-428b-aa46-75e1ec323133"
+    "1d12e589-c00e-428b-aa46-75e1ec323133",
+    "61396e4a-38de-4721-9404-1941883a8603"
   ]
 }
