@@ -69,7 +69,7 @@
         "spacing-below": true,
         "overline": "SPRING 2023",
         "heading": "The Season of Spring",
-        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>It truly is magical when we align ourselves with Nature. We often do without knowing. To support your transition into this Season of renewal and bloom, we've created this Spring Guide. Happy Spring Equinox! <\/p>"
+        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>This Season offers us a unique opportunity to revitalize mind, body, and spirit. Incorporate some of the recommendations below to nourish the wellbeing and celebrate the essence of Spring. Happy Spring Equinox!<\/p>"
       }
     },
     "66dbe83d-7002-4d7a-97fd-8d15f477d9bd": {
@@ -151,9 +151,9 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "overline": "",
-        "heading": "Rituals for Vibrancy",
-        "text": "<p>Spring offers us a unique opportunity to revitalize mind, body, and spirit. Incorporate some of the recommendations below to nourish the wellbeing and celebrate the essence of Spring.<\/p>"
+        "overline": "VIBRANCY & VITALITY",
+        "heading": "Rituals for Mind, Body, and Spirit",
+        "text": ""
       }
     },
     "aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d": {
@@ -234,7 +234,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/IMG_2739_4f5237e0-9ba9-44b3-8e2c-df4c69c8171d.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_2750.jpg",
             "title": "Hydration",
             "description": "<p>Look for ingredients like Aloe Vera, Hyaluronic Acid, Rosehip, Jojoba, Squalane.<\/p>",
             "link-url": "shopify:\/\/products\/herbal-lip-balm",
@@ -252,34 +252,34 @@
             "link-text": "SHOP BODY SCRUB"
           }
         },
-        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/3_b10af17e-acce-4c1f-83a6-88bad5fbfdcf.png",
-            "title": "Lighten Up",
-            "description": "<p>Switch to less and lighter, breathable skincare like milk cleansers, lightweight oils, and water-based moisturizers.<\/p>",
-            "link-url": "shopify:\/\/products\/renaissance-body-oil",
-            "link-text": "SHOP BODY OIL"
-          }
-        },
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-3": {
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/6B250093-4453-4FA1-84F9-C0A52A1EA63F.jpg",
+            "image": "shopify:\/\/shop_images\/single-white-tulip_deed4441-7dbf-4e3e-9314-28d18512325a.jpg",
             "title": "Embrace Spring",
             "description": "<p>Try herbal recipes\/products containing Chamomile, Rose, Green Tea, Strawberry, Neroli, Lavender, Peony.<\/p>",
             "link-url": "",
             "link-text": ""
+          }
+        },
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2751.jpg",
+            "title": "Lighten Up",
+            "description": "<p>Switch to less and lighter, breathable skincare like milk cleansers, lightweight oils, and water-based moisturizers.<\/p>",
+            "link-url": "shopify:\/\/products\/renaissance-body-oil",
+            "link-text": "SHOP BODY OIL"
           }
         }
       },
       "block_order": [
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-1",
         "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-0",
-        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2",
-        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-3"
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-3",
+        "template--15992353030304__1d12e589-c00e-428b-aa46-75e1ec323133-16791985113fcfca75-2"
       ],
       "settings": {
         "background-color": "none",
@@ -306,9 +306,9 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "overline": "",
-        "heading": "Recipes to Refresh",
-        "text": "<p>Embrace the flavors and scents of Spring! It is a wonderful time to refresh both your food and skincare. Transition from heavier, comforting dishes to lighter, fresher and greener meals. Think salads, stir-fry, grilled dishes. Stay hydrated - infuse water with basil, citrus, mint. Go through your skincare and discard expired items.<\/p>"
+        "overline": "REFRESH & REJUVENATE",
+        "heading": "Food and Skincare Recipes",
+        "text": ""
       }
     },
     "1adfc8bd-986c-4140-8cf7-13e5237aa50b": {
