@@ -298,28 +298,85 @@
         "link-text": ""
       }
     },
-    "61396e4a-38de-4721-9404-1941883a8603": {
-      "type": "image-with-text",
+    "10e7901e-3935-468a-821e-9a54bf40ef50": {
+      "type": "featured-text",
       "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 2,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/single-white-tulip.jpg",
+        "background-color": "light",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
         "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
+        "heading": "Recipes to Refresh",
+        "text": "<p>Embrace the flavors and scents of Spring! It is a wonderful time to refresh both your food and skincare. Transition from heavier, comforting dishes to lighter, fresher and greener meals. Think salads, stir-fry, grilled dishes. Stay hydrated - infuse water with basil, citrus, mint. Go through your skincare and discard expired items.<\/p>"
+      }
+    },
+    "1adfc8bd-986c-4140-8cf7-13e5237aa50b": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--15992353030304__1adfc8bd-986c-4140-8cf7-13e5237aa50b-167927512018c4931d-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Ingredients",
+            "description": "<ul><li>1 Green Tea bag<\/li><li>1 Cucumber<\/li><li>1 c Filtered or Distilled Water<\/li><\/ul>",
+            "page-content": ""
+          }
+        },
+        "template--15992353030304__1adfc8bd-986c-4140-8cf7-13e5237aa50b-167927512018c4931d-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Instructions",
+            "description": "<ol><li>Brew a cup of Green Tea and let it cool to room temperature.<\/li><li>Grate and squeeze cucumber juice through a cheesecloth or fine mesh strainer.<\/li><li>Mix cucumber and green tea.<\/li><li>Transfer to a spray bottle or airtight container.<\/li><li>To use, spritz the toner on your face after cleansing or apply with a cotton pad. <\/li><\/ol>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15992353030304__1adfc8bd-986c-4140-8cf7-13e5237aa50b-167927512018c4931d-0",
+        "template--15992353030304__1adfc8bd-986c-4140-8cf7-13e5237aa50b-167927512018c4931d-1"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "Green Tea Toning Mist",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "1a86fb72-43c4-421c-a9d5-c9fcf50ba83d": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1da8f504-8192-4006-bcf9-d1020228a916": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Spring Cleaning",
+            "description": "<ul><li>2 PT Nettle<\/li><li>1 PT Tulsi<\/li><li>1\/3 PT Rosemary<\/li><li>Fresh Ginger and Turmeric as desired<\/li><\/ul>",
+            "page-content": ""
+          }
+        },
+        "2ca1994c-0549-4f60-9019-48333235873b": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "In-Bloom Blend",
+            "description": "<ul><li>1 PT Lemon Balm<\/li><li>1 PT Passionflower<\/li><li>1\/3 PT Orange Peel<\/li><li>1\/5 PT Calendula<\/li><li>Fresh Ginger as desired<\/li><\/ul>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1da8f504-8192-4006-bcf9-d1020228a916",
+        "2ca1994c-0549-4f60-9019-48333235873b"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "Spring Tea Blends",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true
       }
     }
   },
@@ -334,6 +391,8 @@
     "d43f7eed-2576-46dc-850c-d210ca2aecf8",
     "aee3ee62-d5cc-46d8-bd7f-0fd5eb45d86d",
     "1d12e589-c00e-428b-aa46-75e1ec323133",
-    "61396e4a-38de-4721-9404-1941883a8603"
+    "10e7901e-3935-468a-821e-9a54bf40ef50",
+    "1adfc8bd-986c-4140-8cf7-13e5237aa50b",
+    "1a86fb72-43c4-421c-a9d5-c9fcf50ba83d"
   ]
 }
