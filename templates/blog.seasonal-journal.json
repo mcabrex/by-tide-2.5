@@ -2,6 +2,7 @@
   "sections": {
     "1664846605f879f483": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "light",
         "background-color": "accent",
@@ -43,6 +44,7 @@
     },
     "1664846167c1082776": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "accent",
         "light-text": false,
@@ -70,6 +72,7 @@
     },
     "ecdacddf-616a-4324-aa4e-c6939db35c7b": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
@@ -94,6 +97,7 @@
     },
     "b2638809-7264-4c4f-9d73-88842d1a851e": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-0": {
           "type": "image",
@@ -201,6 +205,7 @@
     },
     "869d2a74-7416-4a27-a74b-d26e2a522c93": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "accent",
         "light-text": false,
@@ -214,8 +219,9 @@
     },
     "16648487398dca1ae7": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
-        "background-color": "accent",
+        "background-color": "none",
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
@@ -274,6 +280,7 @@
     },
     "166484996575dfb7e1": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "1664849965e649a0f4-0": {
           "type": "image",
@@ -345,6 +352,7 @@
     },
     "a59bb33b-6a3e-4f79-af07-84b6d1d603ef": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -354,6 +362,22 @@
         "overline": "Moodboard Photo Credit: Carjager, Celine, Anna Pogossova, @inthefrow, Don Snyder Photography, Harper's Bazaar, etc.",
         "heading": "",
         "text": "<p><a href=\"https:\/\/pin.it\/3XpOhmV\" title=\"https:\/\/pin.it\/3XpOhmV\"><em>via Pinterest<\/em><\/a><\/p>"
+      }
+    },
+    "b68c231b-bbc0-4558-a8d0-e2aca0e2e733": {
+      "type": "featured-blog",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 2,
+        "spacing-above": true,
+        "spacing-below": true,
+        "blog-heading": "Seasonal Journal",
+        "blog": "seasonal-journal",
+        "tag-select": "pinned",
+        "show-date": true,
+        "show-excerpt": true,
+        "view-more-text": ""
       }
     }
   },
@@ -369,6 +393,7 @@
     "main",
     "16648487363b45f36a",
     "166484996575dfb7e1",
-    "a59bb33b-6a3e-4f79-af07-84b6d1d603ef"
+    "a59bb33b-6a3e-4f79-af07-84b6d1d603ef",
+    "b68c231b-bbc0-4558-a8d0-e2aca0e2e733"
   ]
 }
