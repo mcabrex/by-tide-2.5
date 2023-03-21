@@ -121,74 +121,6 @@
         "link": "shopify:\/\/pages\/about"
       }
     },
-    "d279a6e0-84ad-4f34-bd80-105f086d5d88": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-0": {
-          "type": "overline",
-          "settings": {
-            "text": "BODY OIL FOR BLISS"
-          }
-        },
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-1": {
-          "type": "heading",
-          "settings": {
-          }
-        },
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-2": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-4": {
-          "type": "options",
-          "disabled": true,
-          "settings": {
-            "variant-style": "buttons",
-            "swatches-enabled": true,
-            "size-chart-enabled": true,
-            "size-chart-option": "size",
-            "size-chart-content": ""
-          }
-        },
-        "4309836c-e727-4fee-ae51-99479f0e3b9f": {
-          "type": "quantity-input",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-5": {
-          "type": "buy-buttons",
-          "settings": {
-            "smart-payment-enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-0",
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-1",
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-2",
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-3",
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-4",
-        "4309836c-e727-4fee-ae51-99479f0e3b9f",
-        "template--15673456820384__d279a6e0-84ad-4f34-bd80-105f086d5d88-1678394923fed26056-5"
-      ],
-      "settings": {
-        "background-color": "none",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "featured_product": "renaissance-body-oil",
-        "loop-enabled": false
-      }
-    },
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
       "type": "featured-products",
       "settings": {
@@ -204,7 +136,7 @@
         "display-type": "grid",
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "2",
-        "heading": "Shop All",
+        "heading": "",
         "link-url": "",
         "link-text": ""
       }
@@ -306,7 +238,6 @@
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c",
     "featured-text",
     "1661306944d2c5734b",
-    "d279a6e0-84ad-4f34-bd80-105f086d5d88",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "60333db9-258a-4f7d-a5e5-17b80245b09a",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
