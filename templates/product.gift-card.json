@@ -18,6 +18,7 @@
       "blocks": {
         "feab65cc-a8aa-4d1a-8581-651aabcfbece": {
           "type": "overline",
+          "disabled": true,
           "settings": {
             "text": "BODY OIL FOR BLISS"
           }
