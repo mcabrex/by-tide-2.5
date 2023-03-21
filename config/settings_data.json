@@ -27,7 +27,7 @@
     "product--label-color": "accent-light-text",
     "product--show-sale-label": "show-text",
     "product--new-label-period": 30,
-    "product--quick-add-enabled": true,
+    "product--quick-add-enabled": false,
     "product--variant-style": "buttons",
     "product--show-quantity": true,
     "search--show-in-header": true,
