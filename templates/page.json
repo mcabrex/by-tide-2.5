@@ -25,14 +25,14 @@
         "text": ""
       }
     },
-    "16559313655184b031": {
+    "02ffb61c-f1bc-4e2d-8539-be7ccf05c075": {
       "type": "image-with-text",
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "container-width": 5,
-        "spacing-above": false,
-        "spacing-below": false,
+        "container-width": 2,
+        "spacing-above": true,
+        "spacing-below": true,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
@@ -41,10 +41,58 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/LEAHFINALFINAL.png",
-        "overline": "EAST MEETS WEST",
-        "title": "About Our Founder",
-        "description": "<p>A creative at heart, Leah spent years working in corporate beauty while simultaneously exploring all that Nature had to offer and making lifestyle changes to align with it - from crafting her own skincare to cooking with local seasonal produce to creating a more sustainable, non-toxic home.<\/p><p>Eventually, she discovered the art of soapmaking and its benefits for the skin and environment. This sparked a deeper dive into the world of Herbalism, Cosmetic Chemistry, Aromatherapy, and Natural Perfumery. Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives.<\/p><p>Originally from Brooklyn, New York, Leah and her partner, Michael, currently reside in the coastal village of Carmel-by-the-Sea with their rescue dog Zoe. <\/p><p><\/p>",
+        "image": "shopify:\/\/shop_images\/IMG_2464_2.jpg",
+        "overline": "REVITALIZING GLOW",
+        "title": "Herbal Body Scrub",
+        "description": "<p><\/p><ul><li>Wholesale - $16.00<\/li><li>MSRP -  $32.00<\/li><li>MOQ - 20 Units<\/li><\/ul><p><\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "a730183c-b95c-4f23-ab41-2f66d2857cc1": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 2,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC08555.jpg",
+        "overline": "Overline text",
+        "title": "Image with text",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "dc218e29-b330-46c9-accf-6dcde542b418": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 2,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC08399.jpg",
+        "overline": "Overline text",
+        "title": "Image with text",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
         "link-url": "",
         "link-text": ""
       }
@@ -53,6 +101,8 @@
   "order": [
     "main",
     "165593161012c81bd7",
-    "16559313655184b031"
+    "02ffb61c-f1bc-4e2d-8539-be7ccf05c075",
+    "a730183c-b95c-4f23-ab41-2f66d2857cc1",
+    "dc218e29-b330-46c9-accf-6dcde542b418"
   ]
 }
