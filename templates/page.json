@@ -25,12 +25,36 @@
         "text": ""
       }
     },
+    "dc218e29-b330-46c9-accf-6dcde542b418": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 5,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC08399.jpg",
+        "overline": "COOLING COCONUT",
+        "title": "Herbal Lip Balm",
+        "description": "<p><\/p><ul><li>Wholesale - $9.00<\/li><li>MSRP -  $18.00<\/li><li>MOQ - 20 Units<\/li><\/ul><p><\/p><p>A luscious lip balm loaded with skin-loving herbs and luxurious butters and oils. Our <em>Cooling Coconut<\/em> Herbal Lip Balm is part lip balm, part lip oil - imparting a deeply hydrating sheen to keep dry lips at bay. Organic Sunflower and Avocado Oil are infused with calming Calendula Flower and emollient Marshmallow Root. Shea Butter and Rosehip Seed Oil add rich, nourishing properties. Menthol provides a protective, cooling sensation. And finally, Neroli and Coconut add a sensual tropical twist.<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "02ffb61c-f1bc-4e2d-8539-be7ccf05c075": {
       "type": "image-with-text",
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "container-width": 2,
+        "container-width": 3,
         "spacing-above": true,
         "spacing-below": true,
         "image-height": 0,
@@ -44,7 +68,7 @@
         "image": "shopify:\/\/shop_images\/IMG_2464_2.jpg",
         "overline": "REVITALIZING GLOW",
         "title": "Herbal Body Scrub",
-        "description": "<p><\/p><ul><li>Wholesale - $16.00<\/li><li>MSRP -  $32.00<\/li><li>MOQ - 20 Units<\/li><\/ul><p><\/p>",
+        "description": "<p><\/p><ul><li>Wholesale - $16.00<\/li><li>MSRP -  $32.00<\/li><li>MOQ - 20 Units<\/li><\/ul><p><br\/>Introducing Revitalizing Glow, an herbal body scrub to awaken your skin. This silky scrub features a combination of skin-loving herbs that work to soothe, moisturize, and tone. Rich Shea Butter and luxurious Rosehip Seed Oil deeply penetrate and hydrate. Fine organic cane sugar provides effective, gentle exfoliation. Neroli, Ylang Ylang, and Coconut transport you to a dewy and sunlit escape.<\/p>",
         "link-url": "",
         "link-text": ""
       }
@@ -54,8 +78,8 @@
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "container-width": 2,
-        "spacing-above": false,
+        "container-width": 4,
+        "spacing-above": true,
         "spacing-below": true,
         "image-height": 0,
         "darken-image": false,
@@ -66,33 +90,9 @@
         "box-around-text": false,
         "mobile-overlay": false,
         "image": "shopify:\/\/shop_images\/DSC08555.jpg",
-        "overline": "Overline text",
-        "title": "Image with text",
-        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "dc218e29-b330-46c9-accf-6dcde542b418": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 2,
-        "spacing-above": false,
-        "spacing-below": true,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/DSC08399.jpg",
-        "overline": "Overline text",
-        "title": "Image with text",
-        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "overline": "BODY OIL FOR BLISS",
+        "title": "Renaissance",
+        "description": "<p><\/p><ul><li>Wholesale - $42.50<\/li><li>MSRP -  $85.00<\/li><li>MOQ - 10 Units<\/li><\/ul><p>A Body Oil inspired by Botticelli’s famed Birth of Venus, a representation of the goddess of love and beauty and of Nature’s bounty. With over 10 botanical extracts and nourishing oils, Renaissance is an ethereal body oil featuring an elevated scent combination of Neroli, Hinoki, and Coconut. For hair, body, and nails. For the warmer seasons of life. For creative inspiration. For blissful moments. <\/p>",
         "link-url": "",
         "link-text": ""
       }
@@ -101,8 +101,8 @@
   "order": [
     "main",
     "165593161012c81bd7",
+    "dc218e29-b330-46c9-accf-6dcde542b418",
     "02ffb61c-f1bc-4e2d-8539-be7ccf05c075",
-    "a730183c-b95c-4f23-ab41-2f66d2857cc1",
-    "dc218e29-b330-46c9-accf-6dcde542b418"
+    "a730183c-b95c-4f23-ab41-2f66d2857cc1"
   ]
 }
