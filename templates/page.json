@@ -64,7 +64,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "HOW TO USE",
-            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "description": "<p>Apply all over lips to nourish and protect.<\/p>",
             "page-content": ""
           }
         },
@@ -72,7 +72,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "INGREDIENTS",
-            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "description": "<p>Helianthus Annuus (Sunflower) Seed Oil*, Persea Gratissima (Avocado) Oil*, Butyrospermum Parkii (Shea) Butter*, Euphorbia Cerifera (Candelilla) Wax, Rosa Canina (Rosehip) Seed Oil* , Cocos Nucifera (Coconut) Fruit Extract, Tocopherol, Althaea Officinalis Root (Marshmallow) Extract*, Calendula Officinalis Flower (Calendula) Extract*, Citrus Aurantium (Neroli) Oil*, Menthol, *Organic <\/p>",
             "page-content": ""
           }
         }
@@ -99,7 +99,7 @@
         "background-color": "none",
         "container-width": 3,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
@@ -111,9 +111,52 @@
         "image": "shopify:\/\/shop_images\/IMG_2464_2.jpg",
         "overline": "REVITALIZING GLOW",
         "title": "Herbal Body Scrub",
-        "description": "<p><\/p><ul><li>Wholesale - $16.00<\/li><li>MSRP -  $32.00<\/li><li>MOQ - 20 Units<\/li><\/ul><p><br\/>Introducing Revitalizing Glow, an herbal body scrub to awaken your skin. This silky scrub features a combination of skin-loving herbs that work to soothe, moisturize, and tone. Rich Shea Butter and luxurious Rosehip Seed Oil deeply penetrate and hydrate. Fine organic cane sugar provides effective, gentle exfoliation. Neroli, Ylang Ylang, and Coconut transport you to a dewy and sunlit escape.<\/p>",
+        "description": "<p><\/p><ul><li>Wholesale - $16.00<\/li><li>MSRP -  $32.00<\/li><li>MOQ - 20 Units<\/li><\/ul>",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "c3e4ba35-852e-4777-8f76-3c75182ce995": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "31617c7f-5d7e-446d-963e-4eda4e064260": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "description": "<p>Introducing Revitalizing Glow, an herbal body scrub to awaken your skin. This silky scrub features a combination of skin-loving herbs that work to soothe, moisturize, and tone. <\/p><p>Rich Shea Butter and luxurious Rosehip Seed Oil deeply penetrate and hydrate. Fine organic cane sugar provides effective, gentle exfoliation. Neroli, Ylang Ylang, and Coconut transport you to a dewy and sunlit escape.<\/p>",
+            "page-content": ""
+          }
+        },
+        "cd1a7a0d-c731-4f10-9c92-babec5cc90fa": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "HOW TO USE",
+            "description": "<p>Apply all over lips to nourish and protect.<\/p>",
+            "page-content": ""
+          }
+        },
+        "b868f1be-ee48-4913-aedb-cce49838f896": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Helianthus Annuus (Sunflower) Seed Oil*, Persea Gratissima (Avocado) Oil*, Butyrospermum Parkii (Shea) Butter*, Euphorbia Cerifera (Candelilla) Wax, Rosa Canina (Rosehip) Seed Oil* , Cocos Nucifera (Coconut) Fruit Extract, Tocopherol, Althaea Officinalis Root (Marshmallow) Extract*, Calendula Officinalis Flower (Calendula) Extract*, Citrus Aurantium (Neroli) Oil*, Menthol, *Organic <\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "31617c7f-5d7e-446d-963e-4eda4e064260",
+        "cd1a7a0d-c731-4f10-9c92-babec5cc90fa",
+        "b868f1be-ee48-4913-aedb-cce49838f896"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true
       }
     },
     "a730183c-b95c-4f23-ab41-2f66d2857cc1": {
@@ -123,7 +166,7 @@
         "background-color": "none",
         "container-width": 4,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
@@ -135,9 +178,52 @@
         "image": "shopify:\/\/shop_images\/DSC08555.jpg",
         "overline": "BODY OIL FOR BLISS",
         "title": "Renaissance",
-        "description": "<p><\/p><ul><li>Wholesale - $42.50<\/li><li>MSRP -  $85.00<\/li><li>MOQ - 10 Units<\/li><\/ul><p>A Body Oil inspired by Botticelli’s famed Birth of Venus, a representation of the goddess of love and beauty and of Nature’s bounty. With over 10 botanical extracts and nourishing oils, Renaissance is an ethereal body oil featuring an elevated scent combination of Neroli, Hinoki, and Coconut. For hair, body, and nails. For the warmer seasons of life. For creative inspiration. For blissful moments. <\/p>",
+        "description": "<p><\/p><ul><li>Wholesale - $42.50<\/li><li>MSRP -  $85.00<\/li><li>MOQ - 10 Units<\/li><\/ul>",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "39a79951-8f61-4afb-9dab-dff3bf7ce65c": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "312f67ce-0882-4430-84c5-8f4ff5984d9e": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "description": "<p>A Body Oil inspired by Botticelli’s famed Birth of Venus, a representation of the goddess of love and beauty and of Nature’s bounty. With over 10 botanical extracts and nourishing oils, Renaissance is an ethereal body oil featuring an elevated scent combination of Neroli, Hinoki, and Coconut. <\/p><p>For hair, body, and nails. For the warmer seasons of life. For creative inspiration. For blissful moments. <\/p>",
+            "page-content": ""
+          }
+        },
+        "36115283-b9e8-42f6-9d80-9de44be85891": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "HOW TO USE",
+            "description": "<p>Apply all over lips to nourish and protect.<\/p>",
+            "page-content": ""
+          }
+        },
+        "d260ec63-05bd-47cb-b4ae-f2dde28c0cf2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Helianthus Annuus (Sunflower) Seed Oil*, Persea Gratissima (Avocado) Oil*, Butyrospermum Parkii (Shea) Butter*, Euphorbia Cerifera (Candelilla) Wax, Rosa Canina (Rosehip) Seed Oil* , Cocos Nucifera (Coconut) Fruit Extract, Tocopherol, Althaea Officinalis Root (Marshmallow) Extract*, Calendula Officinalis Flower (Calendula) Extract*, Citrus Aurantium (Neroli) Oil*, Menthol, *Organic <\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "312f67ce-0882-4430-84c5-8f4ff5984d9e",
+        "36115283-b9e8-42f6-9d80-9de44be85891",
+        "d260ec63-05bd-47cb-b4ae-f2dde28c0cf2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true
       }
     }
   },
@@ -147,6 +233,8 @@
     "dc218e29-b330-46c9-accf-6dcde542b418",
     "9028e7b5-9404-49d1-9cfd-5c84189b7044",
     "02ffb61c-f1bc-4e2d-8539-be7ccf05c075",
-    "a730183c-b95c-4f23-ab41-2f66d2857cc1"
+    "c3e4ba35-852e-4777-8f76-3c75182ce995",
+    "a730183c-b95c-4f23-ab41-2f66d2857cc1",
+    "39a79951-8f61-4afb-9dab-dff3bf7ce65c"
   ]
 }
