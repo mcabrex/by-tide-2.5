@@ -49,6 +49,19 @@
         "text": "<p>BY TIDE is a modern Wellness House and Apothecary providing rituals that support your Ebb and Flow. We believe in the power of practical ritual and moments of pause. We believe in Seasonality and living in alignment with Nature. We create goods rooted in ancient Herbal wisdom combined with scientific effectiveness. Our products are Herbalist formulated and woman-owned. We are based out of the idyllic coastal village of Carmel-by-the-Sea, California.<\/p>"
       }
     },
+    "b0db48ae-defd-46b3-a5a4-65221eb58505": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": false,
+        "overline": "OUR FORMULA",
+        "heading": "Product Alchemy",
+        "text": ""
+      }
+    },
     "7f45123d-a2a3-4d05-b58c-47a654e26d5e": {
       "type": "text-columns",
       "blocks": {
@@ -92,20 +105,33 @@
         "template--15673456722080__7f45123d-a2a3-4d05-b58c-47a654e26d5e-16801246855bead3c8-2"
       ],
       "settings": {
-        "background-color": "accent",
+        "background-color": "none",
         "light-text": false,
         "block-spacing": true,
         "container-width": 4,
-        "spacing-above": true,
+        "spacing-above": false,
         "spacing-below": true,
         "width": 3,
         "image-width": 0,
         "mobile-width": "1",
         "text-alignment": "center",
-        "heading": "Our Product Alchemy",
+        "heading": "",
         "subtitle": "",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "42bd8c4d-3d1a-497d-87d3-ea6914f0bd77": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": false,
+        "overline": "OUR PRODUCTS",
+        "heading": "Current Inventory",
+        "text": ""
       }
     },
     "dc218e29-b330-46c9-accf-6dcde542b418": {
@@ -314,7 +340,9 @@
     "main",
     "36ebecd9-c6e8-4a66-bc42-1628a1ee1d3c",
     "bf09c1bc-e5a7-4e84-a061-e331f28216ee",
+    "b0db48ae-defd-46b3-a5a4-65221eb58505",
     "7f45123d-a2a3-4d05-b58c-47a654e26d5e",
+    "42bd8c4d-3d1a-497d-87d3-ea6914f0bd77",
     "dc218e29-b330-46c9-accf-6dcde542b418",
     "9028e7b5-9404-49d1-9cfd-5c84189b7044",
     "02ffb61c-f1bc-4e2d-8539-be7ccf05c075",
