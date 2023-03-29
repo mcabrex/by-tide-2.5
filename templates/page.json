@@ -32,7 +32,7 @@
         "background-color": "none",
         "container-width": 5,
         "spacing-above": true,
-        "spacing-below": true,
+        "spacing-below": false,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
@@ -44,9 +44,52 @@
         "image": "shopify:\/\/shop_images\/DSC08399.jpg",
         "overline": "COOLING COCONUT",
         "title": "Herbal Lip Balm",
-        "description": "<p><\/p><ul><li>Wholesale - $9.00<\/li><li>MSRP -  $18.00<\/li><li>MOQ - 20 Units<\/li><\/ul><p><\/p><p>A luscious lip balm loaded with skin-loving herbs and luxurious butters and oils. Our <em>Cooling Coconut<\/em> Herbal Lip Balm is part lip balm, part lip oil - imparting a deeply hydrating sheen to keep dry lips at bay. Organic Sunflower and Avocado Oil are infused with calming Calendula Flower and emollient Marshmallow Root. Shea Butter and Rosehip Seed Oil add rich, nourishing properties. Menthol provides a protective, cooling sensation. And finally, Neroli and Coconut add a sensual tropical twist.<\/p>",
+        "description": "<p><\/p><ul><li>Wholesale - $9.00<\/li><li>MSRP -  $18.00<\/li><li>MOQ - 20 Units<\/li><\/ul>",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "9028e7b5-9404-49d1-9cfd-5c84189b7044": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "description": "<p>A luscious lip balm loaded with skin-loving herbs and luxurious butters and oils. Our <em>Cooling Coconut<\/em> Herbal Lip Balm is part lip balm, part lip oil - imparting a deeply hydrating sheen to keep dry lips at bay. <\/p><p>Organic Sunflower and Avocado Oil are infused with calming Calendula Flower and emollient Marshmallow Root. Shea Butter and Rosehip Seed Oil add rich, nourishing properties. Menthol provides a protective, cooling sensation. And finally, Neroli and Coconut add a sensual tropical twist.<\/p>",
+            "page-content": ""
+          }
+        },
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "HOW TO USE",
+            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "page-content": ""
+          }
+        },
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Use tabs to highlight unique features, <br\/>sizing information, <br\/>or other sales information.<\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-2",
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-0",
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-1"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true
       }
     },
     "02ffb61c-f1bc-4e2d-8539-be7ccf05c075": {
@@ -102,6 +145,7 @@
     "main",
     "165593161012c81bd7",
     "dc218e29-b330-46c9-accf-6dcde542b418",
+    "9028e7b5-9404-49d1-9cfd-5c84189b7044",
     "02ffb61c-f1bc-4e2d-8539-be7ccf05c075",
     "a730183c-b95c-4f23-ab41-2f66d2857cc1"
   ]
