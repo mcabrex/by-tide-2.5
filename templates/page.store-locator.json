@@ -1,0 +1,353 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "show-title": false,
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "36ebecd9-c6e8-4a66-bc42-1628a1ee1d3c": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "large",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/Untitled_design_4_d8378b80-70bc-495b-aac6-f6fbf8cb9037.png",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "bf09c1bc-e5a7-4e84-a061-e331f28216ee": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "RITUALS FOR YOUR EBB AND FLOW",
+        "heading": "A Modern Apothecary & Wellness House",
+        "text": "<p>BY TIDE is a modern Wellness House and Apothecary providing rituals that support your Ebb and Flow. We believe in the power of practical ritual and moments of pause. We believe in Seasonality and living in alignment with Nature. We create goods rooted in ancient Herbal wisdom combined with scientific effectiveness. Our products are Herbalist formulated and woman-owned. We are based out of the idyllic coastal village of Carmel-by-the-Sea, California.<\/p>"
+      }
+    },
+    "b0db48ae-defd-46b3-a5a4-65221eb58505": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "OUR FORMULA",
+        "heading": "Product Alchemy",
+        "text": ""
+      }
+    },
+    "7f45123d-a2a3-4d05-b58c-47a654e26d5e": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15673456722080__7f45123d-a2a3-4d05-b58c-47a654e26d5e-16801246855bead3c8-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/AdobeStock_40978395-removebg-preview.png",
+            "title": "Herbalism",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15673456722080__7f45123d-a2a3-4d05-b58c-47a654e26d5e-16801246855bead3c8-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/1_57f01a0f-dd99-437e-8ee5-f84377d3de86.png",
+            "title": "Natural Perfumery",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15673456722080__7f45123d-a2a3-4d05-b58c-47a654e26d5e-16801246855bead3c8-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/AdobeStock_129541951-removebg-preview.png",
+            "title": "Cosmetic Chemistry",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456722080__7f45123d-a2a3-4d05-b58c-47a654e26d5e-16801246855bead3c8-0",
+        "template--15673456722080__7f45123d-a2a3-4d05-b58c-47a654e26d5e-16801246855bead3c8-1",
+        "template--15673456722080__7f45123d-a2a3-4d05-b58c-47a654e26d5e-16801246855bead3c8-2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "width": 3,
+        "image-width": 0,
+        "mobile-width": "1",
+        "text-alignment": "center",
+        "heading": "",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "42bd8c4d-3d1a-497d-87d3-ea6914f0bd77": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "OUR PRODUCTS",
+        "heading": "Current Inventory",
+        "text": ""
+      }
+    },
+    "dc218e29-b330-46c9-accf-6dcde542b418": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 3,
+        "spacing-above": true,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC08399.jpg",
+        "overline": "COOLING COCONUT",
+        "title": "Herbal Lip Balm",
+        "description": "<p><\/p><p>Wholesale - $9.00<\/p><p>MSRP -  $18.00<\/p><p>MOQ - 20 Units<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "9028e7b5-9404-49d1-9cfd-5c84189b7044": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "description": "<p>A luscious lip balm loaded with skin-loving herbs and luxurious butters and oils. Our <em>Cooling Coconut<\/em> Herbal Lip Balm is part lip balm, part lip oil - imparting a deeply hydrating sheen to keep dry lips at bay. <\/p><p>Organic Sunflower and Avocado Oil are infused with calming Calendula Flower and emollient Marshmallow Root. Shea Butter and Rosehip Seed Oil add rich, nourishing properties. Menthol provides a protective, cooling sensation. And finally, Neroli and Coconut add a sensual tropical twist.<\/p>",
+            "page-content": ""
+          }
+        },
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "HOW TO USE",
+            "description": "<p>Apply all over lips to nourish and protect.<\/p>",
+            "page-content": ""
+          }
+        },
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Helianthus Annuus (Sunflower) Seed Oil*, Persea Gratissima (Avocado) Oil*, Butyrospermum Parkii (Shea) Butter*, Euphorbia Cerifera (Candelilla) Wax, Rosa Canina (Rosehip) Seed Oil* , Cocos Nucifera (Coconut) Fruit Extract, Tocopherol, Althaea Officinalis Root (Marshmallow) Extract*, Calendula Officinalis Flower (Calendula) Extract*, Citrus Aurantium (Neroli) Oil*, Menthol, *Organic <\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-2",
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-0",
+        "template--15673456722080__9028e7b5-9404-49d1-9cfd-5c84189b7044-16801175840ebefda6-1"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "",
+        "title-alignment": "left",
+        "container-width": 3,
+        "spacing-above": false,
+        "spacing-below": true
+      }
+    },
+    "02ffb61c-f1bc-4e2d-8539-be7ccf05c075": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 3,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/IMG_2464_2.jpg",
+        "overline": "REVITALIZING GLOW",
+        "title": "Herbal Body Scrub",
+        "description": "<p><\/p><p>Wholesale - $16.00<\/p><p>MSRP -  $32.00<\/p><p>MOQ - 20 Units<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "c3e4ba35-852e-4777-8f76-3c75182ce995": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "31617c7f-5d7e-446d-963e-4eda4e064260": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "description": "<p>Introducing Revitalizing Glow, an herbal body scrub to awaken your skin. This silky scrub features a combination of skin-loving herbs that work to soothe, moisturize, and tone. <\/p><p>Rich Shea Butter and luxurious Rosehip Seed Oil deeply penetrate and hydrate. Fine organic cane sugar provides effective, gentle exfoliation. Neroli, Ylang Ylang, and Coconut transport you to a dewy and sunlit escape.<\/p>",
+            "page-content": ""
+          }
+        },
+        "cd1a7a0d-c731-4f10-9c92-babec5cc90fa": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "HOW TO USE",
+            "description": "<p>Apply all over lips to nourish and protect.<\/p>",
+            "page-content": ""
+          }
+        },
+        "b868f1be-ee48-4913-aedb-cce49838f896": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Helianthus Annuus (Sunflower) Seed Oil*, Persea Gratissima (Avocado) Oil*, Butyrospermum Parkii (Shea) Butter*, Euphorbia Cerifera (Candelilla) Wax, Rosa Canina (Rosehip) Seed Oil* , Cocos Nucifera (Coconut) Fruit Extract, Tocopherol, Althaea Officinalis Root (Marshmallow) Extract*, Calendula Officinalis Flower (Calendula) Extract*, Citrus Aurantium (Neroli) Oil*, Menthol, *Organic <\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "31617c7f-5d7e-446d-963e-4eda4e064260",
+        "cd1a7a0d-c731-4f10-9c92-babec5cc90fa",
+        "b868f1be-ee48-4913-aedb-cce49838f896"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "",
+        "title-alignment": "left",
+        "container-width": 3,
+        "spacing-above": false,
+        "spacing-below": true
+      }
+    },
+    "a730183c-b95c-4f23-ab41-2f66d2857cc1": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 3,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC08555.jpg",
+        "overline": "BODY OIL FOR BLISS",
+        "title": "Renaissance",
+        "description": "<p><\/p><p>Wholesale - $42.50<\/p><p>MSRP -  $85.00<\/p><p>MOQ - 10 Units<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "39a79951-8f61-4afb-9dab-dff3bf7ce65c": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "312f67ce-0882-4430-84c5-8f4ff5984d9e": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "DESCRIPTION",
+            "description": "<p>A Body Oil inspired by Botticelli’s famed Birth of Venus, a representation of the goddess of love and beauty and of Nature’s bounty. With over 10 botanical extracts and nourishing oils, Renaissance is an ethereal body oil featuring an elevated scent combination of Neroli, Hinoki, and Coconut. <\/p><p>For hair, body, and nails. For the warmer seasons of life. For creative inspiration. For blissful moments. <\/p>",
+            "page-content": ""
+          }
+        },
+        "36115283-b9e8-42f6-9d80-9de44be85891": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "HOW TO USE",
+            "description": "<p>Apply all over lips to nourish and protect.<\/p>",
+            "page-content": ""
+          }
+        },
+        "d260ec63-05bd-47cb-b4ae-f2dde28c0cf2": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "description": "<p>Helianthus Annuus (Sunflower) Seed Oil*, Persea Gratissima (Avocado) Oil*, Butyrospermum Parkii (Shea) Butter*, Euphorbia Cerifera (Candelilla) Wax, Rosa Canina (Rosehip) Seed Oil* , Cocos Nucifera (Coconut) Fruit Extract, Tocopherol, Althaea Officinalis Root (Marshmallow) Extract*, Calendula Officinalis Flower (Calendula) Extract*, Citrus Aurantium (Neroli) Oil*, Menthol, *Organic <\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "312f67ce-0882-4430-84c5-8f4ff5984d9e",
+        "36115283-b9e8-42f6-9d80-9de44be85891",
+        "d260ec63-05bd-47cb-b4ae-f2dde28c0cf2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "",
+        "title-alignment": "left",
+        "container-width": 3,
+        "spacing-above": false,
+        "spacing-below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "36ebecd9-c6e8-4a66-bc42-1628a1ee1d3c",
+    "bf09c1bc-e5a7-4e84-a061-e331f28216ee",
+    "b0db48ae-defd-46b3-a5a4-65221eb58505",
+    "7f45123d-a2a3-4d05-b58c-47a654e26d5e",
+    "42bd8c4d-3d1a-497d-87d3-ea6914f0bd77",
+    "dc218e29-b330-46c9-accf-6dcde542b418",
+    "9028e7b5-9404-49d1-9cfd-5c84189b7044",
+    "02ffb61c-f1bc-4e2d-8539-be7ccf05c075",
+    "c3e4ba35-852e-4777-8f76-3c75182ce995",
+    "a730183c-b95c-4f23-ab41-2f66d2857cc1",
+    "39a79951-8f61-4afb-9dab-dff3bf7ce65c"
+  ]
+}
