@@ -69,9 +69,9 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/Logo_black.png",
           "logo-position": "center",
-          "logo-height": 30,
+          "logo-height": 40,
           "fix-enabled": true,
-          "fixed-logo-height": 25,
+          "fixed-logo-height": 30,
           "menu": "main-menu",
           "header-account-show": false,
           "account-icon": "text",
