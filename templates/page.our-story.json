@@ -170,6 +170,65 @@
         "link-url": "",
         "link-text": ""
       }
+    },
+    "7195ff50-466d-4a09-8818-a198ec32e169": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "title": "Lilify",
+            "description": "",
+            "link-url": "",
+            "link-text": "Monterey, CA"
+          }
+        },
+        "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "title": "Tejido Collective",
+            "description": "",
+            "link-url": "",
+            "link-text": "Carmel-by-the-Sea, CA"
+          }
+        },
+        "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "title": "Elroy's Fine Foods",
+            "description": "",
+            "link-url": "",
+            "link-text": "Monterey, CA"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-0",
+        "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-1",
+        "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "width": 3,
+        "image-width": 30,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "Find Us In-Store",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
@@ -177,6 +236,7 @@
     "16618892303b104487",
     "165593161012c81bd7",
     "1661305987717d0b38",
-    "16559313655184b031"
+    "16559313655184b031",
+    "7195ff50-466d-4a09-8818-a198ec32e169"
   ]
 }
