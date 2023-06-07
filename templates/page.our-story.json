@@ -14,7 +14,6 @@
     },
     "16618892303b104487": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "166188922951360fa3-0": {
           "type": "image",
@@ -66,6 +65,7 @@
     },
     "e8966f7f-cab5-41d7-af47-b74a486d47aa": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
