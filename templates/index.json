@@ -141,6 +141,78 @@
         "link-text": ""
       }
     },
+    "671abe18-3491-4d12-92b1-a93158e1afab": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "OUR PRODUCT ALCHEMY",
+        "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
+        "text": ""
+      }
+    },
+    "59d35d30-4a35-410d-b367-a28ad09f42a2": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "title": "Herbalism",
+            "description": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "title": "Natural Perfumery",
+            "description": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "title": "Clean Cosmetic Science",
+            "description": "",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-0",
+        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-1",
+        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 3,
+        "image-width": 50,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "60333db9-258a-4f7d-a5e5-17b80245b09a": {
       "type": "slideshow",
       "blocks": {
@@ -207,66 +279,6 @@
         "transition_type": "fade"
       }
     },
-    "59d35d30-4a35-410d-b367-a28ad09f42a2": {
-      "type": "text-columns",
-      "disabled": true,
-      "blocks": {
-        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-0": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
-            "title": "Lilify",
-            "description": "",
-            "link-url": "",
-            "link-text": "Monterey, CA"
-          }
-        },
-        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-1": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
-            "title": "Tejido Collective",
-            "description": "",
-            "link-url": "",
-            "link-text": "Carmel-by-the-Sea, CA"
-          }
-        },
-        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-2": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
-            "title": "Elroy's Fine Foods",
-            "description": "",
-            "link-url": "",
-            "link-text": "Monterey, CA"
-          }
-        }
-      },
-      "block_order": [
-        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-0",
-        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-1",
-        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-2"
-      ],
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "block-spacing": true,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "width": 3,
-        "image-width": 50,
-        "mobile-width": "2",
-        "text-alignment": "center",
-        "heading": "Find Us In-Store",
-        "subtitle": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "d0063154-c9c8-483e-96cd-770cd6b75e8e": {
       "type": "featured-text",
       "settings": {
@@ -290,20 +302,6 @@
         "heading": "",
         "newsletter--subheading": ""
       }
-    },
-    "671abe18-3491-4d12-92b1-a93158e1afab": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "OUR PRODUCT ALCHEMY",
-        "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
-        "text": ""
-      }
     }
   },
   "order": [
@@ -313,10 +311,10 @@
     "featured-text",
     "1661306944d2c5734b",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
-    "60333db9-258a-4f7d-a5e5-17b80245b09a",
+    "671abe18-3491-4d12-92b1-a93158e1afab",
     "59d35d30-4a35-410d-b367-a28ad09f42a2",
+    "60333db9-258a-4f7d-a5e5-17b80245b09a",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
-    "newsletter",
-    "671abe18-3491-4d12-92b1-a93158e1afab"
+    "newsletter"
   ]
 }
