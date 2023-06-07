@@ -27,7 +27,6 @@
     },
     "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -42,7 +41,7 @@
         "overlap": true,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/websiteheaderphoto_1.png",
+        "image": "shopify:\/\/shop_images\/DSC06582.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -52,6 +51,7 @@
     },
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-1": {
           "type": "image",
