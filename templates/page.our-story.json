@@ -14,6 +14,7 @@
     },
     "16618892303b104487": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "166188922951360fa3-0": {
           "type": "image",
@@ -63,6 +64,30 @@
         "transition_type": "slide"
       }
     },
+    "f6af0426-b91f-4b64-96fe-d735dffaf79d": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DSC06582.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "165593161012c81bd7": {
       "type": "featured-text",
       "settings": {
@@ -74,6 +99,13 @@
         "overline": "A MODERN APOTHECARY + WELLNESS HOUSE",
         "heading": "Supporting your seasonal ups and downs with rituals, recipes, and goods",
         "text": ""
+      }
+    },
+    "dda759e4-5e76-47f2-a03c-aec80d81f4d2": {
+      "type": "custom-button",
+      "settings": {
+        "button-text": "SHOP NOW",
+        "link": "shopify:\/\/collections\/all"
       }
     },
     "1661305987717d0b38": {
@@ -234,7 +266,9 @@
   "order": [
     "main",
     "16618892303b104487",
+    "f6af0426-b91f-4b64-96fe-d735dffaf79d",
     "165593161012c81bd7",
+    "dda759e4-5e76-47f2-a03c-aec80d81f4d2",
     "1661305987717d0b38",
     "7195ff50-466d-4a09-8818-a198ec32e169",
     "16559313655184b031"
