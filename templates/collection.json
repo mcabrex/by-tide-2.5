@@ -1,5 +1,56 @@
 {
   "sections": {
+    "317b2936-c20d-4d3b-bae3-385fce28cda3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC08564.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        },
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC08561.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "\/",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-0",
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-1"
+      ],
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "image-height": 0,
+        "darken-image": false,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "2",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 7,
+        "transition_type": "slide"
+      }
+    },
     "1f29b1e8-08c1-4f20-bca9-81560e897c82": {
       "type": "image-with-text",
       "disabled": true,
@@ -27,6 +78,7 @@
     },
     "collection-header": {
       "type": "collection--header",
+      "disabled": true,
       "settings": {
         "enable-header": true,
         "show-title": true,
@@ -99,6 +151,7 @@
     }
   },
   "order": [
+    "317b2936-c20d-4d3b-bae3-385fce28cda3",
     "1f29b1e8-08c1-4f20-bca9-81560e897c82",
     "collection-header",
     "navigation",
