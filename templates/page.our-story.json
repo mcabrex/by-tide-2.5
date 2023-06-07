@@ -18,7 +18,7 @@
         "166188922951360fa3-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C84E046B-4EE7-49EB-B56E-D1ED7ECBDEDB.jpg",
+            "image": "shopify:\/\/shop_images\/DSC08646.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -147,30 +147,6 @@
         "link-text": ""
       }
     },
-    "16559313655184b031": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "large",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/9290E9D9-B6FC-42CD-A171-4A5E0B6C6466.jpg",
-        "overline": "EAST MEETS WEST",
-        "title": "About Our Founder",
-        "description": "<p><br\/>A creative at heart, Leah spent years working in corporate beauty while simultaneously exploring all that Nature had to offer and making lifestyle changes to align with it - from crafting her own skincare to cooking with local seasonal produce to creating a more sustainable, non-toxic home.<\/p><p>Eventually, she discovered the art of soapmaking and its benefits for the skin and environment. This sparked a deeper dive into the world of Herbalism, Cosmetic Chemistry, Aromatherapy, and Natural Perfumery. Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives.<\/p><p>Originally from Brooklyn, New York, Leah and her partner, Michael, currently reside in the coastal village of Carmel-by-the-Sea with their rescue dog Zoe. <\/p><p><\/p>",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "7195ff50-466d-4a09-8818-a198ec32e169": {
       "type": "text-columns",
       "blocks": {
@@ -229,6 +205,30 @@
         "link-url": "",
         "link-text": ""
       }
+    },
+    "16559313655184b031": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "large",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/9290E9D9-B6FC-42CD-A171-4A5E0B6C6466.jpg",
+        "overline": "EAST MEETS WEST",
+        "title": "About Our Founder",
+        "description": "<p><br\/>A creative at heart, Leah spent years working in corporate beauty while simultaneously exploring all that Nature had to offer and making lifestyle changes to align with it - from crafting her own skincare to cooking with local seasonal produce to creating a more sustainable, non-toxic home.<\/p><p>Eventually, she discovered the art of soapmaking and its benefits for the skin and environment. This sparked a deeper dive into the world of Herbalism, Cosmetic Chemistry, Aromatherapy, and Natural Perfumery. Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives.<\/p><p>Originally from Brooklyn, New York, Leah and her partner, Michael, currently reside in the coastal village of Carmel-by-the-Sea with their rescue dog Zoe. <\/p><p><\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
@@ -236,7 +236,7 @@
     "16618892303b104487",
     "165593161012c81bd7",
     "1661305987717d0b38",
-    "16559313655184b031",
-    "7195ff50-466d-4a09-8818-a198ec32e169"
+    "7195ff50-466d-4a09-8818-a198ec32e169",
+    "16559313655184b031"
   ]
 }
