@@ -41,7 +41,7 @@
         "overlap": true,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC06582.jpg",
+        "image": "shopify:\/\/shop_images\/0F1A9029-A691-4CC7-9311-6460BE87F6B0.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -149,8 +149,8 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": false,
-        "overline": "OUR PRODUCT ALCHEMY",
-        "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
+        "overline": "THE BY TIDE FORMULA",
+        "heading": "We believe in good design, harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
         "text": ""
       }
     },
@@ -189,12 +189,24 @@
             "link-url": "",
             "link-text": ""
           }
+        },
+        "1c8829a1-a473-4b26-b4c1-26df3ec3b324": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "title": "Elevated Packaging Design",
+            "description": "",
+            "link-url": "",
+            "link-text": ""
+          }
         }
       },
       "block_order": [
         "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-0",
         "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-1",
-        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-2"
+        "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-2",
+        "1c8829a1-a473-4b26-b4c1-26df3ec3b324"
       ],
       "settings": {
         "background-color": "none",
@@ -203,7 +215,7 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "width": 3,
+        "width": 4,
         "image-width": 50,
         "mobile-width": "2",
         "text-alignment": "center",

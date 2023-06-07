@@ -14,6 +14,7 @@
     },
     "16618892303b104487": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "166188922951360fa3-0": {
           "type": "image",
@@ -63,16 +64,15 @@
         "transition_type": "slide"
       }
     },
-    "f6af0426-b91f-4b64-96fe-d735dffaf79d": {
+    "e8966f7f-cab5-41d7-af47-b74a486d47aa": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
         "container-width": 6,
         "spacing-above": false,
         "spacing-below": false,
-        "image-height": 3,
+        "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "center",
@@ -80,7 +80,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/Untitled_design_7_061606d5-585f-453d-8077-88bb760fd6f2.png",
+        "image": "shopify:\/\/shop_images\/DSC06582.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -110,7 +110,6 @@
     },
     "f368db3c-db4f-47b2-9201-32a148f9b796": {
       "type": "featured-text",
-      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -118,49 +117,63 @@
         "spacing-above": true,
         "spacing-below": true,
         "overline": "OUR PRODUCT ALCHEMY",
-        "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
+        "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefits of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
         "text": ""
       }
     },
     "ad760476-5779-4b77-8d24-89126a4926c5": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-0": {
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
             "title": "Herbalism",
-            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "description": "<p>We incorporate beneficial medicinal herbs with deep reverence.  Often, they are grown in our garden or sourced from local small farms. They are slowly infused into our oils and other liquids as the base of all our products.<\/p>",
             "link-url": "",
-            "link-text": "View more"
+            "link-text": ""
           }
         },
         "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-1": {
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
             "title": "Natural Perfumery",
-            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "description": "<p>Scent has powerful aromatherapeutic benefits. It can lift the spirit and invite memories once lost. We blend the finest essential oils and CO2 extracts\/absolutes to bring our product to life.<\/p>",
             "link-url": "",
-            "link-text": "View more"
+            "link-text": ""
           }
         },
         "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-2": {
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
             "title": "Clean Cosmetic Science",
-            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "description": "<p>Tapping into the latest innovations from the clean cosmetic industry ensures our products are also effective for their particular use. <\/p>",
             "link-url": "",
-            "link-text": "View more"
+            "link-text": ""
+          }
+        },
+        "2faefc73-839b-44f0-bb97-fe5bb66349f9": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
+            "title": "Elevated Design",
+            "description": "<p>We love good design and aim to complete the product experience with elevated packaging you can be excited to leave out in your home. <\/p>",
+            "link-url": "",
+            "link-text": ""
           }
         }
       },
       "block_order": [
         "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-0",
         "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-1",
-        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-2"
+        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-2",
+        "2faefc73-839b-44f0-bb97-fe5bb66349f9"
       ],
       "settings": {
         "background-color": "none",
@@ -169,12 +182,36 @@
         "container-width": 4,
         "spacing-above": false,
         "spacing-below": true,
-        "width": 3,
-        "image-width": 0,
-        "mobile-width": "2",
+        "width": 4,
+        "image-width": 20,
+        "mobile-width": "1",
         "text-alignment": "center",
         "heading": "",
         "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "f6af0426-b91f-4b64-96fe-d735dffaf79d": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/8E1840DB-49F2-4A53-BBD9-9FD87E64F303.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
         "link-url": "",
         "link-text": ""
       }
@@ -337,11 +374,12 @@
   "order": [
     "main",
     "16618892303b104487",
-    "f6af0426-b91f-4b64-96fe-d735dffaf79d",
+    "e8966f7f-cab5-41d7-af47-b74a486d47aa",
     "165593161012c81bd7",
     "dda759e4-5e76-47f2-a03c-aec80d81f4d2",
     "f368db3c-db4f-47b2-9201-32a148f9b796",
     "ad760476-5779-4b77-8d24-89126a4926c5",
+    "f6af0426-b91f-4b64-96fe-d735dffaf79d",
     "1661305987717d0b38",
     "7195ff50-466d-4a09-8818-a198ec32e169",
     "16559313655184b031"
