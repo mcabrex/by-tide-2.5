@@ -290,6 +290,20 @@
         "heading": "",
         "newsletter--subheading": ""
       }
+    },
+    "671abe18-3491-4d12-92b1-a93158e1afab": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "OUR PRODUCT ALCHEMY",
+        "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
+        "text": ""
+      }
     }
   },
   "order": [
@@ -302,6 +316,7 @@
     "60333db9-258a-4f7d-a5e5-17b80245b09a",
     "59d35d30-4a35-410d-b367-a28ad09f42a2",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
-    "newsletter"
+    "newsletter",
+    "671abe18-3491-4d12-92b1-a93158e1afab"
   ]
 }
