@@ -108,6 +108,77 @@
         "link": "shopify:\/\/collections\/all"
       }
     },
+    "f368db3c-db4f-47b2-9201-32a148f9b796": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "OUR PRODUCT ALCHEMY",
+        "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, and the effectiveness of clean cosmetic actives and extracts.",
+        "text": ""
+      }
+    },
+    "ad760476-5779-4b77-8d24-89126a4926c5": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Herbalism",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Natural Perfumery",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Clean Cosmetic Science",
+            "description": "<p>Explain a set of product features, add illustrations, infographics, logo lists, or link to pages.<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-0",
+        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-1",
+        "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-2"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": false,
+        "spacing-below": true,
+        "width": 3,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "1661305987717d0b38": {
       "type": "text-columns",
       "blocks": {
@@ -226,7 +297,7 @@
         "light-text": false,
         "block-spacing": true,
         "container-width": 4,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
         "width": 3,
         "image-width": 30,
@@ -269,6 +340,8 @@
     "f6af0426-b91f-4b64-96fe-d735dffaf79d",
     "165593161012c81bd7",
     "dda759e4-5e76-47f2-a03c-aec80d81f4d2",
+    "f368db3c-db4f-47b2-9201-32a148f9b796",
+    "ad760476-5779-4b77-8d24-89126a4926c5",
     "1661305987717d0b38",
     "7195ff50-466d-4a09-8818-a198ec32e169",
     "16559313655184b031"
