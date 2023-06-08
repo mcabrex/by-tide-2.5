@@ -161,7 +161,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
             "title": "Herbalism",
             "description": "",
             "link-url": "",
@@ -172,7 +172,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
             "title": "Natural Perfumery",
             "description": "",
             "link-url": "",
@@ -183,7 +183,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
             "title": "Cosmetic Science",
             "description": "",
             "link-url": "",
@@ -194,7 +194,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Play_db77ce14-4eaa-446f-839c-22bf1dac55b8.png",
+            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
             "title": "Elevated Design",
             "description": "",
             "link-url": "",
@@ -216,7 +216,7 @@
         "spacing-above": true,
         "spacing-below": true,
         "width": 4,
-        "image-width": 50,
+        "image-width": 10,
         "mobile-width": "2",
         "text-alignment": "center",
         "heading": "",
