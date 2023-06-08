@@ -2,7 +2,6 @@
   "sections": {
     "317b2936-c20d-4d3b-bae3-385fce28cda3": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-0": {
           "type": "image",
@@ -50,30 +49,6 @@
         "auto-rotate": false,
         "rotate-frequency": 7,
         "transition_type": "slide"
-      }
-    },
-    "1f29b1e8-08c1-4f20-bca9-81560e897c82": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC06582.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
       }
     },
     "collection-header": {
@@ -152,7 +127,6 @@
   },
   "order": [
     "317b2936-c20d-4d3b-bae3-385fce28cda3",
-    "1f29b1e8-08c1-4f20-bca9-81560e897c82",
     "collection-header",
     "navigation",
     "main",

@@ -12,60 +12,8 @@
         "spacing-below": true
       }
     },
-    "16618892303b104487": {
-      "type": "slideshow",
-      "blocks": {
-        "166188922951360fa3-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC08564.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "",
-            "description": "",
-            "link-url": "\/",
-            "link-text": ""
-          }
-        },
-        "166188922951360fa3-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC08561.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "",
-            "description": "",
-            "link-url": "\/",
-            "link-text": ""
-          }
-        }
-      },
-      "block_order": [
-        "166188922951360fa3-0",
-        "166188922951360fa3-1"
-      ],
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "spacing-above": false,
-        "spacing-below": false,
-        "spacing-around-blocks": false,
-        "image-height": 0,
-        "darken-image": false,
-        "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "2",
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "auto-rotate": false,
-        "rotate-frequency": 7,
-        "transition_type": "slide"
-      }
-    },
     "e8966f7f-cab5-41d7-af47-b74a486d47aa": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -330,7 +278,7 @@
         "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-2"
       ],
       "settings": {
-        "background-color": "none",
+        "background-color": "light",
         "light-text": false,
         "block-spacing": true,
         "container-width": 4,
@@ -373,7 +321,6 @@
   },
   "order": [
     "main",
-    "16618892303b104487",
     "e8966f7f-cab5-41d7-af47-b74a486d47aa",
     "165593161012c81bd7",
     "dda759e4-5e76-47f2-a03c-aec80d81f4d2",
