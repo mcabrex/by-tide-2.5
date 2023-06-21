@@ -36,7 +36,7 @@
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
-        "text-position": "top",
+        "text-position": "center",
         "text-width": "large",
         "overlap": true,
         "box-around-text": false,
@@ -103,6 +103,7 @@
     },
     "featured-text": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -112,33 +113,6 @@
         "overline": "A Modern Apothecary + Wellness House",
         "heading": "Conscious Body Care & Provisions for your Ebb and Flow",
         "text": ""
-      }
-    },
-    "1661306944d2c5734b": {
-      "type": "custom-button",
-      "settings": {
-        "button-text": "OUR STORY",
-        "link": "shopify:\/\/pages\/about"
-      }
-    },
-    "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
-      "type": "featured-products",
-      "settings": {
-        "product-list": [
-          "herbal-body-scrub-1",
-          "herbal-lip-balm",
-          "renaissance-body-oil"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2",
-        "heading": "",
-        "link-url": "",
-        "link-text": ""
       }
     },
     "671abe18-3491-4d12-92b1-a93158e1afab": {
@@ -152,6 +126,13 @@
         "overline": "THE COMPLETE PACKAGE",
         "heading": "We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, the effectiveness of clean cosmetic actives and extracts, and the appeal of thoughtful design.",
         "text": ""
+      }
+    },
+    "1661306944d2c5734b": {
+      "type": "custom-button",
+      "settings": {
+        "button-text": "OUR STORY",
+        "link": "shopify:\/\/pages\/about"
       }
     },
     "59d35d30-4a35-410d-b367-a28ad09f42a2": {
@@ -227,6 +208,7 @@
     },
     "60333db9-258a-4f7d-a5e5-17b80245b09a": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-0": {
           "type": "image",
@@ -291,6 +273,26 @@
         "transition_type": "fade"
       }
     },
+    "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "herbal-body-scrub-1",
+          "herbal-lip-balm",
+          "renaissance-body-oil"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "d0063154-c9c8-483e-96cd-770cd6b75e8e": {
       "type": "featured-text",
       "settings": {
@@ -321,11 +323,11 @@
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c",
     "featured-text",
-    "1661306944d2c5734b",
-    "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "671abe18-3491-4d12-92b1-a93158e1afab",
+    "1661306944d2c5734b",
     "59d35d30-4a35-410d-b367-a28ad09f42a2",
     "60333db9-258a-4f7d-a5e5-17b80245b09a",
+    "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"
   ]
