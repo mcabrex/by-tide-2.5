@@ -1,7 +1,101 @@
 {
   "sections": {
+    "f39882ed-b611-4a26-bd14-ee4f48c0d85f": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 3,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "bottom",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/top-view-of-a-woman-gliding-through-a-pool-underwater.jpg",
+        "overline": "Summer 2023",
+        "title": "The Season of Summer",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "4c08b67b-662e-4b75-b3af-fedb27a0a687": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2753.jpg",
+            "title": "Color",
+            "description": "<p>Gold<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Energy",
+            "description": "<p>Vibrant & Celebratory<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "In Season",
+            "description": "<p>Cherries, Rhubarb, Tomatoes, Peppers<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        },
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-3": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/cloudy-sky-covers-the-beach-as-people-walk-by.jpg",
+            "title": "Activities",
+            "description": "<p>Sunrise salutations, floral baths, barefoot walks<\/p>",
+            "link-url": "",
+            "link-text": "View more"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-0",
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-1",
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-2",
+        "template--15673457180832__4c08b67b-662e-4b75-b3af-fedb27a0a687-1688331114fbbd1133-3"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "image-width": 150,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "Guide to Summer",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "main": {
       "type": "article",
+      "disabled": true,
       "settings": {
         "show-featured": true,
         "title-position": "below",
@@ -11,6 +105,7 @@
     },
     "navigation": {
       "type": "article-navigation",
+      "disabled": true,
       "settings": {
         "enable": true,
         "show-share": true,
@@ -33,6 +128,8 @@
     }
   },
   "order": [
+    "f39882ed-b611-4a26-bd14-ee4f48c0d85f",
+    "4c08b67b-662e-4b75-b3af-fedb27a0a687",
     "main",
     "navigation",
     "recents",
