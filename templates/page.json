@@ -136,7 +136,7 @@
     "b0db48ae-defd-46b3-a5a4-65221eb58505": {
       "type": "featured-text",
       "settings": {
-        "background-color": "accent",
+        "background-color": "none",
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
@@ -225,7 +225,7 @@
         "dbad9b93-8c81-4777-b138-a3dfa73bb233"
       ],
       "settings": {
-        "background-color": "accent",
+        "background-color": "none",
         "light-text": false,
         "block-spacing": true,
         "container-width": 4,
@@ -458,12 +458,12 @@
     "36360cf9-983a-4f47-ac93-04e67772c9d2": {
       "type": "image-with-text",
       "settings": {
-        "text-color": "auto",
+        "text-color": "dark",
         "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 3,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "left",
@@ -471,10 +471,10 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/IMG_5006.jpg",
-        "overline": "OUR FOUNDER",
-        "title": "About",
-        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "image": "shopify:\/\/shop_images\/IMG_5631.jpg",
+        "overline": "EAST MEETS WEST",
+        "title": "About Our Founder",
+        "description": "<p>A creative at heart, Leah spent years working in corporate beauty in New York City before being called to slow down and explore her interests in Herbalism and Perfumery. <\/p><p>Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives. She carefully formulates each product from start to finish, calling on the highest quality botanical allies and innovations in clean cosmetics.<\/p><p>Originally from Brooklyn, New York, Leah and her partner Michael currently reside in the idyllic coastal village of Carmel-by-the-Sea with their rescue dog Zoe.<\/p>",
         "link-url": "",
         "link-text": ""
       }
