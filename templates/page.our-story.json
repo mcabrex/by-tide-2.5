@@ -130,7 +130,7 @@
     "f368db3c-db4f-47b2-9201-32a148f9b796": {
       "type": "featured-text",
       "settings": {
-        "background-color": "none",
+        "background-color": "light",
         "light-text": false,
         "container-width": 4,
         "spacing-above": true,
@@ -195,7 +195,7 @@
         "2faefc73-839b-44f0-bb97-fe5bb66349f9"
       ],
       "settings": {
-        "background-color": "none",
+        "background-color": "light",
         "light-text": false,
         "block-spacing": true,
         "container-width": 4,
