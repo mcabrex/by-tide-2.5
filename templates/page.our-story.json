@@ -56,6 +56,77 @@
         "link": "shopify:\/\/collections\/all"
       }
     },
+    "1661305987717d0b38": {
+      "type": "text-columns",
+      "blocks": {
+        "1661305987554dbb6f-1": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/ritual_c685f1cd-ab81-4dcb-b7a4-075b007ad1a7.png",
+            "title": "Ritual",
+            "description": "<p>We believe in simple, everyday rituals: a morning tonic, a walk in the sun, a mindful meditation, a nourishing bath. These unique, personal moments allow us a moment of pause, to tend to ourselves.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "1661305987554dbb6f-0": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/seasonality.png",
+            "title": "Seasonality",
+            "description": "<p>Just like Nature has its seasons, so do we. We continuously experience ebb and flow throughout our life. Instead of working against our seasonality, we choose to accept and nourish our current physical, mental, and emotional state - whatever that may be.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "1661305987554dbb6f-2": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/nostalgia_e485c27c-67e4-4e7e-9bd0-7a7eb6b3b359.png",
+            "title": "Nostalgia",
+            "description": "<p>We are nostalgic for ways of living that have been lost in the modern day. We envision an ecosystem with a strong sense of community, a return to ancient healing practices for vibrant everyday health,  and living in harmony with Nature.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        },
+        "1661305987554dbb6f-3": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "image": "shopify:\/\/shop_images\/play_da759516-e691-4da0-a4f1-878b850d1810.png",
+            "title": "Play",
+            "description": "<p>In a world that can be demanding of us in so many ways, exploration and contentment are vital to our wellbeing. We encourage play, the creation of joyful moments, and taking time to indulge in our interests.<\/p>",
+            "link-url": "",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661305987554dbb6f-1",
+        "1661305987554dbb6f-0",
+        "1661305987554dbb6f-2",
+        "1661305987554dbb6f-3"
+      ],
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "block-spacing": true,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "width": 4,
+        "image-width": 60,
+        "mobile-width": "1",
+        "text-alignment": "center",
+        "heading": "Our Ethos",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "f368db3c-db4f-47b2-9201-32a148f9b796": {
       "type": "featured-text",
       "settings": {
@@ -142,6 +213,7 @@
     },
     "f6af0426-b91f-4b64-96fe-d735dffaf79d": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -164,73 +236,26 @@
         "link-text": ""
       }
     },
-    "1661305987717d0b38": {
-      "type": "text-columns",
-      "blocks": {
-        "1661305987554dbb6f-1": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/ritual_c685f1cd-ab81-4dcb-b7a4-075b007ad1a7.png",
-            "title": "Ritual",
-            "description": "<p>We believe in simple, everyday rituals: a morning tonic, a walk in the sun, a mindful meditation, a nourishing bath. These unique, personal moments allow us a moment of pause, to tend to ourselves.<\/p>",
-            "link-url": "",
-            "link-text": ""
-          }
-        },
-        "1661305987554dbb6f-0": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/seasonality.png",
-            "title": "Seasonality",
-            "description": "<p>Just like Nature has its seasons, so do we. We continuously experience ebb and flow throughout our life. Instead of working against our seasonality, we choose to accept and nourish our current physical, mental, and emotional state - whatever that may be.<\/p>",
-            "link-url": "",
-            "link-text": ""
-          }
-        },
-        "1661305987554dbb6f-2": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/nostalgia_e485c27c-67e4-4e7e-9bd0-7a7eb6b3b359.png",
-            "title": "Nostalgia",
-            "description": "<p>We are nostalgic for ways of living that have been lost in the modern day. We envision an ecosystem with a strong sense of community, a return to ancient healing practices for vibrant everyday health,  and living in harmony with Nature.<\/p>",
-            "link-url": "",
-            "link-text": ""
-          }
-        },
-        "1661305987554dbb6f-3": {
-          "type": "image",
-          "settings": {
-            "show-image": true,
-            "image": "shopify:\/\/shop_images\/play_da759516-e691-4da0-a4f1-878b850d1810.png",
-            "title": "Play",
-            "description": "<p>In a world that can be demanding of us in so many ways, exploration and contentment are vital to our wellbeing. We encourage play, the creation of joyful moments, and taking time to indulge in our interests.<\/p>",
-            "link-url": "",
-            "link-text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1661305987554dbb6f-1",
-        "1661305987554dbb6f-0",
-        "1661305987554dbb6f-2",
-        "1661305987554dbb6f-3"
-      ],
+    "16559313655184b031": {
+      "type": "image-with-text",
       "settings": {
+        "text-color": "auto",
         "background-color": "none",
-        "light-text": false,
-        "block-spacing": true,
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "width": 4,
-        "image-width": 60,
-        "mobile-width": "1",
-        "text-alignment": "center",
-        "heading": "Our Ethos",
-        "subtitle": "",
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "large",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/9290E9D9-B6FC-42CD-A171-4A5E0B6C6466.jpg",
+        "overline": "EAST MEETS WEST",
+        "title": "About Our Founder",
+        "description": "<p><br\/>A creative at heart, Leah spent years working in corporate beauty while simultaneously exploring all that Nature had to offer and making lifestyle changes to align with it - from crafting her own skincare to cooking with local seasonal produce to creating a more sustainable, non-toxic home.<\/p><p>Eventually, she discovered the art of soapmaking and its benefits for the skin and environment. This sparked a deeper dive into the world of Herbalism, Cosmetic Chemistry, Aromatherapy, and Natural Perfumery. Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives.<\/p><p>Originally from Brooklyn, New York, Leah and her partner, Michael, currently reside in the coastal village of Carmel-by-the-Sea with their rescue dog Zoe. <\/p><p><\/p>",
         "link-url": "",
         "link-text": ""
       }
@@ -293,30 +318,6 @@
         "link-url": "",
         "link-text": ""
       }
-    },
-    "16559313655184b031": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "large",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/9290E9D9-B6FC-42CD-A171-4A5E0B6C6466.jpg",
-        "overline": "EAST MEETS WEST",
-        "title": "About Our Founder",
-        "description": "<p><br\/>A creative at heart, Leah spent years working in corporate beauty while simultaneously exploring all that Nature had to offer and making lifestyle changes to align with it - from crafting her own skincare to cooking with local seasonal produce to creating a more sustainable, non-toxic home.<\/p><p>Eventually, she discovered the art of soapmaking and its benefits for the skin and environment. This sparked a deeper dive into the world of Herbalism, Cosmetic Chemistry, Aromatherapy, and Natural Perfumery. Blending both her East Coast style sensibility and an appreciation of the West Coast's natural abundance, Leah created BY TIDE to encourage slow living, exploration and play, and practical rituals to support all seasons of our lives.<\/p><p>Originally from Brooklyn, New York, Leah and her partner, Michael, currently reside in the coastal village of Carmel-by-the-Sea with their rescue dog Zoe. <\/p><p><\/p>",
-        "link-url": "",
-        "link-text": ""
-      }
     }
   },
   "order": [
@@ -324,11 +325,11 @@
     "e8966f7f-cab5-41d7-af47-b74a486d47aa",
     "165593161012c81bd7",
     "dda759e4-5e76-47f2-a03c-aec80d81f4d2",
+    "1661305987717d0b38",
     "f368db3c-db4f-47b2-9201-32a148f9b796",
     "ad760476-5779-4b77-8d24-89126a4926c5",
     "f6af0426-b91f-4b64-96fe-d735dffaf79d",
-    "1661305987717d0b38",
-    "7195ff50-466d-4a09-8818-a198ec32e169",
-    "16559313655184b031"
+    "16559313655184b031",
+    "7195ff50-466d-4a09-8818-a198ec32e169"
   ]
 }
