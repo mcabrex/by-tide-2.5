@@ -454,6 +454,30 @@
         "spacing-above": false,
         "spacing-below": true
       }
+    },
+    "36360cf9-983a-4f47-ac93-04e67772c9d2": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/IMG_5006.jpg",
+        "overline": "OUR FOUNDER",
+        "title": "About",
+        "description": "<p>Combine imagery with text to create stand-out campaign sections, eye-catching promotions, information blocks and more.<\/p>",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
@@ -471,6 +495,7 @@
     "02ffb61c-f1bc-4e2d-8539-be7ccf05c075",
     "c3e4ba35-852e-4777-8f76-3c75182ce995",
     "a730183c-b95c-4f23-ab41-2f66d2857cc1",
-    "39a79951-8f61-4afb-9dab-dff3bf7ce65c"
+    "39a79951-8f61-4afb-9dab-dff3bf7ce65c",
+    "36360cf9-983a-4f47-ac93-04e67772c9d2"
   ]
 }
