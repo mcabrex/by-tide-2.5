@@ -76,7 +76,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
+            "image": "shopify:\/\/shop_images\/shell_-_chrome_icon_acc519e4-a911-4a14-9d5c-d8906791715d.png",
             "title": "Herbalism",
             "description": "<p>We incorporate beneficial medicinal herbs with deep reverence.  Often, they are grown in our garden or sourced from local small farms. They are slowly infused into our oils and other liquids as the base of all our products.<\/p>",
             "link-url": "",
@@ -87,7 +87,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
+            "image": "shopify:\/\/shop_images\/shell_-_chrome_icon_acc519e4-a911-4a14-9d5c-d8906791715d.png",
             "title": "Natural Perfumery",
             "description": "<p>Scent has powerful aromatherapeutic benefits. It can lift the spirit and invite memories once lost. We blend the finest essential oils and CO2 extracts\/absolutes to bring our product to life.<\/p>",
             "link-url": "",
@@ -98,7 +98,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
+            "image": "shopify:\/\/shop_images\/shell_-_chrome_icon_acc519e4-a911-4a14-9d5c-d8906791715d.png",
             "title": "Clean Cosmetic Science",
             "description": "<p>Tapping into the latest innovations from the clean cosmetic industry ensures our products are effective. We do not overcomplicate our formulas and only add what is necessary for safety and efficacy.<\/p>",
             "link-url": "",
@@ -109,7 +109,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
-            "image": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
+            "image": "shopify:\/\/shop_images\/shell_-_chrome_icon_acc519e4-a911-4a14-9d5c-d8906791715d.png",
             "title": "Elevated Design",
             "description": "<p>We love good design and aim to complete the product experience with elevated packaging you can be excited to leave out in your home.  It truly is the complete package.<\/p>",
             "link-url": "",
@@ -131,7 +131,7 @@
         "spacing-above": false,
         "spacing-below": true,
         "width": 4,
-        "image-width": 20,
+        "image-width": 40,
         "mobile-width": "1",
         "text-alignment": "center",
         "heading": "",
