@@ -76,7 +76,7 @@
         "show-collections-list": true,
         "custom-list-collections": "",
         "show-sort-list": true,
-        "show-refine-list": false,
+        "show-refine-list": true,
         "swatches-enabled": false,
         "show-search-link": true
       }
