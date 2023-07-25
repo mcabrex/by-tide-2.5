@@ -69,14 +69,14 @@
     "navigation": {
       "type": "collection--navigation",
       "settings": {
-        "show-browse-button": true,
+        "show-browse-button": false,
         "show-sort-button": true,
-        "show-refine-button": true,
-        "show-layout-buttons": true,
+        "show-refine-button": false,
+        "show-layout-buttons": false,
         "show-collections-list": true,
         "custom-list-collections": "",
         "show-sort-list": true,
-        "show-refine-list": true,
+        "show-refine-list": false,
         "swatches-enabled": false,
         "show-search-link": true
       }
