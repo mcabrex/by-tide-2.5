@@ -125,11 +125,12 @@
         "spacing-below": false,
         "overline": "THE COMPLETE PACKAGE",
         "heading": "Elevated Herbal Skincare & Wellness",
-        "text": "<h6>We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, the effectiveness of clean cosmetic science, and the appeal of thoughtful design.<\/h6>"
+        "text": "<p>We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, the effectiveness of clean cosmetic science, and the appeal of thoughtful design.<\/p>"
       }
     },
     "59d35d30-4a35-410d-b367-a28ad09f42a2": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-0": {
           "type": "image",
