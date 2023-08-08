@@ -27,6 +27,7 @@
     },
     "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -41,7 +42,7 @@
         "overlap": true,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/0F1A9029-A691-4CC7-9311-6460BE87F6B0.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_design_12.png",
         "overline": "",
         "title": "",
         "description": "",
@@ -51,12 +52,11 @@
     },
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_5170e7ea-a09e-4450-bcd4-a88b56a85209.png",
+            "image": "shopify:\/\/shop_images\/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
@@ -69,7 +69,7 @@
         "template--15673456820384__a99a0c5b-29a4-49af-99d5-76cf5875dd3c-16789242989e2fbe09-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_6701c426-db4b-42d4-a250-9214cd2c4821.png",
+            "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
             "text-position": "center",
             "text-width": "large",
             "overline": "",
@@ -123,9 +123,9 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": false,
-        "overline": "THE COMPLETE PACKAGE",
+        "overline": "RITUALS FOR YOUR EBB + FLOW",
         "heading": "Elevated Herbal Skincare & Wellness",
-        "text": "<p>We believe in harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, the effectiveness of clean cosmetic science, and the appeal of thoughtful design.<\/p>"
+        "text": "<p>We believe in: harnessing the power of medicinal herbs, the aromatherapeutic benefit of natural perfumery, the effectiveness of clean cosmetic science, and the appeal of thoughtful design.<\/p>"
       }
     },
     "59d35d30-4a35-410d-b367-a28ad09f42a2": {
@@ -278,8 +278,9 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
+          "citrus-lemongrass",
+          "rosemary-petitgrain",
           "herbal-body-scrub-1",
-          "herbal-lip-balm",
           "renaissance-body-oil"
         ],
         "background-color": "none",
@@ -289,7 +290,7 @@
         "display-type": "grid",
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "2",
-        "heading": "",
+        "heading": "The Bath Ritual",
         "link-url": "",
         "link-text": ""
       }
