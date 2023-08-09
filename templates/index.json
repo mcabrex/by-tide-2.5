@@ -101,20 +101,6 @@
         "transition_type": "slide"
       }
     },
-    "featured-text": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 2,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "A Modern Apothecary + Wellness House",
-        "heading": "Conscious Body Care & Provisions for your Ebb and Flow",
-        "text": ""
-      }
-    },
     "671abe18-3491-4d12-92b1-a93158e1afab": {
       "type": "featured-text",
       "settings": {
@@ -274,6 +260,19 @@
         "transition_type": "fade"
       }
     },
+    "featured-text": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 2,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "",
+        "heading": "Shop The Bath Ritual",
+        "text": "<p>Cleanse with Herbal Bar Soap, exfoliate with Body Scrub, and lock in moisture with Body Oil.<\/p>"
+      }
+    },
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
       "type": "featured-products",
       "settings": {
@@ -290,7 +289,7 @@
         "display-type": "grid",
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "2",
-        "heading": "The Bath Ritual",
+        "heading": "",
         "link-url": "",
         "link-text": ""
       }
@@ -324,11 +323,11 @@
     "afb08e24-cf33-42ca-a09f-b51c69f793d6",
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c",
-    "featured-text",
     "671abe18-3491-4d12-92b1-a93158e1afab",
     "59d35d30-4a35-410d-b367-a28ad09f42a2",
     "1661306944d2c5734b",
     "60333db9-258a-4f7d-a5e5-17b80245b09a",
+    "featured-text",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"
