@@ -139,7 +139,7 @@
         "spacing-above": true,
         "spacing-below": true,
         "display-type": "grid",
-        "products-per-row--desktop": "3",
+        "products-per-row--desktop": "4",
         "products-per-row--mobile": "2",
         "heading": "Tend to your Inner Seasons",
         "link-url": "",
