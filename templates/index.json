@@ -116,7 +116,6 @@
     },
     "59d35d30-4a35-410d-b367-a28ad09f42a2": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-0": {
           "type": "image",
@@ -169,6 +168,7 @@
         "template--15673456820384__59d35d30-4a35-410d-b367-a28ad09f42a2-16860082308c7ea477-2",
         "1c8829a1-a473-4b26-b4c1-26df3ec3b324"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -193,71 +193,38 @@
         "link": "shopify:\/\/pages\/about"
       }
     },
-    "60333db9-258a-4f7d-a5e5-17b80245b09a": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC07718.jpg",
-            "text-position": "center",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Aromatherapy",
-            "description": "<p><\/p>",
-            "link-url": "shopify:\/\/collections\/aromatherapy",
-            "link-text": "SHOP"
-          }
-        },
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC07380_2.jpg",
-            "text-position": "center",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Body Oil",
-            "description": "<p><\/p>",
-            "link-url": "shopify:\/\/products\/renaissance-body-oil",
-            "link-text": "SHOP"
-          }
-        },
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC07761.jpg",
-            "text-position": "center",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Bar Soap",
-            "description": "<p><\/p>",
-            "link-url": "shopify:\/\/collections\/herbal-bar-soap",
-            "link-text": "SHOP"
-          }
-        }
-      },
-      "block_order": [
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-0",
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-2",
-        "template--15673456820384__60333db9-258a-4f7d-a5e5-17b80245b09a-1670299341a0682782-1"
-      ],
+    "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
+      "type": "featured-text",
       "settings": {
-        "text-color": "auto",
         "background-color": "none",
-        "spacing-above": false,
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
         "spacing-below": false,
-        "spacing-around-blocks": false,
-        "image-height": 0,
-        "darken-image": true,
-        "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "1",
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "auto-rotate": true,
-        "rotate-frequency": 5,
-        "transition_type": "fade"
+        "overline": "HERBAL BAR SOAP",
+        "heading": "Tend to your Inner Seasons",
+        "text": ""
+      }
+    },
+    "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "primavera-soap",
+          "renaissance-soap",
+          "terra-soap",
+          "sanctuary-soap"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "",
+        "link-text": ""
       }
     },
     "featured-text": {
@@ -326,7 +293,8 @@
     "671abe18-3491-4d12-92b1-a93158e1afab",
     "59d35d30-4a35-410d-b367-a28ad09f42a2",
     "1661306944d2c5734b",
-    "60333db9-258a-4f7d-a5e5-17b80245b09a",
+    "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
+    "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "featured-text",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
