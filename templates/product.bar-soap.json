@@ -37,11 +37,19 @@
           "settings": {
           }
         },
-        "dcdba08f-efcc-4111-b6bc-6139065887ab": {
+        "7cd54dc5-8266-4e2e-8318-e7be831e4e72": {
           "type": "collapsible-tab",
           "settings": {
-            "heading": "Description",
-            "description": "<p>Our Natural Soap Bars are infused with soothing and skin-loving herbs, clays, grains, plant milk, and spices meant to nourish your body. Each bar is made using the artisanal cold-process method. Due to the handmade nature, color\/size varies with each bar. Each bar is 100% Vegan and Palm-Oil free.<\/p>",
+            "heading": "Herbal Properties",
+            "description": "<ul><li>Wild Nettle Leaf<\/li><li>French Green Clay<\/li><li>Rosemary Leaf<\/li><li>Sicilian Petitgrain<\/li><\/ul>",
+            "page-content": ""
+          }
+        },
+        "ed259d93-df48-4d40-bb93-57d829d956ab": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Ingredients",
+            "description": "<p>Olea Europaea (Olive) Fruit Oil*, Cocos Nucifera (Coconut) Oil*,Theobroma Cacao (Cocoa) Seed Butter*, Ricinus Communis (Castor) Seed Oil*, Urtica Dioica (Nettle) Powder*, Chlorella Vulgaris (Chlorella) Powder, Rosmarinus Officinalis (Rosemary) Leaf Oil, Citrus aurantium Amara (Petitgrain) Leaf Oil, Lavandula officinalis (Lavender) Oil *Organic<\/p>",
             "page-content": ""
           }
         },
@@ -49,15 +57,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "How To Use",
-            "description": "<p>For Hands and Body. To ensure longevity of your natural soap bar, place on a draining soap dish in between uses. For freshness, ideal use is within 2 months. <\/p>",
-            "page-content": ""
-          }
-        },
-        "f59dcaa3-894f-4010-954f-7693b3979b8e": {
-          "type": "collapsible-tab",
-          "settings": {
-            "heading": "INGREDIENTS",
-            "description": "<p>Orbignya Oleifera Seed (Babassu) oil, Cocos Nucifera (Coconut) Oil, chamomile-infused Olea Europaea Fruit (Olive) Oil, Theobroma cacao (Cocoa) Butter, Ricinus Communis (Castor) Seed Oil, Coconut Milk<\/p>",
+            "description": "<p>For Hands and Body. To ensure longevity of your natural soap bar, place on a draining soap dish in between uses. For freshness, ideal use is within 2-3 months. <\/p>",
             "page-content": ""
           }
         },
@@ -81,9 +81,9 @@
         "heading",
         "price",
         "description",
-        "dcdba08f-efcc-4111-b6bc-6139065887ab",
+        "7cd54dc5-8266-4e2e-8318-e7be831e4e72",
+        "ed259d93-df48-4d40-bb93-57d829d956ab",
         "f0637e0f-23c8-43bb-8a99-d5729230b463",
-        "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "buy-buttons",
         "social-sharing"
       ],
