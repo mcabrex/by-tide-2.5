@@ -39,6 +39,7 @@
         },
         "7cd54dc5-8266-4e2e-8318-e7be831e4e72": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "heading": "Herbal Properties",
             "description": "<ul><li>Wild Nettle Leaf<\/li><li>French Green Clay<\/li><li>Rosemary Leaf<\/li><li>Sicilian Petitgrain<\/li><\/ul>",
@@ -47,6 +48,7 @@
         },
         "ed259d93-df48-4d40-bb93-57d829d956ab": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingredients",
             "description": "<p>Olea Europaea (Olive) Fruit Oil*, Cocos Nucifera (Coconut) Oil*,Theobroma Cacao (Cocoa) Seed Butter*, Ricinus Communis (Castor) Seed Oil*, Urtica Dioica (Nettle) Powder*, Chlorella Vulgaris (Chlorella) Powder, Rosmarinus Officinalis (Rosemary) Leaf Oil, Citrus aurantium Amara (Petitgrain) Leaf Oil, Lavandula officinalis (Lavender) Oil *Organic<\/p>",
