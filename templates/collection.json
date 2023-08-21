@@ -106,6 +106,7 @@
       "block_order": [
         "7ef39ea3-6ea6-4ad6-9d82-ae3dbf628842"
       ],
+      "disabled": true,
       "settings": {
         "products-per-row--desktop": 3,
         "products-per-row--mobile": "2",
@@ -123,6 +124,50 @@
         "spacing-above": false,
         "spacing-below": true
       }
+    },
+    "0281dc2a-ed27-4b17-baf5-5d172c688377": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "primavera-soap",
+          "renaissance-soap",
+          "sanctuary-soap",
+          "terra-soap"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "Tend to your Inner Seasons",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "herbal-body-scrub-1",
+          "herbal-lip-balm",
+          "renaissance-body-oil",
+          "gift-card",
+          "citrus-lemongrass",
+          "rosemary-petitgrain"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "Shop All",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
@@ -130,6 +175,8 @@
     "collection-header",
     "navigation",
     "main",
-    "recent-products"
+    "recent-products",
+    "0281dc2a-ed27-4b17-baf5-5d172c688377",
+    "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b"
   ]
 }
