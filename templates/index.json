@@ -1,30 +1,5 @@
 {
   "sections": {
-    "afb08e24-cf33-42ca-a09f-b51c69f793d6": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "top",
-        "text-width": "large",
-        "overlap": true,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC08544-5.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c": {
       "type": "slideshow",
       "blocks": {
@@ -167,6 +142,31 @@
         "link-text": ""
       }
     },
+    "afb08e24-cf33-42ca-a09f-b51c69f793d6": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "top",
+        "text-width": "large",
+        "overlap": true,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DSC08544-5.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "featured-text": {
       "type": "featured-text",
       "settings": {
@@ -226,7 +226,6 @@
     }
   },
   "order": [
-    "afb08e24-cf33-42ca-a09f-b51c69f793d6",
     "a99a0c5b-29a4-49af-99d5-76cf5875dd3c",
     "671abe18-3491-4d12-92b1-a93158e1afab",
     "1661306944d2c5734b",
@@ -234,6 +233,7 @@
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "85185de1-8eac-44f4-8c1e-e87e7b7c97fd",
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
+    "afb08e24-cf33-42ca-a09f-b51c69f793d6",
     "featured-text",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
