@@ -37,9 +37,9 @@
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "spacing-above": true,
+        "spacing-above": false,
         "spacing-below": false,
-        "spacing-around-blocks": true,
+        "spacing-around-blocks": false,
         "image-height": 0,
         "darken-image": true,
         "blocks_per_slide": 2,
@@ -49,6 +49,67 @@
         "auto-rotate": true,
         "rotate-frequency": 3,
         "transition_type": "fade"
+      }
+    },
+    "2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-overline-1": {
+          "type": "overline",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-heading-1": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-vendor-1": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-options-1": {
+          "type": "options",
+          "disabled": true,
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-overline-1",
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-heading-1",
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-vendor-1",
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-price-1",
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-options-1",
+        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-buy-buttons-1"
+      ],
+      "settings": {
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured_product": "sandalwood-vanilla-face-body-oil",
+        "loop-enabled": false
       }
     },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
@@ -206,6 +267,7 @@
   },
   "order": [
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
+    "2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
