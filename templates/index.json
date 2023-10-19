@@ -51,66 +51,25 @@
         "transition_type": "fade"
       }
     },
-    "2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec": {
-      "type": "featured-product",
-      "blocks": {
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-overline-1": {
-          "type": "overline",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-heading-1": {
-          "type": "heading",
-          "settings": {
-          }
-        },
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-vendor-1": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-price-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-options-1": {
-          "type": "options",
-          "disabled": true,
-          "settings": {
-            "variant-style": "buttons",
-            "swatches-enabled": true,
-            "size-chart-enabled": true,
-            "size-chart-option": "size",
-            "size-chart-content": ""
-          }
-        },
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-buy-buttons-1": {
-          "type": "buy-buttons",
-          "settings": {
-            "smart-payment-enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-overline-1",
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-heading-1",
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-vendor-1",
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-price-1",
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-options-1",
-        "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-buy-buttons-1"
-      ],
-      "disabled": true,
+    "033b9ef9-f680-4961-89a2-74d2ea96a2ed": {
+      "type": "featured-products",
       "settings": {
+        "product-list": [
+          "sandalwood-vanilla-face-body-oil",
+          "herbal-body-scrub-1",
+          "herbal-lip-balm",
+          "renaissance-body-oil"
+        ],
         "background-color": "none",
-        "container-width": 4,
+        "light-text": false,
         "spacing-above": true,
-        "spacing-below": true,
-        "featured_product": "sandalwood-vanilla-face-body-oil",
-        "loop-enabled": false
+        "spacing-below": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "shopify:\/\/collections\/all",
+        "link-text": "SHOP ALL"
       }
     },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
@@ -124,6 +83,30 @@
         "overline": "HERBAL BAR SOAP",
         "heading": "Tend to your Inner Seasons",
         "text": ""
+      }
+    },
+    "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": true,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": true,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DSC09511.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
       }
     },
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369": {
@@ -169,30 +152,6 @@
         "description": "",
         "link-url": "shopify:\/\/blogs\/recipes\/fire-cider-oxymel",
         "link-text": "RECIPE"
-      }
-    },
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": true,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC09511.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
       }
     },
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
@@ -268,11 +227,11 @@
   },
   "order": [
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
-    "2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec",
+    "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
+    "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "b73ea775-188b-40b1-acb2-c034d3da10c4",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
