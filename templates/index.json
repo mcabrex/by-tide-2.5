@@ -85,6 +85,30 @@
         "link-text": ""
       }
     },
+    "53be77db-05a9-44b4-b58a-652b7ad2b2e8": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": true,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC07558.jpg",
+        "overline": "Autumn Ritual",
+        "title": "Fire Cider Oxymel",
+        "description": "",
+        "link-url": "shopify:\/\/blogs\/recipes\/fire-cider-oxymel",
+        "link-text": "RECIPE"
+      }
+    },
     "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
       "type": "image-with-text",
       "settings": {
@@ -184,6 +208,7 @@
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
+    "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "b73ea775-188b-40b1-acb2-c034d3da10c4",
