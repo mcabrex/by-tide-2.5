@@ -70,7 +70,7 @@
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "right",
-        "text-width": "small",
+        "text-width": "medium",
         "overlap": false,
         "box-around-text": true,
         "mobile-overlay": true,
