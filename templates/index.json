@@ -103,6 +103,7 @@
         "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-options-1",
         "template--15673456820384__2d8c1f3f-1f3b-4bff-b3c9-fdeb0a34bcec-buy-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "container-width": 4,
