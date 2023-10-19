@@ -127,6 +127,7 @@
     },
     "0281dc2a-ed27-4b17-baf5-5d172c688377": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "primavera-soap",
@@ -150,23 +151,44 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
+          "sandalwood-vanilla-face-body-oil",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
           "renaissance-body-oil",
-          "gift-card",
+          "primavera-soap",
+          "renaissance-soap",
+          "sanctuary-soap",
+          "terra-soap",
           "citrus-lemongrass",
-          "rosemary-petitgrain"
+          "rosemary-petitgrain",
+          "gift-card"
         ],
         "background-color": "none",
         "light-text": false,
         "spacing-above": true,
         "spacing-below": true,
         "display-type": "grid",
-        "products-per-row--desktop": "3",
+        "products-per-row--desktop": "4",
         "products-per-row--mobile": "2",
         "heading": "Shop All",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1"
       }
     }
   },
@@ -177,6 +199,7 @@
     "main",
     "recent-products",
     "0281dc2a-ed27-4b17-baf5-5d172c688377",
-    "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b"
+    "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
+    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830"
   ]
 }
