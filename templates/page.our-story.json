@@ -194,6 +194,7 @@
         "template--15673457475744__ad760476-5779-4b77-8d24-89126a4926c5-1686167725e20710e4-2",
         "2faefc73-839b-44f0-bb97-fe5bb66349f9"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "light",
         "light-text": false,
@@ -262,7 +263,6 @@
     },
     "7195ff50-466d-4a09-8818-a198ec32e169": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-0": {
           "type": "image",
@@ -303,6 +303,7 @@
         "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-1",
         "template--15673457475744__7195ff50-466d-4a09-8818-a198ec32e169-16860082308c7ea477-2"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "light",
         "light-text": false,
