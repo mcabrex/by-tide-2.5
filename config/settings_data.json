@@ -20,7 +20,7 @@
     "typography--paragraph": "arimo_n4",
     "typography--paragraph--size": "large",
     "product--hover-image-enabled": true,
-    "product--show-vendor": true,
+    "product--show-vendor": false,
     "product--show-rating": true,
     "product--text-alignment": "center",
     "product--label-shape": "square",

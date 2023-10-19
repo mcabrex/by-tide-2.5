@@ -58,45 +58,9 @@
         "link-text": ""
       }
     },
-    "b73ea775-188b-40b1-acb2-c034d3da10c4": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": true,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/9F94B1F7-0E13-4E12-8C23-3FCEB406C536.jpg",
-        "overline": "RITUALS FOR YOUR EBB & FLOW",
-        "title": "Elevated Herbal Skincare & Wellness",
-        "description": "",
-        "link-url": "shopify:\/\/pages\/about",
-        "link-text": "Our Story"
-      }
-    },
-    "featured-text": {
-      "type": "featured-text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 2,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "",
-        "heading": "Shop The Bath Ritual",
-        "text": "<p>Cleanse with Herbal Bar Soap, exfoliate with Body Scrub, and lock in moisture with Body Oil.<\/p>"
-      }
-    },
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "renaissance-soap",
@@ -113,6 +77,30 @@
         "heading": "",
         "link-url": "",
         "link-text": ""
+      }
+    },
+    "b73ea775-188b-40b1-acb2-c034d3da10c4": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/9A430292-A6DE-4851-AC42-047BBBB9F972.jpg",
+        "overline": "RITUALS FOR YOUR EBB & FLOW",
+        "title": "Elevated Herbal Skincare & Wellness",
+        "description": "",
+        "link-url": "shopify:\/\/pages\/about",
+        "link-text": "Our Story"
       }
     },
     "d0063154-c9c8-483e-96cd-770cd6b75e8e": {
@@ -144,9 +132,8 @@
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
-    "b73ea775-188b-40b1-acb2-c034d3da10c4",
-    "featured-text",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
+    "b73ea775-188b-40b1-acb2-c034d3da10c4",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"
   ]
