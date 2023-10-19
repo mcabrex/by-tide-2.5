@@ -1,27 +1,54 @@
 {
   "sections": {
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
-      "type": "image-with-text",
+    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Elevated Herbal Skincare & Wellness",
+            "description": "",
+            "link-url": "shopify:\/\/collections\/all",
+            "link-text": "SHOP ALL"
+          }
+        },
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Rituals for your Ebb & Flow",
+            "description": "",
+            "link-url": "shopify:\/\/pages\/about",
+            "link-text": "OUR STORY"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2",
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1"
+      ],
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": false,
+        "spacing-around-blocks": true,
         "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": true,
+        "darken-image": true,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "1",
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC09511.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
+        "auto-rotate": true,
+        "rotate-frequency": 3,
+        "transition_type": "fade"
       }
     },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
@@ -58,6 +85,30 @@
         "link-text": ""
       }
     },
+    "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": true,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DSC09511.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
       "type": "featured-products",
       "disabled": true,
@@ -81,6 +132,7 @@
     },
     "b73ea775-188b-40b1-acb2-c034d3da10c4": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -129,9 +181,10 @@
     }
   },
   "order": [
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743",
+    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
+    "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "b73ea775-188b-40b1-acb2-c034d3da10c4",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
