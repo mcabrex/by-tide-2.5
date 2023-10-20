@@ -50,7 +50,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "Ingredients",
-            "description": "<p>Vitis Vinifera (Grape) Seed Oil*, Helianthus Annuus (Sunflower) Seed Oil*, Adansonia Digitata (Baobab) Seed Oil, Rosa Canina (Rosehip) Seed Oil* , Olive Squalane, COCO-CAPRYLATE\/CAPRATE, Limnanthes Alba (Meadowfoam) Seed Oil, Rubus Idaeus (Raspberry) Seed Oil*, Hydrogenated Ethylhexyl Olivate, Hydrogenated Olive Oil Unsaponifiables, tocopherol, Calendula Officinalis Flower (Calendula) Extract*, SBoswellia Serrata (Frankincense) Oil, ANTALUM ALBUM (Sandalwood) Oil, Citrus reticulata (Mandarin) Oil, Oleum Succini (Amber Resin) Oil, Vanilla Planifolia (Vanilla) Extract   *ORGANIC<\/p><p>1 oz<\/p>",
+            "description": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
             "page-content": ""
           }
         },
