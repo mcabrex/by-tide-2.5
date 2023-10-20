@@ -49,7 +49,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "INGREDIENTS",
-            "description": "<p>Cane Sugar*, Helianthus Annuus (Sunflower) Seed Oil*, ButyrospermumParkii (Shea) Butter*, Rosa Canina (Rosehip) Seed Oil*, CetearylOlivate (And) SorbitanOlivate, Tocopherol, Citrus X Sinensis (Orange Peel) Extract*, Avena Sativa (Oat) Kernel Colloidal Oatmeal*, Avena Sativa (Oat) Extract*, Althaea Officinalis (Marshmallow Root) Extract*, Arctium Lappa (Burdock Root) Extract*, Calendula Officinalis Flower (Calendula) Extract*, Cocos Nucifera (Coconut) Fruit Extract, Cananga Odorata (Ylang Ylang) Oil*, Citrus Aurantium (Neroli) Oil*, Citrus Reticulata (Mandarin) Oil* Organic<\/p>",
+            "description": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
             "page-content": ""
           }
         },
