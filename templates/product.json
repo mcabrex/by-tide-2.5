@@ -42,7 +42,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "How To Use",
-            "description": "<p>Use all over body. Best applied liberally after showering when skin is still damp. Can be used on hair and nails to deep condition. Store in a cool, dark place. <\/p><p>Always test on a small patch of skin prior to use.<\/p>",
+            "description": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}<\/p>",
             "page-content": ""
           }
         },
