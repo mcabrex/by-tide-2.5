@@ -41,7 +41,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "How To Use",
-            "description": "<p>Massage all over body, onto warm, wet skin after cleansing. Leave on skin momentarily. Rinse off when desired.<\/p>",
+            "description": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}<\/p>",
             "page-content": ""
           }
         },
