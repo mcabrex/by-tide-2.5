@@ -41,7 +41,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "How To Use",
-            "description": "<p>Apply to lips to nourish and protect.<\/p>",
+            "description": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}<\/p>",
             "page-content": ""
           }
         },
