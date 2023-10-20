@@ -135,7 +135,7 @@
       "settings": {
         "text-color": "auto",
         "background-color": "none",
-        "container-width": 6,
+        "container-width": 4,
         "spacing-above": false,
         "spacing-below": true,
         "image-height": 0,
@@ -145,7 +145,7 @@
         "text-width": "medium",
         "overlap": false,
         "box-around-text": false,
-        "mobile-overlay": false,
+        "mobile-overlay": true,
         "image": "shopify:\/\/shop_images\/DSC07558.jpg",
         "overline": "Autumn Ritual",
         "title": "Fire Cider Oxymel",
