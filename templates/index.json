@@ -1,5 +1,29 @@
 {
   "sections": {
+    "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": true,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify:\/\/shop_images\/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd": {
       "type": "slideshow",
       "blocks": {
@@ -34,6 +58,7 @@
         "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2",
         "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1"
       ],
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -83,31 +108,6 @@
         "overline": "HERBAL BAR SOAP",
         "heading": "Tend to your Inner Seasons",
         "text": ""
-      }
-    },
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": true,
-        "spacing-below": false,
-        "image-height": 3,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": true,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC09511.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
       }
     },
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369": {
@@ -228,10 +228,10 @@
     }
   },
   "order": [
+    "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
