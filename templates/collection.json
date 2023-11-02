@@ -151,10 +151,29 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
+          "seasonal-winter-ritual-duo",
+          "herbal-salt-scrub",
           "sandalwood-vanilla-face-body-oil",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
-          "renaissance-body-oil",
+          "renaissance-body-oil"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "Shop All",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "f61706b4-abb4-4119-bdc4-fe348344971e": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
           "primavera-soap",
           "renaissance-soap",
           "sanctuary-soap",
@@ -165,12 +184,12 @@
         ],
         "background-color": "none",
         "light-text": false,
-        "spacing-above": true,
+        "spacing-above": false,
         "spacing-below": true,
         "display-type": "grid",
-        "products-per-row--desktop": "4",
+        "products-per-row--desktop": "3",
         "products-per-row--mobile": "2",
-        "heading": "Shop All",
+        "heading": "",
         "link-url": "",
         "link-text": ""
       }
@@ -200,6 +219,7 @@
     "recent-products",
     "0281dc2a-ed27-4b17-baf5-5d172c688377",
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
+    "f61706b4-abb4-4119-bdc4-fe348344971e",
     "1b4f8f8b-6a39-4264-91ac-e94da2d9b830"
   ]
 }
