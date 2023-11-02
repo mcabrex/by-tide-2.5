@@ -98,6 +98,47 @@
         "link-text": "SHOP ALL"
       }
     },
+    "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-overline-1": {
+          "type": "overline",
+          "settings": {
+            "text": "SEASONAL GIFT SET"
+          }
+        },
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-heading-1": {
+          "type": "heading",
+          "settings": {
+          }
+        },
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-buy-buttons-1": {
+          "type": "buy-buttons",
+          "settings": {
+            "smart-payment-enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-overline-1",
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-heading-1",
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-price-1",
+        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-buy-buttons-1"
+      ],
+      "settings": {
+        "background-color": "none",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured_product": "seasonal-winter-ritual-duo",
+        "loop-enabled": false
+      }
+    },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
       "type": "featured-text",
       "settings": {
@@ -232,6 +273,7 @@
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
+    "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
