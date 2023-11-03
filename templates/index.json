@@ -80,7 +80,6 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "herbal-salt-scrub",
           "sandalwood-vanilla-face-body-oil",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
@@ -90,8 +89,8 @@
         "light-text": false,
         "spacing-above": true,
         "spacing-below": false,
-        "display-type": "slider",
-        "products-per-row--desktop": "3",
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
         "products-per-row--mobile": "2",
         "heading": "",
         "link-url": "shopify:\/\/collections\/all",
