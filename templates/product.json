@@ -54,6 +54,16 @@
             "page-content": ""
           }
         },
+        "4680d2e1-024d-45b0-9e80-bccf6dd0c11f": {
+          "type": "options",
+          "settings": {
+            "variant-style": "buttons",
+            "swatches-enabled": true,
+            "size-chart-enabled": true,
+            "size-chart-option": "size",
+            "size-chart-content": ""
+          }
+        },
         "f59dcaa3-894f-4010-954f-7693b3979b8e": {
           "type": "collapsible-tab",
           "disabled": true,
@@ -85,6 +95,7 @@
         "description",
         "1a8f4944-815d-4a63-bdeb-8b1db885acf7",
         "e4925670-899c-44c0-afb8-6d06c3130e7f",
+        "4680d2e1-024d-45b0-9e80-bccf6dd0c11f",
         "f59dcaa3-894f-4010-954f-7693b3979b8e",
         "buy-buttons",
         "social-sharing"
