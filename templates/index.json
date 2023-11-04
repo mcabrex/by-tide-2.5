@@ -24,6 +24,19 @@
         "link-text": ""
       }
     },
+    "6552f873-4b05-4a45-80cf-4815272725e4": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "DISCOVER",
+        "heading": "Daily Care Essentials",
+        "text": ""
+      }
+    },
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd": {
       "type": "slideshow",
       "blocks": {
@@ -88,8 +101,8 @@
         "background-color": "none",
         "light-text": false,
         "spacing-above": true,
-        "spacing-below": false,
-        "display-type": "grid",
+        "spacing-below": true,
+        "display-type": "slider",
         "products-per-row--desktop": "4",
         "products-per-row--mobile": "2",
         "heading": "",
@@ -131,11 +144,35 @@
       ],
       "settings": {
         "background-color": "none",
-        "container-width": 4,
-        "spacing-above": true,
+        "container-width": 2,
+        "spacing-above": false,
         "spacing-below": true,
         "featured_product": "seasonal-winter-ritual-duo",
         "loop-enabled": false
+      }
+    },
+    "b73ea775-188b-40b1-acb2-c034d3da10c4": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "accent",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "large",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
+        "overline": "RITUALS FOR YOUR EBB & FLOW",
+        "title": "Elevated Herbal Skincare",
+        "description": "",
+        "link-url": "shopify:\/\/pages\/about",
+        "link-text": "Our Story"
       }
     },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
@@ -177,24 +214,24 @@
       "disabled": true,
       "settings": {
         "text-color": "auto",
-        "background-color": "none",
+        "background-color": "dark",
         "container-width": 4,
-        "spacing-above": false,
+        "spacing-above": true,
         "spacing-below": true,
         "image-height": 0,
-        "darken-image": true,
+        "darken-image": false,
         "parallax-enabled": false,
         "text-position": "right",
         "text-width": "medium",
         "overlap": false,
         "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC07558.jpg",
-        "overline": "Autumn Ritual",
-        "title": "Fire Cider Oxymel",
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/FRANKINCENSE_SANDALWOOD_CALENDULA_3.png",
+        "overline": "SEASONAL GIFT",
+        "title": "A Winter Ritual Duo",
         "description": "",
-        "link-url": "shopify:\/\/blogs\/recipes\/fire-cider-oxymel",
-        "link-text": "RECIPE"
+        "link-url": "shopify:\/\/products\/seasonal-winter-ritual-duo",
+        "link-text": "SHOP"
       }
     },
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
@@ -216,31 +253,6 @@
         "heading": "",
         "link-url": "",
         "link-text": ""
-      }
-    },
-    "b73ea775-188b-40b1-acb2-c034d3da10c4": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "large",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/9A430292-A6DE-4851-AC42-047BBBB9F972.jpg",
-        "overline": "RITUALS FOR YOUR EBB & FLOW",
-        "title": "Elevated Herbal Skincare & Wellness",
-        "description": "",
-        "link-url": "shopify:\/\/pages\/about",
-        "link-text": "Our Story"
       }
     },
     "d0063154-c9c8-483e-96cd-770cd6b75e8e": {
@@ -270,14 +282,15 @@
   },
   "order": [
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
+    "6552f873-4b05-4a45-80cf-4815272725e4",
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7",
+    "b73ea775-188b-40b1-acb2-c034d3da10c4",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
-    "b73ea775-188b-40b1-acb2-c034d3da10c4",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"
   ]

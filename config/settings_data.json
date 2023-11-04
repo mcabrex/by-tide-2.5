@@ -1,13 +1,13 @@
 {
   "current": {
     "color--accent": "#877656",
-    "bg-color--light": "#869cae",
-    "bg-color--dark": "#591111",
+    "bg-color--light": "#576064",
+    "bg-color--dark": "#576064",
     "bg-color--body": "#fefcf7",
     "color--body": "#000000",
     "color--alternative": "#fefcf7",
     "color--button": "#fefcf7",
-    "bg-color--button": "#877656",
+    "bg-color--button": "#948260",
     "bg-color--header": "#fefcf7",
     "color--header": "#000000",
     "bg-color--footer": "#fefcf7",
