@@ -125,28 +125,6 @@
         "spacing-below": true
       }
     },
-    "0281dc2a-ed27-4b17-baf5-5d172c688377": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "product-list": [
-          "primavera-soap",
-          "renaissance-soap",
-          "sanctuary-soap",
-          "terra-soap"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "4",
-        "products-per-row--mobile": "2",
-        "heading": "Tend to your Inner Seasons",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b": {
       "type": "featured-products",
       "settings": {
@@ -194,6 +172,24 @@
         "link-text": ""
       }
     },
+    "0281dc2a-ed27-4b17-baf5-5d172c688377": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "gift-card"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "1b4f8f8b-6a39-4264-91ac-e94da2d9b830": {
       "type": "featured-collection",
       "disabled": true,
@@ -217,9 +213,9 @@
     "navigation",
     "main",
     "recent-products",
-    "0281dc2a-ed27-4b17-baf5-5d172c688377",
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
     "f61706b4-abb4-4119-bdc4-fe348344971e",
+    "0281dc2a-ed27-4b17-baf5-5d172c688377",
     "1b4f8f8b-6a39-4264-91ac-e94da2d9b830"
   ]
 }
