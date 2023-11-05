@@ -143,6 +143,7 @@
         "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-price-1",
         "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-buy-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "container-width": 3,
@@ -150,6 +151,30 @@
         "spacing-below": true,
         "featured_product": "seasonal-winter-ritual-duo",
         "loop-enabled": false
+      }
+    },
+    "53be77db-05a9-44b4-b58a-652b7ad2b2e8": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "dark",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/FRANKINCENSESANDALWOODCALENDULA_5.png",
+        "overline": "SEASONAL GIFT",
+        "title": "A Winter Ritual Duo",
+        "description": "",
+        "link-url": "shopify:\/\/products\/seasonal-winter-ritual-duo",
+        "link-text": "SHOP"
       }
     },
     "ddf6f5df-96f5-4216-af12-579125d2214e": {
@@ -160,8 +185,8 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": false,
-        "overline": "Made in Carmel-by-the-Sea",
-        "heading": "Elevated Herbal Skincare & Wellness",
+        "overline": "RITUALS FOR YOUR EBB & FLOW",
+        "heading": "Elevated Herbal Skincare & Wellness to help tend to your inner Seasons. Handcrafted in small batches in Carmel-by-the-Sea, California.",
         "text": ""
       }
     },
@@ -179,7 +204,7 @@
         "background-color": "none",
         "container-width": 6,
         "spacing-above": false,
-        "spacing-below": true,
+        "spacing-below": false,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
@@ -198,6 +223,7 @@
     },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "accent",
         "light-text": false,
@@ -211,6 +237,7 @@
     },
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "primavera-soap",
@@ -228,31 +255,6 @@
         "heading": "",
         "link-url": "",
         "link-text": ""
-      }
-    },
-    "53be77db-05a9-44b4-b58a-652b7ad2b2e8": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "dark",
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/FRANKINCENSE_SANDALWOOD_CALENDULA_3.png",
-        "overline": "SEASONAL GIFT",
-        "title": "A Winter Ritual Duo",
-        "description": "",
-        "link-url": "shopify:\/\/products\/seasonal-winter-ritual-duo",
-        "link-text": "SHOP"
       }
     },
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
@@ -307,12 +309,12 @@
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7",
+    "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
     "ddf6f5df-96f5-4216-af12-579125d2214e",
     "23c46eff-b91a-47d0-b22c-fd0b69117edf",
     "2e3d507b-880d-4e16-ba28-62f34a8af475",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
-    "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter"
