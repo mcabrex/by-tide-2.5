@@ -152,34 +152,54 @@
         "loop-enabled": false
       }
     },
-    "b73ea775-188b-40b1-acb2-c034d3da10c4": {
+    "ddf6f5df-96f5-4216-af12-579125d2214e": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "Made in Carmel-by-the-Sea",
+        "heading": "Elevated Herbal Skincare & Wellness",
+        "text": ""
+      }
+    },
+    "23c46eff-b91a-47d0-b22c-fd0b69117edf": {
+      "type": "custom-button",
+      "settings": {
+        "button-text": "OUR STORY",
+        "link": "shopify:\/\/pages\/about"
+      }
+    },
+    "2e3d507b-880d-4e16-ba28-62f34a8af475": {
       "type": "image-with-text",
       "settings": {
         "text-color": "auto",
-        "background-color": "accent",
+        "background-color": "none",
         "container-width": 6,
         "spacing-above": false,
-        "spacing-below": false,
+        "spacing-below": true,
         "image-height": 0,
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "right",
-        "text-width": "large",
+        "text-width": "medium",
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
-        "overline": "RITUALS FOR YOUR EBB & FLOW",
-        "title": "Elevated Herbal Skincare",
+        "image": "shopify:\/\/shop_images\/34259FD8-E81E-43C6-AFFD-959814ABF3A2.png",
+        "overline": "",
+        "title": "",
         "description": "",
-        "link-url": "shopify:\/\/pages\/about",
-        "link-text": "Our Story"
+        "link-url": "",
+        "link-text": ""
       }
     },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
       "type": "featured-text",
       "settings": {
-        "background-color": "none",
+        "background-color": "accent",
         "light-text": false,
         "container-width": 5,
         "spacing-above": true,
@@ -198,7 +218,7 @@
           "terra-soap",
           "sanctuary-soap"
         ],
-        "background-color": "none",
+        "background-color": "accent",
         "light-text": false,
         "spacing-above": true,
         "spacing-below": true,
@@ -287,7 +307,9 @@
     "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7",
-    "b73ea775-188b-40b1-acb2-c034d3da10c4",
+    "ddf6f5df-96f5-4216-af12-579125d2214e",
+    "23c46eff-b91a-47d0-b22c-fd0b69117edf",
+    "2e3d507b-880d-4e16-ba28-62f34a8af475",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
