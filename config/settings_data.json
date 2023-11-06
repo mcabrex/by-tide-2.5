@@ -10,7 +10,7 @@
     "bg-color--button": "#948260",
     "bg-color--header": "#fefcf7",
     "color--header": "#000000",
-    "bg-color--footer": "#877656",
+    "bg-color--footer": "#fefcf7",
     "color--footer": "#000000",
     "typography--heading": "arimo_n4",
     "typography--heading--custom": "HVConstantineRegular",
