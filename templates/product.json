@@ -118,11 +118,37 @@
         "spacing-above": true,
         "spacing-below": true
       }
+    },
+    "24eb6ac2-36cb-46d1-8eae-ff53d429cfe9": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "",
+        "text": ""
+      }
+    },
+    "b3a7470e-1786-4a1a-b48a-4dc015461bf0": {
+      "type": "recent-products",
+      "settings": {
+        "background-color": "dark",
+        "light-text": true,
+        "heading": "Recently viewed",
+        "title-alignment": "center",
+        "spacing-above": true,
+        "spacing-below": true
+      }
     }
   },
   "order": [
     "1662146419ae7a75e7",
     "main",
-    "recommendations"
+    "recommendations",
+    "24eb6ac2-36cb-46d1-8eae-ff53d429cfe9",
+    "b3a7470e-1786-4a1a-b48a-4dc015461bf0"
   ]
 }
