@@ -99,10 +99,35 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show": true,
         "title": "You may also like",
         "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "039a1bc8-d222-440d-9331-21383aef921c": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "",
+        "text": ""
+      }
+    },
+    "75bae4a9-f4a5-4689-a13c-101fc735ffcd": {
+      "type": "recent-products",
+      "settings": {
+        "background-color": "dark",
+        "light-text": true,
+        "heading": "Recently viewed",
+        "title-alignment": "center",
         "spacing-above": true,
         "spacing-below": true
       }
@@ -111,6 +136,8 @@
   "order": [
     "1662146419ae7a75e7",
     "main",
-    "recommendations"
+    "recommendations",
+    "039a1bc8-d222-440d-9331-21383aef921c",
+    "75bae4a9-f4a5-4689-a13c-101fc735ffcd"
   ]
 }
