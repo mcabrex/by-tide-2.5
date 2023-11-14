@@ -223,7 +223,7 @@
         "darken-image": false,
         "parallax-enabled": false,
         "text-position": "right",
-        "text-width": "medium",
+        "text-width": "small",
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
