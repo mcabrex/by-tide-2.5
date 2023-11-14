@@ -130,8 +130,8 @@
     "f368db3c-db4f-47b2-9201-32a148f9b796": {
       "type": "featured-text",
       "settings": {
-        "background-color": "light",
-        "light-text": false,
+        "background-color": "dark",
+        "light-text": true,
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
