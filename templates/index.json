@@ -113,6 +113,7 @@
     },
     "2e3d507b-880d-4e16-ba28-62f34a8af475": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
@@ -177,6 +178,30 @@
         "loop-enabled": false
       }
     },
+    "53be77db-05a9-44b4-b58a-652b7ad2b2e8": {
+      "type": "image-with-text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "dark",
+        "container-width": 2,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 2,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "right",
+        "text-width": "small",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify:\/\/shop_images\/winter_ritual_duo.png",
+        "overline": "WINTER RITUAL DUO",
+        "title": "",
+        "description": "<p>A restorative skin ritual for Winter skin featuring Sanctuary bar soap and salt scrub.<\/p>",
+        "link-url": "shopify:\/\/products\/seasonal-winter-ritual-duo",
+        "link-text": "SHOP"
+      }
+    },
     "c0ed4093-bd60-42e3-800c-69ab57562350": {
       "type": "featured-text",
       "settings": {
@@ -209,30 +234,6 @@
         "heading": "",
         "link-url": "",
         "link-text": ""
-      }
-    },
-    "53be77db-05a9-44b4-b58a-652b7ad2b2e8": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "dark",
-        "container-width": 2,
-        "spacing-above": true,
-        "spacing-below": true,
-        "image-height": 2,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "small",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/winter_ritual_duo.png",
-        "overline": "WINTER RITUAL DUO",
-        "title": "",
-        "description": "<p>A restorative skin ritual for Winter skin featuring Sanctuary bar soap and salt scrub.<\/p>",
-        "link-url": "shopify:\/\/products\/seasonal-winter-ritual-duo",
-        "link-text": "SHOP"
       }
     },
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
@@ -302,9 +303,9 @@
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "2e3d507b-880d-4e16-ba28-62f34a8af475",
     "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7",
+    "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
     "c0ed4093-bd60-42e3-800c-69ab57562350",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
-    "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
