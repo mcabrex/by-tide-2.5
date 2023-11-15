@@ -70,7 +70,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/Logo_black.png",
           "logo-position": "center",
-          "logo-height": 40,
+          "logo-height": 30,
           "fix-enabled": true,
           "fixed-logo-height": 30,
           "menu": "main-menu",
