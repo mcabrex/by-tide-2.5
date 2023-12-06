@@ -154,12 +154,13 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "sandalwood-vanilla-face-body-oil",
+          "the-holiday-set",
           "seasonal-winter-ritual-duo",
           "herbal-salt-scrub",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
-          "renaissance-body-oil"
+          "renaissance-body-oil",
+          "sandalwood-vanilla-face-body-oil"
         ],
         "background-color": "none",
         "light-text": false,
@@ -177,12 +178,11 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
+          "sandalwood-vanilla-face-body-oil",
           "primavera-soap",
           "renaissance-soap",
           "sanctuary-soap",
           "terra-soap",
-          "citrus-lemongrass",
-          "rosemary-petitgrain",
           "gift-card"
         ],
         "background-color": "none",
