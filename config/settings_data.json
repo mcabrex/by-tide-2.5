@@ -36,11 +36,10 @@
     "social--tiktok--url": "https:\/\/tiktok.com\/by.tide",
     "popup--enabled": false,
     "popup--mode": "test",
-    "popup--background-color": "light",
+    "popup--background-color": "dark",
     "popup--light-text": true,
     "popup--show-image": false,
-    "popup--image": "shopify:\/\/shop_images\/large-pink-flowers.jpg",
-    "popup--newsletter-title--rt": "<p>Ebb and Flow with Us. Sign up to receive a special launch code and our quarterly Seasonal Journal flowing with rituals, recipes, and the latest at BY TIDE.<\/p>",
+    "popup--newsletter-title--rt": "",
     "popup--social-title": "Follow Us!",
     "popup--social-enabled": false,
     "favicon": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
@@ -61,7 +60,7 @@
           "home-page-only": false,
           "background-color": "dark",
           "light-text": true,
-          "text": "OUR SHOP WILL BE CLOSED 12\/15-1\/5 - ANY ORDERS PLACED WILL BE SHIPPED 1\/8",
+          "text": "SHOP VACATION ANNOUNCEMENT: 12\/15-1\/5",
           "link": ""
         }
       },
