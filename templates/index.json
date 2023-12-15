@@ -12,7 +12,7 @@
         "darken-image": true,
         "parallax-enabled": false,
         "text-position": "left",
-        "text-width": "medium",
+        "text-width": "large",
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
