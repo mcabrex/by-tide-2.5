@@ -97,7 +97,6 @@
     },
     "b2638809-7264-4c4f-9d73-88842d1a851e": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-0": {
           "type": "image",
@@ -186,6 +185,7 @@
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-2",
         "template--15843468705952__b2638809-7264-4c4f-9d73-88842d1a851e-1665426093d30fea9c-3"
       ],
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "accent",
@@ -219,7 +219,6 @@
     },
     "16648487398dca1ae7": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -227,7 +226,7 @@
         "spacing-above": true,
         "spacing-below": true,
         "blog-heading": "",
-        "blog": "seasonal-journal",
+        "blog": "recipes",
         "tag-select": "pinned",
         "show-date": false,
         "show-excerpt": false,
@@ -280,7 +279,6 @@
     },
     "166484996575dfb7e1": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "1664849965e649a0f4-0": {
           "type": "image",
@@ -333,6 +331,7 @@
         "1664849965e649a0f4-2",
         "1664849965e649a0f4-3"
       ],
+      "disabled": true,
       "settings": {
         "background-color": "accent",
         "light-text": false,
@@ -366,6 +365,7 @@
     },
     "b68c231b-bbc0-4558-a8d0-e2aca0e2e733": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
