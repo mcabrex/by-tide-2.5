@@ -37,63 +37,10 @@
         "text": ""
       }
     },
-    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Elevated Herbal Skincare & Wellness",
-            "description": "",
-            "link-url": "shopify:\/\/collections\/all",
-            "link-text": "SHOP ALL"
-          }
-        },
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Rituals for your Ebb & Flow",
-            "description": "",
-            "link-url": "shopify:\/\/pages\/about",
-            "link-text": "OUR STORY"
-          }
-        }
-      },
-      "block_order": [
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2",
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "spacing-above": false,
-        "spacing-below": false,
-        "spacing-around-blocks": false,
-        "image-height": 0,
-        "darken-image": true,
-        "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "1",
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "auto-rotate": true,
-        "rotate-frequency": 3,
-        "transition_type": "fade"
-      }
-    },
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed": {
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "the-holiday-set",
           "sandalwood-vanilla-face-body-oil",
           "herbal-salt-scrub",
           "herbal-body-scrub-1",
@@ -203,8 +150,61 @@
         "link-text": "SHOP"
       }
     },
+    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Elevated Herbal Skincare & Wellness",
+            "description": "",
+            "link-url": "shopify:\/\/collections\/all",
+            "link-text": "SHOP ALL"
+          }
+        },
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Rituals for your Ebb & Flow",
+            "description": "",
+            "link-url": "shopify:\/\/pages\/about",
+            "link-text": "OUR STORY"
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2",
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "dark",
+        "spacing-above": true,
+        "spacing-below": true,
+        "spacing-around-blocks": true,
+        "image-height": 0,
+        "darken-image": false,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": true,
+        "mobile-overlay": true,
+        "auto-rotate": true,
+        "rotate-frequency": 3,
+        "transition_type": "fade"
+      }
+    },
     "c0ed4093-bd60-42e3-800c-69ab57562350": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -218,6 +218,7 @@
     },
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "primavera-soap",
@@ -300,11 +301,11 @@
   "order": [
     "1ab3d400-b034-4fd6-82e4-9e320bb24743",
     "6552f873-4b05-4a45-80cf-4815272725e4",
-    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "2e3d507b-880d-4e16-ba28-62f34a8af475",
     "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7",
     "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
+    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
     "c0ed4093-bd60-42e3-800c-69ab57562350",
     "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
