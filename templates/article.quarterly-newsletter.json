@@ -69,7 +69,7 @@
         "spacing-below": true,
         "overline": "SPRING 2023",
         "heading": "The Season of Spring",
-        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>This Season offers us a unique opportunity to revitalize mind, body, and spirit. Incorporate some of the recommendations below to nourish the wellbeing and celebrate the essence of Spring. Happy Spring Equinox!<\/p>"
+        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>This Season offers us a unique opportunity to revitalize mind, body, and spirit. Incorporate some of the recommendations below to nourish the wellbeing and celebrate the essence of Spring. Happy Spring Equinox!{{ article.metafields.custom.newsletter_intro | metafield_tag }}<\/p>"
       }
     },
     "66dbe83d-7002-4d7a-97fd-8d15f477d9bd": {

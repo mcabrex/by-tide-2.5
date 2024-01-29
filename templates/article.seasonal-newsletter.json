@@ -68,8 +68,8 @@
         "spacing-above": true,
         "spacing-below": true,
         "overline": "SPRING 2023",
-        "heading": "The Season of Spring",
-        "text": "<p>When we listen to Nature and the cadence of our Earthly bodies, we begin to feel the change in Seasons. Spring calls to you with its first subtle signs: of green edible weeds dotting the landscape, the lingering sunlight offering hope for longer days, and the overall feeling of emergence out of our Winter cocoons. <\/p><p>This Season offers us a unique opportunity to revitalize mind, body, and spirit. Incorporate some of the recommendations below to nourish the wellbeing and celebrate the essence of Spring. Happy Spring Equinox!{{ article.metafields.custom.newsletter_intro | metafield_tag }}<\/p>"
+        "heading": "{{ article.metafields.custom.newsletter_introheading.value }}",
+        "text": "<p>{{ article.metafields.custom.newsletter_intro | metafield_tag }}<\/p>"
       }
     },
     "66dbe83d-7002-4d7a-97fd-8d15f477d9bd": {
@@ -80,8 +80,8 @@
           "settings": {
             "show-image": true,
             "image": "shopify:\/\/shop_images\/1_5aea676d-159d-4c9d-a174-1b70d9f45b56.png",
-            "title": "Color",
-            "description": "<p>Green<\/p>",
+            "title": "",
+            "description": "<p>{{ article.metafields.custom.newsletter_ritual | metafield_tag }}<\/p>",
             "link-url": "",
             "link-text": ""
           }
@@ -110,6 +110,7 @@
         },
         "template--15992353030304__66dbe83d-7002-4d7a-97fd-8d15f477d9bd-16791985113fcfca75-3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "show-image": true,
             "image": "shopify:\/\/shop_images\/IMG_2738_c58634af-dd74-4fff-a7f7-b81974a60814.jpg",
@@ -133,7 +134,7 @@
         "container-width": 4,
         "spacing-above": false,
         "spacing-below": true,
-        "width": 4,
+        "width": 3,
         "image-width": 0,
         "mobile-width": "2",
         "text-alignment": "center",
