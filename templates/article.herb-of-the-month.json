@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "settings": {
+        "show-featured": true,
+        "title-position": "left",
+        "show-date": true,
+        "show-author": false
+      }
+    },
+    "f122c174-f2eb-42ea-a45f-0f0b06d7ee26": {
+      "type": "featured-text",
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "container-width": 3,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "LEVEL: EASY",
+        "heading": "A Childhood Comfort Meal",
+        "text": "<p>Growing up in a Filipino household means lots of stews and soups for your meals. I am lucky that both my parents are exceptional home cooks - likely where my love of cooking comes from. <\/p><p>Whenever we were sick or when Winter struck, Arroz Caldo was usually simmering away on the stove. Arroz Caldo \"hot rice\", is a rice porridge very similar to Chinese Congee. It is important that you use a good <a href=\"\/blogs\/seasonal-journal\/bone-broth\" target=\"_blank\" title=\"Bone Broth\">broth<\/a>, as it is what makes this dish. Arroz Caldo is usually  topped with shredded chicken, scallions, and lots of fried garlic. Having this always reminds me of home.<\/p><p>This is adaptable based on your taste. Always taste your food throughout the cooking process (make sure food is cooked through before tasting!) and make adjustments as needed. This is generally an <em>EASY<\/em> cooking level dish, it just takes time\/love if you make the broth. Store-bought broth is fine in a pinch, but we love it slow and homemade!<\/p>"
+      }
+    },
+    "8c3f11b7-5a25-4213-a447-66b3304aeed9": {
+      "type": "featured-video",
+      "settings": {
+        "video-url": "https:\/\/youtu.be\/VnwTCmILymw",
+        "full-width": true,
+        "background-color": "none",
+        "section-height": "regular",
+        "light-text": true,
+        "darken-video": true,
+        "heading": "",
+        "sub-heading": "",
+        "button-text": "",
+        "button-url": ""
+      }
+    },
+    "1664905158a06d3b65": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "16649051589602ce9e-0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Ingredients",
+            "description": "<p>8-10 c Veggie or <a href=\"\/blogs\/seasonal-journal\/bone-broth\" target=\"_blank\" title=\"Bone Broth\">Bone Broth<\/a><br\/>1 c short grain rice<br\/>4-5 cloves garlic<br\/>1 stalk lemongrass<br\/>1-2 inch pieces ginger<\/p><p>Toppings: boiled egg, shredded chicken, fried garlic, scallions, chili oil, chili flakes, lemon\/lime, saffron, soy sauce, seaweed, goji berry, roasted mushroom, etc.<\/p><p><\/p>",
+            "page-content": ""
+          }
+        },
+        "16649051589602ce9e-1": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Instructions",
+            "description": "<p>Dice onions and garlic. Slice ginger. Cut lemongrass stalks into 1\/3 pieces.<\/p><p>In a large pot, sautee onions, ginger, and lemongrass until the onions are translucent.<\/p><p>Add garlic and rice and sautee together. Let all ingredients slightly toast, but do not let it burn.<\/p><p>Add broth, ensuring rice is covered. Bring to a boil, uncovered.<\/p><p>Once boiling, stir and cover. Set stove to medium low and simmer.<\/p><p>You will be checking on the Arroz Caldo often, stirring it and making sure the bottom of the pot does not burn. <\/p><p>When the rice is cooked and softened, take a whisk and gently stir the mixture so the rice breaks down. This will create the thicker, richer texture of the porridge.<\/p><p>You will simmer this until you reach the consistency you desire (about 2-3 hours). Add more water\/broth during the process if the Arroz Caldo begins thickening too much.<\/p><p>Top with anything you want! If you can find fried garlic (usually at your local Asian market) or make your own, it is just the best!<\/p>",
+            "page-content": ""
+          }
+        }
+      },
+      "block_order": [
+        "16649051589602ce9e-0",
+        "16649051589602ce9e-1"
+      ],
+      "settings": {
+        "background-color": "accent",
+        "light-text": true,
+        "heading": "Recipe",
+        "title-alignment": "left",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true
+      }
+    },
+    "navigation": {
+      "type": "article-navigation",
+      "settings": {
+        "enable": true,
+        "show-share": true,
+        "show-tags": false
+      }
+    },
+    "comments": {
+      "type": "article-comments",
+      "settings": {
+        "show-comments": true,
+        "disqus-enabled": false,
+        "disqus-shortname": ""
+      }
+    },
+    "recents": {
+      "type": "article-recents",
+      "settings": {
+        "enable": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f122c174-f2eb-42ea-a45f-0f0b06d7ee26",
+    "8c3f11b7-5a25-4213-a447-66b3304aeed9",
+    "1664905158a06d3b65",
+    "navigation",
+    "comments",
+    "recents"
+  ]
+}
