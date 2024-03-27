@@ -1,4 +1,20 @@
-<div class="page-width">
+<style>
+
+.simple_store_finder--container {
+   
+}
+
+@media only screen and (max-width: 430px) {
+
+.simple_store_finder--container {
+   
+}
+  
+}
+
+</style>
+
+<div class="page-width simple_store_finder--container">
   <main class="content content-area">
   <div class="grid">
     <div class="grid-item grid__item loaded" style="width:100%; max-width:100%;">
@@ -13,67 +29,8 @@
       <div class="rte">
         {{ page.content }}
 
-        <style>
-#simple_store_finder__map { 
-
-
-
-}
-            .simple_store_finder__search_distancezfjlocba {
-        width:50px;
-        display:inline;
-        float:left;
-        margin-top:5px;
-        font-size: 80%;
-         
-} 
-.simple_store_finder__search_resultzfjlocba {
-   padding-top:15px;
-   padding-bottom:5px;
-   clear: both;
-}
-
-.simple_store_finder__search_locationzfjlocba {
-  display: inline;
-  float: left;
-  max-width:70%;
-  margin-left:10px;
-}
-
-#simple_store_finder__search_results {
-   height: 300px;
-}
-
-            
-#firstHeadingzfjlocba {
-margin-top:2px;
-margin-bottom:6px;
-padding-right:10px;
-font-size:110%;
-}
-
-.simple_store_finder__columnszfjlocba {
-clear:both;
-}
-
-.simple_store_finder__columnzfjlocba {
-margin-right:10px; padding-right:10px;
-
-}
-
-.simple_store_finder__divzfjlocba {
-                      margin:4px;
-                      padding:2px;
-                }
-
-.simple_store_finder__locationzfjlocba {
-                      margin-bottom:8px;
-}
-
- .simple_store_finder__namezfjlocba { font-size: 110%; } .simple_store_finder__headerzfjlocba { font-size: 120%; } .simple_store_finder__featured_storezfjlocba { display: inline; float: left; padding:10px; margin:10px; } 
-        </style>
-        <div id="simple_store_finder__contentzfjlocba" class="updated_1682372497" style="margin-left: 0px; margin-right: 0px;">
-               {{ page.metafields.simple_store_finder.stores_text }}
+{{ shop.metafields.simple_store_finder.stores_css }}
+{{ shop.metafields.simple_store_finder.stores_text }}
         </div>
       </div>
 
