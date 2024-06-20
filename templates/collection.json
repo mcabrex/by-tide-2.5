@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "0fbeb13a-6c4a-43ed-a913-9ca51899bb8e": {
@@ -155,12 +164,10 @@
       "settings": {
         "product-list": [
           "the-holiday-set",
-          "seasonal-winter-ritual-duo",
-          "herbal-salt-scrub",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
           "renaissance-body-oil",
-          "sandalwood-vanilla-face-body-oil"
+          "untitled-jun17_16-20"
         ],
         "background-color": "none",
         "light-text": false,
@@ -183,24 +190,6 @@
           "renaissance-soap",
           "sanctuary-soap",
           "terra-soap",
-          "gift-card"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": false,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2",
-        "heading": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "0281dc2a-ed27-4b17-baf5-5d172c688377": {
-      "type": "featured-products",
-      "settings": {
-        "product-list": [
           "gift-card"
         ],
         "background-color": "none",
@@ -241,7 +230,6 @@
     "recent-products",
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
     "f61706b4-abb4-4119-bdc4-fe348344971e",
-    "0281dc2a-ed27-4b17-baf5-5d172c688377",
     "1b4f8f8b-6a39-4264-91ac-e94da2d9b830"
   ]
 }
