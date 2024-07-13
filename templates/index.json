@@ -62,7 +62,7 @@
         "spacing-below": true,
         "display-type": "grid",
         "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2",
+        "products-per-row--mobile": "1",
         "heading": "",
         "link-url": "shopify:\/\/collections\/all",
         "link-text": "SHOP ALL"
