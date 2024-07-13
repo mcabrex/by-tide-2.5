@@ -186,12 +186,10 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "sandalwood-vanilla-face-body-oil",
           "primavera-soap",
           "renaissance-soap",
           "sanctuary-soap",
-          "terra-soap",
-          "gift-card"
+          "terra-soap"
         ],
         "background-color": "none",
         "light-text": false,
