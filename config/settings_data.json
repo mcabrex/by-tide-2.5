@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color--accent": "#948260",
@@ -31,9 +40,9 @@
     "product--variant-style": "buttons",
     "product--show-quantity": true,
     "search--show-in-header": true,
-    "social--instagram--url": "https:\/\/instagram.com\/by.tide",
-    "social--pinterest--url": "https:\/\/www.pinterest.com\/by.tide",
-    "social--tiktok--url": "https:\/\/tiktok.com\/by.tide",
+    "social--instagram--url": "https://instagram.com/by.tide",
+    "social--pinterest--url": "https://www.pinterest.com/by.tide",
+    "social--tiktok--url": "https://tiktok.com/by.tide",
     "popup--enabled": false,
     "popup--mode": "test",
     "popup--background-color": "dark",
@@ -42,8 +51,8 @@
     "popup--newsletter-title--rt": "",
     "popup--social-title": "Follow Us!",
     "popup--social-enabled": false,
-    "favicon": "shopify:\/\/shop_images\/Box_OutlineBlack_Logo.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/primarylogo_black.png",
+    "favicon": "shopify://shop_images/Box_OutlineBlack_Logo.png",
+    "checkout_logo_image": "shopify://shop_images/primarylogo_black.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#fefcf7",
@@ -67,7 +76,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Logo_black.png",
+          "logo": "shopify://shop_images/Logo_black.png",
           "logo-position": "center",
           "logo-height": 30,
           "fix-enabled": true,
@@ -88,7 +97,7 @@
             "type": "custom",
             "settings": {
               "links": "footer",
-              "custom_html": "<p style=\"font-size:12px;\">COPYRIGHT [current_year] © BY TIDE<\/p>",
+              "custom_html": "<p style=\"font-size:12px;\">COPYRIGHT [current_year] © BY TIDE</p>",
               "custom--show-social-icons": true
             }
           }
@@ -105,14 +114,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   }
 }

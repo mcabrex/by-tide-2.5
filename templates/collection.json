@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "0fbeb13a-6c4a-43ed-a913-9ca51899bb8e": {
@@ -25,7 +25,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC09511.jpg",
+        "image": "shopify://shop_images/DSC09511.jpg",
         "overline": "",
         "title": "",
         "description": "",
@@ -39,26 +39,26 @@
         "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
+            "image": "shopify://shop_images/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
             "title": "",
             "description": "",
-            "link-url": "\/",
+            "link-url": "/",
             "link-text": ""
           }
         },
         "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
+            "image": "shopify://shop_images/DSC09352_2.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
             "title": "",
             "description": "",
-            "link-url": "\/",
+            "link-url": "/",
             "link-text": ""
           }
         }
@@ -131,7 +131,7 @@
             "image-size": "fit-to-container",
             "overline": "JUST IN TIME",
             "title": "Holiday Product Drop",
-            "description": "<p>We have Mix and Match sets available as well as gift wrapping! Tailor a kit to match you or your loved ones' needs.<\/p>",
+            "description": "<p>We have Mix and Match sets available as well as gift wrapping! Tailor a kit to match you or your loved ones' needs.</p>",
             "link-url": "",
             "link-text": "LET'S GET TO GIFTING"
           }
@@ -163,7 +163,7 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "untitled-jun17_16-20",
+          "four-seasons-soap-set",
           "the-holiday-set",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
