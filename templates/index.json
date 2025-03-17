@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
@@ -25,7 +25,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
+        "image": "shopify://shop_images/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
         "overline": "",
         "title": "",
         "description": "",
@@ -64,7 +64,7 @@
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "1",
         "heading": "",
-        "link-url": "shopify:\/\/collections\/all",
+        "link-url": "shopify://collections/all",
         "link-text": "SHOP ALL"
       }
     },
@@ -85,11 +85,11 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/34259FD8-E81E-43C6-AFFD-959814ABF3A2.png",
+        "image": "shopify://shop_images/34259FD8-E81E-43C6-AFFD-959814ABF3A2.png",
         "overline": "RITUALS FOR YOUR EBB & FLOW",
         "title": "",
-        "description": "<p>Elevated Herbal Skincare and Wellness to help tend to your inner Seasons. Handcrafted in small batches in Carmel-by-the-Sea, California.<\/p>",
-        "link-url": "shopify:\/\/pages\/about",
+        "description": "<p>Elevated Herbal Skincare and Wellness to help tend to your inner Seasons. Handcrafted in small batches in Carmel-by-the-Sea, California.</p>",
+        "link-url": "shopify://pages/about",
         "link-text": "OUR STORY"
       }
     },
@@ -104,13 +104,11 @@
         },
         "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-heading-1": {
           "type": "heading",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-price-1": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-buy-buttons-1": {
           "type": "buy-buttons",
@@ -152,11 +150,11 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": false,
-        "image": "shopify:\/\/shop_images\/winter_ritual_duo.png",
+        "image": "shopify://shop_images/winter_ritual_duo.png",
         "overline": "WINTER RITUAL DUO",
         "title": "",
-        "description": "<p>A restorative skin ritual for Winter skin featuring Sanctuary bar soap and salt scrub.<\/p>",
-        "link-url": "shopify:\/\/products\/seasonal-winter-ritual-duo",
+        "description": "<p>A restorative skin ritual for Winter skin featuring Sanctuary bar soap and salt scrub.</p>",
+        "link-url": "shopify://products/seasonal-winter-ritual-duo",
         "link-text": "SHOP"
       }
     },
@@ -166,26 +164,26 @@
         "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC09352_2.jpg",
+            "image": "shopify://shop_images/DSC09352_2.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
             "title": "Elevated Herbal Skincare & Wellness",
             "description": "",
-            "link-url": "shopify:\/\/collections\/all",
+            "link-url": "shopify://collections/all",
             "link-text": "SHOP ALL"
           }
         },
         "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
+            "image": "shopify://shop_images/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
             "text-position": "bottom-left",
             "text-width": "medium",
             "overline": "",
             "title": "Rituals for your Ebb & Flow",
             "description": "",
-            "link-url": "shopify:\/\/pages\/about",
+            "link-url": "shopify://pages/about",
             "link-text": "OUR STORY"
           }
         }
@@ -291,9 +289,9 @@
         "container-width": 3,
         "spacing-above": true,
         "spacing-below": false,
-        "overline": "JOIN OUR NEWSLETTER",
-        "heading": "Ebb and Flow With Us",
-        "text": "<p><\/p><p><\/p>"
+        "overline": "A periodic coastal dispatch",
+        "heading": "Wellness in Waves",
+        "text": "<p></p><p></p>"
       }
     },
     "newsletter": {
