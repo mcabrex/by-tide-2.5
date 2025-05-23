@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1662146419ae7a75e7": {
@@ -25,24 +34,21 @@
         },
         "heading": {
           "type": "heading",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "1a8f4944-815d-4a63-bdeb-8b1db885acf7": {
           "type": "collapsible-tab",
           "settings": {
             "heading": "How To Use",
-            "description": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}<\/p>",
+            "description": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
             "page-content": ""
           }
         },
@@ -50,7 +56,7 @@
           "type": "collapsible-tab",
           "settings": {
             "heading": "Ingredients",
-            "description": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
+            "description": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
             "page-content": ""
           }
         },
@@ -69,7 +75,7 @@
           "disabled": true,
           "settings": {
             "heading": "INGREDIENTS",
-            "description": "<p>Olea Europaea (Olive) Fruit Oil, Vitis Vinifera (Grape) Seed Oil, Hydrogenated Ethylhexyl Olivate*, Hydrogenated Olive Oil Unsaponifiables*, Caprylic\/CapricTriglyceride (Fractionated Coconut) OIL, Olive Squalane, Limnanthes Alba (Meadowfoam) Seed Oil, Rubus Idaeus (Raspberry) Seed Oil, Rosa Mosqueta (Rose) Hip Seed Oil, Cannabis Sativa (Hemp) Seed Oil, Calendula Officinalis Flower (Calendula) Extract, Juniperus virginiana (Cedarwood) Oil, Chamaecyparis obtusa (Hinoki Wood) Oil, Citrus aurantium (Neroli) Oil, Cocos Nucifera (Coconut) Fruit Extract, Tocopherol <\/p><p><em>*olive-derived<\/em><\/p>",
+            "description": "<p>Olea Europaea (Olive) Fruit Oil, Vitis Vinifera (Grape) Seed Oil, Hydrogenated Ethylhexyl Olivate*, Hydrogenated Olive Oil Unsaponifiables*, Caprylic/CapricTriglyceride (Fractionated Coconut) OIL, Olive Squalane, Limnanthes Alba (Meadowfoam) Seed Oil, Rubus Idaeus (Raspberry) Seed Oil, Rosa Mosqueta (Rose) Hip Seed Oil, Cannabis Sativa (Hemp) Seed Oil, Calendula Officinalis Flower (Calendula) Extract, Juniperus virginiana (Cedarwood) Oil, Chamaecyparis obtusa (Hinoki Wood) Oil, Citrus aurantium (Neroli) Oil, Cocos Nucifera (Coconut) Fruit Extract, Tocopherol </p><p><em>*olive-derived</em></p>",
             "page-content": ""
           }
         },
@@ -101,7 +107,7 @@
         "social-sharing"
       ],
       "settings": {
-        "product-media-spacing": "close-together",
+        "product-media-spacing": "space-evenly",
         "product-modal-enabled": true,
         "variant-scroll-enabled": true,
         "image-zoom-enabled": true,
