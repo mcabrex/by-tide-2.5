@@ -272,6 +272,20 @@
         "link-url": "",
         "link-text": ""
       }
+    },
+    "featured_text_8JK78y": {
+      "type": "featured-text",
+      "name": "Rich text",
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "",
+        "heading": "About Leah",
+        "text": "<p>I’m a mother, herbalist, and artist drawn to the liminal space where plant magic, myth, and medicine intertwine.</p><p>I believe in product and rituals that work in rhythm with your life—not against it. It begins at my bench where extracts, infusions, and wild plant potions come to life. We use each and every product in my home - everything is an extension from my sensitive bodied family to yours.</p><p>I created BY TIDE as both a personal practice and a collective offering—an ode to our ebb and flow, the shifting seasons, and the innate herbal wisdom we carry within. </p>"
+      }
     }
   },
   "order": [
@@ -283,6 +297,7 @@
     "f368db3c-db4f-47b2-9201-32a148f9b796",
     "ad760476-5779-4b77-8d24-89126a4926c5",
     "f6af0426-b91f-4b64-96fe-d735dffaf79d",
-    "16559313655184b031"
+    "16559313655184b031",
+    "featured_text_8JK78y"
   ]
 }
