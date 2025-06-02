@@ -166,6 +166,7 @@
           "magnesium-duo",
           "untitled-may21_20-41",
           "mineral-mist",
+          "ocean-bathing",
           "four-seasons-soap-set",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
@@ -188,6 +189,8 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
+          "herbal-body-scrub-1",
+          "herbal-lip-balm",
           "renaissance-body-oil",
           "gift-card",
           "primavera-soap",
@@ -222,6 +225,26 @@
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "1"
       }
+    },
+    "featured_products_igBPCC": {
+      "type": "featured-products",
+      "name": "Featured products",
+      "settings": {
+        "product-list": [
+          "sanctuary-soap",
+          "terra-soap"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "",
+        "link-text": ""
+      }
     }
   },
   "order": [
@@ -233,6 +256,7 @@
     "recent-products",
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
     "f61706b4-abb4-4119-bdc4-fe348344971e",
-    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830"
+    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830",
+    "featured_products_igBPCC"
   ]
 }
