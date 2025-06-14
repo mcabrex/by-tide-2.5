@@ -42,7 +42,7 @@
         "spacing-above": true,
         "spacing-below": false,
         "overline": "DISCOVER",
-        "heading": "Daily Care Essentials",
+        "heading": "New Daily Rituals",
         "text": ""
       }
     },
@@ -50,11 +50,9 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
+          "tender-roots-cleansing-mud",
           "magnesium-duo",
-          "untitled-may21_20-41",
-          "herbal-body-scrub-1",
-          "herbal-lip-balm",
-          "renaissance-body-oil"
+          "untitled-may21_20-41"
         ],
         "background-color": "none",
         "light-text": false,
