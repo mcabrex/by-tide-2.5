@@ -192,10 +192,8 @@
         "product-list": [
           "herbal-lip-balm",
           "renaissance-body-oil",
-          "primavera-soap",
-          "renaissance-soap",
-          "sanctuary-soap",
-          "terra-soap"
+          "four-seasons-soap-set",
+          "gift-card"
         ],
         "background-color": "none",
         "light-text": false,
@@ -224,6 +222,22 @@
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "1"
       }
+    },
+    "featured_collection_EGNCh4": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "herbal-bar-soap",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2"
+      }
     }
   },
   "order": [
@@ -235,6 +249,7 @@
     "recent-products",
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
     "f61706b4-abb4-4119-bdc4-fe348344971e",
-    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830"
+    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830",
+    "featured_collection_EGNCh4"
   ]
 }
