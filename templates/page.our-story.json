@@ -27,8 +27,8 @@
             "subline_color": "#000000",
             "max_width": 800,
             "text_alignment": "center",
-            "spacing_top": 25,
-            "spacing_bottom": 25
+            "spacing_top": 50,
+            "spacing_bottom": 50
           },
           "blocks": {}
         }
