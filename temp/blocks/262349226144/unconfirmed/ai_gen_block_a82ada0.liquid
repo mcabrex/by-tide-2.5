@@ -1,6 +1,395 @@
+{% doc %}
+  @prompt
+    add about me text that includes ability to include up to 3 photos and ability to chose if photos go left right above below in a scattered position
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-about-me-{{ ai_gen_id }} {
+    padding: 40px 20px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-about-me-container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-about-me-content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .ai-about-me-content-{{ ai_gen_id }}--row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .ai-about-me-content-{{ ai_gen_id }}--row-reverse {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .ai-about-me-text-{{ ai_gen_id }} {
+    flex: 1;
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.6;
+  }
+
+  .ai-about-me-heading-{{ ai_gen_id }} {
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    margin: 0 0 20px;
+  }
+
+  .ai-about-me-images-{{ ai_gen_id }} {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .ai-about-me-images-{{ ai_gen_id }}--above,
+  .ai-about-me-images-{{ ai_gen_id }}--below {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .ai-about-me-images-{{ ai_gen_id }}--scattered {
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .ai-about-me-image-wrapper-{{ ai_gen_id }} {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+  }
+
+  .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }} {
+    position: absolute;
+    max-width: 250px;
+  }
+
+  .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }}:nth-child(1) {
+    top: 0;
+    left: 10%;
+    transform: rotate(-5deg);
+    z-index: 3;
+  }
+
+  .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }}:nth-child(2) {
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%) rotate(3deg);
+    z-index: 2;
+  }
+
+  .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }}:nth-child(3) {
+    bottom: 10%;
+    left: 20%;
+    transform: rotate(-3deg);
+    z-index: 1;
+  }
+
+  .ai-about-me-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-about-me-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    background-color: #f4f4f4;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-about-me-image-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-about-me-content-{{ ai_gen_id }}--row,
+    .ai-about-me-content-{{ ai_gen_id }}--row-reverse {
+      flex-direction: column;
+    }
+
+    .ai-about-me-images-{{ ai_gen_id }}--scattered {
+      min-height: 500px;
+    }
+
+    .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }} {
+      max-width: 180px;
+    }
+
+    .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }}:nth-child(1) {
+      left: 5%;
+      top: 5%;
+    }
+
+    .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }}:nth-child(2) {
+      right: 5%;
+      top: 40%;
+    }
+
+    .ai-about-me-images-{{ ai_gen_id }}--scattered .ai-about-me-image-wrapper-{{ ai_gen_id }}:nth-child(3) {
+      left: 10%;
+      bottom: 5%;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-about-me-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-about-me-container-{{ ai_gen_id }}">
+    {% liquid
+      assign layout_class = ''
+      if block.settings.image_position == 'left' or block.settings.image_position == 'right'
+        if block.settings.image_position == 'left'
+          assign layout_class = 'ai-about-me-content-' | append: ai_gen_id | append: '--row-reverse'
+        else
+          assign layout_class = 'ai-about-me-content-' | append: ai_gen_id | append: '--row'
+        endif
+      endif
+    %}
+
+    <div class="ai-about-me-content-{{ ai_gen_id }} {{ layout_class }}">
+      {% if block.settings.image_position == 'above' %}
+        <div class="ai-about-me-images-{{ ai_gen_id }} ai-about-me-images-{{ ai_gen_id }}--above">
+          {% for i in (1..3) %}
+            {% liquid
+              assign image_key = 'image_' | append: i
+              assign image = block.settings[image_key]
+            %}
+            {% if image != blank %}
+              <div class="ai-about-me-image-wrapper-{{ ai_gen_id }}">
+                <img
+                  src="{{ image | image_url: width: 600 }}"
+                  alt="{{ image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ image.width }}"
+                  height="{{ image.height }}"
+                  class="ai-about-me-image-{{ ai_gen_id }}"
+                >
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="ai-about-me-text-{{ ai_gen_id }}">
+        {% if block.settings.heading != blank %}
+          <h2 class="ai-about-me-heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+        {% endif %}
+        {% if block.settings.text != blank %}
+          <div>{{ block.settings.text }}</div>
+        {% endif %}
+      </div>
+
+      {% if block.settings.image_position == 'left' or block.settings.image_position == 'right' or block.settings.image_position == 'scattered' %}
+        {% liquid
+          assign images_class = 'ai-about-me-images-' | append: ai_gen_id
+          if block.settings.image_position == 'scattered'
+            assign images_class = images_class | append: ' ai-about-me-images-' | append: ai_gen_id | append: '--scattered'
+          endif
+        %}
+        <div class="{{ images_class }}">
+          {% for i in (1..3) %}
+            {% liquid
+              assign image_key = 'image_' | append: i
+              assign image = block.settings[image_key]
+            %}
+            {% if image != blank %}
+              <div class="ai-about-me-image-wrapper-{{ ai_gen_id }}">
+                <img
+                  src="{{ image | image_url: width: 600 }}"
+                  alt="{{ image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ image.width }}"
+                  height="{{ image.height }}"
+                  class="ai-about-me-image-{{ ai_gen_id }}"
+                >
+              </div>
+            {% elsif block.settings.image_position == 'scattered' %}
+              <div class="ai-about-me-image-wrapper-{{ ai_gen_id }}">
+                <div class="ai-about-me-image-placeholder-{{ ai_gen_id }}">
+                  {{ 'image' | placeholder_svg_tag }}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if block.settings.image_position == 'below' %}
+        <div class="ai-about-me-images-{{ ai_gen_id }} ai-about-me-images-{{ ai_gen_id }}--below">
+          {% for i in (1..3) %}
+            {% liquid
+              assign image_key = 'image_' | append: i
+              assign image = block.settings[image_key]
+            %}
+            {% if image != blank %}
+              <div class="ai-about-me-image-wrapper-{{ ai_gen_id }}">
+                <img
+                  src="{{ image | image_url: width: 600 }}"
+                  alt="{{ image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ image.width }}"
+                  height="{{ image.height }}"
+                  class="ai-about-me-image-{{ ai_gen_id }}"
+                >
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "About me",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "About me"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Share your story, passion, and what makes you unique. Let your personality shine through and connect with your audience on a personal level.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "above",
+          "label": "Above text"
+        },
+        {
+          "value": "below",
+          "label": "Below text"
+        },
+        {
+          "value": "left",
+          "label": "Left of text"
+        },
+        {
+          "value": "right",
+          "label": "Right of text"
+        },
+        {
+          "value": "scattered",
+          "label": "Scattered"
+        }
+      ],
+      "default": "right"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Image 3"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Image border radius",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#fefcf7"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 600,
+      "max": 1400,
+      "step": 100,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 1200
+    }
+  ],
+  "presets": [
+    {
+      "name": "About me"
+    }
+  ]
+}
 {% endschema %}
