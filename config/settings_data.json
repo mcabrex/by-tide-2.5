@@ -10,7 +10,7 @@
 {
   "current": {
     "color--accent": "#948260",
-    "bg-color--light": "#576064",
+    "bg-color--light": "#fefcf7",
     "bg-color--dark": "#37251a",
     "bg-color--body": "#fefcf7",
     "color--body": "#000000",
@@ -112,8 +112,6 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   }
 }
