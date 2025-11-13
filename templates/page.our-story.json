@@ -45,6 +45,35 @@
         "link-text": ""
       }
     },
+    "1763058631e67c5255": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_b0db5c3_pJPFbz": {
+          "type": "ai_gen_block_b0db5c3",
+          "settings": {
+            "tagline_text": "A Slow Craft Studio Rooted in Herbal and Folk Tradition",
+            "tagline_custom_font": "HVConstantineRegular",
+            "tagline_font": "assistant_n4",
+            "tagline_font_size": 32,
+            "tagline_color": "#000000",
+            "subline_text": "RITUAL TOOLS, FOLK CRAFT, AND SENSORY DELIGHTS",
+            "subline_custom_font": "none",
+            "subline_font": "assistant_n4",
+            "subline_font_size": 14,
+            "subline_color": "#000000",
+            "max_width": 800,
+            "text_alignment": "center",
+            "spacing_top": 20,
+            "spacing_bottom": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_b0db5c3_pJPFbz"
+      ],
+      "settings": {}
+    },
     "165593161012c81bd7": {
       "type": "featured-text",
       "settings": {
@@ -291,6 +320,7 @@
   "order": [
     "main",
     "e8966f7f-cab5-41d7-af47-b74a486d47aa",
+    "1763058631e67c5255",
     "165593161012c81bd7",
     "dda759e4-5e76-47f2-a03c-aec80d81f4d2",
     "1661305987717d0b38",
