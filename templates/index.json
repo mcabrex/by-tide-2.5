@@ -48,6 +48,7 @@
     },
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "tender-roots-cleansing-mud",
