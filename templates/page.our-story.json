@@ -9,6 +9,32 @@
  */
 {
   "sections": {
+    "17630597755edbca34": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d7e62b3_xrGMGX": {
+          "type": "ai_gen_block_d7e62b3",
+          "settings": {
+            "heading": "About Leah",
+            "text": "<p>I’m a mother, herbalist, and maker. My work moves between mediums: abstracted art inspired by the coast, woven forms, blended botanicals. Each practice informs the other, with an aesthetic appreciation for heritage and natural materials. BY TIDE is both a personal creative practice and a collective offering—an ode to slow craft, the shifting seasons, and the innate herbal wisdom we carry within. </p>",
+            "image_position": "right",
+            "image_1": "shopify://shop_images/CF71B2D7-A96F-4B39-90C8-D68208E79353.jpg",
+            "image_2": "shopify://shop_images/IMG_5631.jpg",
+            "background_color": "#fefcf7",
+            "heading_color": "#000000",
+            "text_color": "#000000",
+            "heading_size": 36,
+            "text_size": 16,
+            "max_width": 1200
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d7e62b3_xrGMGX"
+      ],
+      "settings": {}
+    },
     "main": {
       "type": "page",
       "disabled": true,
@@ -19,30 +45,6 @@
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true
-      }
-    },
-    "e8966f7f-cab5-41d7-af47-b74a486d47aa": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify://shop_images/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
       }
     },
     "1763058631e67c5255": {
@@ -312,8 +314,8 @@
     }
   },
   "order": [
+    "17630597755edbca34",
     "main",
-    "e8966f7f-cab5-41d7-af47-b74a486d47aa",
     "1763058631e67c5255",
     "165593161012c81bd7",
     "1661305987717d0b38",
