@@ -12,29 +12,24 @@
     "1763058631e67c5255": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_b0db5c3_pJPFbz": {
-          "type": "ai_gen_block_b0db5c3",
+        "ai_gen_block_d7e62b3_dF8YCU": {
+          "type": "ai_gen_block_d7e62b3",
           "settings": {
-            "tagline_text": "A Slow Craft Studio Rooted in Herbal and Folk Tradition",
-            "tagline_custom_font": "HVConstantineRegular",
-            "tagline_font": "assistant_n4",
-            "tagline_font_size": 32,
-            "tagline_color": "#000000",
-            "subline_text": "",
-            "subline_custom_font": "none",
-            "subline_font": "arimo_n4",
-            "subline_font_size": 14,
-            "subline_color": "#000000",
-            "max_width": 800,
-            "text_alignment": "center",
-            "spacing_top": 50,
-            "spacing_bottom": 50
+            "heading": "A Slow Craft Studio Rooted in Herbal and Folk Tradition",
+            "text": "",
+            "image_position": "right",
+            "background_color": "#fefcf7",
+            "heading_color": "#000000",
+            "text_color": "#000000",
+            "heading_size": 36,
+            "text_size": 16,
+            "max_width": 1200
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_b0db5c3_pJPFbz"
+        "ai_gen_block_d7e62b3_dF8YCU"
       ],
       "settings": {}
     },
@@ -54,7 +49,7 @@
             "photo_3_width": 45,
             "photo_3_offset": 10,
             "background_color": "#fefcf7",
-            "vertical_gap": 40,
+            "vertical_gap": 100,
             "shadow_intensity": 8,
             "shadow_opacity": 0.2,
             "spacing": 60,
@@ -72,7 +67,7 @@
     "17630597755edbca34": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_d7e62b3_xrGMGX": {
+        "ai_gen_block_d7e62b3_kwnPn7": {
           "type": "ai_gen_block_d7e62b3",
           "settings": {
             "heading": "About Leah",
@@ -89,7 +84,7 @@
         }
       },
       "block_order": [
-        "ai_gen_block_d7e62b3_xrGMGX"
+        "ai_gen_block_d7e62b3_kwnPn7"
       ],
       "settings": {}
     },
