@@ -25,7 +25,7 @@
             "photo_3_width": 40,
             "photo_3_offset": 10,
             "background_color": "#fefcf7",
-            "vertical_gap": 80,
+            "vertical_gap": 100,
             "shadow_intensity": 8,
             "shadow_opacity": 0.2,
             "spacing": 60,

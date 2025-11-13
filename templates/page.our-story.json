@@ -37,7 +37,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify://shop_images/DSC06582.jpg",
+        "image": "shopify://shop_images/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
         "overline": "",
         "title": "",
         "description": "",
@@ -50,12 +50,12 @@
       "settings": {
         "background-color": "none",
         "light-text": false,
-        "container-width": 4,
+        "container-width": 2,
         "spacing-above": true,
         "spacing-below": false,
         "overline": "",
         "heading": "Apothecary",
-        "text": "<p><br/>Our offerings are designed to bridge ancient herbal wisdom with clinical intention - gentle on the senses, rich in purpose, and attuned to the shifting seasons.</p><p>Herbalist formulated and crafted to support both the body and the spirit — infused with whole herbs, natural actives, and scents that linger softly, allowing space for the world around you to speak.</p><p>Small batch. Made for delicate bodies and sensitive souls. Natural and holistic rituals, always.</p>"
+        "text": "<p></p><p>Our offerings are designed to bridge ancient herbal wisdom with clinical intention - gentle on the senses, rich in purpose, and attuned to the shifting seasons.</p><p>Herbalist formulated and crafted to support both the body and the spirit — infused with whole herbs, natural actives, and scents that linger softly, allowing space for the world around you to speak.</p><p>Small batch. Made for delicate bodies and sensitive souls. Natural and holistic rituals, always.</p>"
       }
     },
     "dda759e4-5e76-47f2-a03c-aec80d81f4d2": {
@@ -279,12 +279,12 @@
       "settings": {
         "background-color": "none",
         "light-text": false,
-        "container-width": 4,
+        "container-width": 2,
         "spacing-above": true,
         "spacing-below": true,
         "overline": "",
         "heading": "About Leah",
-        "text": "<p>I’m a mother, herbalist, and artist drawn to the liminal space where plant magic, myth, and medicine intertwine.</p><p>I believe in product and rituals that work in rhythm with your life—not against it. It begins at my bench where extracts, infusions, and wild plant potions come to life. We use each and every product in my home - everything is an extension from my sensitive bodied family to yours.</p><p>I created BY TIDE as both a personal practice and a collective offering—an ode to our ebb and flow, the shifting seasons, and the innate herbal wisdom we carry within. </p>"
+        "text": "<p></p><p>I’m a mother, herbalist, and maker.</p><p>My work moves between mediums: abstracted art inspired by the coast, woven forms, blended botanicals. Each practice informs the other, with an aesthetic appreciation for heritage and natural materials. </p><p>I created BY TIDE as both a personal creative practice and a collective offering—an ode to slow craft, the shifting seasons, and the innate herbal wisdom we carry within. </p>"
       }
     }
   },
