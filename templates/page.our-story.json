@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "1763058631e67c5255": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_b0db5c3_pJPFbz": {
+          "type": "ai_gen_block_b0db5c3",
+          "settings": {
+            "tagline_text": "A Slow Craft Studio Rooted in Herbal and Folk Tradition",
+            "tagline_custom_font": "HVConstantineRegular",
+            "tagline_font": "assistant_n4",
+            "tagline_font_size": 32,
+            "tagline_color": "#000000",
+            "subline_text": "RITUAL TOOLS | FOLK CRAFT | SENSORY DELIGHTS",
+            "subline_custom_font": "none",
+            "subline_font": "arimo_n4",
+            "subline_font_size": 14,
+            "subline_color": "#000000",
+            "max_width": 800,
+            "text_alignment": "center",
+            "spacing_top": 25,
+            "spacing_bottom": 25
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_b0db5c3_pJPFbz"
+      ],
+      "settings": {}
+    },
     "17630597755edbca34": {
       "type": "_blocks",
       "blocks": {
@@ -46,35 +75,6 @@
         "spacing-above": true,
         "spacing-below": true
       }
-    },
-    "1763058631e67c5255": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_b0db5c3_pJPFbz": {
-          "type": "ai_gen_block_b0db5c3",
-          "settings": {
-            "tagline_text": "A Slow Craft Studio Rooted in Herbal and Folk Tradition",
-            "tagline_custom_font": "HVConstantineRegular",
-            "tagline_font": "assistant_n4",
-            "tagline_font_size": 32,
-            "tagline_color": "#000000",
-            "subline_text": "RITUAL TOOLS, FOLK CRAFT, AND SENSORY DELIGHTS",
-            "subline_custom_font": "none",
-            "subline_font": "arimo_n4",
-            "subline_font_size": 14,
-            "subline_color": "#000000",
-            "max_width": 800,
-            "text_alignment": "center",
-            "spacing_top": 25,
-            "spacing_bottom": 25
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_b0db5c3_pJPFbz"
-      ],
-      "settings": {}
     },
     "165593161012c81bd7": {
       "type": "featured-text",
@@ -297,32 +297,17 @@
         "link-url": "",
         "link-text": ""
       }
-    },
-    "featured_text_8JK78y": {
-      "type": "featured-text",
-      "name": "Rich text",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 2,
-        "spacing-above": false,
-        "spacing-below": false,
-        "overline": "",
-        "heading": "About Leah",
-        "text": "<p>I’m a mother, herbalist, and maker.</p><p>My work moves between mediums: abstracted art inspired by the coast, woven forms, blended botanicals. Each practice informs the other, with an aesthetic appreciation for heritage and natural materials. </p><p>I created BY TIDE as both a personal creative practice and a collective offering—an ode to slow craft, the shifting seasons, and the innate herbal wisdom we carry within. </p>"
-      }
     }
   },
   "order": [
+    "1763058631e67c5255",
     "17630597755edbca34",
     "main",
-    "1763058631e67c5255",
     "165593161012c81bd7",
     "1661305987717d0b38",
     "f368db3c-db4f-47b2-9201-32a148f9b796",
     "ad760476-5779-4b77-8d24-89126a4926c5",
     "f6af0426-b91f-4b64-96fe-d735dffaf79d",
-    "16559313655184b031",
-    "featured_text_8JK78y"
+    "16559313655184b031"
   ]
 }
