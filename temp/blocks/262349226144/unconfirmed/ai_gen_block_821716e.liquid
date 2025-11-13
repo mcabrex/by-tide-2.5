@@ -1,6 +1,422 @@
+{% doc %}
+  @prompt
+    recreate scattered photo gallery but add ability to choose 1, 2, or 3 photos
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-scattered-gallery-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-scattered-gallery__container-{{ ai_gen_id }} {
+    position: relative;
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+    min-height: 400px;
+  }
+
+  .ai-scattered-gallery__photo-{{ ai_gen_id }} {
+    position: absolute;
+    border-radius: {{ block.settings.border_radius }}px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+
+  .ai-scattered-gallery__photo-{{ ai_gen_id }}:hover {
+    transform: scale(1.05) rotate(0deg) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+
+  .ai-scattered-gallery__photo-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ai-scattered-gallery__photo-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-scattered-gallery__photo-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-scattered-gallery__empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .ai-scattered-gallery__photo-1-{{ ai_gen_id }} {
+    width: {{ block.settings.photo_1_width }}%;
+    padding-bottom: {{ block.settings.photo_1_height }}%;
+    top: {{ block.settings.photo_1_top }}%;
+    left: {{ block.settings.photo_1_left }}%;
+    transform: rotate({{ block.settings.photo_1_rotation }}deg);
+  }
+
+  .ai-scattered-gallery__photo-2-{{ ai_gen_id }} {
+    width: {{ block.settings.photo_2_width }}%;
+    padding-bottom: {{ block.settings.photo_2_height }}%;
+    top: {{ block.settings.photo_2_top }}%;
+    left: {{ block.settings.photo_2_left }}%;
+    transform: rotate({{ block.settings.photo_2_rotation }}deg);
+  }
+
+  .ai-scattered-gallery__photo-3-{{ ai_gen_id }} {
+    width: {{ block.settings.photo_3_width }}%;
+    padding-bottom: {{ block.settings.photo_3_height }}%;
+    top: {{ block.settings.photo_3_top }}%;
+    left: {{ block.settings.photo_3_left }}%;
+    transform: rotate({{ block.settings.photo_3_rotation }}deg);
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-scattered-gallery__container-{{ ai_gen_id }} {
+      min-height: 300px;
+    }
+
+    .ai-scattered-gallery__photo-{{ ai_gen_id }} {
+      position: relative !important;
+      width: 100% !important;
+      padding-bottom: 75% !important;
+      top: auto !important;
+      left: auto !important;
+      transform: rotate(0deg) !important;
+      margin-bottom: 20px;
+    }
+
+    .ai-scattered-gallery__photo-{{ ai_gen_id }}:last-child {
+      margin-bottom: 0;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-scattered-gallery-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-scattered-gallery__container-{{ ai_gen_id }}">
+    {% if block.settings.photo_count >= 1 %}
+      <div class="ai-scattered-gallery__photo-{{ ai_gen_id }} ai-scattered-gallery__photo-1-{{ ai_gen_id }}">
+        {% if block.settings.photo_1 %}
+          <img
+            src="{{ block.settings.photo_1 | image_url: width: 800 }}"
+            alt="{{ block.settings.photo_1.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.photo_1.width }}"
+            height="{{ block.settings.photo_1.height }}"
+          >
+        {% else %}
+          <div class="ai-scattered-gallery__photo-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+            <div class="ai-scattered-gallery__empty-state-{{ ai_gen_id }}">
+              Add photo 1
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if block.settings.photo_count >= 2 %}
+      <div class="ai-scattered-gallery__photo-{{ ai_gen_id }} ai-scattered-gallery__photo-2-{{ ai_gen_id }}">
+        {% if block.settings.photo_2 %}
+          <img
+            src="{{ block.settings.photo_2 | image_url: width: 800 }}"
+            alt="{{ block.settings.photo_2.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.photo_2.width }}"
+            height="{{ block.settings.photo_2.height }}"
+          >
+        {% else %}
+          <div class="ai-scattered-gallery__photo-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+            <div class="ai-scattered-gallery__empty-state-{{ ai_gen_id }}">
+              Add photo 2
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if block.settings.photo_count == 3 %}
+      <div class="ai-scattered-gallery__photo-{{ ai_gen_id }} ai-scattered-gallery__photo-3-{{ ai_gen_id }}">
+        {% if block.settings.photo_3 %}
+          <img
+            src="{{ block.settings.photo_3 | image_url: width: 800 }}"
+            alt="{{ block.settings.photo_3.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.photo_3.width }}"
+            height="{{ block.settings.photo_3.height }}"
+          >
+        {% else %}
+          <div class="ai-scattered-gallery__photo-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+            <div class="ai-scattered-gallery__empty-state-{{ ai_gen_id }}">
+              Add photo 3
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Scattered photo gallery",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "photo_count",
+      "label": "Number of photos",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ],
+      "default": "3"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 600,
+      "max": 1400,
+      "step": 100,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 1000
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#fefcf7"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Photo 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "photo_1",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "photo_1_width",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "%",
+      "label": "Width",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "photo_1_height",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Height",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "photo_1_top",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Top position",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "photo_1_left",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Left position",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "photo_1_rotation",
+      "min": -15,
+      "max": 15,
+      "step": 1,
+      "unit": "deg",
+      "label": "Rotation",
+      "default": -5
+    },
+    {
+      "type": "header",
+      "content": "Photo 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "photo_2",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "photo_2_width",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "%",
+      "label": "Width",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "photo_2_height",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Height",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "photo_2_top",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Top position",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "photo_2_left",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Left position",
+      "default": 55
+    },
+    {
+      "type": "range",
+      "id": "photo_2_rotation",
+      "min": -15,
+      "max": 15,
+      "step": 1,
+      "unit": "deg",
+      "label": "Rotation",
+      "default": 3
+    },
+    {
+      "type": "header",
+      "content": "Photo 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "photo_3",
+      "label": "Image"
+    },
+    {
+      "type": "range",
+      "id": "photo_3_width",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "%",
+      "label": "Width",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "photo_3_height",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Height",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "photo_3_top",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Top position",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "photo_3_left",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Left position",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "photo_3_rotation",
+      "min": -15,
+      "max": 15,
+      "step": 1,
+      "unit": "deg",
+      "label": "Rotation",
+      "default": 7
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scattered photo gallery"
+    }
+  ]
+}
 {% endschema %}
