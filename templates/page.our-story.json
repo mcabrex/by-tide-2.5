@@ -20,7 +20,7 @@
             "tagline_font": "assistant_n4",
             "tagline_font_size": 32,
             "tagline_color": "#000000",
-            "subline_text": "RITUAL TOOLS | FOLK CRAFT | SENSORY DELIGHTS",
+            "subline_text": "",
             "subline_custom_font": "none",
             "subline_font": "arimo_n4",
             "subline_font_size": 14,
@@ -36,6 +36,36 @@
       "block_order": [
         "ai_gen_block_b0db5c3_pJPFbz"
       ],
+      "settings": {}
+    },
+    "blocks_aGFcMf": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_0190742_QeHxGd": {
+          "type": "ai_gen_block_0190742",
+          "settings": {
+            "image_1": "shopify://shop_images/DSC00633.jpg",
+            "image_2": "shopify://shop_images/DSC06018.jpg",
+            "photo_1_width": 45,
+            "photo_1_offset": 0,
+            "photo_2_width": 50,
+            "photo_2_offset": 60,
+            "photo_3_width": 45,
+            "photo_3_offset": 10,
+            "background_color": "#fefcf7",
+            "vertical_gap": 40,
+            "shadow_intensity": 8,
+            "shadow_opacity": 0.2,
+            "spacing": 60,
+            "max_width": 1000
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_0190742_QeHxGd"
+      ],
+      "name": "Scattered photo gallery",
       "settings": {}
     },
     "17630597755edbca34": {
@@ -301,6 +331,7 @@
   },
   "order": [
     "1763058631e67c5255",
+    "blocks_aGFcMf",
     "17630597755edbca34",
     "main",
     "165593161012c81bd7",
