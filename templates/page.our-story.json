@@ -46,6 +46,7 @@
           "settings": {
             "image_1": "shopify://shop_images/DSC00633.jpg",
             "image_2": "shopify://shop_images/DSC06018.jpg",
+            "image_3": "shopify://shop_images/CF71B2D7-A96F-4B39-90C8-D68208E79353.jpg",
             "photo_1_width": 45,
             "photo_1_offset": 0,
             "photo_2_width": 50,
@@ -77,8 +78,6 @@
             "heading": "About Leah",
             "text": "<p>I’m a mother, herbalist, and maker. My work moves between mediums: abstracted art inspired by the coast, woven forms, blended botanicals. Each practice informs the other, with an aesthetic appreciation for heritage and natural materials. BY TIDE is both a personal creative practice and a collective offering—an ode to slow craft, the shifting seasons, and the innate herbal wisdom we carry within. </p>",
             "image_position": "right",
-            "image_1": "shopify://shop_images/CF71B2D7-A96F-4B39-90C8-D68208E79353.jpg",
-            "image_2": "shopify://shop_images/IMG_5631.jpg",
             "background_color": "#fefcf7",
             "heading_color": "#000000",
             "text_color": "#000000",
