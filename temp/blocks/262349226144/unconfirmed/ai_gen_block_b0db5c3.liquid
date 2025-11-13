@@ -1,6 +1,237 @@
+{% doc %}
+  @prompt
+    tagline tite that i can adjust the font size and width, add ability to create space above and below, add a subline and be able to choose fonts for both, include custom fonts
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-tagline-{{ ai_gen_id }} {
+    width: 100%;
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+    padding-top: {{ block.settings.spacing_top }}px;
+    padding-bottom: {{ block.settings.spacing_bottom }}px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-tagline__text-{{ ai_gen_id }} {
+    {% if block.settings.tagline_custom_font == 'HVConstantineRegular' %}
+      font-family: 'HVConstantineRegular', serif;
+    {% else %}
+      font-family: {{ block.settings.tagline_font.family }}, {{ block.settings.tagline_font.fallback_families }};
+      font-weight: {{ block.settings.tagline_font.weight }};
+      font-style: {{ block.settings.tagline_font.style }};
+    {% endif %}
+    font-size: {{ block.settings.tagline_font_size }}px;
+    color: {{ block.settings.tagline_color }};
+    line-height: 1.4;
+    margin: 0 0 10px 0;
+  }
+
+  .ai-tagline__subtext-{{ ai_gen_id }} {
+    {% if block.settings.subline_custom_font == 'HVConstantineRegular' %}
+      font-family: 'HVConstantineRegular', serif;
+    {% else %}
+      font-family: {{ block.settings.subline_font.family }}, {{ block.settings.subline_font.fallback_families }};
+      font-weight: {{ block.settings.subline_font.weight }};
+      font-style: {{ block.settings.subline_font.style }};
+    {% endif %}
+    font-size: {{ block.settings.subline_font_size }}px;
+    color: {{ block.settings.subline_color }};
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-tagline__text-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.tagline_font_size }}px * 0.8);
+    }
+
+    .ai-tagline__subtext-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.subline_font_size }}px * 0.8);
+    }
+  }
+{% endstyle %}
+
+<div class="ai-tagline-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.tagline_text != blank %}
+    <p class="ai-tagline__text-{{ ai_gen_id }}">{{ block.settings.tagline_text }}</p>
+  {% else %}
+    <p class="ai-tagline__text-{{ ai_gen_id }}">Add your tagline text</p>
+  {% endif %}
+
+  {% if block.settings.subline_text != blank %}
+    <p class="ai-tagline__subtext-{{ ai_gen_id }}">{{ block.settings.subline_text }}</p>
+  {% endif %}
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Tagline title",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Tagline"
+    },
+    {
+      "type": "textarea",
+      "id": "tagline_text",
+      "label": "Text",
+      "default": "Discover the difference"
+    },
+    {
+      "type": "select",
+      "id": "tagline_custom_font",
+      "label": "Custom font",
+      "options": [
+        {
+          "label": "None",
+          "value": "none"
+        },
+        {
+          "label": "HVConstantineRegular",
+          "value": "HVConstantineRegular"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "font_picker",
+      "id": "tagline_font",
+      "label": "Font",
+      "default": "assistant_n4",
+      "info": "Used when custom font is set to None"
+    },
+    {
+      "type": "range",
+      "id": "tagline_font_size",
+      "min": 12,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "label": "Font size",
+      "default": 32
+    },
+    {
+      "type": "color",
+      "id": "tagline_color",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Subline"
+    },
+    {
+      "type": "textarea",
+      "id": "subline_text",
+      "label": "Text",
+      "default": "Crafted with care for those who appreciate quality"
+    },
+    {
+      "type": "select",
+      "id": "subline_custom_font",
+      "label": "Custom font",
+      "options": [
+        {
+          "label": "None",
+          "value": "none"
+        },
+        {
+          "label": "HVConstantineRegular",
+          "value": "HVConstantineRegular"
+        }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "font_picker",
+      "id": "subline_font",
+      "label": "Font",
+      "default": "assistant_n4",
+      "info": "Used when custom font is set to None"
+    },
+    {
+      "type": "range",
+      "id": "subline_font_size",
+      "min": 10,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Font size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "subline_color",
+      "label": "Color",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 300,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 800
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Space above",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Space below",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tagline title"
+    }
+  ]
+}
 {% endschema %}
