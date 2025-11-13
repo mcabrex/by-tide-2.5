@@ -63,8 +63,8 @@
             "subline_color": "#000000",
             "max_width": 800,
             "text_alignment": "center",
-            "spacing_top": 20,
-            "spacing_bottom": 20
+            "spacing_top": 25,
+            "spacing_bottom": 25
           },
           "blocks": {}
         }
@@ -76,6 +76,7 @@
     },
     "165593161012c81bd7": {
       "type": "featured-text",
+      "disabled": true,
       "settings": {
         "background-color": "none",
         "light-text": false,
@@ -85,13 +86,6 @@
         "overline": "",
         "heading": "Apothecary",
         "text": "<p></p><p>Our offerings are designed to bridge ancient herbal wisdom with clinical intention - gentle on the senses, rich in purpose, and attuned to the shifting seasons.</p><p>Herbalist formulated and crafted to support both the body and the spirit — infused with whole herbs, natural actives, and scents that linger softly, allowing space for the world around you to speak.</p><p>Small batch. Made for delicate bodies and sensitive souls. Natural and holistic rituals, always.</p>"
-      }
-    },
-    "dda759e4-5e76-47f2-a03c-aec80d81f4d2": {
-      "type": "custom-button",
-      "settings": {
-        "button-text": "SHOP NOW",
-        "link": "shopify://collections/all"
       }
     },
     "1661305987717d0b38": {
@@ -309,11 +303,11 @@
         "background-color": "none",
         "light-text": false,
         "container-width": 2,
-        "spacing-above": true,
-        "spacing-below": true,
+        "spacing-above": false,
+        "spacing-below": false,
         "overline": "",
         "heading": "About Leah",
-        "text": "<p></p><p>I’m a mother, herbalist, and maker.</p><p>My work moves between mediums: abstracted art inspired by the coast, woven forms, blended botanicals. Each practice informs the other, with an aesthetic appreciation for heritage and natural materials. </p><p>I created BY TIDE as both a personal creative practice and a collective offering—an ode to slow craft, the shifting seasons, and the innate herbal wisdom we carry within. </p>"
+        "text": "<p>I’m a mother, herbalist, and maker.</p><p>My work moves between mediums: abstracted art inspired by the coast, woven forms, blended botanicals. Each practice informs the other, with an aesthetic appreciation for heritage and natural materials. </p><p>I created BY TIDE as both a personal creative practice and a collective offering—an ode to slow craft, the shifting seasons, and the innate herbal wisdom we carry within. </p>"
       }
     }
   },
@@ -322,7 +316,6 @@
     "e8966f7f-cab5-41d7-af47-b74a486d47aa",
     "1763058631e67c5255",
     "165593161012c81bd7",
-    "dda759e4-5e76-47f2-a03c-aec80d81f4d2",
     "1661305987717d0b38",
     "f368db3c-db4f-47b2-9201-32a148f9b796",
     "ad760476-5779-4b77-8d24-89126a4926c5",
