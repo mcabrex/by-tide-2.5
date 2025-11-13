@@ -9,30 +9,6 @@
  */
 {
   "sections": {
-    "0fbeb13a-6c4a-43ed-a913-9ca51899bb8e": {
-      "type": "image-with-text",
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify://shop_images/0F1A9029-A691-4CC7-9311-6460BE87F6B0.jpg",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
     "317b2936-c20d-4d3b-bae3-385fce28cda3": {
       "type": "slideshow",
       "blocks": {
@@ -181,7 +157,7 @@
         "display-type": "grid",
         "products-per-row--desktop": "3",
         "products-per-row--mobile": "2",
-        "heading": "Shop All",
+        "heading": "Apothecary",
         "link-url": "",
         "link-text": ""
       }
@@ -241,7 +217,6 @@
     }
   },
   "order": [
-    "0fbeb13a-6c4a-43ed-a913-9ca51899bb8e",
     "317b2936-c20d-4d3b-bae3-385fce28cda3",
     "collection-header",
     "navigation",
