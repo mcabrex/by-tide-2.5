@@ -139,17 +139,14 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "untitled-jun17_16-20",
           "magnesium-duo",
           "untitled-may21_20-41",
-          "mineral-mist",
           "ocean-bathing",
           "herbal-body-scrub-1",
-          "four-seasons-soap-set",
           "herbal-lip-balm",
           "renaissance-body-oil",
-          "gift-card",
-          "tender-roots-cleansing-mud"
+          "four-seasons-soap-set",
+          "gift-card"
         ],
         "background-color": "none",
         "light-text": false,
