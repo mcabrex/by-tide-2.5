@@ -46,6 +46,7 @@
         },
         "1a8f4944-815d-4a63-bdeb-8b1db885acf7": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "heading": "How To Use",
             "description": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
@@ -54,6 +55,7 @@
         },
         "e4925670-899c-44c0-afb8-6d06c3130e7f": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingredients",
             "description": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
