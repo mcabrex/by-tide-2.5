@@ -141,11 +141,13 @@
         "product-list": [
           "magnesium-duo",
           "untitled-may21_20-41",
+          "mineral-mist",
           "ocean-bathing",
           "herbal-body-scrub-1",
           "herbal-lip-balm",
           "renaissance-body-oil",
           "four-seasons-soap-set",
+          "the-holiday-set",
           "gift-card"
         ],
         "background-color": "none",
@@ -164,9 +166,9 @@
       "type": "featured-products",
       "settings": {
         "product-list": [
-          "herbal-lip-balm",
           "renaissance-body-oil",
           "four-seasons-soap-set",
+          "the-holiday-set",
           "gift-card"
         ],
         "background-color": "none",
