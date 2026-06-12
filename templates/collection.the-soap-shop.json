@@ -1,0 +1,230 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "317b2936-c20d-4d3b-bae3-385fce28cda3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "/",
+            "link-text": ""
+          }
+        },
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09352_2.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "",
+            "description": "",
+            "link-url": "/",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-0",
+        "template--15673457082528__317b2936-c20d-4d3b-bae3-385fce28cda3-16861759564a743d70-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "spacing-above": false,
+        "spacing-below": false,
+        "spacing-around-blocks": false,
+        "image-height": 0,
+        "darken-image": false,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "2",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": false,
+        "rotate-frequency": 7,
+        "transition_type": "slide"
+      }
+    },
+    "collection-header": {
+      "type": "collection--header",
+      "disabled": true,
+      "settings": {
+        "enable-header": true,
+        "show-title": true,
+        "title-alignment": "center",
+        "show-description": false,
+        "show-image": false,
+        "use-image-fallback": false,
+        "image-height": "medium",
+        "alt-color": true,
+        "apply-overlay": true
+      }
+    },
+    "navigation": {
+      "type": "collection--navigation",
+      "settings": {
+        "show-browse-button": false,
+        "show-sort-button": true,
+        "show-refine-button": false,
+        "show-layout-buttons": false,
+        "show-collections-list": true,
+        "custom-list-collections": "",
+        "show-sort-list": true,
+        "show-refine-list": true,
+        "swatches-enabled": false,
+        "show-search-link": true
+      }
+    },
+    "main": {
+      "type": "collection--body",
+      "blocks": {
+        "7ef39ea3-6ea6-4ad6-9d82-ae3dbf628842": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "row-number": 2,
+            "column-number": 1,
+            "promo-width": 2,
+            "background-color": "light",
+            "text-color": "dark",
+            "darken-image": true,
+            "image-size": "fit-to-container",
+            "overline": "JUST IN TIME",
+            "title": "Holiday Product Drop",
+            "description": "<p>We have Mix and Match sets available as well as gift wrapping! Tailor a kit to match you or your loved ones' needs.</p>",
+            "link-url": "",
+            "link-text": "LET'S GET TO GIFTING"
+          }
+        }
+      },
+      "block_order": [
+        "7ef39ea3-6ea6-4ad6-9d82-ae3dbf628842"
+      ],
+      "disabled": true,
+      "settings": {
+        "products-per-row--desktop": 3,
+        "products-per-row--mobile": "2",
+        "number-of-rows": 4
+      }
+    },
+    "recent-products": {
+      "type": "recent-products",
+      "disabled": true,
+      "settings": {
+        "background-color": "none",
+        "light-text": false,
+        "heading": "Recently viewed",
+        "title-alignment": "left",
+        "spacing-above": false,
+        "spacing-below": true
+      }
+    },
+    "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "magnesium-duo",
+          "untitled-may21_20-41",
+          "mineral-mist",
+          "ocean-bathing",
+          "herbal-body-scrub-1",
+          "herbal-lip-balm",
+          "renaissance-body-oil",
+          "four-seasons-soap-set",
+          "the-holiday-set",
+          "gift-card"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "Apothecary",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "f61706b4-abb4-4119-bdc4-fe348344971e": {
+      "type": "featured-products",
+      "settings": {
+        "product-list": [
+          "renaissance-body-oil",
+          "four-seasons-soap-set",
+          "the-holiday-set",
+          "gift-card"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": false,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "slider",
+        "products-per-row--desktop": "3",
+        "products-per-row--mobile": "1"
+      }
+    },
+    "featured_collection_EGNCh4": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "herbal-bar-soap",
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "featured-collection--image--show": false,
+        "featured-collection--description--show": false,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "317b2936-c20d-4d3b-bae3-385fce28cda3",
+    "collection-header",
+    "navigation",
+    "main",
+    "recent-products",
+    "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
+    "f61706b4-abb4-4119-bdc4-fe348344971e",
+    "1b4f8f8b-6a39-4264-91ac-e94da2d9b830",
+    "featured_collection_EGNCh4"
+  ]
+}
