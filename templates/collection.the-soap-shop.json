@@ -137,6 +137,7 @@
     },
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "magnesium-duo",
@@ -164,6 +165,7 @@
     },
     "f61706b4-abb4-4119-bdc4-fe348344971e": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "renaissance-body-oil",
@@ -199,6 +201,31 @@
         "products-per-row--mobile": "1"
       }
     },
+    "image_with_text_J7xPxc": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify://shop_images/DSC09511.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
     "featured_collection_EGNCh4": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -225,6 +252,7 @@
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b",
     "f61706b4-abb4-4119-bdc4-fe348344971e",
     "1b4f8f8b-6a39-4264-91ac-e94da2d9b830",
+    "image_with_text_J7xPxc",
     "featured_collection_EGNCh4"
   ]
 }
