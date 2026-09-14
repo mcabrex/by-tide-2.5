@@ -61,7 +61,7 @@
 {% endcapture %}
 
 {% if logo_image %}
-  {% capture fixed_logo_dimensions = fixed_logo_height %}
+  {% capture fixed_logo_dimensions %}
     max-height: {{ fixed_logo_height }}px;
     max-width: {{ fixed_logo_height | times: logo_image.aspect_ratio }}px;
   {% endcapture %}
@@ -352,4 +352,13 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% capture fixed_logo_dimensions = fixed_logo_height %}"
+  to: "{% capture fixed_logo_dimensions %}"
+  position: 1730..1765
+{%- endcomment -%}

@@ -93,21 +93,7 @@
     </a>
 
     <div class="featured-collection--carousel" data-container="panel">
-      {% render
-        'carousel',
-        view: 'product',
-        section_id: section.id,
-        onboarding: onboarding,
-        bg_color: bg_color,
-        blocks: collection.products,
-        blocks_per_slide: 4,
-        blocks_per_slide_mobile: 2,
-        dot_nav_enabled: true,
-        total_blocks: collection.products.size,
-        total_slides: collection.products.size | divided_by: 2,
-        spacing_around_blocks: true,
-        transition_type: 'slide'
-      %}
+      {% render 'carousel', view: 'product', section_id: section.id, onboarding: onboarding, bg_color: bg_color, blocks: collection.products, blocks_per_slide: 4, blocks_per_slide_mobile: 2, dot_nav_enabled: true, total_blocks: collection.products.size, total_slides: collection.products.size, divided_by: 2, spacing_around_blocks: true, transition_type: 'slide' %}
     </div>
 
   {% else %}
@@ -247,4 +233,32 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render
+            'carousel',
+            view: 'product',
+            section_id: section.id,
+            onboarding: onboarding,
+            bg_color: bg_color,
+            blocks: collection.products,
+            blocks_per_slide: 4,
+            blocks_per_slide_mobile: 2,
+            dot_nav_enabled: true,
+            total_blocks: collection.products.size,
+            total_slides: collection.products.size | divided_by: 2,
+            spacing_around_blocks: true,
+            transition_type: 'slide'
+          %}
+  to: "{% render 'carousel', view: 'product', section_id: section.id, onboarding:
+    onboarding, bg_color: bg_color, blocks: collection.products, blocks_per_slide:
+    4, blocks_per_slide_mobile: 2, dot_nav_enabled: true, total_blocks: collection.products.size,
+    total_slides: collection.products.size, divided_by: 2, spacing_around_blocks:
+    true, transition_type: 'slide' %}"
+  position: 3372..3731
+{%- endcomment -%}
