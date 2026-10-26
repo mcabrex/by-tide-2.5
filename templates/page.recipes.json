@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,6 +23,7 @@
     },
     "a1b47fd6-b48b-4dac-b8a3-066ac27146a0": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "text-color": "auto",
         "background-color": "none",
@@ -28,7 +38,7 @@
         "overlap": false,
         "box-around-text": false,
         "mobile-overlay": true,
-        "image": "shopify:\/\/shop_images\/antique-scissors-by-bowls.jpg",
+        "image": "shopify://shop_images/antique-scissors-by-bowls.jpg",
         "overline": "",
         "title": "Recipes",
         "description": "",
@@ -36,26 +46,45 @@
         "link-text": ""
       }
     },
-    "76baa753-aa58-410c-a6c1-7ff5dd03a9db": {
-      "type": "featured-blog",
+    "text_columns_BRdExA": {
+      "type": "text-columns",
+      "blocks": {
+        "image_QRQC9U": {
+          "type": "image",
+          "settings": {
+            "show-image": true,
+            "title": "Winter Wisdom Workshop",
+            "description": "<p>11/15, 10am-12pm, Lighthouse Wellness Studio, Carmel-by-the-Sea</p><p>Insights into the Season of Winter with Dr. Stephanie (Ouchie), Carly (MotherDenCo), and Leah (BY TIDE).</p>",
+            "link-url": "",
+            "link-text": "Buy Tickets"
+          }
+        }
+      },
+      "block_order": [
+        "image_QRQC9U"
+      ],
+      "name": "Text columns with images",
       "settings": {
         "background-color": "none",
         "light-text": false,
+        "block-spacing": true,
         "container-width": 4,
         "spacing-above": true,
         "spacing-below": true,
-        "blog-heading": "",
-        "blog": "seasonal-journal",
-        "tag-select": "recipes",
-        "show-date": true,
-        "show-excerpt": true,
-        "view-more-text": ""
+        "width": 3,
+        "image-width": 0,
+        "mobile-width": "2",
+        "text-alignment": "center",
+        "heading": "Events",
+        "subtitle": "",
+        "link-url": "",
+        "link-text": ""
       }
     }
   },
   "order": [
     "main",
     "a1b47fd6-b48b-4dac-b8a3-066ac27146a0",
-    "76baa753-aa58-410c-a6c1-7ff5dd03a9db"
+    "text_columns_BRdExA"
   ]
 }
