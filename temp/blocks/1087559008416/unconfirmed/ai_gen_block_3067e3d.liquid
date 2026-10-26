@@ -1,6 +1,101 @@
+{% doc %}
+  @prompt
+    Add a subheading setting to each column of a text columns with images section, so each column can display its own subheading (editable in the theme editor) alongside its existing image, title, and description., can you add the abillity to make 4 columns, error , change the subheading font to Arimo, image size should be square and add ability to hide column if there is no info, create spacing around each column photo and add ability to select and hide specific columns, make subheading font bold and one size smaller. change description font to Arimo and padding around description text, make subheading font 1 size smaller and revert description font back to original just make it one size smaller
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+{% assign desktop_column_count = block.settings.columns_desktop | plus: 0 %}
+{% style %}
+  .ai-text-columns-{{ ai_gen_id }} { display: block; width: {{ block.settings.desktop_width_percent }}%; max-width: 100%; margin-inline: auto; color: {{ block.settings.text_color }}; }
+  .ai-text-columns__grid-{{ ai_gen_id }} { display: grid; grid-template-columns: repeat({{ desktop_column_count }}, minmax(0, 1fr)); gap: {{ block.settings.column_gap }}px; text-align: {{ block.settings.text_alignment }}; }
+  .ai-text-columns__column-{{ ai_gen_id }} { min-width: 0; }
+  .ai-text-columns__image-{{ ai_gen_id }} { display: block; width: calc(100% - {{ block.settings.photo_spacing | times: 2 }}px); height: auto; aspect-ratio: 1 / 1; object-fit: cover; margin: {{ block.settings.photo_spacing }}px; }
+  .ai-text-columns__placeholder-{{ ai_gen_id }} { display: flex; width: calc(100% - {{ block.settings.photo_spacing | times: 2 }}px); aspect-ratio: 1 / 1; align-items: center; justify-content: center; background: {{ block.settings.placeholder_color }}; margin: {{ block.settings.photo_spacing }}px; }
+  .ai-text-columns__placeholder-{{ ai_gen_id }} svg { width: 100%; height: 100%; }
+  .ai-text-columns__subheading-{{ ai_gen_id }} { margin: 0 0 8px; color: {{ block.settings.accent_color }}; font-family: 'Arimo', sans-serif; font-size: 11px; font-weight: 700; line-height: 1.4; letter-spacing: 0.08em; text-transform: uppercase; }
+  .ai-text-columns__title-{{ ai_gen_id }} { color: {{ block.settings.text_color }}; margin: 0 0 10px; font-size: {{ block.settings.heading_size }}px; line-height: 1.2; }
+  .ai-text-columns__description-{{ ai_gen_id }} { box-sizing: border-box; padding: {{ block.settings.description_padding }}px; font-size: 0.9em; line-height: 1.6; }
+  .ai-text-columns__description-{{ ai_gen_id }} p { margin: 0; }
+  @media screen and (max-width: 749px) { .ai-text-columns__grid-{{ ai_gen_id }} { grid-template-columns: repeat({{ block.settings.columns_mobile }}, minmax(0, 1fr)); gap: 24px 16px; } }
+{% endstyle %}
+<div class="ai-text-columns-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-text-columns__grid-{{ ai_gen_id }}">
+    {% for i in (1..4) %}
+      {% if i <= desktop_column_count %}
+        {% liquid
+          assign image_key = 'column_' | append: i | append: '_image'
+          assign subheading_key = 'column_' | append: i | append: '_subheading'
+          assign title_key = 'column_' | append: i | append: '_title'
+          assign description_key = 'column_' | append: i | append: '_description'
+          assign enabled_key = 'column_' | append: i | append: '_enabled'
+          assign column_image = block.settings[image_key]
+          assign column_subheading = block.settings[subheading_key]
+          assign column_title = block.settings[title_key]
+          assign column_description = block.settings[description_key]
+          assign column_enabled = block.settings[enabled_key]
+          assign description_text = column_description | strip_html | strip
+        %}
+        {% if column_enabled %}
+          {% if column_image != blank or column_subheading != blank or column_title != blank or description_text != blank %}
+            <article class="ai-text-columns__column-{{ ai_gen_id }}">
+              {% if column_image != blank %}
+                <img class="ai-text-columns__image-{{ ai_gen_id }}" src="{{ column_image | image_url: width: 1000, height: 1000, crop: 'center' }}" alt="{{ column_image.alt | escape }}" loading="lazy" width="1000" height="1000">
+              {% else %}
+                <div class="ai-text-columns__placeholder-{{ ai_gen_id }}">{{ 'image' | placeholder_svg_tag }}</div>
+              {% endif %}
+              {% if column_subheading != blank %}<p class="ai-text-columns__subheading-{{ ai_gen_id }}">{{ column_subheading | escape }}</p>{% endif %}
+              {% if column_title != blank %}<h3 class="ai-text-columns__title-{{ ai_gen_id }}">{{ column_title | escape }}</h3>{% endif %}
+              {% if description_text != blank %}<div class="ai-text-columns__description-{{ ai_gen_id }}">{{ column_description }}</div>{% endif %}
+            </article>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Text columns with images",
+  "settings": [
+    { "type": "header", "content": "Layout" },
+    { "type": "range", "id": "desktop_width_percent", "label": "Desktop width", "min": 50, "max": 100, "step": 5, "unit": "%", "default": 100 },
+    { "type": "select", "id": "columns_desktop", "label": "Columns on desktop", "options": [{ "value": "2", "label": "2" }, { "value": "3", "label": "3" }, { "value": "4", "label": "4" }], "default": "3" },
+    { "type": "select", "id": "columns_mobile", "label": "Columns on mobile", "options": [{ "value": "1", "label": "1" }, { "value": "2", "label": "2" }], "default": "1" },
+    { "type": "select", "id": "text_alignment", "label": "Text alignment", "options": [{ "value": "left", "label": "Left" }, { "value": "center", "label": "Center" }], "default": "center" },
+    { "type": "range", "id": "column_gap", "label": "Column gap", "min": 0, "max": 60, "step": 5, "unit": "px", "default": 30 },
+    { "type": "range", "id": "photo_spacing", "label": "Photo spacing", "min": 0, "max": 30, "step": 5, "unit": "px", "default": 10 },
+    { "type": "range", "id": "description_padding", "label": "Description padding", "min": 0, "max": 40, "step": 4, "unit": "px", "default": 12 },
+    { "type": "header", "content": "Style" },
+    { "type": "color", "id": "text_color", "label": "Text", "default": "#000000" },
+    { "type": "color", "id": "accent_color", "label": "Subheading", "default": "#594b35" },
+    { "type": "color", "id": "placeholder_color", "label": "Image placeholder", "default": "#f7f7f7" },
+    { "type": "range", "id": "heading_size", "label": "Heading size", "min": 16, "max": 40, "step": 2, "unit": "px", "default": 24 },
+    { "type": "header", "content": "Column 1" },
+    { "type": "checkbox", "id": "column_1_enabled", "label": "Show column", "default": true },
+    { "type": "image_picker", "id": "column_1_image", "label": "Image" },
+    { "type": "text", "id": "column_1_subheading", "label": "Subheading" },
+    { "type": "text", "id": "column_1_title", "label": "Title", "default": "Column one" },
+    { "type": "richtext", "id": "column_1_description", "label": "Description", "default": "<p>Add a description for this column.</p>" },
+    { "type": "header", "content": "Column 2" },
+    { "type": "checkbox", "id": "column_2_enabled", "label": "Show column", "default": true },
+    { "type": "image_picker", "id": "column_2_image", "label": "Image" },
+    { "type": "text", "id": "column_2_subheading", "label": "Subheading" },
+    { "type": "text", "id": "column_2_title", "label": "Title", "default": "Column two" },
+    { "type": "richtext", "id": "column_2_description", "label": "Description", "default": "<p>Add a description for this column.</p>" },
+    { "type": "header", "content": "Column 3" },
+    { "type": "checkbox", "id": "column_3_enabled", "label": "Show column", "default": true },
+    { "type": "image_picker", "id": "column_3_image", "label": "Image" },
+    { "type": "text", "id": "column_3_subheading", "label": "Subheading" },
+    { "type": "text", "id": "column_3_title", "label": "Title", "default": "Column three" },
+    { "type": "richtext", "id": "column_3_description", "label": "Description", "default": "<p>Add a description for this column.</p>" },
+    { "type": "header", "content": "Column 4" },
+    { "type": "checkbox", "id": "column_4_enabled", "label": "Show column", "default": true },
+    { "type": "image_picker", "id": "column_4_image", "label": "Image" },
+    { "type": "text", "id": "column_4_subheading", "label": "Subheading" },
+    { "type": "text", "id": "column_4_title", "label": "Title", "default": "Column four" },
+    { "type": "richtext", "id": "column_4_description", "label": "Description", "default": "<p>Add a description for this column.</p>" }
+  ],
+  "presets": [{ "name": "Text columns with images" }],
+  "tag": null,
+  "class": "text-columns-with-images"
+}
 {% endschema %}
