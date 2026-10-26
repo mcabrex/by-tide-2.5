@@ -320,8 +320,8 @@
         "container-width": 3,
         "spacing-above": true,
         "spacing-below": false,
-        "overline": "Notes from the studio",
-        "heading": "a periodic coastal dispatch",
+        "overline": "Field Notes",
+        "heading": "a periodic coastal newsletter",
         "text": "<p></p><p></p>"
       }
     },
@@ -381,23 +381,6 @@
       ],
       "disabled": true,
       "settings": {}
-    },
-    "1793051013fa1913a2": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_8d215d1_HGqf63": {
-          "type": "ai_gen_block_8d215d1",
-          "settings": {
-            "spacer_height": 60,
-            "desktop_width_percent": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_8d215d1_HGqf63"
-      ],
-      "settings": {}
     }
   },
   "order": [
@@ -415,7 +398,6 @@
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
     "newsletter",
-    "1793047793cb017f42",
-    "1793051013fa1913a2"
+    "1793047793cb017f42"
   ]
 }
