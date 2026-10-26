@@ -335,6 +335,51 @@
         "heading": "",
         "newsletter--subheading": ""
       }
+    },
+    "1793047793cb017f42": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_427926a_xjBQQg": {
+          "type": "ai_gen_block_427926a",
+          "settings": {
+            "section_title": "Events",
+            "desktop_width_percent": 100,
+            "columns_desktop": "4",
+            "columns_mobile": "1",
+            "text_alignment": "center",
+            "column_gap": 30,
+            "photo_spacing": 20,
+            "description_padding": 12,
+            "text_color": "#000000",
+            "accent_color": "#594b35",
+            "placeholder_color": "#f7f7f7",
+            "section_title_size": 26,
+            "heading_size": 24,
+            "column_1_enabled": true,
+            "column_1_image": "shopify://shop_images/BT_1.png",
+            "column_1_subheading": "CARMEL-BY-THE-SEA",
+            "column_1_title": "Winter Wisdom Workshop",
+            "column_1_description": "",
+            "column_2_enabled": false,
+            "column_2_subheading": "",
+            "column_2_title": "Column two",
+            "column_2_description": "<p>Add a description for this column.</p>",
+            "column_3_enabled": false,
+            "column_3_subheading": "",
+            "column_3_title": "Column three",
+            "column_3_description": "<p>Add a description for this column.</p>",
+            "column_4_enabled": false,
+            "column_4_subheading": "",
+            "column_4_title": "Column four",
+            "column_4_description": "<p>Add a description for this column.</p>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_427926a_xjBQQg"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -351,6 +396,7 @@
     "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
-    "newsletter"
+    "newsletter",
+    "1793047793cb017f42"
   ]
 }
