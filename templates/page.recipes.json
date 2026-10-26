@@ -53,6 +53,7 @@
           "type": "image",
           "settings": {
             "show-image": true,
+            "image": "shopify://shop_images/winter.png",
             "title": "Winter Wisdom Workshop",
             "description": "<p>11/15, 10am-12pm, Lighthouse Wellness Studio, Carmel-by-the-Sea</p><p>Insights into the Season of Winter with Dr. Stephanie (Ouchie), Carly (MotherDenCo), and Leah (BY TIDE).</p>",
             "link-url": "",
