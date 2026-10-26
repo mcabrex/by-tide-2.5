@@ -52,7 +52,7 @@
         "ai_gen_block_427926a_FyazYt": {
           "type": "ai_gen_block_427926a",
           "settings": {
-            "section_title": "",
+            "section_title": "Events",
             "desktop_width_percent": 100,
             "columns_desktop": "4",
             "columns_mobile": "1",
@@ -63,7 +63,7 @@
             "text_color": "#000000",
             "accent_color": "#594b35",
             "placeholder_color": "#f7f7f7",
-            "section_title_size": 32,
+            "section_title_size": 26,
             "heading_size": 24,
             "column_1_enabled": true,
             "column_1_image": "shopify://shop_images/BT_1.png",
