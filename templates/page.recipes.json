@@ -46,46 +46,56 @@
         "link-text": ""
       }
     },
-    "text_columns_BRdExA": {
-      "type": "text-columns",
+    "blocks_Ga847y": {
+      "type": "_blocks",
       "blocks": {
-        "image_QRQC9U": {
-          "type": "image",
+        "ai_gen_block_427926a_FyazYt": {
+          "type": "ai_gen_block_427926a",
           "settings": {
-            "show-image": true,
-            "image": "shopify://shop_images/BT_1.png",
-            "title": "Winter Wisdom Worshop",
-            "description": "",
-            "link-url": "",
-            "link-text": "Buy Tickets"
-          }
+            "section_title": "",
+            "desktop_width_percent": 100,
+            "columns_desktop": "4",
+            "columns_mobile": "1",
+            "text_alignment": "center",
+            "column_gap": 30,
+            "photo_spacing": 10,
+            "description_padding": 12,
+            "text_color": "#000000",
+            "accent_color": "#594b35",
+            "placeholder_color": "#f7f7f7",
+            "section_title_size": 32,
+            "heading_size": 24,
+            "column_1_enabled": true,
+            "column_1_image": "shopify://shop_images/BT_1.png",
+            "column_1_subheading": "CARMEL-BY-THE-SEA",
+            "column_1_title": "Winter Wisdom Workshop",
+            "column_1_description": "",
+            "column_2_enabled": false,
+            "column_2_subheading": "",
+            "column_2_title": "Column two",
+            "column_2_description": "<p>Add a description for this column.</p>",
+            "column_3_enabled": false,
+            "column_3_subheading": "",
+            "column_3_title": "Column three",
+            "column_3_description": "<p>Add a description for this column.</p>",
+            "column_4_enabled": false,
+            "column_4_subheading": "",
+            "column_4_title": "Column four",
+            "column_4_description": "<p>Add a description for this column.</p>"
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "image_QRQC9U"
+        "ai_gen_block_427926a_FyazYt"
       ],
       "name": "Text columns with images",
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "block-spacing": true,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": true,
-        "width": 4,
-        "image-width": 0,
-        "mobile-width": "1",
-        "text-alignment": "center",
-        "heading": "Events",
-        "subtitle": "",
-        "link-url": "",
-        "link-text": ""
-      }
+      "settings": {}
     }
   },
   "order": [
     "main",
     "a1b47fd6-b48b-4dac-b8a3-066ac27146a0",
-    "text_columns_BRdExA"
+    "blocks_Ga847y"
   ]
 }
