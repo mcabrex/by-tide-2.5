@@ -1,0 +1,59 @@
+{% doc %}
+  @prompt
+    Create a new section that is just a spacer: an empty section whose only purpose is to add vertical space between sections, with a merchant-editable setting to control the spacer height.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-spacer-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    height: {{ block.settings.spacer_height }}px;
+    min-height: 0;
+    padding: 0;
+    margin: 0 auto;
+    pointer-events: none;
+  }
+{% endstyle %}
+
+<div
+  class="ai-spacer-{{ ai_gen_id }}"
+  aria-hidden="true"
+  {{ block.shopify_attributes }}
+></div>
+
+{% schema %}
+{
+  "name": "Vertical spacer",
+  "settings": [
+    {
+      "type": "range",
+      "id": "spacer_height",
+      "label": "Spacer height",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Vertical spacer"
+    }
+  ],
+  "tag": null,
+  "class": "vertical-spacer-block"
+}
+{% endschema %}
