@@ -9,6 +9,159 @@
  */
 {
   "sections": {
+    "image_with_text_Hpqxc6": {
+      "type": "image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "text-color": "auto",
+        "background-color": "none",
+        "container-width": 6,
+        "spacing-above": false,
+        "spacing-below": false,
+        "image-height": 3,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "center",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "image": "shopify://shop_images/3.jpg",
+        "overline": "",
+        "title": "",
+        "description": "",
+        "link-url": "",
+        "link-text": ""
+      }
+    },
+    "6552f873-4b05-4a45-80cf-4815272725e4": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "light",
+        "light-text": false,
+        "container-width": 2,
+        "spacing-above": true,
+        "spacing-below": true,
+        "overline": "OUR WORLD",
+        "heading": "Inspired by old world apothecaries and the art of collecting",
+        "text": "<p>We bring to you small batch botanical preparations and other curiosities. Aromatic oils, herbal soaps, mineral soaks sit alongside antique vessels and wares.</p>"
+      }
+    },
+    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Classic_Country_House_with_Avant-Garde_Interiors.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Shop Apothecary",
+            "description": "",
+            "link-url": "shopify://collections/all",
+            "link-text": ""
+          }
+        },
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Instagram.jpg",
+            "text-position": "bottom-left",
+            "text-width": "medium",
+            "overline": "",
+            "title": "Explore Objects",
+            "description": "",
+            "link-url": "shopify://pages/about",
+            "link-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2",
+        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text-color": "auto",
+        "background-color": "dark",
+        "spacing-above": true,
+        "spacing-below": true,
+        "spacing-around-blocks": true,
+        "image-height": 5,
+        "darken-image": true,
+        "blocks_per_slide": 2,
+        "blocks_per_slide_mobile": "1",
+        "box-around-text": false,
+        "mobile-overlay": true,
+        "auto-rotate": true,
+        "rotate-frequency": 4,
+        "transition_type": "fade"
+      }
+    },
+    "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "background-color": "light",
+        "light-text": false,
+        "container-width": 5,
+        "spacing-above": true,
+        "spacing-below": false,
+        "overline": "Autumn",
+        "heading": "The Seasonal Edit",
+        "text": ""
+      }
+    },
+    "033b9ef9-f680-4961-89a2-74d2ea96a2ed": {
+      "type": "featured-products",
+      "disabled": true,
+      "settings": {
+        "product-list": [
+          "tender-roots-cleansing-mud",
+          "terra-soap",
+          "ocean-bathing",
+          "mineral-mist"
+        ],
+        "background-color": "none",
+        "light-text": false,
+        "spacing-above": true,
+        "spacing-below": true,
+        "display-type": "grid",
+        "products-per-row--desktop": "4",
+        "products-per-row--mobile": "2",
+        "heading": "",
+        "link-url": "shopify://collections/all",
+        "link-text": "SHOP THE APOTHECARY"
+      }
+    },
+    "2e3d507b-880d-4e16-ba28-62f34a8af475": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "text-color": "dark",
+        "background-color": "light",
+        "container-width": 4,
+        "spacing-above": true,
+        "spacing-below": true,
+        "image-height": 0,
+        "darken-image": false,
+        "parallax-enabled": false,
+        "text-position": "left",
+        "text-width": "medium",
+        "overlap": false,
+        "box-around-text": false,
+        "mobile-overlay": false,
+        "image": "shopify://shop_images/BT_a6c0c505-0fa4-4711-a0b6-8dd3c9cb4cfb.png",
+        "overline": "Upcoming Events",
+        "title": "Winter Wisdom Workshop 11/15",
+        "description": "",
+        "link-url": "shopify://pages/about",
+        "link-text": "BUY TICKETS"
+      }
+    },
     "17630570515907c92a": {
       "type": "_blocks",
       "blocks": {
@@ -24,7 +177,7 @@
             "photo_2_offset": 55,
             "photo_3_width": 40,
             "photo_3_offset": 5,
-            "background_color": "#fefcf7",
+            "background_color": "#FEFCF7",
             "vertical_gap": 100,
             "shadow_intensity": 8,
             "shadow_opacity": 0.2,
@@ -38,279 +191,6 @@
         "ai_gen_block_0190742_9nCc4p"
       ],
       "settings": {}
-    },
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 6,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 3,
-        "darken-image": true,
-        "parallax-enabled": false,
-        "text-position": "center",
-        "text-width": "large",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": true,
-        "image": "shopify://shop_images/DSC05996x_aec49a51-2ab0-43ef-bae5-b4105ec24484.png",
-        "overline": "",
-        "title": "",
-        "description": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "6552f873-4b05-4a45-80cf-4815272725e4": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "DISCOVER",
-        "heading": "New Daily Rituals",
-        "text": ""
-      }
-    },
-    "033b9ef9-f680-4961-89a2-74d2ea96a2ed": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "product-list": [
-          "tender-roots-cleansing-mud",
-          "magnesium-duo",
-          "untitled-may21_20-41"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "1",
-        "heading": "",
-        "link-url": "shopify://collections/all",
-        "link-text": "SHOP ALL"
-      }
-    },
-    "2e3d507b-880d-4e16-ba28-62f34a8af475": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "accent",
-        "container-width": 3,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 0,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "left",
-        "text-width": "medium",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify://shop_images/34259FD8-E81E-43C6-AFFD-959814ABF3A2.png",
-        "overline": "RITUALS FOR YOUR EBB & FLOW",
-        "title": "",
-        "description": "<p>Elevated Herbal Skincare and Wellness to help tend to your inner Seasons. Handcrafted in small batches in Carmel-by-the-Sea, California.</p>",
-        "link-url": "shopify://pages/about",
-        "link-text": "OUR STORY"
-      }
-    },
-    "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7": {
-      "type": "featured-product",
-      "blocks": {
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-overline-1": {
-          "type": "overline",
-          "settings": {
-            "text": "SEASONAL GIFT SET"
-          }
-        },
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-heading-1": {
-          "type": "heading",
-          "settings": {}
-        },
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-price-1": {
-          "type": "price",
-          "settings": {}
-        },
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-buy-buttons-1": {
-          "type": "buy-buttons",
-          "settings": {
-            "smart-payment-enabled": true
-          }
-        }
-      },
-      "block_order": [
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-overline-1",
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-heading-1",
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-price-1",
-        "template--15673456820384__75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7-buy-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "container-width": 3,
-        "spacing-above": false,
-        "spacing-below": true,
-        "featured_product": "seasonal-winter-ritual-duo",
-        "loop-enabled": false
-      }
-    },
-    "53be77db-05a9-44b4-b58a-652b7ad2b2e8": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "none",
-        "container-width": 2,
-        "spacing-above": false,
-        "spacing-below": false,
-        "image-height": 2,
-        "darken-image": false,
-        "parallax-enabled": false,
-        "text-position": "right",
-        "text-width": "small",
-        "overlap": false,
-        "box-around-text": false,
-        "mobile-overlay": false,
-        "image": "shopify://shop_images/winter_ritual_duo.png",
-        "overline": "WINTER RITUAL DUO",
-        "title": "",
-        "description": "<p>A restorative skin ritual for Winter skin featuring Sanctuary bar soap and salt scrub.</p>",
-        "link-url": "shopify://products/seasonal-winter-ritual-duo",
-        "link-text": "SHOP"
-      }
-    },
-    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DSC09352_2.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Elevated Herbal Skincare & Wellness",
-            "description": "",
-            "link-url": "shopify://collections/all",
-            "link-text": "SHOP ALL"
-          }
-        },
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/B1CB50F6-47CC-47EF-B3EE-7865C8D4050F_2.jpg",
-            "text-position": "bottom-left",
-            "text-width": "medium",
-            "overline": "",
-            "title": "Rituals for your Ebb & Flow",
-            "description": "",
-            "link-url": "shopify://pages/about",
-            "link-text": "OUR STORY"
-          }
-        }
-      },
-      "block_order": [
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-2",
-        "template--15673456820384__08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd-image-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "text-color": "auto",
-        "background-color": "dark",
-        "spacing-above": true,
-        "spacing-below": true,
-        "spacing-around-blocks": true,
-        "image-height": 0,
-        "darken-image": false,
-        "blocks_per_slide": 2,
-        "blocks_per_slide_mobile": "1",
-        "box-around-text": true,
-        "mobile-overlay": true,
-        "auto-rotate": true,
-        "rotate-frequency": 3,
-        "transition_type": "fade"
-      }
-    },
-    "c0ed4093-bd60-42e3-800c-69ab57562350": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "none",
-        "light-text": false,
-        "container-width": 4,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "CLEANSE",
-        "heading": "Herbal Bar Soap",
-        "text": ""
-      }
-    },
-    "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "product-list": [
-          "primavera-soap",
-          "renaissance-soap",
-          "terra-soap",
-          "sanctuary-soap"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "slider",
-        "products-per-row--desktop": "4",
-        "products-per-row--mobile": "2",
-        "heading": "",
-        "link-url": "",
-        "link-text": ""
-      }
-    },
-    "8c7ca773-f242-44e0-971d-6cb7e98abd2f": {
-      "type": "featured-text",
-      "disabled": true,
-      "settings": {
-        "background-color": "accent",
-        "light-text": false,
-        "container-width": 5,
-        "spacing-above": true,
-        "spacing-below": false,
-        "overline": "HERBAL BAR SOAP",
-        "heading": "Tend to your Inner Seasons",
-        "text": ""
-      }
-    },
-    "1ab51207-dd70-4eac-8ef0-bb76a68debaf": {
-      "type": "featured-products",
-      "disabled": true,
-      "settings": {
-        "product-list": [
-          "renaissance-soap",
-          "herbal-body-scrub-1",
-          "renaissance-body-oil"
-        ],
-        "background-color": "none",
-        "light-text": false,
-        "spacing-above": true,
-        "spacing-below": true,
-        "display-type": "grid",
-        "products-per-row--desktop": "3",
-        "products-per-row--mobile": "2",
-        "heading": "",
-        "link-url": "",
-        "link-text": ""
-      }
     },
     "d0063154-c9c8-483e-96cd-770cd6b75e8e": {
       "type": "featured-text",
@@ -335,69 +215,17 @@
         "heading": "",
         "newsletter--subheading": ""
       }
-    },
-    "1793047793cb017f42": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_427926a_xjBQQg": {
-          "type": "ai_gen_block_427926a",
-          "settings": {
-            "section_title": "Events",
-            "desktop_width_percent": 100,
-            "columns_desktop": "4",
-            "columns_mobile": "1",
-            "text_alignment": "center",
-            "column_gap": 30,
-            "photo_spacing": 20,
-            "description_padding": 12,
-            "text_color": "#000000",
-            "accent_color": "#594b35",
-            "placeholder_color": "#f7f7f7",
-            "section_title_size": 26,
-            "heading_size": 24,
-            "column_1_enabled": true,
-            "column_1_image": "shopify://shop_images/BT_1.png",
-            "column_1_subheading": "CARMEL-BY-THE-SEA",
-            "column_1_title": "Winter Wisdom Workshop",
-            "column_1_description": "",
-            "column_2_enabled": false,
-            "column_2_subheading": "",
-            "column_2_title": "Column two",
-            "column_2_description": "<p>Add a description for this column.</p>",
-            "column_3_enabled": false,
-            "column_3_subheading": "",
-            "column_3_title": "Column three",
-            "column_3_description": "<p>Add a description for this column.</p>",
-            "column_4_enabled": false,
-            "column_4_subheading": "",
-            "column_4_title": "Column four",
-            "column_4_description": "<p>Add a description for this column.</p>"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_427926a_xjBQQg"
-      ],
-      "disabled": true,
-      "settings": {}
     }
   },
   "order": [
-    "17630570515907c92a",
-    "1ab3d400-b034-4fd6-82e4-9e320bb24743",
+    "image_with_text_Hpqxc6",
     "6552f873-4b05-4a45-80cf-4815272725e4",
+    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
+    "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
     "033b9ef9-f680-4961-89a2-74d2ea96a2ed",
     "2e3d507b-880d-4e16-ba28-62f34a8af475",
-    "75f7d1b2-7553-4748-85c1-a0e9ae3d3fd7",
-    "53be77db-05a9-44b4-b58a-652b7ad2b2e8",
-    "08e2ebb8-ba5b-4a59-a47f-b597fe92a1cd",
-    "c0ed4093-bd60-42e3-800c-69ab57562350",
-    "c13c5a4d-ab0d-4cf6-81b0-1ca98c98b369",
-    "8c7ca773-f242-44e0-971d-6cb7e98abd2f",
-    "1ab51207-dd70-4eac-8ef0-bb76a68debaf",
+    "17630570515907c92a",
     "d0063154-c9c8-483e-96cd-770cd6b75e8e",
-    "newsletter",
-    "1793047793cb017f42"
+    "newsletter"
   ]
 }
