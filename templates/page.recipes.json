@@ -51,6 +51,7 @@
       "blocks": {
         "ai_gen_block_427926a_FyazYt": {
           "type": "ai_gen_block_427926a",
+          "disabled": true,
           "settings": {
             "section_title": "Events",
             "desktop_width_percent": 100,

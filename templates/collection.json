@@ -78,6 +78,7 @@
     },
     "navigation": {
       "type": "collection--navigation",
+      "disabled": true,
       "settings": {
         "show-browse-button": false,
         "show-sort-button": true,
@@ -137,6 +138,7 @@
     },
     "7091ae51-5b91-4fb2-8921-3bdbb6f7fd1b": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "magnesium-duo",
@@ -164,6 +166,7 @@
     },
     "f61706b4-abb4-4119-bdc4-fe348344971e": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "product-list": [
           "renaissance-body-oil",
@@ -201,6 +204,7 @@
     },
     "featured_collection_EGNCh4": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "collection": "herbal-bar-soap",
